@@ -1,7 +1,9 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <div class="container">
+      <img class="logo" alt="logo" src="../assets/logo2.svg" />
+      <HelloWorld msg="unbeatable." />
+    </div>
   </div>
 </template>
 
@@ -16,3 +18,14 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.logo {
+  background: white;
+  padding: 1rem;
+  max-width: 80%;
+}
+.home {
+  padding: 5rem;
+}
+</style>

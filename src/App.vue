@@ -1,14 +1,21 @@
 <template>
   <div id="app">
+    <div id="topnav"></div>
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Home</router-link>
+      <router-link to="/services">Services</router-link>
+      <router-link to="/contact">Contact</router-link>
     </div>
     <router-view />
   </div>
 </template>
 
 <style lang="scss">
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap");
+
+body {
+  margin: 0 0 0 0;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -17,15 +24,42 @@
   color: #2c3e50;
 }
 
+#topnav {
+  width: 100%;
+  height: 35px;
+
+  background: white;
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c3e50,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 #nav {
+  text-align: left;
   padding: 30px;
+  background: white;
+  box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.116);
+
+  span {
+    margin-right: 2rem;
+  }
 
   a {
     font-weight: bold;
     color: #2c3e50;
+    text-decoration: none;
+    margin-right: 2rem;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #ff5e00;
     }
   }
 }
