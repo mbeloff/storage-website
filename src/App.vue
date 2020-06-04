@@ -1,14 +1,31 @@
 <template>
   <div id="app">
+    <script
+      type="application/javascript"
+      src="https://kit.fontawesome.com/dcf276a164.js"
+      crossorigin="anonymous"
+      sameSite="none"
+    ></script>
     <div id="topnav"></div>
-    <div id="nav">
+    <!-- <div id="nav">
       <router-link to="/">Home</router-link>
       <router-link to="/services">Services</router-link>
       <router-link to="/contact">Contact</router-link>
-    </div>
+    </div> -->
+    <NavBar></NavBar>
     <router-view />
   </div>
 </template>
+
+<script>
+import "vue-navigation-bar/dist/vue-navigation-bar.css";
+import NavBar from "@/components/NavBar.vue";
+export default {
+  components: {
+    NavBar
+  }
+};
+</script>
 
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap");
@@ -20,7 +37,6 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 
