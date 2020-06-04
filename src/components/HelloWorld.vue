@@ -15,12 +15,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.hello {
+.hello h1 {
   font-family: "Playfair Display", serif;
-  font-size: 3vw;
+  font-size: 10vw;
   color: #ff8a3c;
   @media screen and (min-width: 1200px) {
-    font-size: 30px;
+    font-size: 4rem;
   }
 }
 

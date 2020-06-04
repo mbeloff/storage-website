@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div class="container">
+    <div class="py-5 container shadow-lg">
       <img class="logo" alt="logo" src="../assets/logo2.svg" />
       <HelloWorld msg="unbeatable." />
     </div>
@@ -21,11 +21,11 @@ export default {
 
 <style scoped>
 .logo {
-  background: white;
+  /* background: white; */
   padding: 1rem;
-  max-width: 80%;
+  max-width: 90%;
 }
 .home {
-  padding: 5rem;
+  padding: 5rem 0;
 }
 </style>
