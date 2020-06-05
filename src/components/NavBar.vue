@@ -18,12 +18,7 @@ export default {
         elementId: "main-navbar",
         isUsingVueRouter: true,
         mobileBreakpoint: 992,
-        // brandImagePath: "../",
-        // brandImage: require("../src/assets/images/logo-sm.svg"),
-        brandImageAltText: "brand-image",
-        // collapseButtonImageOpen: require("../src/assets/images/collapse-menu-dark.png"),
-        // collapseButtonImageClose: require("../src/assets/images/times.png"),
-        showBrandImageInMobilePopup: true,
+        // showBrandImageInMobilePopup: true,
         ariaLabelMainNav: "Main Navigation",
         tooltipAnimationType: "shift-away",
         menuOptionsLeft: [
@@ -39,7 +34,7 @@ export default {
               {
                 type: "link",
                 text: "On-site Self Storage",
-                subText: "You're a presentation tool!",
+                subText: "Hire one of our secure, on-site storage boxes.",
                 path: "./self-storage",
                 iconLeft: '<i class="fa fa-building fa-fw"></i>'
               },
@@ -49,7 +44,7 @@ export default {
               {
                 type: "link",
                 text: "Portable Storage Boxes",
-                subText: "You're a presentation tool!",
+                subText: "We deliver the box, you load it up, we store it.",
                 path: "./locations",
                 iconLeft: '<i class="fa fa-truck fa-fw"></i>'
               },
@@ -60,7 +55,7 @@ export default {
                 type: "link",
                 text: "Rent a Workspace",
                 subText:
-                  "I enjoy having breakfast in bed. I like waking up to the smell of bacon. Sue me.",
+                  "Hire a multi-purpose workspace with single- and three-phase power, racking and hoist",
                 path: "./blog",
                 iconLeft: '<i class="fa fa-wrench fa-fw"></i>'
               }
@@ -72,12 +67,12 @@ export default {
             subMenuOptions: [
               {
                 type: "link",
-                text: "Customer Service",
-                path: "./customer-service"
+                text: "Where to find us",
+                path: "./location"
               },
               {
                 type: "link",
-                text: "Accounting",
+                text: "Make an enquiry",
                 path: "./accounting"
               },
               {
@@ -85,10 +80,9 @@ export default {
               },
               {
                 type: "link",
-                text: "Reception",
+                text: "1800 24 68 69",
                 path: "./reception",
-                iconLeft:
-                  '<svg id="i-telephone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"> <path d="M3 12 C3 5 10 5 16 5 22 5 29 5 29 12 29 20 22 11 22 11 L10 11 C10 11 3 20 3 12 Z M11 14 C11 14 6 19 6 28 L26 28 C26 19 21 14 21 14 L11 14 Z" /> <circle cx="16" cy="21" r="4" /> </svg>'
+                iconLeft: '<i class="fa fa-phone-rotary fa-fw"></i>'
               }
             ]
           },

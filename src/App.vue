@@ -7,12 +7,7 @@
       sameSite="none"
     ></script>
     <div id="topnav"></div>
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link>
-      <router-link to="/services">Services</router-link>
-      <router-link to="/contact">Contact</router-link>
-    </div> -->
-    <NavBar></NavBar>
+    <NavBar id="nav"></NavBar>
     <router-view />
   </div>
 </template>
@@ -32,6 +27,10 @@ export default {
 
 body {
   margin: 0 0 0 0;
+  --orange-light: #ff912b;
+  --orange-dark: #ff5e00;
+  --orange-shadow: 0px 1px 10px rgba(255, 102, 0, 0.315);
+  --orange-shadow-hover: 0px 5px 15px rgba(236, 94, 0, 0.466);
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -62,20 +61,15 @@ body {
   text-align: left;
   padding: 30px;
   background: white;
-  box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.116);
-
-  span {
-    margin-right: 2rem;
-  }
 
   a {
-    font-weight: bold;
+    // font-weight: bold;
     color: #2c3e50;
     text-decoration: none;
-    margin-right: 2rem;
+    // margin-right: 2rem;
 
     &.router-link-exact-active {
-      color: #ff5e00;
+      color: var(--orange-dark);
     }
   }
 }
