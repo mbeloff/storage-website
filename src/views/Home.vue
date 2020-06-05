@@ -4,7 +4,7 @@
       <div class="container">
         <div class="logo-box shadow-lg rounded" style="">
           <img class="logo" alt="logo" src="../assets/logo2.svg" />
-          <h1 class="slogan">unbeatable.</h1>
+          <h1 class="slogan text-right">unbeatable.</h1>
         </div>
       </div>
     </div>
@@ -12,8 +12,14 @@
       <div class="row mx-auto service-info">
         <div class="col-12 col-md-7 order-2 order-md-1">
           <p class="big-title">Cheap, secure, personal storage.</p>
-          <p class="sub-title">Easy payments, Short or Long Term Hire</p>
-          <a class="btn btn-gs">More Info</a>
+          <p class="sub-title">Easy payments, short or long term hire</p>
+          <p style="font-size: 16px">
+            Various sized storage units available. Free up some space in your
+            home or office.
+          </p>
+          <a class="btn btn-gs"
+            ><i class="fa fa-long-arrow-right fa-fw mr-2"></i>More Info</a
+          >
         </div>
         <div class="col-12 col-md-4 offset-md-1 text-center my-auto order-md-2">
           <img src="../assets/warehouse.svg" alt="" class="img-fluid ico" />
@@ -24,9 +30,13 @@
         <div class="col-12 col-md-4 text-center my-auto">
           <img src="../assets/truck.svg" alt="" class="img-fluid ico" />
         </div>
-        <div class="col-12 col-md-7 offset-md-1 text-right">
-          <p class="big-title">Portable storage boxes.</p>
+        <div class="col-12 col-md-7 offset-md-1 text-left">
+          <p class="big-title">Portable storage units.</p>
           <p class="sub-title">We deliver to you, you pack, we store</p>
+          <p style="font-size: 16px">
+            Get your goods in storage without ever leaving your house. Pack at
+            your leisure and let us take care of the rest.
+          </p>
           <a class="btn btn-gs">More Info</a>
         </div>
       </div>
@@ -37,6 +47,9 @@
           <p class="sub-title">
             Three-phase and single-phase power, with racking, hoist and office
             space available
+          </p>
+          <p style="font-size: 16px">
+            Great value, no fixed term, week-to-week available
           </p>
           <a class="btn btn-gs gradient-border">More Info</a>
         </div>
@@ -68,6 +81,9 @@ export default {
   background: rgba(255, 255, 255, 0.747);
   max-width: 100%;
   padding: 1rem;
+  @media only screen and (max-width: 576px) {
+    width: 100%;
+  }
 }
 
 .home {

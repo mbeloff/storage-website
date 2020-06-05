@@ -9,15 +9,18 @@
     <div id="topnav"></div>
     <NavBar id="nav"></NavBar>
     <router-view />
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import "vue-navigation-bar/dist/vue-navigation-bar.css";
 import NavBar from "@/components/NavBar.vue";
+import Footer from "@/components/Footer.vue";
 export default {
   components: {
-    NavBar
+    NavBar,
+    Footer
   }
 };
 </script>
@@ -41,9 +44,7 @@ body {
 
 #topnav {
   width: 100%;
-  height: 35px;
-
-  background: white;
+  height: 30px;
   background: #2980b9; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
