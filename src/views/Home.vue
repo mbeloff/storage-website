@@ -49,7 +49,8 @@
             space available
           </p>
           <p style="font-size: 16px">
-            Great value, no fixed term, week-to-week available
+            Great value 80m<sup>2</sup> work areas, no fixed term, pay week to
+            week.
           </p>
           <a class="btn btn-gs gradient-border">More Info</a>
         </div>
@@ -158,8 +159,8 @@ h1.slogan {
   padding: 7px 25px;
   transition: all 0.5s;
   &:hover {
-    border: 1px solid var(--orange-dark);
-    background: white;
+    border: 2px solid var(--orange-dark);
+    background: rgb(255, 255, 255);
     color: var(--orange-dark);
     box-shadow: var(--orange-shadow-hover);
     margin-bottom: 10px;

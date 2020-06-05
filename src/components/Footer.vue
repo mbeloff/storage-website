@@ -10,16 +10,16 @@
             Woolloongabba, QLD 4102 <br />
           </p>
         </div>
-        <div class="col-3">
+        <div class="col-6 col-md-3">
           <b>Services</b>
           <ul class="list-unstyled">
             <li>Personal Storage</li>
             <li>Business Storage</li>
             <li>Drop-Off Storage Boxes</li>
-            <li>Workspaces</li>
+            <li>Rent Workspaces</li>
           </ul>
         </div>
-        <div class="col-3">
+        <div class="col-6 col-md-3">
           <b>Contact</b>
           <ul class="list-unstyled">
             <li>Frequently Asked Questions</li>
@@ -27,6 +27,8 @@
           </ul>
         </div>
       </div>
+      <hr />
+      <p class="text-center m-0">&copy; gabbastorage.com</p>
     </div>
   </div>
 </template>
