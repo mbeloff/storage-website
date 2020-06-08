@@ -85,12 +85,6 @@ export default {
                 iconLeft: '<i class="fa fa-phone-rotary fa-fw"></i>'
               }
             ]
-          },
-          {
-            type: "link",
-            text: "Pricing",
-            path: "./pricing",
-            iconRight: '<i class="fa fa-long-arrow-right fa-fw"></i>'
           }
         ]
         // menuOptionsRight: [

@@ -8,21 +8,80 @@
         </div>
       </div>
     </div>
-    <div class="container my-5">
-      <div class="row mx-auto service-info">
+    <div class="container my-5" id="home-accordian">
+      <div class="row mx-auto service-info" id="headingOne">
         <div class="col-12 col-md-7 order-2 order-md-1">
-          <p class="big-title">Cheap, secure, personal storage.</p>
+          <p class="big-title">Cheap, secure, self storage.</p>
           <p class="sub-title">Easy payments, short or long term hire</p>
           <p style="font-size: 16px">
             Various sized storage units available. Free up some space in your
             home or office.
           </p>
-          <a class="btn btn-gs"
-            ><i class="fa fa-long-arrow-right fa-fw mr-2"></i>More Info</a
+          <a
+            class="btn btn-gs"
+            @click="selectedType = 'personal'"
+            data-toggle="collapse"
+            data-target="#personal"
+            aria-expanded="true"
+            aria-controls="personal"
+            ><i
+              class="fa fa-long-arrow-right fa-fw mr-2"
+              :class="{ active: selectedType == 'personal' }"
+            ></i
+            >More Info</a
           >
         </div>
         <div class="col-12 col-md-4 offset-md-1 text-center my-auto order-md-2">
           <img src="../assets/warehouse.svg" alt="" class="img-fluid ico" />
+        </div>
+        <div
+          class="col-12 order-last more-info-panel collapse"
+          id="personal"
+          data-parent="#home-accordian"
+        >
+          <p>
+            Gabba Storage has cost-effective self storage solutions whether
+            you're decluttering, renovating, moving house or looking for a
+            secure off-site location for documents or valuables.
+          </p>
+          <p class="lead">Sizes</p>
+          <div class="row">
+            <div class="col-12 col-md-4 mb-5">
+              <div class="orange-border shadow text-center h-100">
+                <p class="lead p-3 mb-0">Small</p>
+                <img src="../assets/small.svg" alt="" />
+                <div class="p-3">
+                  <p class="mb-0">1m<sup>3</sup></p>
+                  <p class="small text-muted">1m x 1m x 1m</p>
+                  <p>ideal for small items and documents</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mb-5">
+              <div class="orange-border shadow text-center h-100">
+                <p class="lead p-3 mb-0">Medium</p>
+                <img src="../assets/medium.svg" alt="" />
+                <div class="p-3">
+                  <p class="mb-0">~6.3m<sup>3</sup></p>
+                  <p class="small text-muted">1.2m x 2.4m x 2.2m</p>
+                  <p>
+                    accommodates some larger items
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mb-5">
+              <div class="orange-border shadow text-center h-100">
+                <p class="lead p-3 mb-0">Large</p>
+                <img src="../assets/large.svg" alt="" />
+                <div class="p-3">
+                  <p class="mb-0">~10.5m<sup>3</sup></p>
+                  <p class="small text-muted">2.0m x 2.4m x 2.2m</p>
+                  <p>Ideal for multiple large items</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <hr class="my-5" />
@@ -37,7 +96,26 @@
             Get your goods in storage without ever leaving your house. Pack at
             your leisure and let us take care of the rest.
           </p>
-          <a class="btn btn-gs">More Info</a>
+          <a
+            class="btn btn-gs"
+            @click="selectedType = 'portable'"
+            data-toggle="collapse"
+            data-target="#portable"
+            aria-expanded="true"
+            aria-controls="portable"
+            ><i
+              class="fa fa-long-arrow-right fa-fw mr-2"
+              :class="{ active: selectedType == 'portable' }"
+            ></i
+            >More Info</a
+          >
+        </div>
+        <div
+          class="col-12 order-last more-info-panel collapse"
+          id="portable"
+          data-parent="#home-accordian"
+        >
+          <p>show portable storage info</p>
         </div>
       </div>
       <hr class="my-5" />
@@ -52,10 +130,33 @@
             Great value 80m<sup>2</sup> work areas, no fixed term, pay week to
             week.
           </p>
-          <a class="btn btn-gs gradient-border">More Info</a>
+          <a
+            class="btn btn-gs"
+            @click="
+              {
+                selectedType = 'workshop';
+              }
+            "
+            data-toggle="collapse"
+            data-target="#workshop"
+            aria-expanded="true"
+            aria-controls="workshop"
+            ><i
+              class="fa fa-long-arrow-right fa-fw mr-2"
+              :class="{ active: selectedType == 'workshop' }"
+            ></i
+            >More Info</a
+          >
         </div>
         <div class="col-12 col-md-4 offset-md-1 text-center my-auto order-md-2">
           <img src="../assets/mechanic.svg" alt="" class="img-fluid ico" />
+        </div>
+        <div
+          class="col-12 order-last more-info-panel collapse"
+          id="workshop"
+          data-parent="#home-accordian"
+        >
+          <p>show workshop storage info</p>
         </div>
       </div>
     </div>
@@ -66,7 +167,12 @@
 // @ is an alias to /src
 
 export default {
-  name: "Home"
+  name: "Home",
+  data() {
+    return {
+      selectedType: null
+    };
+  }
 };
 </script>
 
@@ -85,6 +191,11 @@ export default {
   @media only screen and (max-width: 576px) {
     width: 100%;
   }
+}
+
+.orange-border {
+  border: 3px dotted rgb(255, 102, 0);
+  border-radius: 2rem;
 }
 
 .home {
@@ -165,5 +276,21 @@ h1.slogan {
     box-shadow: var(--orange-shadow-hover);
     margin-bottom: 10px;
   }
+}
+
+.more-info-panel {
+  font-size: 1rem;
+}
+
+.btn-gs i {
+  transition: transform 0.25s;
+}
+
+.btn-gs i.active {
+  transform: rotate(90deg);
+}
+
+.orange-shadow {
+  box-shadow: var(--orange-shadow);
 }
 </style>
