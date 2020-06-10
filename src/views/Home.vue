@@ -45,6 +45,16 @@
             renovating, moving house or looking for a secure off-site location
             for documents or valuables, we've got you covered.
           </p>
+          <p>
+            <a class="text-warning" @click="show()"
+              ><img
+                class="chat-icon"
+                src="../assets/notification.svg"
+                alt=""
+              />Send us a message</a
+            >
+            to enquire
+          </p>
           <div class="row">
             <div class="col-12 col-md-4 mb-5 mb-md-0">
               <div
@@ -128,8 +138,14 @@
                 facility.
               </p>
               <p>
-                <a class="text-warning" @click="show()">Send us a message</a> to
-                see if we can deliver to your location
+                <a class="text-warning" @click="show()"
+                  ><img
+                    class="chat-icon"
+                    src="../assets/notification.svg"
+                    alt=""
+                  />Send us a message</a
+                >
+                to see if we can deliver to your location
               </p>
             </div>
             <div class="col-12 col-md-4">
@@ -175,14 +191,36 @@
           id="workshop"
           data-parent="#home-accordian"
         >
-          <p>
-            80m<sup>2</sup> Workshop space available in convenient Woolloongabba
-            location. No fixed terms, pay week to week.
-          </p>
-          <p>
-            <a class="text-warning" @click="show()">Send us a message</a> to
-            enquire.
-          </p>
+          <div class="row p-3">
+            <div class="col-12 col-md-5 orange-border orange-shadow p-0">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14157.252574725757!2d153.03862873985938!3d-27.49063514184493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a40d36cffed%3A0x2a3a64161ccbff82!2s100%20Longlands%20St%2C%20Woolloongabba%20QLD%204102!5e0!3m2!1sen!2sau!4v1591763927300!5m2!1sen!2sau"
+                width="100%"
+                height="100%"
+                frameborder="0"
+                style="border:0;border-radius: 2rem;"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
+            </div>
+            <div class="col-12 col-md-7">
+              <p class="">
+                80m<sup>2</sup> Workshop spaces available in convenient
+                Woolloongabba location. No fixed terms, pay week to week.
+              </p>
+              <p>
+                <a class="text-warning" @click="show()"
+                  ><img
+                    class="chat-icon"
+                    src="../assets/notification.svg"
+                    alt=""
+                  />Send us a message</a
+                >
+                to enquire.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -259,13 +297,15 @@ h1.slogan {
   }
 }
 
-
-
 .ico {
   max-width: 100px;
   @media only screen and (min-width: 768px) {
     max-width: 150px;
   }
+}
+
+.more-info-panel {
+  font-size: 1rem;
 }
 
 .btn-gs {
@@ -285,10 +325,6 @@ h1.slogan {
   }
 }
 
-.more-info-panel {
-  font-size: 1rem;
-}
-
 .btn-gs i {
   transition: transform 0.25s;
 }
@@ -297,5 +333,8 @@ h1.slogan {
   transform: rotate(90deg);
 }
 
-
+.chat-icon {
+  height: 20px;
+  margin-right: 0.5rem;
+}
 </style>
