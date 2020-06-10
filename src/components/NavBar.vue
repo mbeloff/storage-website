@@ -75,7 +75,7 @@ export default {
               {
                 isLinkAction: true,
                 type: "link",
-                text: "Make an enquiry",
+                text: "Make an enquiry"
                 // path: "./accounting"
               },
               {

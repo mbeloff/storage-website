@@ -7,8 +7,14 @@
       sameSite="none"
     ></script>
     <div id="topnav"></div>
-    <NavBar id="nav" class="sticky-top shadow-sm"></NavBar>
-    <modal name="contact-modal">
+    <NavBar id="nav" class="shadow-sm"></NavBar>
+    <modal
+      name="contact-modal"
+      height="auto"
+      :scrollable="true"
+      :adaptive="true"
+      :clickToClose="false"
+    >
       <ContactForm></ContactForm>
     </modal>
     <router-view />
