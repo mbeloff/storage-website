@@ -1,12 +1,14 @@
 <template>
   <div class="p-3">
-    <i class="fa fa-times fa-3x float-right" @click="hide()"></i>
+    <h1 class="big-title" style="font-size: 3rem;">
+      Contact Us<i class="fa fa-times float-right" @click="hide()"></i>
+    </h1>
+
     <form
       name="ask-question"
       method="post"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
-      class="mt-5"
     >
       What are you storage needs? Please provide some details and we'll get back
       to you<br />
@@ -22,7 +24,6 @@
             name="firstname"
           />
         </div>
-
         <div class="col-md-6 form-group">
           <label class="">Last Name</label>
           <input

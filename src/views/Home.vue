@@ -4,7 +4,7 @@
       <div class="container">
         <div class="logo-box shadow-lg rounded" style="">
           <img class="logo" alt="logo" src="../assets/logo2.svg" />
-          <h1 class="slogan text-right">unbeatable.</h1>
+          <!-- <h1 class="slogan text-right">unbeatable.</h1> -->
         </div>
       </div>
     </div>
@@ -13,9 +13,9 @@
         <div class="col-12 col-md-7 order-2 order-md-1">
           <p class="big-title">Cheap, secure, self storage.</p>
           <p class="sub-title">Easy payments, short or long term hire</p>
-          <p style="font-size: 16px">
-            Various sized storage units available. Free up some space in your
-            home or office.
+          <p style="font-size: 16px;">
+            Various sized storage units available. Finally free up some space in
+            your home or office.
           </p>
           <a
             class="btn btn-gs"
@@ -40,15 +40,18 @@
           data-parent="#home-accordian"
         >
           <p>
-            Gabba Storage has cost-effective self storage solutions whether
-            you're decluttering, renovating, moving house or looking for a
-            secure off-site location for documents or valuables.
+            Gabba Storage has cost-effective self storage solutions in
+            convenient Woolloongabba location. Whether you're decluttering,
+            renovating, moving house or looking for a secure off-site location
+            for documents or valuables, we've got you covered.
           </p>
           <div class="row">
-            <div class="col-12 col-md-4 mb-5">
-              <div class="orange-border shadow text-center h-100">
+            <div class="col-12 col-md-4 mb-5 mb-md-0">
+              <div
+                class="hover-grow orange-border orange-shadow text-center h-100"
+              >
                 <p class="lead p-3 mb-0">Small</p>
-                <img src="../assets/small.svg" alt="" />
+                <img src="../assets/small.svg" alt="" class="w-25" />
                 <div class="p-3">
                   <p class="mb-0">1m<sup>3</sup></p>
                   <p class="small text-muted">1m x 1m x 1m</p>
@@ -56,10 +59,12 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-4 mb-5">
-              <div class="orange-border shadow text-center h-100">
+            <div class="col-12 col-md-4 mb-5 mb-md-0">
+              <div
+                class="hover-grow orange-border orange-shadow text-center h-100"
+              >
                 <p class="lead p-3 mb-0">Medium</p>
-                <img src="../assets/medium.svg" alt="" />
+                <img src="../assets/medium.svg" alt="" class="w-25" />
                 <div class="p-3">
                   <p class="mb-0">~6.3m<sup>3</sup></p>
                   <p class="small text-muted">1.2m x 2.4m x 2.2m</p>
@@ -69,10 +74,12 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-4 mb-5">
-              <div class="orange-border shadow text-center h-100">
+            <div class="col-12 col-md-4 mb-5 mb-md-0">
+              <div
+                class="hover-grow orange-border orange-shadow text-center h-100"
+              >
                 <p class="lead p-3 mb-0">Large</p>
-                <img src="../assets/large.svg" alt="" />
+                <img src="../assets/large.svg" alt="" class="w-25" />
                 <div class="p-3">
                   <p class="mb-0">~10.5m<sup>3</sup></p>
                   <p class="small text-muted">2.0m x 2.4m x 2.2m</p>
@@ -92,8 +99,7 @@
           <p class="big-title">Portable storage units.</p>
           <p class="sub-title">We deliver to you, you pack, we store</p>
           <p style="font-size: 16px">
-            Get your goods in storage without ever leaving your house. Pack at
-            your leisure and let us take care of the rest.
+            Get your goods in storage without ever leaving your house.
           </p>
           <a
             class="btn btn-gs"
@@ -114,7 +120,26 @@
           id="portable"
           data-parent="#home-accordian"
         >
-          <p>show portable storage info</p>
+          <div class="row">
+            <div class="col-12 col-md-8">
+              <p>
+                Storage boxes delivered anywhere in Brisbane area. Take as long
+                as you like to pack and then we collect to securely store at our
+                facility.
+              </p>
+              <p>
+                <a class="text-warning" @click="show()">Send us a message</a> to
+                see if we can deliver to your location
+              </p>
+            </div>
+            <div class="col-12 col-md-4">
+              <img
+                src="../assets/map-circle.jpg"
+                alt=""
+                class="img-fluid hover-grow orange-border orange-shadow"
+              />
+            </div>
+          </div>
         </div>
       </div>
       <hr class="my-5" />
@@ -125,9 +150,8 @@
             Three-phase and single-phase power, with racking, hoist and office
             space available
           </p>
-          <p style="font-size: 16px">
-            Great value 80m<sup>2</sup> work areas, no fixed term, pay week to
-            week.
+          <p style="font-size: 16px;">
+            Conveniently located workshop space at competitive rates.
           </p>
           <a
             class="btn btn-gs"
@@ -151,7 +175,14 @@
           id="workshop"
           data-parent="#home-accordian"
         >
-          <p>show workshop storage info</p>
+          <p>
+            80m<sup>2</sup> Workshop space available in convenient Woolloongabba
+            location. No fixed terms, pay week to week.
+          </p>
+          <p>
+            <a class="text-warning" @click="show()">Send us a message</a> to
+            enquire.
+          </p>
         </div>
       </div>
     </div>
@@ -175,6 +206,9 @@ export default {
       } else {
         this.selectedType = type;
       }
+    },
+    show() {
+      this.$modal.show("contact-modal");
     }
   }
 };
@@ -195,11 +229,6 @@ export default {
   @media only screen and (max-width: 576px) {
     width: 100%;
   }
-}
-
-.orange-border {
-  border: 3px dotted rgb(255, 102, 0);
-  border-radius: 2rem;
 }
 
 .home {
@@ -230,33 +259,7 @@ h1.slogan {
   }
 }
 
-.big-title {
-  font-family: "Playfair Display", serif;
-  color: rgb(255, 115, 0);
-  font-size: 2.5em;
-  @media only screen and (min-width: 470px) {
-    font-size: 1.8em;
-  }
-  @media only screen and (min-width: 768px) {
-    font-size: 1.1em;
-  }
-  @media only screen and (min-width: 996px) {
-    font-size: 1em;
-  }
-}
 
-.sub-title {
-  font-size: 1.5em;
-  @media only screen and (min-width: 470px) {
-    font-size: 1.1em;
-  }
-  @media only screen and (min-width: 768px) {
-    font-size: 0.6em;
-  }
-  @media only screen and (min-width: 996px) {
-    font-size: 0.5em;
-  }
-}
 
 .ico {
   max-width: 100px;
@@ -294,7 +297,5 @@ h1.slogan {
   transform: rotate(90deg);
 }
 
-.orange-shadow {
-  box-shadow: var(--orange-shadow);
-}
+
 </style>

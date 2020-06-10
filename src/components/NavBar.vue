@@ -78,15 +78,15 @@ export default {
                 text: "Make an enquiry"
                 // path: "./accounting"
               },
-              {
-                type: "hr"
-              },
-              {
-                type: "link",
-                text: "1800 24 68 69",
-                path: "./reception",
-                iconLeft: '<i class="fa fa-phone-rotary fa-fw"></i>'
-              }
+              // {
+              //   type: "hr"
+              // }
+              // {
+              //   type: "link",
+              //   text: "1800 24 68 69",
+              //   path: "./reception",
+              //   iconLeft: '<i class="fa fa-phone-rotary fa-fw"></i>'
+              // }
             ]
           }
         ]

@@ -85,4 +85,48 @@ body {
     }
   }
 }
+
+.orange-shadow {
+  box-shadow: var(--orange-shadow);
+}
+
+.hover-grow {
+  transition: transform 0.25s;
+  &:hover {
+    transform: scale(1.01);
+  }
+}
+
+.orange-border {
+  border: 3px dotted rgb(255, 102, 0);
+  border-radius: 2rem;
+}
+
+.big-title {
+  font-family: "Playfair Display", serif;
+  color: rgb(255, 115, 0);
+  font-size: 2.5em;
+  @media only screen and (min-width: 470px) {
+    font-size: 1.8em;
+  }
+  @media only screen and (min-width: 768px) {
+    font-size: 1.1em;
+  }
+  @media only screen and (min-width: 996px) {
+    font-size: 1em;
+  }
+}
+
+.sub-title {
+  font-size: 1.5em;
+  @media only screen and (min-width: 470px) {
+    font-size: 1.1em;
+  }
+  @media only screen and (min-width: 768px) {
+    font-size: 0.6em;
+  }
+  @media only screen and (min-width: 996px) {
+    font-size: 0.5em;
+  }
+}
 </style>
