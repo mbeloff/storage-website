@@ -19,7 +19,7 @@
           </p>
           <a
             class="btn btn-gs"
-            @click="selectedType = 'personal'"
+            @click="moreInfo('personal')"
             data-toggle="collapse"
             data-target="#personal"
             aria-expanded="true"
@@ -44,7 +44,6 @@
             you're decluttering, renovating, moving house or looking for a
             secure off-site location for documents or valuables.
           </p>
-          <p class="lead">Sizes</p>
           <div class="row">
             <div class="col-12 col-md-4 mb-5">
               <div class="orange-border shadow text-center h-100">
@@ -98,7 +97,7 @@
           </p>
           <a
             class="btn btn-gs"
-            @click="selectedType = 'portable'"
+            @click="moreInfo('portable')"
             data-toggle="collapse"
             data-target="#portable"
             aria-expanded="true"
@@ -132,11 +131,7 @@
           </p>
           <a
             class="btn btn-gs"
-            @click="
-              {
-                selectedType = 'workshop';
-              }
-            "
+            @click="moreInfo('workshop')"
             data-toggle="collapse"
             data-target="#workshop"
             aria-expanded="true"
@@ -172,6 +167,15 @@ export default {
     return {
       selectedType: null
     };
+  },
+  methods: {
+    moreInfo(type) {
+      if (type == this.selectedType) {
+        this.selectedType = null;
+      } else {
+        this.selectedType = type;
+      }
+    }
   }
 };
 </script>

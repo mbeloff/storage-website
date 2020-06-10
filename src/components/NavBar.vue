@@ -3,8 +3,10 @@
     <router-link to="/" class="float-left">
       <img src="../assets/logo-sm.svg" alt="" class="nav-logo " />
     </router-link>
-
-    <vue-navigation-bar :options="navbarOptions" />
+    <vue-navigation-bar
+      :options="navbarOptions"
+      @vnb-item-clicked="vnbItemClicked"
+    />
   </div>
 </template>
 
@@ -71,9 +73,10 @@ export default {
                 path: "./location"
               },
               {
+                isLinkAction: true,
                 type: "link",
                 text: "Make an enquiry",
-                path: "./accounting"
+                // path: "./accounting"
               },
               {
                 type: "hr"
@@ -104,6 +107,19 @@ export default {
         // ]
       }
     };
+  },
+  methods: {
+    show() {
+      this.$modal.show("contact-modal");
+    },
+    hide() {
+      this.$modal.hide("contact-modal");
+    },
+    vnbItemClicked(text) {
+      if (text === "Make an enquiry") {
+        this.$modal.show("contact-modal");
+      }
+    }
   }
 };
 </script>

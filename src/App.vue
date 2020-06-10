@@ -8,6 +8,9 @@
     ></script>
     <div id="topnav"></div>
     <NavBar id="nav" class="sticky-top shadow-sm"></NavBar>
+    <modal name="contact-modal">
+      <ContactForm></ContactForm>
+    </modal>
     <router-view />
     <Footer></Footer>
   </div>
@@ -17,10 +20,12 @@
 import "vue-navigation-bar/dist/vue-navigation-bar.css";
 import NavBar from "@/components/NavBar.vue";
 import Footer from "@/components/Footer.vue";
+import ContactForm from "@/components/ContactForm.vue";
 export default {
   components: {
     NavBar,
-    Footer
+    Footer,
+    ContactForm
   }
 };
 </script>

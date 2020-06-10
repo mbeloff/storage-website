@@ -6,6 +6,8 @@ import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import VModal from "vue-js-modal";
+Vue.use(VModal);
 
 import VueNavigationBar from "vue-navigation-bar";
 Vue.component("vue-navigation-bar", VueNavigationBar);
