@@ -11,7 +11,8 @@
       For prompt attention within 1 business hour from your local storage
       manager , complete and submit details of your storage needs.<br />
       <br />
-      <div class="row">
+      <input type="hidden" name="form-name" value="ask-question" />
+      <!-- <div class="row">
         <div class="col-md-6 form-group">
           <label class="">First Name</label>
           <input
@@ -31,7 +32,15 @@
             name="lastname"
           />
         </div>
-      </div>
+      </div> -->
+      <input class="form-control" type="text" name="firstname" />
+      <input class="form-control" type="text" name="lastname" />
+      <textarea
+        class="form-control"
+        name="customer message"
+        id=""
+        rows="4"
+      ></textarea>
 
       <!-- <div class="row">
         <div class="col-md-6 form-group">
@@ -88,7 +97,7 @@
         </div>
       </div> -->
 
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-md-12 form-group g-mb-40">
           <label class="">How can we help you?</label>
           <textarea
@@ -98,15 +107,11 @@
             name="customer message"
           ></textarea>
         </div>
-      </div>
+      </div> -->
 
       <div class="text-center">
         <div id="submitDiv">
-          <button
-            class="btn text-uppercase btn-primary"
-            type="submit"
-            role="button"
-          >
+          <button class="btn text-uppercase btn-primary">
             <i class="fa fa-paper-plane g-px-5"></i>&nbsp;Submit
           </button>
         </div>
