@@ -106,8 +106,6 @@
             class="btn text-uppercase btn-primary"
             type="submit"
             role="button"
-            value="Send"
-            id="submitButton"
           >
             <i class="fa fa-paper-plane g-px-5"></i>&nbsp;Submit
           </button>
