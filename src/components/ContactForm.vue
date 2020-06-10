@@ -64,7 +64,7 @@
             placeholder="DD/MM/YYYY"
             autocomplete="off"
           />
-          <input type="hidden" id="actualDate" name="usstartdate" />
+          <input type="hidden" id="actualDate" name="startdate" />
         </div>
         <div class="col-md-6 form-group">
           <label class="">Length of time</label>
