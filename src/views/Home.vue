@@ -106,7 +106,7 @@
           <img src="../assets/truck.svg" alt="" class="img-fluid ico" />
         </div>
         <div class="col-12 col-md-7 offset-md-1 text-left">
-          <p class="big-title">Portable storage units.</p>
+          <p class="big-title">Mobile storage units.</p>
           <p class="sub-title">We deliver to you, you pack, we store</p>
           <p style="font-size: 16px">
             Get your goods in storage without ever leaving your house.

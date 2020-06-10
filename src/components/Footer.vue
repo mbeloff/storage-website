@@ -11,19 +11,19 @@
           </p>
         </div>
         <div class="col-6 col-md-3">
-          <b>Services</b>
+          <!-- <b>Services</b>
           <ul class="list-unstyled">
             <li>Personal Storage</li>
             <li>Business Storage</li>
             <li>Drop-Off Storage Boxes</li>
             <li>Rent Workspaces</li>
-          </ul>
+          </ul> -->
         </div>
         <div class="col-6 col-md-3">
           <b>Contact</b>
           <ul class="list-unstyled">
             <li>Frequently Asked Questions</li>
-            <li>Make an Enquiry</li>
+            <li @click="show()">Make an Enquiry</li>
           </ul>
         </div>
       </div>
@@ -34,7 +34,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    show() {
+      this.$modal.show("contact-modal");
+    }
+  }
+};
 </script>
 
 <style scoped lang="scss">

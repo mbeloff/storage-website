@@ -45,7 +45,7 @@ export default {
               },
               {
                 type: "link",
-                text: "Portable Storage Boxes",
+                text: "Mobile Storage Boxes",
                 subText: "We deliver the box, you load it up, we store it.",
                 path: "./locations",
                 iconLeft: '<i class="fa fa-truck fa-fw"></i>'
@@ -77,7 +77,7 @@ export default {
                 type: "link",
                 text: "Make an enquiry"
                 // path: "./accounting"
-              },
+              }
               // {
               //   type: "hr"
               // }
@@ -112,9 +112,9 @@ export default {
     show() {
       this.$modal.show("contact-modal");
     },
-    hide() {
-      this.$modal.hide("contact-modal");
-    },
+    // hide() {
+    //   this.$modal.hide("contact-modal");
+    // },
     vnbItemClicked(text) {
       if (text === "Make an enquiry") {
         this.$modal.show("contact-modal");
