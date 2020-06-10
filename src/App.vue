@@ -46,6 +46,7 @@ body {
   --orange-shadow: 0px 1px 10px rgba(255, 102, 0, 0.315);
   --orange-shadow-hover: 0px 5px 15px rgba(236, 94, 0, 0.466);
 }
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -105,28 +106,70 @@ body {
 .big-title {
   font-family: "Playfair Display", serif;
   color: rgb(255, 115, 0);
-  font-size: 2.5em;
+  font-size: 2rem;
+
   @media only screen and (min-width: 470px) {
-    font-size: 1.8em;
+    font-size: 2rem;
   }
   @media only screen and (min-width: 768px) {
-    font-size: 1.1em;
+    font-size: 2.25rem;
   }
-  @media only screen and (min-width: 996px) {
-    font-size: 1em;
+  @media screen and (min-width: 996px) {
+    font-size: 2.75rem;
   }
 }
 
 .sub-title {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   @media only screen and (min-width: 470px) {
-    font-size: 1.1em;
+    font-size: 1.5rem;
   }
   @media only screen and (min-width: 768px) {
-    font-size: 0.6em;
+    font-size: 1.75rem;
   }
   @media only screen and (min-width: 996px) {
-    font-size: 0.5em;
+    font-size: 2rem;
   }
+}
+
+.btn.btn-gs {
+  border: 1px solid var(--orange-light);
+  background: white;
+  color: var(--orange-light);
+  border-radius: 20px;
+  box-shadow: var(--orange-shadow);
+  padding: 7px 25px;
+  transition: all 0.5s;
+  &:hover {
+    border: 2px solid var(--orange-dark);
+    background: rgb(255, 255, 255);
+    color: var(--orange-dark);
+    box-shadow: var(--orange-shadow-hover);
+    margin-bottom: 10px;
+  }
+}
+
+.btn-gs i {
+  transition: transform 0.25s;
+}
+
+.btn-gs i.active {
+  transform: rotate(90deg);
+}
+
+.chat-icon {
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+.ico {
+  max-width: 100px;
+  @media only screen and (min-width: 768px) {
+    max-width: 150px;
+  }
+}
+
+.more-info-panel {
+  font-size: 1rem;
 }
 </style>
