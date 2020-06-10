@@ -8,8 +8,8 @@
       data-netlify-honeypot="bot-field"
       class="mt-5"
     >
-      For prompt attention within 1 business hour from your local storage
-      manager , complete and submit details of your storage needs.<br />
+      What are you storage needs? Please provide some details and we'll get back
+      to you<br />
       <br />
       <input type="hidden" name="form-name" value="ask-question" />
       <div class="row">
@@ -41,7 +41,7 @@
             class="form-control"
             type="tel"
             placeholder="(07) 1234 5678"
-            name="customer phone"
+            name="Contact Number"
           />
         </div>
 
@@ -51,27 +51,17 @@
             class="form-control"
             type="email"
             placeholder="johndoe@gmail.com"
-            name="customer email"
+            name="Email"
           />
         </div>
       </div>
 
       <div class="row">
         <div class="col-md-6 form-group">
-          <label class="">Start date</label>
-          <input
-            class="form-control"
-            id="datepicker"
-            placeholder="DD/MM/YYYY"
-            autocomplete="off"
-          />
-          <input type="hidden" id="actualDate" name="startdate" />
-        </div>
-        <div class="col-md-6 form-group">
-          <label class="">Length of time</label>
+          <label class="">Storage Period</label>
           <select
             class="form-control"
-            name="lengthoftime"
+            name="Storage Period"
             aria-required="true"
             aria-invalid="false"
             value=""
@@ -97,7 +87,7 @@
             class="form-control"
             rows="4"
             placeholder="Hi there, I want to know ..."
-            name="customer message"
+            name="Customer Says"
           ></textarea>
         </div>
       </div>
