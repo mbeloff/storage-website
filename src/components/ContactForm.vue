@@ -12,7 +12,7 @@
       manager , complete and submit details of your storage needs.<br />
       <br />
       <input type="hidden" name="form-name" value="ask-question" />
-      <!-- <div class="row">
+      <div class="row">
         <div class="col-md-6 form-group">
           <label class="">First Name</label>
           <input
@@ -32,17 +32,9 @@
             name="lastname"
           />
         </div>
-      </div> -->
-      <input class="form-control" type="text" name="firstname" />
-      <input class="form-control" type="text" name="lastname" />
-      <textarea
-        class="form-control"
-        name="customer message"
-        id=""
-        rows="4"
-      ></textarea>
+      </div>
 
-      <!-- <div class="row">
+      <div class="row">
         <div class="col-md-6 form-group">
           <label class="">Phone</label>
           <input
@@ -82,6 +74,7 @@
             name="lengthoftime"
             aria-required="true"
             aria-invalid="false"
+            value=""
           >
             <option value="" disabled="disabled" selected="selected"
               >Select</option
@@ -95,9 +88,9 @@
             <option value="3+ Years">3+ Years</option>
           </select>
         </div>
-      </div> -->
+      </div>
 
-      <!-- <div class="row">
+      <div class="row">
         <div class="col-md-12 form-group g-mb-40">
           <label class="">How can we help you?</label>
           <textarea
@@ -107,7 +100,7 @@
             name="customer message"
           ></textarea>
         </div>
-      </div> -->
+      </div>
 
       <div class="text-center">
         <div id="submitDiv">
