@@ -33,7 +33,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-md-6 form-group">
           <label class="">Phone</label>
           <input
@@ -86,7 +86,7 @@
             <option value="3+ Years">3+ Years</option>
           </select>
         </div>
-      </div>
+      </div> -->
 
       <div class="row">
         <div class="col-md-12 form-group g-mb-40">
