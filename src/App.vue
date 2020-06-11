@@ -128,23 +128,6 @@ body {
   }
 }
 
-.btn.btn-gs {
-  border: 1px solid var(--orange-light);
-  background: white;
-  color: var(--orange-light);
-  border-radius: 20px;
-  box-shadow: var(--orange-shadow);
-  padding: 7px 25px;
-  transition: all 0.5s;
-  &:hover {
-    border: 2px solid var(--orange-dark);
-    background: rgb(255, 255, 255);
-    color: var(--orange-dark);
-    box-shadow: var(--orange-shadow-hover);
-    margin-bottom: 10px;
-  }
-}
-
 .btn-gs i {
   transition: transform 0.25s;
 }
