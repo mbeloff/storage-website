@@ -107,28 +107,24 @@ body {
   font-family: "Playfair Display", serif;
   color: rgb(255, 115, 0);
   font-size: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
 
   @media only screen and (min-width: 470px) {
-    font-size: 2rem;
-  }
-  @media only screen and (min-width: 768px) {
     font-size: 2.25rem;
   }
-  @media screen and (min-width: 996px) {
-    font-size: 2.75rem;
+  @media only screen and (min-width: 768px) {
+    font-size: 2.5rem;
   }
 }
 
 .sub-title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   @media only screen and (min-width: 470px) {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   @media only screen and (min-width: 768px) {
-    font-size: 1.75rem;
-  }
-  @media only screen and (min-width: 996px) {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
