@@ -203,7 +203,7 @@
           </div>
           <div class="col-12 col-md-7">
             <p class="">
-              80m<sup>2</sup> Workshop spaces available in convenient
+              80 - 240m<sup>2</sup> Workshop spaces available in convenient
               Woolloongabba location. No fixed terms, pay week to week.
             </p>
             <p>

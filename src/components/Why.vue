@@ -1,7 +1,7 @@
 <template>
   <div class="container" style="margin-top: 7rem;">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 col-md-8">
         <h2 class=" big-title">Reasons for self-storage in Brisbane</h2>
         <p>
           Storage space comes at a premium in houses and offices in Brisbane,

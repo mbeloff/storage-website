@@ -22,7 +22,9 @@
         <div class="col-6 col-md-3">
           <b>Contact</b>
           <ul class="list-unstyled">
-            <li>Frequently Asked Questions</li>
+            <li>
+              <a href="./faq">Frequently Asked Questions</a>
+            </li>
             <li @click="show()">Make an Enquiry</li>
           </ul>
         </div>
@@ -37,10 +39,10 @@
 export default {
   methods: {
     show() {
-      this.$modal.show("contact-modal");
+      this.$modal.show('contact-modal')
     }
   }
-};
+}
 </script>
 
 <style scoped lang="scss">

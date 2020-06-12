@@ -11,71 +11,76 @@
 </template>
 
 <script>
-import "vue-navigation-bar/dist/vue-navigation-bar.css";
+import 'vue-navigation-bar/dist/vue-navigation-bar.css'
 
 export default {
   data() {
     return {
       navbarOptions: {
-        elementId: "main-navbar",
+        elementId: 'main-navbar',
         isUsingVueRouter: true,
         mobileBreakpoint: 992,
         // showBrandImageInMobilePopup: true,
-        ariaLabelMainNav: "Main Navigation",
-        tooltipAnimationType: "shift-away",
+        ariaLabelMainNav: 'Main Navigation',
+        tooltipAnimationType: 'shift-away',
         menuOptionsLeft: [
           {
-            type: "link",
-            text: "Home",
-            path: "./"
+            type: 'link',
+            text: 'Home',
+            path: './'
           },
           {
-            type: "link",
-            text: "Services",
+            type: 'link',
+            text: 'Services',
             subMenuOptions: [
               {
-                type: "link",
-                text: "On-site Self Storage",
-                subText: "Hire one of our secure, on-site storage boxes.",
-                path: "./self-storage",
+                type: 'link',
+                text: 'On-site Self Storage',
+                subText: 'Hire one of our secure, on-site storage boxes.',
+                path: './self-storage',
                 iconLeft: '<i class="fa fa-building fa-fw"></i>'
               },
               {
-                type: "hr"
+                type: 'hr'
               },
               {
-                type: "link",
-                text: "Mobile Storage Boxes",
-                subText: "We deliver the box, you load it up, we store it.",
-                path: "./locations",
+                type: 'link',
+                text: 'Mobile Storage Boxes',
+                subText: 'We deliver the box, you load it up, we store it.',
+                path: './locations',
                 iconLeft: '<i class="fa fa-truck fa-fw"></i>'
               },
               {
-                type: "hr"
+                type: 'hr'
               },
               {
-                type: "link",
-                text: "Rent a Workspace",
+                type: 'link',
+                text: 'Rent a Workspace',
                 subText:
-                  "Hire a multi-purpose workspace with single- and three-phase power, racking and hoist",
-                path: "./blog",
+                  'Hire a multi-purpose workspace with single- and three-phase power, racking and hoist',
+                path: './blog',
                 iconLeft: '<i class="fa fa-wrench fa-fw"></i>'
               }
             ]
           },
           {
-            type: "link",
-            text: "Contact",
+            type: 'link',
+            text: 'Contact',
             subMenuOptions: [
               {
-                type: "link",
-                text: "Where to find us",
-                path: "./location"
+                type: 'link',
+                text: 'FAQ',
+                path: './faq'
+              },
+              {
+                type: 'link',
+                text: 'Where to find us',
+                path: './location'
               },
               {
                 isLinkAction: true,
-                type: "link",
-                text: "Make an enquiry"
+                type: 'link',
+                text: 'Make an enquiry'
                 // path: "./accounting"
               }
               // {
@@ -106,22 +111,22 @@ export default {
         //   }
         // ]
       }
-    };
+    }
   },
   methods: {
     show() {
-      this.$modal.show("contact-modal");
+      this.$modal.show('contact-modal')
     },
     // hide() {
     //   this.$modal.hide("contact-modal");
     // },
     vnbItemClicked(text) {
-      if (text === "Make an enquiry") {
-        this.$modal.show("contact-modal");
+      if (text === 'Make an enquiry') {
+        this.$modal.show('contact-modal')
       }
     }
   }
-};
+}
 </script>
 
 <style lang="scss">
