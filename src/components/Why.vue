@@ -40,9 +40,8 @@
           commit to a long commercial lease on a larger property. Our self
           storage facilities don’t attract business rates, and the amount of
           space you can rent is adjustable, which makes it an affordable,
-          flexible alternative to traditional warehousing. You can store
-          business stock, tools, equipment and archives in our dedicated
-          business units.
+          flexible alternative to traditional warehousing. You can store excess
+          stock, tools, equipment or archives.
         </p>
         <h3 class="sub-title">Life Event Storage</h3>
         <ul class="list-unstyled">

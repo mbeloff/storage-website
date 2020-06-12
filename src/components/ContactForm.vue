@@ -105,11 +105,11 @@
 </template>
 <script>
 export default {
-  name: "QAForm",
+  name: 'QAForm',
   methods: {
     hide() {
-      this.$modal.hide("contact-modal");
+      this.$modal.hide('contact-modal')
     }
   }
-};
+}
 </script>

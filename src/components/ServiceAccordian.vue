@@ -37,6 +37,11 @@
           or valuables, we've got you covered.
         </p>
         <p>
+          You'll be free to access your items whenever you like during opening
+          hours. Our storage units are not accessible to the public and you are
+          the only keyholder, so your goods remain secure.
+        </p>
+        <p>
           <a class="text-warning" @click="show()"
             ><img
               class="chat-icon"
@@ -223,19 +228,19 @@ export default {
   data() {
     return {
       selectedType: null
-    };
+    }
   },
   methods: {
     moreInfo(type) {
       if (type == this.selectedType) {
-        this.selectedType = null;
+        this.selectedType = null
       } else {
-        this.selectedType = type;
+        this.selectedType = type
       }
     },
     show() {
-      this.$modal.show("contact-modal");
+      this.$modal.show('contact-modal')
     }
   }
-};
+}
 </script>
