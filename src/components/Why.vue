@@ -2,7 +2,7 @@
   <div class="container" style="margin-top: 7rem;">
     <div class="row">
       <div class="col-12 col-md-8">
-        <h2 class=" big-title">Reasons for self-storage in Brisbane</h2>
+        <h2 class=" big-title">Budget self storage in Brisbane</h2>
         <p>
           Storage space comes at a premium in houses and offices in Brisbane,
           and sometimes extra space has to be sacrificed in favour of a lower
@@ -11,7 +11,7 @@
           unit is low in comparison to the cost of extra rent or mortgage
           payments on a larger property.
         </p>
-        <h3 class="sub-title">Self-storage for households</h3>
+        <h3 class="sub-title"><span>Self-storage for households</span></h3>
         <p>
           Self storage units can be used for all sorts of things and can be a
           real space-saver for your home.
@@ -34,7 +34,7 @@
           </li>
           <li>Hobby or craft supplies</li>
         </ul>
-        <h3 class="sub-title">Self-storage for Business</h3>
+        <h3 class="sub-title"><span>Self-storage for Business</span></h3>
         <p>
           If you run a business, you might rent a self storage unit rather than
           commit to a long commercial lease on a larger property. Our self
@@ -43,7 +43,7 @@
           flexible alternative to traditional warehousing. You can store excess
           stock, tools, equipment or archives.
         </p>
-        <h3 class="sub-title">Life Event Storage</h3>
+        <h3 class="sub-title"><span>Life Event Storage</span></h3>
         <ul class="list-unstyled">
           <li>
             <strong>Moving in together:</strong> What to do with all your stuff
@@ -71,5 +71,26 @@
 <style lang="scss" scoped>
 .big-title {
   color: inherit;
+}
+
+.sub-title {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  span {
+    position: relative;
+    &::after {
+      position: absolute;
+      left: 0;
+      bottom: -1rem;
+      content: '';
+      width: 80%;
+      height: 3px;
+      background: var(--orange-light);
+    }
+  }
+}
+
+p {
+  text-align: justify;
 }
 </style>
