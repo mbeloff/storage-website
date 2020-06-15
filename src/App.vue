@@ -156,6 +156,7 @@ body {
   --orange-dark: #ff5e00;
   --orange-shadow: 0px 1px 10px rgba(255, 102, 0, 0.315);
   --orange-shadow-hover: 0px 5px 15px rgba(236, 94, 0, 0.466);
+  --serif: 'playfair display';
 }
 
 #app {
@@ -215,7 +216,8 @@ body {
 }
 
 .big-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--serif);
+  font-weight: 400;
   color: rgb(255, 115, 0);
   font-size: 2rem;
   margin-bottom: 1rem;
