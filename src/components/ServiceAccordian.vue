@@ -25,7 +25,7 @@
       <div class="col-12 col-md-4 offset-md-1 text-center my-auto order-md-2">
         <img src="../assets/warehouse.svg" alt="" class="img-fluid ico" />
       </div>
-      <!-- <div
+      <div
         class="col-12 order-last more-info-panel collapse"
         id="personal"
         data-parent="#home-accordian"
@@ -42,7 +42,7 @@
           the only keyholder, so your goods remain secure.
         </p>
         <p>
-          <a class="text-warning" @click="show()"
+          <a class="gs-link" href="javascript:void(0);" @click="show()"
             ><img
               class="chat-icon"
               src="../assets/notification.svg"
@@ -51,7 +51,7 @@
           >
           to enquire
         </p>
-      </div> -->
+      </div>
     </div>
     <hr class="my-5" />
     <div class="row">
@@ -78,7 +78,7 @@
           >More Info</a
         >
       </div>
-      <!-- <div
+      <div
         class="col-12 order-last more-info-panel collapse"
         id="portable"
         data-parent="#home-accordian"
@@ -91,7 +91,7 @@
               facility.
             </p>
             <p>
-              <a class="text-warning" @click="show()"
+              <a class="gs-link" href="javascript:void(0);" @click="show()"
                 ><img
                   class="chat-icon"
                   src="../assets/notification.svg"
@@ -109,7 +109,7 @@
             />
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
     <hr class="my-5" />
     <div class="row">
@@ -139,7 +139,7 @@
       <div class="col-12 col-md-4 offset-md-1 text-center my-auto order-md-2">
         <img src="../assets/mechanic.svg" alt="" class="img-fluid ico" />
       </div>
-      <!-- <div
+      <div
         class="col-12 order-last more-info-panel collapse"
         id="workshop"
         data-parent="#home-accordian"
@@ -163,7 +163,7 @@
               Woolloongabba location. No fixed terms, pay week to week.
             </p>
             <p>
-              <a class="text-warning" @click="show()"
+              <a class="gs-link" href="javascript:void(0);" @click="show()"
                 ><img
                   class="chat-icon"
                   src="../assets/notification.svg"
@@ -174,7 +174,7 @@
             </p>
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
   </div>
 </template>

@@ -89,11 +89,11 @@ body {
     background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-animation: AnimationName 1.5s linear infinite;
+    -webkit-animation: AnimationName 5s linear infinite;
     // animation-fill-mode: forwards;
     // animation-direction: normal;
-    -moz-animation: AnimationName 1.5s linear infinite;
-    animation: AnimationName 1.5s linear infinite;
+    -moz-animation: AnimationName 5s linear infinite;
+    animation: AnimationName 5s linear infinite;
   }
 }
 
