@@ -37,7 +37,7 @@ export default {
                 type: 'link',
                 text: 'On-site Self Storage',
                 subText: 'Hire one of our secure, on-site storage boxes.',
-                path: './self-storage',
+                path: './selfstorage',
                 iconLeft: '<i class="fa fa-building fa-fw"></i>'
               },
               {

@@ -23,9 +23,11 @@
           <b>Contact</b>
           <ul class="list-unstyled">
             <li>
-              <a href="./faq">Frequently Asked Questions</a>
+              <a class="gs-link" href="./faq">Frequently Asked Questions</a>
             </li>
-            <li @click="show()">Make an Enquiry</li>
+            <a class="gs-link" href="javascript:void(0);" @click="show()"
+              >Make an Enquiry</a
+            >
           </ul>
         </div>
       </div>

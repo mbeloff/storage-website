@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import FAQ from '../views/FAQ.vue'
+import Location from '../views/Location.vue'
 
 Vue.use(VueRouter)
 
@@ -20,7 +21,8 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ '../views/Services.vue')
   },
-  { path: '/faq', name: 'faq', component: FAQ }
+  { path: '/faq', name: 'faq', component: FAQ },
+  { path: '/location', name: 'location', component: Location }
 ]
 
 const router = new VueRouter({

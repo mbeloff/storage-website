@@ -25,7 +25,7 @@
       <div class="col-12 col-md-4 offset-md-1 text-center my-auto order-md-2">
         <img src="../assets/warehouse.svg" alt="" class="img-fluid ico" />
       </div>
-      <div
+      <!-- <div
         class="col-12 order-last more-info-panel collapse"
         id="personal"
         data-parent="#home-accordian"
@@ -51,51 +51,7 @@
           >
           to enquire
         </p>
-
-        <!-- <div class="row">
-            <div class="col-12 col-md-4 mb-5 mb-md-0">
-              <div
-                class="hover-grow orange-border orange-shadow text-center h-100"
-              >
-                <p class="lead p-3 mb-0">Small</p>
-                <img src="../assets/small.svg" alt="" class="w-25" />
-                <div class="p-3">
-                  <p class="mb-0">1m<sup>3</sup></p>
-                  <p class="small text-muted">1m x 1m x 1m</p>
-                  <p>ideal for small items and documents</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-4 mb-5 mb-md-0">
-              <div
-                class="hover-grow orange-border orange-shadow text-center h-100"
-              >
-                <p class="lead p-3 mb-0">Medium</p>
-                <img src="../assets/medium.svg" alt="" class="w-25" />
-                <div class="p-3">
-                  <p class="mb-0">~6.3m<sup>3</sup></p>
-                  <p class="small text-muted">1.2m x 2.4m x 2.2m</p>
-                  <p>
-                    accommodates some larger items
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-4 mb-5 mb-md-0">
-              <div
-                class="hover-grow orange-border orange-shadow text-center h-100"
-              >
-                <p class="lead p-3 mb-0">Large</p>
-                <img src="../assets/large.svg" alt="" class="w-25" />
-                <div class="p-3">
-                  <p class="mb-0">~10.5m<sup>3</sup></p>
-                  <p class="small text-muted">2.0m x 2.4m x 2.2m</p>
-                  <p>Ideal for multiple large items</p>
-                </div>
-              </div>
-            </div>
-          </div> -->
-      </div>
+      </div> -->
     </div>
     <hr class="my-5" />
     <div class="row">
@@ -122,7 +78,7 @@
           >More Info</a
         >
       </div>
-      <div
+      <!-- <div
         class="col-12 order-last more-info-panel collapse"
         id="portable"
         data-parent="#home-accordian"
@@ -153,7 +109,7 @@
             />
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <hr class="my-5" />
     <div class="row">
@@ -183,7 +139,7 @@
       <div class="col-12 col-md-4 offset-md-1 text-center my-auto order-md-2">
         <img src="../assets/mechanic.svg" alt="" class="img-fluid ico" />
       </div>
-      <div
+      <!-- <div
         class="col-12 order-last more-info-panel collapse"
         id="workshop"
         data-parent="#home-accordian"
@@ -218,7 +174,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

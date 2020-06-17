@@ -11,7 +11,7 @@
           unit is low in comparison to the cost of extra rent or mortgage
           payments on a larger property.
         </p>
-        <h3 class="sub-title"><span>Self-storage for households</span></h3>
+        <h3 class="sub-title"><span>Self storage for households</span></h3>
         <p>
           Self storage units can be used for all sorts of things and can be a
           real space-saver for your home.
@@ -34,7 +34,7 @@
           </li>
           <li>Hobby or craft supplies</li>
         </ul>
-        <h3 class="sub-title"><span>Self-storage for Business</span></h3>
+        <h3 class="sub-title"><span>Self storage for Business</span></h3>
         <p>
           If you run a business, you might rent a self storage unit rather than
           commit to a long commercial lease on a larger property. Our self
@@ -47,7 +47,7 @@
         <ul class="list-unstyled">
           <li>
             <strong>Moving in together:</strong> What to do with all your stuff
-            when moving in with a partner? Self-storage can help in the short
+            when moving in with a partner? Self storage can help in the short
             term while you decide.
           </li>
           <li>
@@ -56,7 +56,7 @@
           </li>
           <li>
             <strong>Downsizing:</strong> Moving into a new house can be very
-            stressful; moving into a smaller place even more so. Self-storage
+            stressful; moving into a smaller place even more so. Self storage
             can help during the period, while you decide what's really worth
             keeping.
           </li>
@@ -76,8 +76,11 @@
 .sub-title {
   margin-bottom: 2rem;
   margin-top: 2rem;
+  -webkit-background-clip: none;
+  -webkit-text-fill-color: inherit;
   span {
     position: relative;
+    background-image: none;
     &::after {
       position: absolute;
       left: 0;
@@ -86,6 +89,7 @@
       width: 80%;
       height: 3px;
       background: var(--orange-light);
+      background-image: linear-gradient(-30deg, #ffb90d, #cc0045, #009980);
     }
   }
 }
