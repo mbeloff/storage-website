@@ -6,11 +6,11 @@
   >
     <dt class="accordion-item-title">
       <div role="button" @click="toggle" class="accordion-item-trigger">
-        <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center">
           <h4 class="accordion-item-title-text">
             {{ item.title }}
           </h4>
-          <span class="fa-stack">
+          <span class="fa-stack ml-auto">
             <i class="fas fa-circle fa-stack-2x"></i>
             <i
               class="accordion-icon fas fa-chevron-right fa-stack-1x fa-inverse "

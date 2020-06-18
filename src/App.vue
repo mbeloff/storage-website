@@ -60,8 +60,8 @@ body {
 }
 
 #topnav {
-  width: 100%;
-  height: 5px;
+  // width: 100%;
+  height: 2px;
   background-image: var(--nice-gradient);
 }
 
@@ -80,6 +80,12 @@ body {
       color: var(--orange-dark);
     }
   }
+}
+
+.grad-border {
+  border-radius: 4px;
+  background-image: var(--nice-gradient);
+  padding: 1.5px 1.5px !important;
 }
 
 .gs-link {
@@ -174,14 +180,16 @@ body {
 
 .chat-icon {
   height: 20px;
+  width: 20px;
   margin-right: 0.5rem;
+  background-image: url('/src/assets/notification.svg');
 }
 
 .ico {
   max-width: 100px;
-  @media only screen and (min-width: 768px) {
-    max-width: 150px;
-  }
+  // @media only screen and (min-width: 768px) {
+  //   max-width: 100px;
+  // }
 }
 
 .more-info-panel {

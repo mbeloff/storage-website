@@ -6,7 +6,7 @@
         <div class="col-12 col-md-6">
           <img src="../assets/logo2.svg" alt="" class="footer-logo mb-2" />
           <p>
-            100 Longlands St.<br />
+            46 Deshon St.<br />
             Woolloongabba, QLD 4102 <br />
           </p>
         </div>

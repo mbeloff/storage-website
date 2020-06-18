@@ -2,9 +2,11 @@
   <div>
     <div class="home">
       <div class="container">
-        <div class="logo-box shadow-lg rounded" style="">
-          <img class="logo" alt="logo" src="../assets/logo2.svg" />
-          <!-- <h1 class="slogan text-right">unbeatable.</h1> -->
+        <div class="grad-border">
+          <div class="logo-box shadow-lg" style="">
+            <img class="logo" alt="logo" src="../assets/logo2.svg" />
+            <!-- <h1 class="slogan text-right">unbeatable.</h1> -->
+          </div>
         </div>
       </div>
     </div>
@@ -38,19 +40,31 @@ export default {
 
 <style scoped lang="scss">
 .logo {
-  /* background: white; */
+  // /* background: white; */
   padding: 1rem;
-  max-width: 90%;
+  max-width: 70%;
+}
+
+.grad-border {
+  .logo-box {
+    border-radius: 2.5px;
+  }
+  @media only screen and (max-width: 576px) {
+    border-radius: 0;
+    .logo-box {
+      border-radius: 0 !important;
+    }
+  }
 }
 
 .logo-box {
-  width: max-content;
-  /* padding: 1rem 5rem; */
-  background: rgba(255, 255, 255, 0.747);
-  max-width: 100%;
-  padding: 1rem;
+  // width: max-content;
+  // /* padding: 1rem 5rem;
+  background: rgba(255, 255, 255, 1);
+  // max-width: 100%;
+  // padding: 1rem;
   @media only screen and (max-width: 576px) {
-    width: 100%;
+    // width: 100%;
   }
 }
 

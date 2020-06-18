@@ -1,6 +1,6 @@
 <template>
   <div class="container my-5 p-0 px-md-3">
-    <h2 class="big-title ml-3 ml-sm-0 gs-link">{{ faqhead }}</h2>
+    <h2 class="big-title ml-3 ml-sm-0">{{ faqhead }}</h2>
     <dl class="accordion box" role="presentation">
       <Faqitem
         v-for="item in getQuestions"
@@ -75,13 +75,8 @@ export default {
           active: false,
           title: `How much does storage cost?`,
           details: `
-      <p>The cost depends on the size of the storage unit you require, and the rental period. <a class="text-warning" @click="show()"
-                ><img
-                  class="chat-icon"
-                  src="../assets/notification.svg"
-                  alt=""
-                />Contact us today</a
-              > to get a quote.</p>
+      <p>The cost depends on the size of the storage unit you require, and the rental period. <a class="gs-link" @click="show()"
+                ><i class="fal fa-comment-alt-lines mr-1"></i>Contact us today</a> to get a quote.</p>
     `
         },
         {
@@ -113,9 +108,7 @@ export default {
           id: 8,
           active: false,
           title: `What payment methods are available?`,
-          details: `
-      <p>You can pay via direct debit as well as credit/debit card.</p>
-    `
+          details: `<p>You can pay via direct debit as well as credit/debit card.</p>`
         },
         {
           id: 9,
@@ -202,14 +195,14 @@ $red: #cc4b37;
 
 .accordion-item-trigger,
 .accordion-item-details-inner {
-  padding: 0.75rem 1.25rem;
+  padding: 0.75rem 1rem;
 }
 
 .accordion-item-title {
   position: relative;
 
   h4 {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     margin-bottom: 0;
     // padding-right: 1.25rem;
   }
@@ -218,7 +211,7 @@ $red: #cc4b37;
 .accordion-item-trigger {
   width: 100%;
   text-align: left;
-  background-color: transparent;
+  // background-color: transparent;
   border: none;
 }
 
@@ -250,7 +243,6 @@ $red: #cc4b37;
   margin: 0;
   p {
     margin-bottom: 0;
-    padding: 1rem;
   }
 }
 

@@ -87,9 +87,9 @@
       bottom: -1rem;
       content: '';
       width: 80%;
-      height: 3px;
+      height: 1px;
       background: var(--orange-light);
-      background-image: linear-gradient(-30deg, #ffb90d, #cc0045, #009980);
+      background-image: var(--nice-gradient);
     }
   }
 }

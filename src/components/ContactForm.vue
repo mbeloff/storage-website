@@ -7,6 +7,7 @@
     <form
       name="ask-question"
       method="post"
+      id="contact-form"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
     >
@@ -15,29 +16,20 @@
       <br />
       <input type="hidden" name="form-name" value="ask-question" />
       <div class="row">
-        <div class="col-md-6 form-group">
-          <label class="">First Name</label>
+        <div class="col-md-12 form-group">
+          <label class="">Hi, my name is</label>
           <input
             class="form-control"
             type="text"
             placeholder="John"
-            name="firstname"
-          />
-        </div>
-        <div class="col-md-6 form-group">
-          <label class="">Last Name</label>
-          <input
-            class="form-control"
-            type="text"
-            placeholder="Doe"
-            name="lastname"
+            name="Customer Name"
           />
         </div>
       </div>
 
       <div class="row">
         <div class="col-md-6 form-group">
-          <label class="">Phone</label>
+          <label class="">Call me back on</label>
           <input
             class="form-control"
             type="tel"
@@ -47,7 +39,7 @@
         </div>
 
         <div class="col-md-6 form-group">
-          <label class="">Email</label>
+          <label class="">Or email me at</label>
           <input
             class="form-control"
             type="email"
@@ -58,25 +50,6 @@
       </div>
 
       <div class="row">
-        <div class="col-md-6 form-group">
-          <label class="">Estimated Storage Period</label>
-          <select
-            class="form-control"
-            name="Storage Period"
-            aria-required="false"
-            aria-invalid="false"
-            value=""
-          >
-            <option value="" disabled="disabled" selected="selected">-</option>
-            <option value="Unknown">Unknown</option>
-            <option value="1-3 Months">1-3 Months</option>
-            <option value="3-6 Months">3-6 Months</option>
-            <option value="6-12 Months">6-12 Months</option>
-            <option value="1+ Year">1+ Year</option>
-            <option value="2+ Years">2+ Years</option>
-            <option value="3+ Years">3+ Years</option>
-          </select>
-        </div>
         <div class="col-md-6 form-group">
           <label class="">I'm enquiring about...</label>
           <select
@@ -94,11 +67,30 @@
             <option value="Unknown">Other</option>
           </select>
         </div>
+        <div class="col-md-6 form-group">
+          <label class="">Estimated Storage Period</label>
+          <select
+            class="form-control"
+            name="Storage Period"
+            aria-required="false"
+            aria-invalid="false"
+            value=""
+          >
+            <option value="" disabled="disabled" selected="selected">-</option>
+            <option value="Unknown">Unknown / Not Applicable</option>
+            <option value="1-3 Months">1-3 Months</option>
+            <option value="3-6 Months">3-6 Months</option>
+            <option value="6-12 Months">6-12 Months</option>
+            <option value="1+ Year">1+ Year</option>
+            <option value="2+ Years">2+ Years</option>
+            <option value="3+ Years">3+ Years</option>
+          </select>
+        </div>
       </div>
 
       <div class="row">
         <div class="col-md-12 form-group g-mb-40">
-          <label class="">How can we help you?</label>
+          <label class="">Now, how can we help you?</label>
           <textarea
             class="form-control"
             rows="4"
@@ -110,9 +102,9 @@
 
       <div class="text-center">
         <!-- <div> -->
-        <button class="btn text-uppercase">
+        <a class="btn btn-submit text-uppercase" @click="submit()">
           <i class="fa fa-paper-plane g-px-5"></i>&nbsp;Submit
-        </button>
+        </a>
         <!-- </div> -->
       </div>
     </form>
@@ -124,6 +116,9 @@ export default {
   methods: {
     hide() {
       this.$modal.hide('contact-modal')
+    },
+    submit() {
+      document.getElementById('contact-form').submit()
     }
   }
 }
@@ -141,11 +136,23 @@ select::placeholder {
   color: #808a94;
 }
 
-.btn {
+.btn-submit {
   color: white;
   background: var(--orange-dark);
   border: var(--orange-dark) 0.5px solid;
   border-radius: 20px;
   font-weight: 100;
+  &:hover {
+    background: linear-gradient(to right, #ffb90d, #cc0045, #009980, #ffb90d);
+    background-size: 200% 200%;
+    font-weight: 400;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: AnimationName 5s linear infinite;
+    // animation-fill-mode: forwards;
+    // animation-direction: normal;
+    -moz-animation: AnimationName 5s linear infinite;
+    animation: AnimationName 5s linear infinite;
+  }
 }
 </style>

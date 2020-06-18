@@ -23,7 +23,7 @@
         >
       </div>
       <div class="col-12 col-md-4 offset-md-1 text-center my-auto order-md-2">
-        <img src="../assets/warehouse.svg" alt="" class="img-fluid ico" />
+        <img src="../assets/warehouse.svg" alt="" class=" ico" />
       </div>
       <div
         class="col-12 order-last more-info-panel collapse"
@@ -43,11 +43,7 @@
         </p>
         <p>
           <a class="gs-link" href="javascript:void(0);" @click="show()"
-            ><img
-              class="chat-icon"
-              src="../assets/notification.svg"
-              alt=""
-            />Send us a message</a
+            ><i class="fal fa-comment-alt-lines mr-1"></i>Send us a message</a
           >
           to enquire
         </p>
@@ -56,7 +52,7 @@
     <hr class="my-5" />
     <div class="row">
       <div class="col-12 col-md-4 text-center my-auto">
-        <img src="../assets/truck.svg" alt="" class="img-fluid ico" />
+        <img src="../assets/truck.svg" alt="" class="ico" />
       </div>
       <div class="col-12 col-md-7 offset-md-1 text-left">
         <p class="big-title">Mobile storage units.</p>
@@ -87,25 +83,22 @@
           <div class="col-12 col-md-8">
             <p>
               Storage boxes delivered anywhere in Brisbane area. Take as long as
-              you like to pack and then we collect to securely store at our
+              you like to pack and then we collect to store securely at our
               facility.
             </p>
             <p>
               <a class="gs-link" href="javascript:void(0);" @click="show()"
-                ><img
-                  class="chat-icon"
-                  src="../assets/notification.svg"
-                  alt=""
-                />Send us a message</a
+                ><i class="fal fa-comment-alt-lines mr-1"></i>Send us a
+                message</a
               >
               to enquire.
             </p>
           </div>
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-md-4 grad-border">
             <img
               src="../assets/map-circle.jpg"
               alt=""
-              class="img-fluid hover-grow orange-border orange-shadow"
+              class="img-fluid hover-grow"
             />
           </div>
         </div>
@@ -137,21 +130,21 @@
         >
       </div>
       <div class="col-12 col-md-4 offset-md-1 text-center my-auto order-md-2">
-        <img src="../assets/mechanic.svg" alt="" class="img-fluid ico" />
+        <img src="../assets/mechanic.svg" alt="" class="ico" />
       </div>
       <div
         class="col-12 order-last more-info-panel collapse"
         id="workshop"
         data-parent="#home-accordian"
       >
-        <div class="row p-3">
-          <div class="col-12 col-md-5 orange-border orange-shadow p-0">
+        <div class="row p-3" style="min-height: 300px;">
+          <div class="col-12 col-md-5 grad-border">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14157.252574725757!2d153.03862873985938!3d-27.49063514184493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a40d36cffed%3A0x2a3a64161ccbff82!2s100%20Longlands%20St%2C%20Woolloongabba%20QLD%204102!5e0!3m2!1sen!2sau!4v1591763927300!5m2!1sen!2sau"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d884.8164807353247!2d153.0438404041454!3d-27.49210414385597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a40d601f611%3A0x22ece874c941c1b!2s46%20Deshon%20St%2C%20Woolloongabba%20QLD%204102!5e0!3m2!1sen!2sau!4v1592441935490!5m2!1sen!2sau"
               width="100%"
               height="100%"
               frameborder="0"
-              style="border:0;border-radius: 2rem;"
+              style="border:0;border-radius: 4px;"
               allowfullscreen=""
               aria-hidden="false"
               tabindex="0"
@@ -163,12 +156,12 @@
               Woolloongabba location. No fixed terms, pay week to week.
             </p>
             <p>
-              <a class="gs-link" href="javascript:void(0);" @click="show()"
-                ><img
-                  class="chat-icon"
-                  src="../assets/notification.svg"
-                  alt=""
-                />Send us a message</a
+              <a
+                class="gs-link"
+                href="javascript:void(0);"
+                @click="show()"
+                ><i class="fal fa-comment-alt-lines mr-1"></i>Send us a
+                message</a
               >
               to enquire.
             </p>
