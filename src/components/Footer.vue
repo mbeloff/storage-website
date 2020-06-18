@@ -23,7 +23,9 @@
           <b>Information</b>
           <ul class="list-unstyled">
             <li>
-              <a class="gs-link" href="./faq">Frequently Asked Questions</a>
+              <router-link class="gs-link" to="/faq"
+                >Frequently Asked Questions</router-link
+              >
             </li>
             <base-open-modal>Send us a message</base-open-modal>
           </ul>

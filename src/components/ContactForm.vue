@@ -64,7 +64,7 @@
             <option value="on-site storage">On-site storage</option>
             <option value="mobile storage unit">Mobile Storage</option>
             <option value="workshop space">Workshop Space</option>
-            <option value="Unknown">Other</option>
+            <option value="Unknown">Something Else</option>
           </select>
         </div>
         <div class="col-md-6 form-group">

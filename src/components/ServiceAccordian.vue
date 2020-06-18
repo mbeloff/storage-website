@@ -33,8 +33,8 @@
         <p>
           Gabba Storage has cost-effective self storage solutions in convenient
           Woolloongabba location. Whether you're decluttering, renovating,
-          moving house or looking for a secure off-site location for documents
-          or valuables, we've got you covered.
+          moving house or looking for a secure off-site location for business
+          archives or excess stock, we've got you covered.
         </p>
         <p>
           You'll be free to access your items whenever you like during opening

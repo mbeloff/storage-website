@@ -5,7 +5,7 @@
     :class="{ 'is-active': item.active }"
   >
     <dt class="accordion-item-title">
-      <div role="button" @click="toggle" class="accordion-item-trigger">
+      <div role="button" @click="toggle" class="accordion-item-trigger pr-1">
         <div class="d-flex align-items-center">
           <h4 class="accordion-item-title-text">
             {{ item.title }}
