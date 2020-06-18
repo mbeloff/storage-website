@@ -7,9 +7,7 @@
     ></Faq>
     <p>
       If you can't find the answer to your questions here, please
-      <a class="gs-link" href="javascript:void(0);" @click="show()"
-        ><i class="fal fa-comment-alt-lines mr-1"></i>Send us a message</a
-      >
+      <base-open-modal>send us a message</base-open-modal>
       and we'll get get back to you as soon as possible.
     </p>
   </div>

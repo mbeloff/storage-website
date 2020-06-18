@@ -42,9 +42,7 @@
           the only keyholder, so your goods remain secure.
         </p>
         <p>
-          <a class="gs-link" href="javascript:void(0);" @click="show()"
-            ><i class="fal fa-comment-alt-lines mr-1"></i>Send us a message</a
-          >
+          <base-open-modal>Send us a message</base-open-modal>
           to enquire
         </p>
       </div>
@@ -87,10 +85,7 @@
               facility.
             </p>
             <p>
-              <a class="gs-link" href="javascript:void(0);" @click="show()"
-                ><i class="fal fa-comment-alt-lines mr-1"></i>Send us a
-                message</a
-              >
+              <base-open-modal>Send us a message</base-open-modal>
               to enquire.
             </p>
           </div>
@@ -156,13 +151,7 @@
               Woolloongabba location. No fixed terms, pay week to week.
             </p>
             <p>
-              <a
-                class="gs-link"
-                href="javascript:void(0);"
-                @click="show()"
-                ><i class="fal fa-comment-alt-lines mr-1"></i>Send us a
-                message</a
-              >
+              <base-open-modal>Send us a message</base-open-modal>
               to enquire.
             </p>
           </div>
@@ -186,9 +175,6 @@ export default {
       } else {
         this.selectedType = type
       }
-    },
-    show() {
-      this.$modal.show('contact-modal')
     }
   }
 }

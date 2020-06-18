@@ -20,14 +20,12 @@
           </ul> -->
         </div>
         <div class="col-6 col-md-3">
-          <b>Contact</b>
+          <b>Information</b>
           <ul class="list-unstyled">
             <li>
               <a class="gs-link" href="./faq">Frequently Asked Questions</a>
             </li>
-            <a class="gs-link" href="javascript:void(0);" @click="show()"
-              >Make an Enquiry</a
-            >
+            <base-open-modal>Send us a message</base-open-modal>
           </ul>
         </div>
       </div>
@@ -38,13 +36,7 @@
 </template>
 
 <script>
-export default {
-  methods: {
-    show() {
-      this.$modal.show('contact-modal')
-    }
-  }
-}
+export default {}
 </script>
 
 <style scoped lang="scss">
