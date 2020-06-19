@@ -72,15 +72,25 @@ export default {
                 text: 'FAQ',
                 path: './faq'
               },
+
               {
                 type: 'link',
                 text: 'Where to find us',
                 path: './location'
               },
               {
+                type: 'link',
+                text: 'Pricing',
+                path: './pricing'
+              },
+              {
+                type: 'hr'
+              },
+              {
                 isLinkAction: true,
                 type: 'link',
-                text: 'Make an enquiry'
+                text: 'Make an enquiry',
+                iconLeft: '<i class="fal fa-comment-alt-lines fa-fw"></i>'
                 // path: "./accounting"
               }
               // {

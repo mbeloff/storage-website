@@ -1,6 +1,6 @@
 <template>
-  <div class="p-3">
-    <h1 class="big-title" style="font-size: 3rem;">
+  <div id="contact-form" class="p-3">
+    <h1 class="big-title">
       Contact Us<i class="fa fa-times float-right" @click="hide()"></i>
     </h1>
 
@@ -18,40 +18,45 @@
       <div class="row">
         <div class="col-md-12 form-group">
           <label class="">Hi, my name is</label>
+
           <input
             class="form-control"
             type="text"
-            placeholder="John"
+            placeholder="Mr Smith"
             name="Customer Name"
           />
+          <i class="form-icon fas fa-user"></i>
         </div>
       </div>
 
       <div class="row">
         <div class="col-md-6 form-group">
           <label class="">Call me back on</label>
+
           <input
             class="form-control"
             type="tel"
             placeholder="0412 345 678"
             name="Contact Number"
-          />
+          /><i class="form-icon fas fa-phone-rotary"></i>
         </div>
 
         <div class="col-md-6 form-group">
           <label class="">Or email me at</label>
+
           <input
             class="form-control"
             type="email"
-            placeholder="johndoe@gmail.com"
+            placeholder="mrsmith@gmail.com"
             name="Email"
-          />
+          /><i class="form-icon fas fa-envelope"></i>
         </div>
       </div>
 
       <div class="row">
         <div class="col-md-6 form-group">
           <label class="">I'm enquiring about...</label>
+
           <select
             class="form-control"
             name="Enquiring About"
@@ -64,11 +69,12 @@
             <option value="on-site storage">On-site storage</option>
             <option value="mobile storage unit">Mobile Storage</option>
             <option value="workshop space">Workshop Space</option>
-            <option value="Unknown">Something Else</option>
-          </select>
+            <option value="Unknown">Something Else</option> </select
+          ><i class="form-icon fas fa-list"></i>
         </div>
         <div class="col-md-6 form-group">
           <label class="">Estimated Storage Period</label>
+
           <select
             class="form-control"
             name="Storage Period"
@@ -83,20 +89,22 @@
             <option value="6-12 Months">6-12 Months</option>
             <option value="1+ Year">1+ Year</option>
             <option value="2+ Years">2+ Years</option>
-            <option value="3+ Years">3+ Years</option>
-          </select>
+            <option value="3+ Years">3+ Years</option> </select
+          ><i class="form-icon far fa-calendar"></i>
         </div>
       </div>
 
       <div class="row">
         <div class="col-md-12 form-group g-mb-40">
           <label class="">Now, how can we help you?</label>
+
           <textarea
             class="form-control"
             rows="4"
             placeholder="Hi there, I want to know ..."
             name="Customer Says"
-          ></textarea>
+          ></textarea
+          ><i class="form-icon fas fa-comment-alt-lines"></i>
         </div>
       </div>
 
@@ -154,5 +162,23 @@ select::placeholder {
     -moz-animation: AnimationName 5s linear infinite;
     animation: AnimationName 5s linear infinite;
   }
+}
+
+.form-control {
+  padding-left: 2rem;
+}
+
+.form-icon {
+  position: absolute;
+  left: 1.5rem;
+  top: 2.5rem;
+  // margin-bottom: 10px;
+  color: rgb(255, 72, 0);
+  transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.74, 2.66);
+}
+
+.form-control:focus + .form-icon {
+  transform: scale(1.5);
+  color: rgb(255, 0, 76);
 }
 </style>

@@ -17,7 +17,7 @@
     >
       <ContactForm></ContactForm>
     </modal>
-    <router-view />
+    <router-view style="min-height: 60vh" />
     <Footer></Footer>
   </div>
 </template>
@@ -194,5 +194,19 @@ body {
 
 .more-info-panel {
   font-size: 1rem;
+}
+
+.underline {
+  position: relative;
+  &::after {
+    position: absolute;
+    left: 0;
+    bottom: -1rem;
+    content: '';
+    width: 80%;
+    height: 1px;
+    background: var(--orange-light);
+    background-image: var(--nice-gradient);
+  }
 }
 </style>

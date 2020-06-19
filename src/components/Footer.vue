@@ -27,7 +27,7 @@
                 >Frequently Asked Questions</router-link
               >
             </li>
-            <base-open-modal>Send us a message</base-open-modal>
+            <open-modal>Send us a message</open-modal>
           </ul>
         </div>
       </div>

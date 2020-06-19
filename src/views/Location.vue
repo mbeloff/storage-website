@@ -13,18 +13,51 @@
       ></iframe>
     </div>
     <div class="container">
-      <h1 class="big-title">Where to Find Us</h1>
-      <h3 class="sub-title">Convenient Brisbane Location</h3>
-      <p>
-        46 Deshon St,<br />Woolloongabba 4102 <br />
-        QLD, Australia
-      </p>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <h1 class="big-title">Where to Find Us</h1>
+          <div class="row">
+            <div class="col-6 col-md-12">
+              <h3 class="sub-title">Convenient Brisbane Location</h3>
+              <p>
+                46 Deshon St,<br />Woolloongabba 4102 <br />
+                QLD, Australia
+              </p>
+            </div>
+
+            <div class="col-6 col-md-12">
+              <div>
+                <p class="mb-0"><strong>Monday to Friday</strong></p>
+                <p>9am – 4pm</p>
+              </div>
+              <div>
+                <p class="mb-0"><strong>Saturday</strong></p>
+                <p>9am – 12pm</p>
+              </div>
+              <div>
+                <p class="mb-0"><strong>Sunday</strong></p>
+                <p>-</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-8">
+          <contact-form></contact-form>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+import ContactForm from '@/components/ContactForm.vue'
+export default {
+  components: { ContactForm }
+}
 </script>
 
-<style></style>
+<style scoped lang="scss">
+#contact-form {
+  padding: 0 0 0 0 !important;
+}
+</style>

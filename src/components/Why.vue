@@ -11,7 +11,9 @@
           unit is low in comparison to the cost of extra rent or mortgage
           payments on a larger property.
         </p>
-        <h3 class="sub-title"><span>Self storage for households</span></h3>
+        <h3 class="sub-title">
+          <span class="underline">Self storage for households</span>
+        </h3>
         <p>
           Self storage units can be used for all sorts of things and can be a
           real space-saver for your home.
@@ -34,7 +36,9 @@
           </li>
           <li>Hobby or craft supplies</li>
         </ul>
-        <h3 class="sub-title"><span>Self storage for Business</span></h3>
+        <h3 class="sub-title">
+          <span class="underline">Self storage for Business</span>
+        </h3>
         <p>
           If you run a business, you might rent a self storage unit rather than
           commit to a long commercial lease on a larger property. Our self
@@ -43,7 +47,9 @@
           flexible alternative to traditional warehousing. You can store excess
           stock, tools, equipment or archives.
         </p>
-        <h3 class="sub-title"><span>Life Event Storage</span></h3>
+        <h3 class="sub-title">
+          <span class="underline">Life Event Storage</span>
+        </h3>
         <ul class="list-unstyled">
           <li>
             <strong>Moving in together:</strong> What to do with all your stuff
@@ -76,22 +82,6 @@
 .sub-title {
   margin-bottom: 2rem;
   margin-top: 2rem;
-  -webkit-background-clip: none;
-  -webkit-text-fill-color: inherit;
-  span {
-    position: relative;
-    background-image: none;
-    &::after {
-      position: absolute;
-      left: 0;
-      bottom: -1rem;
-      content: '';
-      width: 80%;
-      height: 1px;
-      background: var(--orange-light);
-      background-image: var(--nice-gradient);
-    }
-  }
 }
 
 p {

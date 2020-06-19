@@ -10,7 +10,7 @@
         </div>
       </div>
     </div>
-    <ServiceAccordian></ServiceAccordian>
+    <service-accordion></service-accordion>
     <Why></Why>
     <Faq
       id="accordion-example-1"
@@ -23,13 +23,13 @@
 <script>
 // @ is an alias to /src
 import Why from '@/components/Why.vue'
-import ServiceAccordian from '@/components/ServiceAccordian.vue'
+import ServiceAccordion from '@/components/ServiceAccordion.vue'
 import Faq from '@/components/Faq.vue'
 export default {
   name: 'Home',
   components: {
     Why,
-    ServiceAccordian,
+    ServiceAccordion,
     Faq
   },
   data() {
