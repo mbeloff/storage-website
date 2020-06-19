@@ -134,8 +134,8 @@ export default {
 
 <style lang="scss" scoped>
 label {
-  font-size: 0.8rem;
-  color: var(--orange-dark);
+  font-size: 1rem;
+  color: var(--orange-light);
 }
 
 textarea::placeholder,
@@ -171,7 +171,7 @@ select::placeholder {
 .form-icon {
   position: absolute;
   left: 1.5rem;
-  top: 2.5rem;
+  top: 2.7rem;
   // margin-bottom: 10px;
   color: rgb(255, 72, 0);
   transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.74, 2.66);

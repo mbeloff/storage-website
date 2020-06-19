@@ -44,8 +44,9 @@ export default {
 
 body {
   margin: 0 0 0 0;
-  --orange-light: #ffa24b;
-  --orange-dark: #ff5e00;
+  --orange-light: #ff5c1c;
+  --orange-dark: #ff1e00;
+  --orange: #ff7300;
   --orange-shadow: 0px 1px 10px rgba(255, 102, 0, 0.315);
   --orange-shadow-hover: 0px 5px 15px rgba(236, 94, 0, 0.466);
   --nice-gradient: linear-gradient(-30deg, #ffb90d, #cc0045, #009980);
@@ -147,7 +148,7 @@ body {
 .big-title {
   font-family: var(--serif);
   font-weight: 400;
-  color: rgb(255, 115, 0);
+  color: var(--orange);
   font-size: 2rem;
   margin-bottom: 1rem;
   line-height: 1.3;
