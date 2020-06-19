@@ -60,6 +60,10 @@ body {
   color: #2c3e50;
 }
 
+.fa-comment-alt-lines {
+  color: var(--orange-dark)
+}
+
 #topnav {
   // width: 100%;
   height: 2px;

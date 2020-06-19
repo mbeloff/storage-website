@@ -22,10 +22,10 @@
           <input
             class="form-control"
             type="text"
-            placeholder="Mr Smith"
+            placeholder=""
             name="Customer Name"
           />
-          <i class="form-icon fas fa-user"></i>
+          <i class="form-icon fal fa-user"></i>
         </div>
       </div>
 
@@ -36,9 +36,9 @@
           <input
             class="form-control"
             type="tel"
-            placeholder="0412 345 678"
+            placeholder=""
             name="Contact Number"
-          /><i class="form-icon fas fa-phone-rotary"></i>
+          /><i class="form-icon fal fa-phone-rotary"></i>
         </div>
 
         <div class="col-md-6 form-group">
@@ -47,9 +47,9 @@
           <input
             class="form-control"
             type="email"
-            placeholder="mrsmith@gmail.com"
+            placeholder=""
             name="Email"
-          /><i class="form-icon fas fa-envelope"></i>
+          /><i class="form-icon fal fa-envelope"></i>
         </div>
       </div>
 
@@ -70,7 +70,7 @@
             <option value="mobile storage unit">Mobile Storage</option>
             <option value="workshop space">Workshop Space</option>
             <option value="Unknown">Something Else</option> </select
-          ><i class="form-icon fas fa-list"></i>
+          ><i class="form-icon fal fa-list"></i>
         </div>
         <div class="col-md-6 form-group">
           <label class="">Estimated Storage Period</label>
@@ -90,7 +90,7 @@
             <option value="1+ Year">1+ Year</option>
             <option value="2+ Years">2+ Years</option>
             <option value="3+ Years">3+ Years</option> </select
-          ><i class="form-icon far fa-calendar"></i>
+          ><i class="form-icon fal fa-calendar"></i>
         </div>
       </div>
 
@@ -104,7 +104,7 @@
             placeholder="Hi there, I want to know ..."
             name="Customer Says"
           ></textarea
-          ><i class="form-icon fas fa-comment-alt-lines"></i>
+          ><i class="form-icon fal fa-comment-alt-lines"></i>
         </div>
       </div>
 
@@ -142,6 +142,7 @@ textarea::placeholder,
 input::placeholder,
 select::placeholder {
   color: #808a94;
+  font-weight: 100;
 }
 
 .btn-submit {

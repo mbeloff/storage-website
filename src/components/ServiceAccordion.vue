@@ -18,7 +18,7 @@
           aria-expanded="true"
           aria-controls="personal"
           ><i
-            class="fa fa-long-arrow-right fa-fw mr-2"
+            class="fal fa-long-arrow-right fa-fw mr-2"
             :class="{ active: selectedType == 'personal' }"
           ></i
           >More Info</a
@@ -73,7 +73,7 @@
           aria-expanded="true"
           aria-controls="portable"
           ><i
-            class="fa fa-long-arrow-right fa-fw mr-2"
+            class="fal fa-long-arrow-right fa-fw mr-2"
             :class="{ active: selectedType == 'portable' }"
           ></i
           >More Info</a
@@ -125,7 +125,7 @@
           aria-expanded="true"
           aria-controls="workshop"
           ><i
-            class="fa fa-long-arrow-right fa-fw mr-2"
+            class="fal fa-long-arrow-right fa-fw mr-2"
             :class="{ active: selectedType == 'workshop' }"
           ></i
           >More Info</a
