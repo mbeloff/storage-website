@@ -1,5 +1,5 @@
 <template>
-  <div class="px-4 py-2">
+  <div class="px-4 py-2 navi">
     <router-link to="/" class="float-left">
       <img src="../assets/logo-sm.svg" alt="" class="nav-logo " />
     </router-link>
@@ -140,6 +140,10 @@ export default {
 </script>
 
 <style lang="scss">
+.navi {
+  box-shadow: 0px 7px 15px #3a150013;
+  position: relative;
+}
 .nav-logo {
   height: 50px;
   width: 50px;

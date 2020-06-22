@@ -1,5 +1,5 @@
 <template>
-  <div id="contact-form" class="p-3">
+  <div class="p-3">
     <h1 class="big-title">
       Contact Us<i class="fa fa-times float-right" @click="hide()"></i>
     </h1>
@@ -110,7 +110,7 @@
 
       <div class="text-center">
         <!-- <div> -->
-        <a class="btn btn-submit text-uppercase" @click="submit()">
+        <a class="btn btn-submit text-uppercase" @click="submitAction()">
           <i class="fa fa-paper-plane g-px-5"></i>&nbsp;Submit
         </a>
         <!-- </div> -->
@@ -125,7 +125,7 @@ export default {
     hide() {
       this.$modal.hide('contact-modal')
     },
-    submit() {
+    submitAction() {
       document.getElementById('contact-form').submit()
     }
   }
@@ -154,6 +154,7 @@ select::placeholder {
   &:hover {
     background: linear-gradient(to right, #ffb90d, #cc0045, #009980, #ffb90d);
     background-size: 200% 200%;
+    box-shadow: 0px 2px 6px 1px #ff11001f;
     font-weight: 400;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

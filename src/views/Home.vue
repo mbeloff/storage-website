@@ -40,7 +40,6 @@ export default {
 
 <style scoped lang="scss">
 .logo {
-  // /* background: white; */
   padding: 1rem;
   max-width: 75vw;
 }
@@ -59,20 +58,19 @@ export default {
 }
 
 .logo-box {
-  // width: max-content;
   background: rgba(255, 255, 255, 1);
   max-width: 100%;
   padding: 1rem;
   @media only screen and (max-width: 576px) {
-    // width: 100%;
   }
 }
 
 .home {
+  // background-image: url(../assets/banner2.jpg);
   background-image: url(../assets/banner2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 75% 25%;
+  background-position: 25% 45%;
   .container {
     padding: 5rem 0;
   }
