@@ -23,7 +23,17 @@ const routes = [
       import(/* webpackChunkName: "about" */ '../views/Services.vue')
   },
   { path: '/faq', name: 'faq', component: FaqPage },
-  { path: '/location', name: 'location', component: Location },
+  {
+    path: '/location',
+    name: 'Location',
+    props: true,
+    component: function() {
+      return import(
+        /* webpackChunkName: "Vehicles" */
+        '../views/Location.vue'
+      )
+    }
+  }
   {
     path: '/pricing',
     name: 'Pricing',
