@@ -41,8 +41,11 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-8">
-          <contact-form></contact-form>
+        <div class="col-12 col-md-7 offset-md-1">
+          <h1 class="big-title">
+            Contact Us
+          </h1>
+          <Form></Form>
         </div>
       </div>
     </div>
@@ -50,9 +53,9 @@
 </template>
 
 <script>
-import ContactForm from '@/components/ContactForm.vue'
+import Form from '@/components/Form.vue'
 export default {
-  components: { ContactForm }
+  components: { Form }
 }
 </script>
 
