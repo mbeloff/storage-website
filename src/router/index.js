@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import FaqPage from '../views/FaqPage.vue'
 import Location from '../views/Location.vue'
 import Pricing from '../views/Pricing.vue'
+import NotFound from '../views/NotFound.vue'
 
 Vue.use(VueRouter)
 
@@ -26,18 +27,16 @@ const routes = [
   {
     path: '/location',
     name: 'Location',
-    props: true,
-    component: function() {
-      return import(
-        /* webpackChunkName: "Vehicles" */
-        '../views/Location.vue'
-      )
-    }
-  }
+    component: Location
+  },
   {
     path: '/pricing',
     name: 'Pricing',
     component: Pricing
+  },
+  {
+    path: '/*',
+    component: NotFound
   }
 ]
 
