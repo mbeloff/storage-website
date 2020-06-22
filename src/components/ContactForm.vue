@@ -24,6 +24,7 @@
             type="text"
             placeholder=""
             name="Customer Name"
+            required
           />
           <i class="form-icon fal fa-user"></i>
         </div>
@@ -103,6 +104,7 @@
             rows="4"
             placeholder="Hi there, I want to know ..."
             name="Customer Says"
+            required
           ></textarea
           ><i class="form-icon fal fa-comment-alt-lines"></i>
         </div>
