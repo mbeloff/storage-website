@@ -42,10 +42,11 @@ export default {
 .logo {
   // /* background: white; */
   padding: 1rem;
-  max-width: 70%;
+  max-width: 75vw;
 }
 
 .grad-border {
+  width: max-content;
   .logo-box {
     border-radius: 2.5px;
   }
@@ -59,10 +60,9 @@ export default {
 
 .logo-box {
   // width: max-content;
-  // /* padding: 1rem 5rem;
   background: rgba(255, 255, 255, 1);
-  // max-width: 100%;
-  // padding: 1rem;
+  max-width: 100%;
+  padding: 1rem;
   @media only screen and (max-width: 576px) {
     // width: 100%;
   }
