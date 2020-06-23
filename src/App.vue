@@ -57,34 +57,16 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  color: #465767;
+}
+
+a:not([href]) {
+  /* Styles for anchors without href */
+  cursor: pointer;
 }
 
 .fa-comment-alt-lines {
   color: var(--orange-dark);
-}
-
-#topnav {
-  // width: 100%;
-  height: 2px;
-  background-image: var(--nice-gradient);
-}
-
-#nav {
-  text-align: left;
-  padding: 30px;
-  background: white;
-
-  a {
-    // font-weight: bold;
-    color: #2c3e50;
-    text-decoration: none;
-    // margin-right: 2rem;
-
-    &.router-link-exact-active {
-      color: var(--orange-dark);
-    }
-  }
 }
 
 .grad-border {
@@ -206,9 +188,9 @@ body {
   &::after {
     position: absolute;
     left: 0;
-    bottom: -1rem;
+    bottom: -1.2rem;
+    width: 75%;
     content: '';
-    width: 80%;
     height: 1px;
     background: var(--orange-light);
     background-image: var(--nice-gradient);

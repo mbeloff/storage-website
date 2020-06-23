@@ -148,4 +148,32 @@ export default {
   height: 50px;
   width: 50px;
 }
+
+.vnb__sub-menu-options__option__link:hover {
+  border-left: 2px solid var(--orange-light);
+}
+
+#topnav {
+  // width: 100%;
+  height: 2px;
+  background-image: var(--nice-gradient);
+}
+
+#nav {
+  text-align: left;
+  padding: 30px;
+  background: white;
+
+  a {
+    // font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
+    // margin-right: 2rem;
+
+    &.router-link-exact-active {
+      color: var(--orange-light);
+      background: #f3f3f3;
+    }
+  }
+}
 </style>

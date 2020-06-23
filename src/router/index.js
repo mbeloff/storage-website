@@ -5,6 +5,7 @@ import FaqPage from '../views/FaqPage.vue'
 import Location from '../views/Location.vue'
 import Pricing from '../views/Pricing.vue'
 import NotFound from '../views/NotFound.vue'
+import Success from '../views/Success.vue'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ const routes = [
     path: '/pricing',
     name: 'Pricing',
     component: Pricing
+  },
+  {
+    path: '/success',
+    name: 'Success',
+    component: Success
   },
   {
     path: '/*',

@@ -75,8 +75,7 @@ export default {
           active: false,
           title: `How much does storage cost?`,
           details: `
-      <p>The cost depends on the size of the storage unit you require, and the rental period. <a class="gs-link" @click="show()"
-                ><i class="fal fa-comment-alt-lines mr-1"></i>Contact us today</a> to get a quote.</p>
+      <p>The cost depends on the size of the storage unit you require, and the rental period. <open-modal>Contact us</open-modal> to get a quote.</p>
     `
         },
         {

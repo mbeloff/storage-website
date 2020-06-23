@@ -1,10 +1,10 @@
 <template>
   <div class="container d-flex">
     <div class="h-100 my-auto">
-      <h1 class="mb-3">oops :/</h1>
+      <h1 class="mb-3">message recieved :)</h1>
       <h3 class="underline mb-5 font-weight-light">
-        The page you're looking for in missing, <br />
-        or under construction
+        thanks for reaching out. we'll get back to you <br />
+        as soon as we can.
       </h3>
       <a
         class="my-5 ml-4 font-weight-light gs-link"
@@ -20,4 +20,4 @@
 export default {}
 </script>
 
-<style></style>
+<style scoped lang="scss"></style>

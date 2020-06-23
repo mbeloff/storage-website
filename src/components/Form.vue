@@ -4,6 +4,7 @@
       name="ask-question"
       method="post"
       id="contact-form"
+      action="/success"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
     >
@@ -109,7 +110,7 @@
       <div class="text-center">
         <!-- <div> -->
         <button type="submit" class="btn btn-submit text-uppercase">
-          <i class="fa fa-paper-plane mr-1"></i> Submit
+          <i class="fa fa-paper-plane mr-1 d-inlines"></i> Submit
         </button>
         <!-- <a class="btn btn-submit text-uppercase" @click="submitAction()">
           <i class="fa fa-paper-plane g-px-5"></i>&nbsp;Submit
