@@ -1,6 +1,6 @@
 <template>
-  <div class="px-4 py-2 navi">
-    <router-link to="/" class="float-left">
+  <div class="px-4 py-0 navi">
+    <router-link to="/" class="float-left logo-link">
       <img src="../assets/logo-sm.svg" alt="" class="nav-logo " />
     </router-link>
     <vue-navigation-bar
@@ -65,7 +65,7 @@ export default {
           },
           {
             type: 'link',
-            text: 'Contact',
+            text: 'About',
             subMenuOptions: [
               {
                 type: 'link',
@@ -82,44 +82,20 @@ export default {
                 type: 'link',
                 text: 'Pricing',
                 path: './pricing'
-              },
-              {
-                type: 'hr'
-              },
-              {
-                isLinkAction: true,
-                type: 'link',
-                text: 'Make an enquiry',
-                iconLeft: '<i class="fal fa-comment-alt-lines fa-fw"></i>'
-                // path: "./accounting"
               }
-              // {
-              //   type: "hr"
-              // }
-              // {
-              //   type: "link",
-              //   text: "1800 24 68 69",
-              //   path: "./reception",
-              //   iconLeft: '<i class="fa fa-phone-rotary fa-fw"></i>'
-              // }
             ]
           }
+        ],
+        menuOptionsRight: [
+          {
+            isLinkAction: true,
+            type: 'button',
+            text: 'Make an enquiry',
+            iconLeft: '<i class="fal fa-comment-alt-lines fa-fw"></i>',
+            // path: '#',
+            class: 'btn btn-enquire'
+          }
         ]
-        // menuOptionsRight: [
-        //   {
-        //     type: "button",
-        //     text: "Signup",
-        //     path: "./signup",
-        //     class: "button-red"
-        //   },
-        //   {
-        //     type: "button",
-        //     text: "Login",
-        //     path: "./login",
-        //     iconRight:
-        //       '<svg id="i-arrow-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"> <path d="M22 6 L30 16 22 26 M30 16 L2 16" /> </svg>'
-        //   }
-        // ]
       }
     }
   },
@@ -144,13 +120,36 @@ export default {
   box-shadow: 0px 7px 15px #3a150013;
   position: relative;
 }
+
 .nav-logo {
-  height: 50px;
-  width: 50px;
+  height: 66px;
+  width: auto;
+  margin: auto 0;
+  padding: 1rem;
+  background: white !important;
+  @media only screen and (max-width: 992px) {
+    height: 48px;
+    padding: 5px;
+  }
 }
 
-.vnb__sub-menu-options__option__link:hover {
+.vnb {
+  padding: 0.5rem 0;
+}
+
+//no background on active home link
+.vnb__menu-options__option__link.router-link-exact-active.router-link-active {
+  background: white !important;
+}
+
+.vnb__sub-menu-options__option__link:hover,
+.vnb__popup__bottom__menu-options__option__link:hover,
+.vnb__popup__bottom__sub-menu-options__option__link:hover {
   border-left: 2px solid var(--orange-light);
+}
+
+.vnb__popup__bottom__menu-options__option__link.vnb__popup__bottom__menu-options__option__link--no-highlight {
+  font-size: 1rem !important;
 }
 
 #topnav {
@@ -164,16 +163,44 @@ export default {
   padding: 30px;
   background: white;
 
+  .vnb__menu-options__option__link,
+  .vnb__sub-menu-options__option__link,
+  .vnb__popup__bottom__menu-options__option__link {
+    font-size: 1.5rem;
+  }
+
   a {
-    // font-weight: bold;
     color: #2c3e50;
     text-decoration: none;
-    // margin-right: 2rem;
-
+    font-size: 1.5rem;
     &.router-link-exact-active {
       color: var(--orange-light);
       background: #f3f3f3;
     }
+  }
+}
+
+.btn-enquire {
+  color: white;
+  background: var(--orange-dark);
+  border: var(--orange-dark) 0.5px solid;
+  text-transform: capitalize;
+  font-size: 1.5rem !important;
+  // border-radius: 20px;
+  // font-weight: 100;
+  &:hover {
+    background: linear-gradient(to right, #ffb90d, #cc0045, #009980, #ffb90d);
+    // color: red;
+    background-size: 200% 200%;
+    // box-shadow: 0px 2px 6px 1px #ff11001f;
+    font-weight: 400;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: AnimationName 5s linear infinite;
+    // animation-fill-mode: forwards;
+    // animation-direction: normal;
+    -moz-animation: AnimationName 5s linear infinite;
+    animation: AnimationName 5s linear infinite;
   }
 }
 </style>

@@ -49,7 +49,6 @@ export default {
         })
       }
     },
-
     startTransition(el) {
       el.style.height = el.scrollHeight + 'px'
     },

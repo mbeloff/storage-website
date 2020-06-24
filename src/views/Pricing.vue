@@ -5,9 +5,9 @@
         <div class="col-12 col-md-5">
           <h1 class="big-title my-5">Storage Pricing</h1>
           <p>
-            Only pay for what you need. Rent storage space for anywhere from 1
-            day to a 1 year, or more! Gabba Storage has a range of storage
-            container, from 1m<sup>3</sup> - 10m<sup>3</sup>
+            Only pay for what you need. Rent storage space from 1 day to a 1
+            year, or more! Gabba Storage has a range of storage container, from
+            1m<sup>3</sup> - 10m<sup>3</sup>
           </p>
 
           <div class="grad-border text-center font-weight-bold my-5">
