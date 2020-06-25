@@ -109,8 +109,11 @@
 
       <div class="text-center">
         <!-- <div> -->
-        <button type="submit" class="btn btn-submit text-uppercase">
-          <i class="fa fa-paper-plane mr-1 d-inlines"></i> Submit
+        <button
+          type="submit"
+          class="btn btn-submit gradient-slide text-uppercase"
+        >
+          <i class="fa fa-paper-plane mr-1 d-inline"></i> Submit
         </button>
         <!-- <a class="btn btn-submit text-uppercase" @click="submitAction()">
           <i class="fa fa-paper-plane g-px-5"></i>&nbsp;Submit
@@ -146,23 +149,13 @@ select::placeholder {
 
 .btn-submit {
   color: white;
-  background: var(--orange-dark);
+  background: #ff4828;
   border: var(--orange-dark) 0.5px solid;
   border-radius: 20px;
   font-weight: 100;
   &:hover {
-    background: linear-gradient(to right, #ffb90d, #cc0045, #009980, #ffb90d);
-    // color: red;
-    background-size: 200% 200%;
     box-shadow: 0px 2px 6px 1px #ff11001f;
     font-weight: 400;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: AnimationName 5s linear infinite;
-    // animation-fill-mode: forwards;
-    // animation-direction: normal;
-    -moz-animation: AnimationName 5s linear infinite;
-    animation: AnimationName 5s linear infinite;
   }
 }
 

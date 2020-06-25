@@ -4,7 +4,7 @@
       <div class="container">
         <div class="grad-border">
           <div class="logo-box shadow-lg" style="">
-            <img class="logo" alt="logo" src="../assets/logo2.svg" />
+            <img class="logo" alt="logo" src="../assets/logo.svg" />
             <!-- <h1 class="slogan text-right">unbeatable.</h1> -->
           </div>
         </div>

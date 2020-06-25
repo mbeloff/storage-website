@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6">
-          <img src="../assets/logo2.svg" alt="" class="footer-logo mb-2" />
+          <img src="../assets/logo.svg" alt="" class="footer-logo mb-2" />
           <p>
             46 Deshon St.<br />
             Woolloongabba, QLD 4102 <br />
@@ -23,7 +23,7 @@
           <b>Information</b>
           <ul class="list-unstyled">
             <li>
-              <router-link class="gs-link" to="/faq"
+              <router-link class="gradient-slide" to="/faq"
                 >Frequently Asked Questions</router-link
               >
             </li>

@@ -141,7 +141,8 @@
           <div class="col-12 col-md-7">
             <p>
               80 - 240m<sup>2</sup> Workshop spaces available in convenient
-              Woolloongabba location. No fixed terms, pay week to week.
+              Woolloongabba location. No lock-in contracts, week-to-week
+              payments available.
             </p>
             <p>
               <open-modal>Send us a message</open-modal>
@@ -204,3 +205,13 @@ export default {
   }
 }
 </script>
+
+<style>
+.btn-gs i {
+  transition: transform 0.25s;
+}
+
+.btn-gs i.active {
+  transform: rotate(90deg);
+}
+</style>

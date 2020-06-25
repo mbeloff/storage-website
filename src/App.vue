@@ -1,11 +1,5 @@
 <template>
   <div id="app">
-    <script
-      type="application/javascript"
-      src="https://kit.fontawesome.com/dcf276a164.js"
-      crossorigin="anonymous"
-      sameSite="none"
-    ></script>
     <div id="topnav"></div>
     <NavBar id="nav"></NavBar>
     <modal
@@ -45,10 +39,8 @@ export default {
 body {
   margin: 0 0 0 0;
   --orange-light: #ff5c1c;
-  --orange-dark: #ff3300;
-  --orange: #ff7300;
-  --orange-shadow: 0px 1px 10px rgba(255, 102, 0, 0.315);
-  --orange-shadow-hover: 0px 5px 15px rgba(236, 94, 0, 0.466);
+  --orange-dark: #ff2600;
+  --orange: #ff4828;
   --nice-gradient: linear-gradient(-30deg, #ffb90d, #cc0045, #009980);
   --serif: 'playfair display';
 }
@@ -75,22 +67,22 @@ a:not([href]) {
   padding: 1.5px 1.5px !important;
 }
 
-.gs-link {
+.gradient-slide {
   color: inherit;
   &:hover {
-    background: linear-gradient(-45deg, #ffb90d, #cc0045, #009980, #ffb90d);
+    background: linear-gradient(to right, #ffb90d, #cc0045, #009980, #ffb90d);
     background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-animation: AnimationName 5s linear infinite;
+    -webkit-animation: gradientSlide 5s linear infinite;
     // animation-fill-mode: forwards;
     // animation-direction: normal;
-    -moz-animation: AnimationName 5s linear infinite;
-    animation: AnimationName 5s linear infinite;
+    -moz-animation: gradientSlide 5s linear infinite;
+    animation: gradientSlide 5s linear infinite;
   }
 }
 
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes gradientSlide {
   0% {
     background-position: 0% 50%;
   }
@@ -98,7 +90,7 @@ a:not([href]) {
     background-position: 200% 50%;
   }
 }
-@-moz-keyframes AnimationName {
+@-moz-keyframes gradientSlide {
   0% {
     background-position: 0% 50%;
   }
@@ -106,17 +98,13 @@ a:not([href]) {
     background-position: 200% 50%;
   }
 }
-@keyframes AnimationName {
+@keyframes gradientSlide {
   0% {
     background-position: 0% 50%;
   }
   100% {
     background-position: 200% 50%;
   }
-}
-
-.orange-shadow {
-  box-shadow: var(--orange-shadow);
 }
 
 .hover-grow {
@@ -124,11 +112,6 @@ a:not([href]) {
   &:hover {
     transform: scale(1.01);
   }
-}
-
-.orange-border {
-  border: 3px dotted rgb(255, 102, 0);
-  border-radius: 2rem;
 }
 
 .big-title {
@@ -155,14 +138,6 @@ a:not([href]) {
   @media only screen and (min-width: 768px) {
     font-size: 1.5rem;
   }
-}
-
-.btn-gs i {
-  transition: transform 0.25s;
-}
-
-.btn-gs i.active {
-  transform: rotate(90deg);
 }
 
 .chat-icon {

@@ -153,7 +153,6 @@ export default {
 }
 
 #topnav {
-  // width: 100%;
   height: 2px;
   background-image: var(--nice-gradient);
 }
@@ -196,11 +195,13 @@ export default {
     font-weight: 400;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-animation: AnimationName 5s linear infinite;
+    -webkit-animation: gradientSlide 5s linear infinite;
     // animation-fill-mode: forwards;
     // animation-direction: normal;
-    -moz-animation: AnimationName 5s linear infinite;
-    animation: AnimationName 5s linear infinite;
+    -moz-animation: gradientSlide 5s linear infinite;
+    animation: gradientSlide 5s linear infinite;
   }
 }
+
+
 </style>
