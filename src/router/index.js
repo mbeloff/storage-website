@@ -6,6 +6,8 @@ import Location from '../views/Location.vue'
 import Pricing from '../views/Pricing.vue'
 import NotFound from '../views/NotFound.vue'
 import Success from '../views/Success.vue'
+import SelfStorage from '../views/SelfStorage.vue'
+import Workshops from '../views/Workshops.vue'
 
 Vue.use(VueRouter)
 
@@ -25,6 +27,8 @@ const routes = [
       import(/* webpackChunkName: "about" */ '../views/Services.vue')
   },
   { path: '/faq', name: 'faq', component: FaqPage },
+  { path: '/selfstorage', name: 'self storage', component: SelfStorage },
+  { path: '/workshops', name: 'workshops', component: Workshops },
   {
     path: '/location',
     name: 'Location',

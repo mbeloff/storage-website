@@ -2,8 +2,10 @@
   <div class="container my-5" id="home-accordion">
     <div class="row" id="headingOne">
       <div class="col-12 col-md-7 order-2 order-md-1">
-        <p class="big-title">Cheap, secure, self storage.</p>
-        <p class="sub-title">Easy payments, short or long term hire</p>
+        <h2 class="big-title">Cheap, secure, self storage.</h2>
+        <p class="sub-title">
+          <span>Easy payments, short or long term hire</span>
+        </p>
         <p style="font-size: 16px;">
           Various sized storage units available. Finally free up some space in
           your home or office.
@@ -26,7 +28,7 @@
         <img src="../assets/warehouse.svg" alt="" class=" ico" />
       </div>
       <div
-        class="col-12 order-last more-info-panel collapse"
+        class="col-12 order-last collapse"
         id="personal"
         data-parent="#home-accordion"
       >
@@ -58,8 +60,10 @@
         <img src="../assets/truck.svg" alt="" class="ico" />
       </div>
       <div class="col-12 col-md-7 offset-md-1 text-left">
-        <p class="big-title">Mobile storage units.</p>
-        <p class="sub-title">We deliver to you, you pack, we store</p>
+        <h2 class="big-title">Mobile storage units.</h2>
+        <p class="sub-title">
+          <span>We deliver to you, you pack, we store</span>
+        </p>
         <p style="font-size: 16px">
           Get your goods in storage without ever leaving your house.
         </p>
@@ -78,18 +82,12 @@
         >
       </div>
       <div
-        class="col-12 order-last more-info-panel collapse"
+        class="col-12 order-last collapse"
         id="portable"
         data-parent="#home-accordion"
       >
         <div class="row">
-          <div class="col-12 col-md-4">
-            <!-- <img
-              src="../assets/map-circle.jpg"
-              alt=""
-              class="img-fluid hover-grow"
-            /> -->
-          </div>
+          <div class="col-12 col-md-4"></div>
           <div class="col-12 col-md-7 offset-md-1 ">
             <p>
               Storage boxes delivered anywhere in Brisbane area. Take as long as
@@ -107,10 +105,12 @@
     <hr class="my-5" />
     <div class="row">
       <div class="col-12 col-md-7 order-2 order-md-1">
-        <p class="big-title">Rent workshop space.</p>
+        <h2 class="big-title">Rent workshop space.</h2>
         <p class="sub-title">
-          Three-phase and single-phase power, with racking, hoist and office
-          space available
+          <span
+            >Three-phase and single-phase power, with racking, hoist and office
+            space available</span
+          >
         </p>
         <p style="font-size: 16px;">
           Conveniently located workshop space at competitive rates.
@@ -133,7 +133,7 @@
         <img src="../assets/mechanic.svg" alt="" class="ico" />
       </div>
       <div
-        class="col-12 order-last more-info-panel collapse"
+        class="col-12 order-last collapse"
         id="workshop"
         data-parent="#home-accordion"
       >

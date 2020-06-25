@@ -18,7 +18,9 @@
           <h1 class="big-title">Where to Find Us</h1>
           <div class="row">
             <div class="col-6 col-md-12">
-              <h3 class="sub-title">Convenient Brisbane Location</h3>
+              <p class="sub-title">
+                <span>Convenient Brisbane Location</span>
+              </p>
               <p>
                 46 Deshon St,<br />Woolloongabba 4102 <br />
                 QLD, Australia

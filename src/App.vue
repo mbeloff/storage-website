@@ -107,19 +107,12 @@ a:not([href]) {
   }
 }
 
-.hover-grow {
-  transition: transform 0.25s;
-  &:hover {
-    transform: scale(1.01);
-  }
-}
-
 .big-title {
   font-family: var(--serif);
   font-weight: 400;
   color: var(--orange);
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.4rem;
   line-height: 1.3;
 
   @media only screen and (min-width: 470px) {
@@ -132,6 +125,7 @@ a:not([href]) {
 
 .sub-title {
   font-size: 1.3rem;
+  margin: 0 0 2rem 0;
   @media only screen and (min-width: 470px) {
     font-size: 1.4rem;
   }
@@ -140,24 +134,8 @@ a:not([href]) {
   }
 }
 
-.chat-icon {
-  height: 20px;
-  width: 20px;
-  margin-right: 0.5rem;
-  background-image: url('/src/assets/notification.svg');
-}
-
-.ico {
-  max-width: 100px;
-  // @media only screen and (min-width: 768px) {
-  //   max-width: 100px;
-  // }
-}
-
-.more-info-panel {
-  font-size: 1rem;
-}
-
+// sub-title underline gradient
+.sub-title span,
 .underline {
   position: relative;
   &::after {

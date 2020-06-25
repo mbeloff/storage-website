@@ -13,7 +13,7 @@
             mortgage payments on a larger property.
           </p>
           <h3 class="sub-title">
-            <span class="underline">Self storage for households</span>
+            <span>Self storage for households</span>
           </h3>
           <p>
             Self storage units can be used for all sorts of things and can be a
@@ -38,7 +38,7 @@
             <li>Hobby or craft supplies</li>
           </ul>
           <h3 class="sub-title">
-            <span class="underline">Self storage for Business</span>
+            <span>Self storage for Business</span>
           </h3>
           <p>
             If you run a business, you might rent a self storage unit rather
@@ -49,7 +49,7 @@
             excess stock, tools, equipment or archives.
           </p>
           <h3 class="sub-title">
-            <span class="underline">Life Event Storage</span>
+            <span>Life Event Storage</span>
           </h3>
           <ul class="list-unstyled">
             <li>
@@ -81,10 +81,10 @@
   color: inherit;
 }
 
-.sub-title {
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
+// .sub-title {
+//   margin-bottom: 2rem;
+//   margin-top: 2rem;
+// }
 
 p {
   text-align: justify;

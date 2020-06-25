@@ -58,7 +58,7 @@ export default {
                 text: 'Rent a Workspace',
                 subText:
                   'Hire a multi-purpose workspace with single- and three-phase power, racking and hoist',
-                path: './blog',
+                path: './workshops',
                 iconLeft: '<i class="fa fa-wrench fa-fw"></i>'
               }
             ]

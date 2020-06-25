@@ -8,6 +8,9 @@
       data-netlify="true"
       data-netlify-honeypot="bot-field"
     >
+      <p class="sub-title">
+        <span>Got a Burning Question?</span>
+      </p>
       What are you storage needs? Let us know what you need help with and we'll
       get back to you<br />
       <br />
