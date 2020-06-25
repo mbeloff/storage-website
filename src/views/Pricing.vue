@@ -68,16 +68,16 @@
         <div class="col-12 col-md-5">
           <h1 class="big-title my-5">Workshop Pricing</h1>
           <p>
-            Your own workshop spacewith all of the necessities. In a convenient
-            Woolloongabba location,
+            Your own workshop space with all of the necessities. In a convenient
+            Woolloongabba location.
           </p>
 
-          <!-- <div class="grad-border text-center font-weight-bold my-5">
+          <div class="grad-border text-center font-weight-bold my-5">
             <p>
               Current Offer:
-              <span class="font-weight-light">First 2 Months FREE</span>
+              <span class="font-weight-light">50% OFF First Month</span>
             </p>
-          </div> -->
+          </div>
         </div>
       </div>
     </div>
@@ -91,7 +91,7 @@
                 >: 80m<sup>2</sup></span
               >
             </p>
-            <p class="lead mt-4">from $250/month</p>
+            <p class="lead mt-4">from $250/week</p>
             <div class="col-12 text-right">
               <open-modal>enquire</open-modal>
             </div>
@@ -104,7 +104,7 @@
                 >: 160m<sup>2</sup></span
               >
             </p>
-            <p class="lead mt-4">from $400/month</p>
+            <p class="lead mt-4">from $400/week</p>
             <div class="col-12 text-right">
               <open-modal>enquire</open-modal>
             </div>
@@ -117,7 +117,7 @@
                 >: 240m<sup>2</sup></span
               >
             </p>
-            <p class="lead mt-4">from $500/month</p>
+            <p class="lead mt-4">from $500/week</p>
             <div class="col-12 text-right">
               <open-modal>enquire</open-modal>
             </div>
@@ -137,7 +137,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .grad-border p {
   background: white;
   padding: 1rem;

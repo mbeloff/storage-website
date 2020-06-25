@@ -11,23 +11,46 @@
           </p>
         </div>
         <div class="col-6 col-md-3">
-          <!-- <b>Services</b>
+          <b>Services</b>
           <ul class="list-unstyled">
-            <li>Personal Storage</li>
-            <li>Business Storage</li>
-            <li>Drop-Off Storage Boxes</li>
-            <li>Rent Workspaces</li>
-          </ul> -->
+            <li>
+              <router-link class="gradient-slide" to="/selfstorage"
+                >Personal Storage</router-link
+              >
+            </li>
+            <li>
+              <router-link class="gradient-slide" to="/selfstorage"
+                >Business Storage</router-link
+              >
+            </li>
+            <li>
+              <router-link class="gradient-slide" to="/mobilestorage"
+                >Mobile Storage</router-link
+              >
+            </li>
+            <li>
+              <router-link class="gradient-slide" to="/workshops"
+                >Workshop Space</router-link
+              >
+            </li>
+          </ul>
         </div>
         <div class="col-6 col-md-3">
           <b>Information</b>
           <ul class="list-unstyled">
             <li>
+              <router-link class="gradient-slide" to="/location"
+                >Find Us</router-link
+              >
+            </li>
+            <li>
               <router-link class="gradient-slide" to="/faq"
                 >Frequently Asked Questions</router-link
               >
             </li>
-            <open-modal>Send us a message</open-modal>
+            <li>
+              <open-modal>Send us a message</open-modal>
+            </li>
           </ul>
         </div>
       </div>

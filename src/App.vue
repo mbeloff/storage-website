@@ -70,13 +70,20 @@ a:not([href]) {
 .gradient-slide {
   color: inherit;
   &:hover {
-    background: linear-gradient(to right, #ffb90d, #cc0045, #009980, #ffb90d);
+    background: linear-gradient(
+      to right,
+      #ff960d,
+      #cc0045,
+      #1169ec,
+      #0baa7a,
+      #ff960d
+    );
     background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: gradientSlide 5s linear infinite;
-    // animation-fill-mode: forwards;
-    // animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
     -moz-animation: gradientSlide 5s linear infinite;
     animation: gradientSlide 5s linear infinite;
   }
