@@ -29,7 +29,7 @@
                 >: 1m<sup>3</sup></span
               >
             </p>
-            <p class="lead mt-4">from $32/month</p>
+            <p class="lead mt-4">from $30/month</p>
             <div class="col-12 text-right">
               <open-modal>enquire</open-modal>
             </div>
@@ -42,7 +42,7 @@
                 >: 6m<sup>3</sup></span
               >
             </p>
-            <p class="lead mt-4">from $48/month</p>
+            <p class="lead mt-4">from $45/month</p>
             <div class="col-12 text-right">
               <open-modal>enquire</open-modal>
             </div>

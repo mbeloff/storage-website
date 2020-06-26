@@ -2,7 +2,7 @@
   <div class="container my-5 p-0 px-md-3">
     <Faq
       id="accordion-example-1"
-      :content="'questions'"
+      :content="'some_category'"
       :faqhead="'Frequently Asked Questions'"
     ></Faq>
     <p>

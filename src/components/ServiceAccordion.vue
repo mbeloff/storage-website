@@ -33,7 +33,7 @@
         data-parent="#home-accordion"
       >
         <div class="row">
-          <div class="col-12 col-md-7">
+          <div class="col-12 col-md-7 text-justify">
             <p>
               Gabba Storage has cost-effective self storage solutions in
               convenient Woolloongabba location. Whether you're decluttering,
@@ -88,7 +88,7 @@
       >
         <div class="row">
           <div class="col-12 col-md-4"></div>
-          <div class="col-12 col-md-7 offset-md-1 ">
+          <div class="col-12 col-md-6 offset-md-1 text-justify">
             <p>
               Storage boxes delivered anywhere in Brisbane area. Take as long as
               you like to pack and then we collect to store securely at our

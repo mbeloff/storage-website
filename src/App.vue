@@ -156,4 +156,8 @@ a:not([href]) {
     background-image: var(--nice-gradient);
   }
 }
+
+.ico {
+  height: 75px;
+}
 </style>
