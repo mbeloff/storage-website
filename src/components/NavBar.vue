@@ -180,28 +180,17 @@ export default {
 }
 
 .btn-enquire {
-  color: white;
-  background: var(--orange-dark);
-  border: var(--orange-dark) 0.5px solid;
+  color: inherit;
   text-transform: capitalize;
   font-size: 1.5rem !important;
-  // border-radius: 20px;
-  // font-weight: 100;
   &:hover {
     background: linear-gradient(to right, #ffb90d, #cc0045, #009980, #ffb90d);
-    // color: red;
     background-size: 200% 200%;
-    // box-shadow: 0px 2px 6px 1px #ff11001f;
-    font-weight: 400;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: gradientSlide 5s linear infinite;
-    // animation-fill-mode: forwards;
-    // animation-direction: normal;
     -moz-animation: gradientSlide 5s linear infinite;
     animation: gradientSlide 5s linear infinite;
   }
 }
-
-
 </style>
