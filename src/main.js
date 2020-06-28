@@ -9,6 +9,7 @@ import 'aos/dist/aos.css'
 import VModal from 'vue-js-modal'
 import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
+import VueAnalytics from 'vue-analytics'
 Vue.use(VModal)
 
 import VueNavigationBar from 'vue-navigation-bar'
@@ -48,6 +49,11 @@ requireComponent.keys().forEach(fileName => {
     // otherwise fall back to module's root.
     componentConfig.default || componentConfig
   )
+})
+
+Vue.use(VueAnalytics, {
+  id: 'UA-171123678-1',
+  router
 })
 
 new Vue({
