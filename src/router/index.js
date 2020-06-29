@@ -8,6 +8,7 @@ import NotFound from '../views/NotFound.vue'
 import Success from '../views/Success.vue'
 import SelfStorage from '../views/SelfStorage.vue'
 import Workshops from '../views/Workshops.vue'
+import MobileStorage from '../views/MobileStorage.vue'
 
 Vue.use(VueRouter)
 
@@ -29,6 +30,7 @@ const routes = [
   { path: '/faq', name: 'faq', component: FaqPage },
   { path: '/selfstorage', name: 'self storage', component: SelfStorage },
   { path: '/workshops', name: 'workshops', component: Workshops },
+  { path: '/mobilestorage', name: 'mobile storage', component: MobileStorage },
   {
     path: '/location',
     name: 'Location',

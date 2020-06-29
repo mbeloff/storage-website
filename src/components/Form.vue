@@ -125,7 +125,43 @@
 
 <script>
 export default {
-  methods: {}
+  data() {
+    return {
+      form: {
+        name: '',
+        number: '',
+        email: '',
+        topic: '',
+        period: '',
+        question: ''
+      }
+    }
+  },
+  methods: {
+    encode(data) {
+      return Object.keys(data)
+        .map(
+          key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
+        )
+        .join('&')
+    },
+    handleSubmit() {
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: this.encode({
+          'form-name': 'ask-question',
+          ...this.form
+        })
+      })
+        .then(() => {
+          this.$router.push('success')
+        })
+        .catch(() => {
+          this.$router.push('404')
+        })
+    }
+  }
 }
 </script>
 

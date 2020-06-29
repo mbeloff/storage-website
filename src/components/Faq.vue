@@ -3,6 +3,41 @@
     <h2 class="big-title ml-3 ml-sm-0">
       {{ faqhead }} <span class="small text-muted">under-construction</span>
     </h2>
+    <div
+      class="btn-group btn-group-toggle d-flex flex-center"
+      data-toggle="buttons"
+    >
+      <label class="btn btn-light active">
+        <input
+          type="radio"
+          name="options"
+          id="option1"
+          autocomplete="off"
+          checked
+          @click="changeContent('set1')"
+        />General
+      </label>
+      <label class="btn btn-light">
+        <input
+          type="radio"
+          name="options"
+          id="option2"
+          autocomplete="off"
+          @click="changeContent('set2')"
+        />
+        Storage
+      </label>
+      <label class="btn btn-light">
+        <input
+          type="radio"
+          name="options"
+          id="option3"
+          autocomplete="off"
+          @click="changeContent('set3')"
+        />
+        Workshop
+      </label>
+    </div>
     <dl class="accordion box" role="presentation">
       <Faqitem
         v-for="item in getQuestions"
@@ -34,10 +69,15 @@ export default {
       type: String
     }
   },
+  methods: {
+    changeContent(set) {
+      this.content = set
+    }
+  },
   data() {
     return {
       groupId: null,
-      some_category: [
+      set1: [
         {
           id: 1,
           active: true,
@@ -58,6 +98,32 @@ export default {
           id: 3,
           active: false,
           title: 'question 3',
+          details: `
+        <p>answer here</p>
+      `
+        }
+      ],
+      set2: [
+        {
+          id: 1,
+          active: true,
+          title: 'question 3',
+          details: `
+        <p>answer here</p>
+      `
+        },
+        {
+          id: 2,
+          active: false,
+          title: 'question 4',
+          details: `
+        <p>answer here</p>
+      `
+        },
+        {
+          id: 3,
+          active: false,
+          title: 'question 5',
           details: `
         <p>answer here</p>
       `
@@ -169,12 +235,12 @@ export default {
   },
   computed: {
     getQuestions: function() {
-      if (this.content == 'some_category') {
-        return this.some_category
-      } else if (this.content == 'some_other_category') {
-        return this.some_other_category
+      if (this.content == 'set1') {
+        return this.set1
+      } else if (this.content == 'set2') {
+        return this.set2
       } else {
-        return this.generic
+        return this.set1
       }
     }
   }

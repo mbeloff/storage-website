@@ -14,7 +14,7 @@
     <Why></Why>
     <Faq
       id="accordion-example-1"
-      :content="'some_category'"
+      :content="'set1'"
       :faqhead="'Frequently Asked Questions'"
     ></Faq>
   </div>
