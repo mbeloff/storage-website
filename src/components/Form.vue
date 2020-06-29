@@ -7,6 +7,7 @@
       action="/success"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
+      onSubmit="{this.submitForm.bind(this)}"
     >
       What are you storage needs? Let us know what you need help with and we'll
       get back to you<br />
@@ -127,8 +128,9 @@
 <script>
 export default {
   methods: {
-    submitAction() {
-      document.getElementById('contact-form').submit()
+    submitForm(e) {
+      e.preventDefault()
+      this.props.history.push('/success')
     }
   }
 }
