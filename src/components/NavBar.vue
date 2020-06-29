@@ -46,8 +46,8 @@ export default {
               {
                 type: 'link',
                 text: 'Mobile Storage Boxes',
-                subText: 'Storage to your door, you load it up, we store it.',
-                path: './mobilestorage',
+                subText: 'We deliver the box, you load it up, we store it.',
+                path: './locations',
                 iconLeft: '<i class="fa fa-truck fa-fw"></i>'
               },
               {

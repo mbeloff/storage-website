@@ -7,7 +7,11 @@
       action="/success"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
+<<<<<<< HEAD
       @submit.prevent="handleSubmit"
+=======
+      onSubmit="{this.submitForm.bind(this)}"
+>>>>>>> parent of f0662ca... form testing
     >
       What are you storage needs? Let us know what you need help with and we'll
       get back to you<br />
@@ -132,6 +136,7 @@
 </template>
 
 <script>
+
 export default {
   data() {
     return {
@@ -146,6 +151,7 @@ export default {
     }
   },
   methods: {
+<<<<<<< HEAD
     encode(data) {
       return Object.keys(data)
         .map(
@@ -168,6 +174,11 @@ export default {
         .catch(() => {
           this.$router.push('404')
         })
+=======
+    submitForm(e) {
+      e.preventDefault()
+      this.props.history.push('/success')
+>>>>>>> parent of f0662ca... form testing
     }
   }
 }
