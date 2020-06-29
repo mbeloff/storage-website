@@ -50,7 +50,7 @@
             type="email"
             placeholder=""
             name="email"
-            @input="ev => (form.Email = ev.target.value)"
+            @input="ev => (form.email = ev.target.value)"
           /><i class="form-icon fal fa-envelope"></i>
         </div>
       </div>
@@ -163,9 +163,11 @@ export default {
       })
         .then(() => {
           this.$router.push('success')
+          this.$modal.hide('contact-modal')
         })
         .catch(() => {
           this.$router.push('404')
+          this.$modal.hide('contact-modal')
         })
     }
   }
