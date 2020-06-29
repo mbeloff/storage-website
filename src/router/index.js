@@ -47,6 +47,11 @@ const routes = [
     component: Success
   },
   {
+    path: '/404',
+    name: '404',
+    component: NotFound
+  },
+  {
     path: '/*',
     component: NotFound
   }

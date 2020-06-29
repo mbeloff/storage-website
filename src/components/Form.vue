@@ -7,6 +7,7 @@
       action="/success"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
+      @submit.prevent="handleSubmit"
     >
       What are you storage needs? Let us know what you need help with and we'll
       get back to you<br />
@@ -126,7 +127,31 @@
 
 <script>
 export default {
-  methods: {}
+  methods: {
+    encode(data) {
+      return Object.keys(data)
+        .map(
+          key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
+        )
+        .join('&')
+    },
+    handleSubmit(e) {
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: this.encode({
+          'form-name': 'ask-question',
+          ...this.form
+        })
+      })
+        .then(() => {
+          this.$router.push('success')
+        })
+        .catch(() => {
+          this.$router.push('404')
+        })
+    }
+  }
 }
 </script>
 
