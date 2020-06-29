@@ -7,11 +7,6 @@
       action="/success"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
-<<<<<<< HEAD
-      @submit.prevent="handleSubmit"
-=======
-      onSubmit="{this.submitForm.bind(this)}"
->>>>>>> parent of f0662ca... form testing
     >
       What are you storage needs? Let us know what you need help with and we'll
       get back to you<br />
@@ -27,7 +22,6 @@
             placeholder=""
             name="name"
             required
-            @input="ev => (form.name = ev.target.value)"
           />
           <i class="form-icon fal fa-user"></i>
         </div>
@@ -42,7 +36,6 @@
             type="tel"
             placeholder=""
             name="number"
-            @input="ev => (form.number = ev.target.value)"
           /><i class="form-icon fal fa-phone-rotary"></i>
         </div>
 
@@ -54,7 +47,6 @@
             type="email"
             placeholder=""
             name="email"
-            @input="ev => (form.email = ev.target.value)"
           /><i class="form-icon fal fa-envelope"></i>
         </div>
       </div>
@@ -69,10 +61,8 @@
             aria-required="false"
             aria-invalid="false"
             value=""
-            @input="ev => (form.topic = ev.target.value)"
           >
             <option value="" disabled="disabled" selected="selected">-</option>
-
             <option value="on-site storage">On-site storage</option>
             <option value="mobile storage unit">Mobile Storage</option>
             <option value="workshop space">Workshop Space</option>
@@ -88,7 +78,6 @@
             aria-required="false"
             aria-invalid="false"
             value=""
-            @input="ev => (form.period = ev.target.value)"
           >
             <option value="" disabled="disabled" selected="selected">-</option>
             <option value="Unknown">Unknown / Not Applicable</option>
@@ -112,7 +101,6 @@
             placeholder="Hi there, I want to know ..."
             name="question"
             required
-            @input="ev => (form.question = ev.target.value)"
           ></textarea
           ><i class="form-icon fal fa-comment-alt-lines"></i>
         </div>
@@ -136,51 +124,8 @@
 </template>
 
 <script>
-
 export default {
-  data() {
-    return {
-      form: {
-        name: '',
-        number: '',
-        email: '',
-        topic: '',
-        period: '',
-        question: ''
-      }
-    }
-  },
-  methods: {
-<<<<<<< HEAD
-    encode(data) {
-      return Object.keys(data)
-        .map(
-          key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
-        )
-        .join('&')
-    },
-    handleSubmit() {
-      fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: this.encode({
-          'form-name': 'ask-question',
-          ...this.form
-        })
-      })
-        .then(() => {
-          this.$router.push('success')
-        })
-        .catch(() => {
-          this.$router.push('404')
-        })
-=======
-    submitForm(e) {
-      e.preventDefault()
-      this.props.history.push('/success')
->>>>>>> parent of f0662ca... form testing
-    }
-  }
+  methods: {}
 }
 </script>
 
