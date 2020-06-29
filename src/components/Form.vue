@@ -21,8 +21,9 @@
             class="form-control"
             type="text"
             placeholder=""
-            name="Customer Name"
+            name="name"
             required
+            @input="ev => (form.name = ev.target.value)"
           />
           <i class="form-icon fal fa-user"></i>
         </div>
@@ -36,7 +37,8 @@
             class="form-control"
             type="tel"
             placeholder=""
-            name="Contact Number"
+            name="number"
+            @input="ev => (form.number = ev.target.value)"
           /><i class="form-icon fal fa-phone-rotary"></i>
         </div>
 
@@ -47,7 +49,8 @@
             class="form-control"
             type="email"
             placeholder=""
-            name="Email"
+            name="email"
+            @input="ev => (form.email = ev.target.value)"
           /><i class="form-icon fal fa-envelope"></i>
         </div>
       </div>
@@ -58,10 +61,11 @@
 
           <select
             class="form-control"
-            name="Enquiring About"
+            name="topic"
             aria-required="false"
             aria-invalid="false"
             value=""
+            @input="ev => (form.topic = ev.target.value)"
           >
             <option value="" disabled="disabled" selected="selected">-</option>
 
@@ -76,10 +80,11 @@
 
           <select
             class="form-control"
-            name="Storage Period"
+            name="period"
             aria-required="false"
             aria-invalid="false"
             value=""
+            @input="ev => (form.period = ev.target.value)"
           >
             <option value="" disabled="disabled" selected="selected">-</option>
             <option value="Unknown">Unknown / Not Applicable</option>
@@ -101,8 +106,9 @@
             class="form-control"
             rows="4"
             placeholder="Hi there, I want to know ..."
-            name="Customer Says"
+            name="question"
             required
+            @input="ev => (form.question = ev.target.value)"
           ></textarea
           ><i class="form-icon fal fa-comment-alt-lines"></i>
         </div>
@@ -127,6 +133,18 @@
 
 <script>
 export default {
+  data() {
+    return {
+      form: {
+        name: '',
+        number: '',
+        email: '',
+        topic: '',
+        period: '',
+        question: ''
+      }
+    }
+  },
   methods: {
     encode(data) {
       return Object.keys(data)
