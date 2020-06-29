@@ -23,6 +23,7 @@
             placeholder=""
             name="Customer Name"
             required
+            @input="ev => (form.name = ev.target.value)"
           />
           <i class="form-icon fal fa-user"></i>
         </div>
@@ -37,6 +38,7 @@
             type="tel"
             placeholder=""
             name="Contact Number"
+            @input="ev => (form.number = ev.target.value)"
           /><i class="form-icon fal fa-phone-rotary"></i>
         </div>
 
@@ -48,6 +50,7 @@
             type="email"
             placeholder=""
             name="Email"
+            @input="ev => (form.Email = ev.target.value)"
           /><i class="form-icon fal fa-envelope"></i>
         </div>
       </div>
@@ -62,6 +65,7 @@
             aria-required="false"
             aria-invalid="false"
             value=""
+            @input="ev => (form.topic = ev.target.value)"
           >
             <option value="" disabled="disabled" selected="selected">-</option>
             <option value="on-site storage">On-site storage</option>
@@ -79,6 +83,7 @@
             aria-required="false"
             aria-invalid="false"
             value=""
+            @input="ev => (form.period = ev.target.value)"
           >
             <option value="" disabled="disabled" selected="selected">-</option>
             <option value="Unknown">Unknown / Not Applicable</option>
@@ -102,6 +107,7 @@
             placeholder="Hi there, I want to know ..."
             name="Customer Says"
             required
+            @input="ev => (form.question = ev.target.value)"
           ></textarea
           ><i class="form-icon fal fa-comment-alt-lines"></i>
         </div>
@@ -131,7 +137,7 @@ export default {
       form: {
         name: '',
         number: '',
-        email: '',
+        Email: '',
         topic: '',
         period: '',
         question: ''
