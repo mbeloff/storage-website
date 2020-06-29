@@ -20,7 +20,7 @@
             class="form-control"
             type="text"
             placeholder=""
-            name="name"
+            name="Customer Name"
             required
           />
           <i class="form-icon fal fa-user"></i>
@@ -35,7 +35,7 @@
             class="form-control"
             type="tel"
             placeholder=""
-            name="number"
+            name="Contact Number"
           /><i class="form-icon fal fa-phone-rotary"></i>
         </div>
 
@@ -46,7 +46,7 @@
             class="form-control"
             type="email"
             placeholder=""
-            name="email"
+            name="Email"
           /><i class="form-icon fal fa-envelope"></i>
         </div>
       </div>
@@ -57,7 +57,7 @@
 
           <select
             class="form-control"
-            name="topic"
+            name="Enquiring ABout"
             aria-required="false"
             aria-invalid="false"
             value=""
@@ -74,7 +74,7 @@
 
           <select
             class="form-control"
-            name="period"
+            name="Storage Period"
             aria-required="false"
             aria-invalid="false"
             value=""
@@ -99,7 +99,7 @@
             class="form-control"
             rows="4"
             placeholder="Hi there, I want to know ..."
-            name="question"
+            name="Customer Says"
             required
           ></textarea
           ><i class="form-icon fal fa-comment-alt-lines"></i>
