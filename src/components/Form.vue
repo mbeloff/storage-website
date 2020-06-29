@@ -7,7 +7,6 @@
       action="/success"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
-      @submit.prevent="handleSubmit"
     >
       What are you storage needs? Let us know what you need help with and we'll
       get back to you<br />
@@ -126,33 +125,9 @@
 </template>
 
 <script>
-import axios from 'axios'
 
 export default {
-  methods: {
-    encode(data) {
-      return Object.keys(data)
-        .map(
-          key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
-        )
-        .join('&')
-    },
-    handleSubmit() {
-      const axiosConfig = {
-        header: { 'Content-Type': 'application/x-www-form-urlencoded' }
-      }
-      axios.post(
-        '/',
-        this.encode({
-          'form-name': 'ask-question',
-          ...this.form
-        }).then(() => {
-          this.$router.push('success')
-        }),
-        axiosConfig
-      )
-    }
-  }
+  methods: {}
 }
 </script>
 
