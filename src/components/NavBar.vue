@@ -35,7 +35,7 @@ export default {
             subMenuOptions: [
               {
                 type: 'link',
-                text: 'On-site Self Storage',
+                text: 'Self Storage Units',
                 subText: 'Hire one of our secure, on-site storage boxes.',
                 path: './selfstorage',
                 iconLeft: '<i class="fa fa-building fa-fw"></i>'
@@ -55,9 +55,9 @@ export default {
               },
               {
                 type: 'link',
-                text: 'Rent a Workspace',
+                text: 'Rent a Workshop',
                 subText:
-                  'Hire a multi-purpose workspace with single- and three-phase power, racking and hoist',
+                  'Hire a multi-purpose workspace with single- and triple-phase power, racking and hoist',
                 path: './workshops',
                 iconLeft: '<i class="fa fa-wrench fa-fw"></i>'
               }

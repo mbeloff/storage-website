@@ -4,7 +4,7 @@
       <div class="col-12 col-md-7 order-2 order-md-1">
         <h2 class="big-title">Cheap, secure, self storage.</h2>
         <p class="sub-title">
-          <span>Easy payments, short or long term hire</span>
+          <span>No lock-in contracts, short or long term hire</span>
         </p>
         <p style="font-size: 16px;">
           Various sized storage units available. Finally free up some space in
@@ -92,7 +92,8 @@
             <p>
               Storage boxes delivered anywhere in Brisbane area. Take as long as
               you like to pack and then we collect to store securely at our
-              facility.
+              facility. No need to leave your home or office, just pack at your
+              leisure and let us do the running around.
             </p>
             <p>
               <open-modal>Send us a message</open-modal>
@@ -107,13 +108,11 @@
       <div class="col-12 col-md-7 order-2 order-md-1">
         <h2 class="big-title">Rent workshop space.</h2>
         <p class="sub-title">
-          <span
-            >Three-phase and single-phase power, with racking, hoist and office
-            space available</span
-          >
+          <span>Conveniently located workshop areas at competitive rates.</span>
         </p>
         <p style="font-size: 16px;">
-          Conveniently located workshop space at competitive rates.
+          Three-phase and single-phase power, with racking, hoist and
+          office/storage space available
         </p>
         <a
           class="btn btn-gs"

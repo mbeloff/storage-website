@@ -1,6 +1,6 @@
 <template>
   <div class="container my-5">
-    <h1 class="big-title">Personal Self Storage in Brisbane</h1>
+    <h1 class="big-title">Personal Self Storage</h1>
     <p class="sub-title"><span>De-clutter your life</span></p>
     <p>
       Gabba Storage provides affordable storage solutions in a convenient
@@ -18,7 +18,7 @@
       <open-modal>Get in touch</open-modal> today to discuss your storage
       options, or to get a quote.
     </p>
-    <h1 class="big-title">Business Self Storage in Brisbane</h1>
+    <h1 class="big-title">Business Self Storage</h1>
     <p class="sub-title">
       <span>Streamline your business</span>
     </p>

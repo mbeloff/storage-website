@@ -25,7 +25,7 @@
           autocomplete="off"
           @click="changeContent('set2')"
         />
-        Storage
+        Storage Units
       </label>
       <label class="btn btn-light">
         <input
@@ -35,7 +35,7 @@
           autocomplete="off"
           @click="changeContent('set3')"
         />
-        Workshop
+        Workshop Spaces
       </label>
     </div>
     <dl class="accordion box" role="presentation">
@@ -81,9 +81,9 @@ export default {
         {
           id: 1,
           active: true,
-          title: 'question 1',
+          title: 'What is Gabba Storage?',
           details: `
-        <p>answer here</p>
+        <p>Gabba Storage provides various sized storage units, both stationary and mobile, so you can bring your goods to us, or let us come to you. We also rent workshop spaces, complete with triple phase power, racking and hoists.</p>
       `
         },
         {
@@ -97,9 +97,15 @@ export default {
         {
           id: 3,
           active: false,
-          title: 'question 3',
+          title: `What items cannot be stored?`,
           details: `
-        <p>answer here</p>
+            <p>We do not allow the storage of:</p><ul>
+              <li>Hazardous goods, toxic materials</li>
+              <li>Pollutants, contaminants, waste</li>
+              <li>Perishable goods, live animals, living plants</li>
+              <li>Cash and securities, illegal goods</li>
+              <li>Explosives, firearms, ammunitions</li>
+            </ul>
       `
         }
       ],
@@ -107,17 +113,29 @@ export default {
         {
           id: 1,
           active: true,
-          title: 'question 3',
+          title: 'Do I need my own padlock?',
           details: `
-        <p>answer here</p>
+        <p>Yes, you need your own padlock to ensure that no one else has access to your unit and to ensure that your unit is securely locked at all times.</p>
       `
         },
         {
           id: 2,
           active: false,
-          title: 'question 4',
+          title: `How soon can I move in?`,
           details: `
-        <p>answer here</p>
+        <p>You can move in on the same day as you make your enquiry (during office opening hours) providing that you have the relevant documentation needed to complete and sign your contract. Payment of a deposit and the first invoice must be made prior to moving in.</p>
+      `
+        },
+        {
+          id: 3,
+          active: false,
+          title: `Do I need insurance?`,
+          details: `
+            <p>It is highly recommended that you adequately insure any goods you choose to store. While we make every effort to safeguard items store in our facility, some events are out of our control, such as fire or flooding.</p><p>1. Self storage insurance. This is a convenient way to insure your goods in storage.</p><p>
+
+            2. Existing insurance through your home and contents or business insurance. Each insurance company and policy will have different requirements and coverage. Please check with your insurance company whether your existing policy covers your goods while in storage.</p><p>
+
+            3. Self insurance. Self insurance means you accept any loss or damage to your stored goods at your own risk and expense. You will have no claim against the self storage facility if your goods are damaged.</p>
       `
         },
         {
@@ -128,24 +146,34 @@ export default {
         <p>answer here</p>
       `
         }
+      ],
+      set3: [
+        {
+          id: 1,
+          active: true,
+          title: 'question 6',
+          details: `
+        <p>answer here</p>
+      `
+        },
+        {
+          id: 2,
+          active: false,
+          title: 'question 7',
+          details: `
+        <p>answer here</p>
+      `
+        },
+        {
+          id: 3,
+          active: false,
+          title: 'question 8',
+          details: `
+        <p>answer here</p>
+      `
+        }
       ]
       //   generic: [
-      //     {
-      //       id: 1,
-      //       active: true,
-      //       title: 'What is Self Storage?',
-      //       details: `
-      //   <p>Our Self Storage centre has a selection of unit sizes that you can hire, from 1 to 10 cubic metres, for short or long term. You bring your goods or possessions to the storage centre, lock them up and come and go as you please during opening hours. You are the only key holder. You can store almost anything, as long as it's not perishable or hazardous.</p>
-      // `
-      //     },
-      //     {
-      //       id: 2,
-      //       active: false,
-      //       title: 'Do I need my own padlock?',
-      //       details: `
-      //   <p>Yes, you need your own padlock to ensure that you are the sole key holder for your room and to ensure that your room is securely locked at all times.</p>
-      // `
-      //     },
       //     {
       //       id: 3,
       //       active: false,
@@ -180,30 +208,10 @@ export default {
       // `
       //     },
       //     {
-      //       id: 7,
-      //       active: false,
-      //       title: `How soon can I move in?`,
-      //       details: `
-      //   <p>You can move in on the same day as you make your enquiry (during office opening hours) providing that you have the relevant documentation needed to complete and sign your contract. Payment of a deposit and the first invoice must be made prior to moving in.</p>
-      // `
-      //     },
-      //     {
       //       id: 8,
       //       active: false,
       //       title: `What payment methods are available?`,
       //       details: `<p>You can pay via direct debit as well as credit/debit card.</p>`
-      //     },
-      //     {
-      //       id: 9,
-      //       active: false,
-      //       title: `Do I need insurance?`,
-      //       details: `
-      //       <p>It is highly recommended that you adequately insure any goods you choose to store. While we make every effort to safeguard items store in our facility, some events are out of our control, such as fire or flooding.</p><p>1. Self storage insurance. This is a convenient way to insure your goods in storage.</p><p>
-
-      //       2. Existing insurance through your home and contents or business insurance. Each insurance company and policy will have different requirements and coverage. Please check with your insurance company whether your existing policy covers your goods while in storage.</p><p>
-
-      //       3. Self insurance. Self insurance means you accept any loss or damage to your stored goods at your own risk and expense. You will have no claim against the self storage facility if your goods are damaged.</p>
-      // `
       //     },
       //     {
       //       id: 10,
@@ -239,6 +247,8 @@ export default {
         return this.set1
       } else if (this.content == 'set2') {
         return this.set2
+      } else if (this.content == 'set3') {
+        return this.set3
       } else {
         return this.set1
       }
