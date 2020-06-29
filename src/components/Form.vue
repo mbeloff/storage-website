@@ -1,7 +1,7 @@
 <template>
   <div class="form">
     <form
-      name="ask-question"
+      name="newForm"
       method="post"
       id="contact-form"
       action="/success"
@@ -12,7 +12,7 @@
       What are you storage needs? Let us know what you need help with and we'll
       get back to you<br />
       <br />
-      <input type="hidden" name="form-name" value="ask-question" />
+      <input type="hidden" name="form-name" value="newForm" />
       <div class="row">
         <div class="col-md-12 form-group">
           <label class="">Hi, my name is</label>
@@ -21,7 +21,7 @@
             class="form-control"
             type="text"
             placeholder=""
-            name="Customer Name"
+            name="name"
             required
             @input="ev => (form.name = ev.target.value)"
           />
@@ -37,7 +37,7 @@
             class="form-control"
             type="tel"
             placeholder=""
-            name="Contact Number"
+            name="number"
             @input="ev => (form.number = ev.target.value)"
           /><i class="form-icon fal fa-phone-rotary"></i>
         </div>
@@ -49,7 +49,7 @@
             class="form-control"
             type="email"
             placeholder=""
-            name="Email"
+            name="email"
             @input="ev => (form.Email = ev.target.value)"
           /><i class="form-icon fal fa-envelope"></i>
         </div>
@@ -61,7 +61,7 @@
 
           <select
             class="form-control"
-            name="Enquiring ABout"
+            name="topic"
             aria-required="false"
             aria-invalid="false"
             value=""
@@ -79,7 +79,7 @@
 
           <select
             class="form-control"
-            name="Storage Period"
+            name="period"
             aria-required="false"
             aria-invalid="false"
             value=""
@@ -105,7 +105,7 @@
             class="form-control"
             rows="4"
             placeholder="Hi there, I want to know ..."
-            name="Customer Says"
+            name="question"
             required
             @input="ev => (form.question = ev.target.value)"
           ></textarea
@@ -137,7 +137,7 @@ export default {
       form: {
         name: '',
         number: '',
-        Email: '',
+        email: '',
         topic: '',
         period: '',
         question: ''
@@ -157,7 +157,7 @@ export default {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: this.encode({
-          'form-name': 'ask-question',
+          'form-name': 'newForm',
           ...this.form
         })
       })
