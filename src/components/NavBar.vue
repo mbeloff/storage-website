@@ -92,7 +92,7 @@ export default {
             type: 'button',
             text: 'Make an enquiry',
             iconLeft: '<i class="fal fa-comment-alt-lines fa-fw"></i>',
-            // path: '#',
+            path: '',
             class: 'btn btn-enquire'
           }
         ]

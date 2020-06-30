@@ -40,7 +40,7 @@
           <ul class="list-unstyled">
             <li>
               <router-link class="gradient-slide" to="/faq"
-                >Frequently Asked Questions</router-link
+                >F.A.Q.s</router-link
               >
             </li>
             <li>
@@ -54,7 +54,7 @@
               >
             </li>
             <li>
-              <open-modal>Send us a message</open-modal>
+              <open-modal>Message Us</open-modal>
             </li>
           </ul>
         </div>
