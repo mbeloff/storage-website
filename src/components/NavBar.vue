@@ -122,7 +122,7 @@ export default {
 }
 
 .nav-logo {
-  height: 66px;
+  height: 60px;
   width: auto;
   margin: auto 0;
   padding: 1rem;
@@ -148,7 +148,7 @@ export default {
   border-left: 2px solid var(--orange-light);
 }
 
-.vnb__popup__bottom__menu-options__option__link.vnb__popup__bottom__menu-options__option__link--no-highlight {
+.vnb__popup__bottom__menu-options__option__link--no-highlight {
   font-size: 1rem !important;
 }
 
@@ -165,13 +165,13 @@ export default {
   .vnb__menu-options__option__link,
   .vnb__sub-menu-options__option__link,
   .vnb__popup__bottom__menu-options__option__link {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   a {
     color: #2c3e50;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     &.router-link-exact-active {
       color: var(--orange-light);
       background: #f3f3f3;
@@ -182,7 +182,7 @@ export default {
 .btn-enquire {
   color: inherit;
   text-transform: capitalize;
-  font-size: 1.5rem !important;
+  font-size: 1.25rem !important;
   &:hover {
     background: linear-gradient(to right, #ffb90d, #cc0045, #009980, #ffb90d);
     background-size: 200% 200%;

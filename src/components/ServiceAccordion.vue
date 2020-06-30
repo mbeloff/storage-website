@@ -56,7 +56,7 @@
       <div class="col-12 col-md-4 text-center my-auto">
         <img src="../assets/truck.svg" alt="" class="ico" />
       </div>
-      <div class="col-12 col-md-6 offset-md-2 text-left">
+      <div class="col-12 col-md-6 offset-md-2 text-right">
         <h2 class="big-title">Mobile storage units.</h2>
         <p class="sub-title">
           <span>Delivered to your door, you pack, we store</span>
@@ -174,7 +174,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 a.btn-gs.text-muted {
   padding: 0 0 1rem 0;
   color: rgb(140, 155, 184) !important;
@@ -186,5 +186,9 @@ a.btn-gs.text-muted {
 
 .btn-gs i.active {
   transform: rotate(90deg);
+}
+
+a.gradient-slide {
+  color: var(--orange);
 }
 </style>

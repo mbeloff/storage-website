@@ -1,5 +1,5 @@
 <template>
-  <div class="container my-5 p-0 px-md-3">
+  <div class="col-12 my-5 p-0 px-md-3">
     <h2 class="big-title ml-3 ml-sm-0">
       {{ faqhead }}
     </h2>
@@ -15,7 +15,8 @@
           autocomplete="off"
           checked
           @click="changeContent('set1')"
-        />General
+        />
+        General
       </label>
       <label class="btn btn-light">
         <input
@@ -71,27 +72,20 @@ export default {
   },
   methods: {
     changeContent(set) {
-      this.content = set
+      this.selectedCategory = set
     }
   },
   data() {
     return {
       groupId: null,
+      selectedCategory: this.content,
       set1: [
         {
           id: 1,
           active: true,
-          title: 'What is Gabba Storage?',
+          title: 'Who is Gabba Storage?',
           details: `
         <p>Gabba Storage provides various sized storage units, both stationary and mobile, so you can bring your goods to us, or let us come to you. We also rent workshop spaces, complete with triple phase power, racking and hoists.</p>
-      `
-        },
-        {
-          id: 2,
-          active: false,
-          title: 'question 2',
-          details: `
-        <p>answer here</p>
       `
         }
       ],
@@ -125,15 +119,15 @@ export default {
       `
         },
         {
-          id: 4,
+          id: 5,
           active: false,
-          title: 'question 5',
+          title: `Is there a minimum rental period?`,
           details: `
-        <p>answer here</p>
+        <p>Gabba Storage has no minimum or maximum rental periods. You can store goods with us for a little as one day. Perfect if you just need some extra space in a pinch while moving into a new home or office.</p>
       `
         },
         {
-          id: 5,
+          id: 4,
           active: false,
           title: `What items cannot be stored?`,
           details: `
@@ -151,37 +145,12 @@ export default {
         {
           id: 1,
           active: true,
-          title: 'question 6',
-          details: `
-        <p>answer here</p>
-      `
-        },
-        {
-          id: 2,
-          active: false,
-          title: 'question 7',
-          details: `
-        <p>answer here</p>
-      `
-        },
-        {
-          id: 3,
-          active: false,
-          title: 'question 8',
+          title: 'question',
           details: `
         <p>answer here</p>
       `
         }
       ]
-      //   generic: [
-      //     {
-      //       id: 3,
-      //       active: false,
-      //       title: `Is there a minimum rental period?`,
-      //       details: `
-      //   <p>Gabba Storage has no minimum or maximum rental periods. You can store goods with us for a little as one day. Perfect if you just need some extra space in a pinch while moving into a new home or office.</p>
-      // `
-      //     },
       //     {
       //       id: 4,
       //       active: false,
@@ -229,11 +198,11 @@ export default {
   },
   computed: {
     getQuestions: function() {
-      if (this.content == 'set1') {
+      if (this.selectedCategory == 'set1') {
         return this.set1
-      } else if (this.content == 'set2') {
+      } else if (this.selectedCategory == 'set2') {
         return this.set2
-      } else if (this.content == 'set3') {
+      } else if (this.selectedCategory == 'set3') {
         return this.set3
       } else {
         return this.set1
@@ -333,5 +302,9 @@ $red: #cc4b37;
 .accordion-item-enter,
 .accordion-item-leave-to {
   height: 0 !important;
+}
+
+.btn-group .btn.btn-light {
+  padding: 0 0;
 }
 </style>

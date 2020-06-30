@@ -12,11 +12,6 @@
     </div>
     <service-accordion></service-accordion>
     <Why></Why>
-    <Faq
-      id="accordion-example-1"
-      :content="'set1'"
-      :faqhead="'Frequently Asked Questions'"
-    ></Faq>
   </div>
 </template>
 
@@ -24,13 +19,11 @@
 // @ is an alias to /src
 import Why from '@/components/Why.vue'
 import ServiceAccordion from '@/components/ServiceAccordion.vue'
-import Faq from '@/components/Faq.vue'
 export default {
   name: 'Home',
   components: {
     Why,
-    ServiceAccordion,
-    Faq
+    ServiceAccordion
   },
   data() {
     return {}

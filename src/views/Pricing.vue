@@ -143,6 +143,5 @@ export default {
   padding: 1rem;
   margin-bottom: 0px;
   border-radius: 2px;
-  /* color: var(--orange-dark); */
 }
 </style>

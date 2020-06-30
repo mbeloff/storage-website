@@ -39,13 +39,18 @@
           <b>Information</b>
           <ul class="list-unstyled">
             <li>
+              <router-link class="gradient-slide" to="/faq"
+                >Frequently Asked Questions</router-link
+              >
+            </li>
+            <li>
               <router-link class="gradient-slide" to="/location"
                 >Find Us</router-link
               >
             </li>
             <li>
-              <router-link class="gradient-slide" to="/faq"
-                >Frequently Asked Questions</router-link
+              <router-link class="gradient-slide" to="/policies"
+                >T&Cs</router-link
               >
             </li>
             <li>
@@ -70,5 +75,8 @@ export default {}
 }
 .footer-logo {
   max-width: 200px;
+}
+a.gradient-slide {
+  color: inherit;
 }
 </style>

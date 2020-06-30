@@ -12,7 +12,7 @@
       brim? Now's the perfect time to de-clutter your life. Various sized
       storage units from <nobr>1 - 10m<sup>3</sup>.</nobr> We also have
       incredibly cheap truck rentals, or mobile storage units to make getting
-      your items into storage as simple as possible.
+      your items into storage as easy as possible.
     </p>
     <p>
       <open-modal>Get in touch</open-modal> today to discuss your storage
@@ -23,10 +23,16 @@
       <span>Streamline your business</span>
     </p>
     <p>
-      See Gabba Storage for budget self storage options, perfect for securely
-      storing excess or seasonal stock, tools, materials or archives. Come and
-      go as you please during operating hours, with your goods only ever
-      accessible by you.
+      See Gabba Storage for budget self storage options great for all types of
+      business. Securely store excess or seasonal stock, signage or display
+      merchandise, tools, materials or archives. Whether your business is
+      expanding or downsizing, renovating or relocating, Gabba Storage is
+      available with fantastic tax deductable rates and special offers on short
+      or long-term rentals.
+    </p>
+    <p>
+      Come and go as you please during operating hours, with your goods only
+      ever accessible by you.
     </p>
     <p>
       If you're in need of some extra space for your business,

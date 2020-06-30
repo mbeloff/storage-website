@@ -74,6 +74,7 @@ a:not([href]) {
       to right,
       #ff960d,
       #cc0045,
+      #cc0045,
       #1169ec,
       #0baa7a,
       #ff960d
@@ -143,7 +144,8 @@ a:not([href]) {
 
 // sub-title underline gradient
 .sub-title span,
-.underline {
+.underline,
+.vnb__popup__bottom__menu-options__option__link--no-highlight {
   position: relative;
   &::after {
     position: absolute;
@@ -154,6 +156,14 @@ a:not([href]) {
     height: 1px;
     background: var(--orange-light);
     background-image: var(--nice-gradient);
+  }
+}
+
+.vnb__popup__bottom__menu-options__option__link--no-highlight {
+  &::after {
+    bottom: 0rem;
+    left: 1.25rem;
+    width: 50%;
   }
 }
 
