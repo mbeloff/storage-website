@@ -10,12 +10,17 @@
             1m<sup>3</sup> - 10m<sup>3</sup>
           </p>
 
-          <div class="grad-border text-center font-weight-bold my-5">
+          <div class="grad-border text-center font-weight-bold mt-5 mb-2">
             <p>
               Current Offer:
-              <span class="font-weight-light">First 2 Months FREE</span>
+              <span class="font-weight-light">First 2 Months FREE*</span>
             </p>
           </div>
+          <p class="small">
+            When you rent for 6 month, the first two months are free, and you
+            get complimentary use of a moving truck to help shift your goods
+            into storage (subject to availability, please book ahead)
+          </p>
         </div>
       </div>
     </div>

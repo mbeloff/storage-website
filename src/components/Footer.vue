@@ -1,7 +1,7 @@
 <template>
   <div class="footer py-3">
-    <hr />
-    <div class="container">
+    <div class="container pt-3">
+      <hr>
       <div class="row">
         <div class="col-12 col-md-6">
           <img src="../assets/logo.svg" alt="" class="footer-logo mb-2" />
