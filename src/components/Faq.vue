@@ -1,10 +1,10 @@
 <template>
   <div class="container my-5 p-0 px-md-3">
     <h2 class="big-title ml-3 ml-sm-0">
-      {{ faqhead }} <span class="small text-muted">under-construction</span>
+      {{ faqhead }}
     </h2>
     <div
-      class="btn-group btn-group-toggle d-flex flex-center"
+      class="btn-group btn-group-toggle d-flex flex-center flex-column mb-2 flex-sm-row"
       data-toggle="buttons"
     >
       <label class="btn btn-light active">
@@ -93,20 +93,6 @@ export default {
           details: `
         <p>answer here</p>
       `
-        },
-        {
-          id: 3,
-          active: false,
-          title: `What items cannot be stored?`,
-          details: `
-            <p>We do not allow the storage of:</p><ul>
-              <li>Hazardous goods, toxic materials</li>
-              <li>Pollutants, contaminants, waste</li>
-              <li>Perishable goods, live animals, living plants</li>
-              <li>Cash and securities, illegal goods</li>
-              <li>Explosives, firearms, ammunitions</li>
-            </ul>
-      `
         }
       ],
       set2: [
@@ -123,7 +109,7 @@ export default {
           active: false,
           title: `How soon can I move in?`,
           details: `
-        <p>You can move in on the same day as you make your enquiry (during office opening hours) providing that you have the relevant documentation needed to complete and sign your contract. Payment of a deposit and the first invoice must be made prior to moving in.</p>
+        <p>You can move in on the same day as you make your enquiry (during office opening hours) as long as you have the relevant documentation needed to complete and sign your contract. Payment of a deposit and the first invoice must be made prior to moving in.</p>
       `
         },
         {
@@ -139,11 +125,25 @@ export default {
       `
         },
         {
-          id: 3,
+          id: 4,
           active: false,
           title: 'question 5',
           details: `
         <p>answer here</p>
+      `
+        },
+        {
+          id: 5,
+          active: false,
+          title: `What items cannot be stored?`,
+          details: `
+            <p>We do not allow the storage of:</p><ul>
+              <li>Hazardous goods, toxic materials</li>
+              <li>Pollutants, contaminants, waste</li>
+              <li>Perishable goods, live animals, living plants</li>
+              <li>Cash and securities, illegal goods</li>
+              <li>Explosives, firearms, ammunitions</li>
+            </ul>
       `
         }
       ],
@@ -212,20 +212,6 @@ export default {
       //       active: false,
       //       title: `What payment methods are available?`,
       //       details: `<p>You can pay via direct debit as well as credit/debit card.</p>`
-      //     },
-      //     {
-      //       id: 10,
-      //       active: false,
-      //       title: `What items cannot be stored?`,
-      //       details: `
-      //       <p>We do not allow the storage of:</p><ul>
-      //         <li>Hazardous goods, toxic materials</li>
-      //         <li>Pollutants, contaminants, waste</li>
-      //         <li>Perishable goods, live animals, living plants</li>
-      //         <li>Cash and securities, illegal goods</li>
-      //         <li>Explosives, firearms, ammunitions</li>
-      //       </ul>
-      // `
       //     },
       //     {
       //       id: 11,
