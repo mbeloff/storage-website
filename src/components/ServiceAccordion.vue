@@ -56,7 +56,7 @@
       <div class="col-12 col-md-4 text-center my-auto">
         <img src="../assets/truck.svg" alt="" class="ico" />
       </div>
-      <div class="col-12 col-md-6 offset-md-2 text-left text-md-right">
+      <div class="col-12 col-md-6 offset-md-2">
         <h2 class="big-title">Mobile storage units.</h2>
         <p class="sub-title">
           <span>Delivered to your door, you pack, we store</span>

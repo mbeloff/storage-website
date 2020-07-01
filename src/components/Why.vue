@@ -69,6 +69,15 @@
             </li>
           </ul>
         </div>
+        <div class="col-12 col-md-4">
+          <ul class="list-unstyled">
+            <li class="mb-2"><i class="fal fa-check-circle fa-2x"></i></li>
+            <li class="mb-2"><i class="fal fa-check-circle fa-2x"></i></li>
+            <li class="mb-2"><i class="fal fa-check-circle fa-2x"></i></li>
+            <li class="mb-2"><i class="fal fa-check-circle fa-2x"></i></li>
+            <li class="mb-2"><i class="fal fa-check-circle fa-2x"></i></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>

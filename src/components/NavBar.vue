@@ -65,6 +65,11 @@ export default {
           },
           {
             type: 'link',
+            text: 'Specials',
+            path: './specials'
+          },
+          {
+            type: 'link',
             text: 'About',
             subMenuOptions: [
               {
@@ -90,7 +95,7 @@ export default {
           {
             isLinkAction: true,
             type: 'button',
-            text: 'Make an enquiry',
+            text: 'Get a Quote',
             iconLeft: '<i class="fal fa-comment-alt-lines fa-fw"></i>',
             path: '',
             class: 'btn btn-enquire'
@@ -107,7 +112,7 @@ export default {
     //   this.$modal.hide("contact-modal");
     // },
     vnbItemClicked(text) {
-      if (text === 'Make an enquiry') {
+      if (text === 'Get a Quote') {
         this.$modal.show('contact-modal')
       }
     }

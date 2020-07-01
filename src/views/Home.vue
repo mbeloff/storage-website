@@ -10,6 +10,7 @@
         </div>
       </div>
     </div>
+    <under-banner></under-banner>
     <service-accordion></service-accordion>
     <Why></Why>
   </div>
@@ -19,11 +20,13 @@
 // @ is an alias to /src
 import Why from '@/components/Why.vue'
 import ServiceAccordion from '@/components/ServiceAccordion.vue'
+import UnderBanner from '@/components/UnderBanner.vue'
 export default {
   name: 'Home',
   components: {
     Why,
-    ServiceAccordion
+    ServiceAccordion,
+    UnderBanner
   },
   data() {
     return {}

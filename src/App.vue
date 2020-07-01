@@ -35,14 +35,16 @@ export default {
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
 body {
   margin: 0 0 0 0;
   --orange-light: #ff5c1c;
   --orange-dark: #ff2600;
-  --orange: #ff4828;
+  --orange: #ff562c;
   --nice-gradient: linear-gradient(-30deg, #ffb90d, #cc0045, #009980);
-  --serif: 'playfair display';
+  --serif: 'Fredoka One';
 }
 
 #app {
@@ -79,7 +81,7 @@ a:not([href]) {
       #0baa7a,
       #ff960d
     );
-    background-size: 200% 200%;
+    background-size: 400% 400%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: gradientSlide 5s linear infinite;
@@ -118,7 +120,7 @@ a:not([href]) {
 .big-title {
   font-family: var(--serif);
   font-weight: 400;
-  color: var(--orange);
+  color: var(--orange-dark);
   font-size: 2rem;
   margin-bottom: 0.4rem;
   line-height: 1.3;
