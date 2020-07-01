@@ -48,13 +48,13 @@
       </div>
 
       <div class="col-12 col-md-4 offset-md-1 text-center my-auto order-md-2">
-        <img src="../assets/warehouse.svg" alt="" class=" ico" />
+        <img src="../assets/warehouse.svg" alt="" class=" ico mb-3 mb-md-0" />
       </div>
     </div>
     <hr class="my-5" />
     <div class="row">
       <div class="col-12 col-md-4 text-center my-auto">
-        <img src="../assets/truck.svg" alt="" class="ico" />
+        <img src="../assets/truck.svg" alt="" class="ico mb-3 mb-md-0" />
       </div>
       <div class="col-12 col-md-6 offset-md-2">
         <h2 class="big-title">Mobile storage units.</h2>
@@ -132,7 +132,7 @@
         </div>
       </div>
       <div class="col-12 col-md-4 offset-md-1 text-center my-auto order-md-2">
-        <img src="../assets/mechanic.svg" alt="" class="ico" />
+        <img src="../assets/mechanic.svg" alt="" class="ico mb-3 mb-md-0" />
       </div>
     </div>
     <div class="row">

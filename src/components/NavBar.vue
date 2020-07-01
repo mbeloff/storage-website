@@ -186,7 +186,7 @@ export default {
 
 .btn-enquire {
   color: inherit;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-size: 1.25rem !important;
   &:hover {
     background: linear-gradient(to right, #ffb90d, #cc0045, #009980, #ffb90d);
@@ -196,6 +196,7 @@ export default {
     -webkit-animation: gradientSlide 5s linear infinite;
     -moz-animation: gradientSlide 5s linear infinite;
     animation: gradientSlide 5s linear infinite;
+    border: 1px solid var(--orange);
   }
 }
 </style>

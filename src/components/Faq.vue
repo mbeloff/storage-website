@@ -306,5 +306,10 @@ $red: #cc4b37;
 
 .btn-group .btn.btn-light {
   padding: 0 0;
+  color: var(--orange);
+  font-weight: 100;
+  &.active {
+    font-weight: 400;
+  }
 }
 </style>

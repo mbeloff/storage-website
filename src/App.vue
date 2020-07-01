@@ -35,16 +35,14 @@ export default {
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
 body {
   margin: 0 0 0 0;
-  --orange-light: #ff5c1c;
+  --orange-light: #ff6d33;
   --orange-dark: #ff2600;
   --orange: #ff562c;
   --nice-gradient: linear-gradient(-30deg, #ffb90d, #cc0045, #009980);
-  --serif: 'Fredoka One';
+  --serif: 'Playfair Display';
 }
 
 #app {
@@ -121,15 +119,15 @@ a:not([href]) {
   font-family: var(--serif);
   font-weight: 400;
   color: var(--orange-dark);
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-bottom: 0.4rem;
   line-height: 1.3;
 
   @media only screen and (min-width: 470px) {
-    font-size: 2.25rem;
+    font-size: 2.35rem;
   }
   @media only screen and (min-width: 768px) {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
   }
 }
 
