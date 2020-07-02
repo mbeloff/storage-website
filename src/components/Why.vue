@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid bg-light py-5 px-0">
+  <div class="container-fluid bg-light px-0">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-8">
@@ -69,15 +69,6 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-md-4">
-          <ul class="list-unstyled">
-            <li class="mb-2"><i class="fal fa-check-circle fa-2x"></i></li>
-            <li class="mb-2"><i class="fal fa-check-circle fa-2x"></i></li>
-            <li class="mb-2"><i class="fal fa-check-circle fa-2x"></i></li>
-            <li class="mb-2"><i class="fal fa-check-circle fa-2x"></i></li>
-            <li class="mb-2"><i class="fal fa-check-circle fa-2x"></i></li>
-          </ul>
-        </div>
       </div>
     </div>
   </div>
@@ -97,5 +88,10 @@
 
 p {
   text-align: justify;
+}
+
+.bg-dark {
+  height: 100%;
+  width: 100%;
 }
 </style>

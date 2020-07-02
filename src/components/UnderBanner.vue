@@ -1,20 +1,20 @@
 <template>
-  <div class="container-fluid text-white under-banner py-3">
+  <div class="container-fluid text-white under-banner">
     <!-- <div
       class="container d-flex flex-column flex-md-row justify-content-between pt-4"
     >
       <div class="d-flex flex-row flex-md-column mb-3 text-center">
-        <i class="fas mb-2 fa-check-circle fa-2x mr-5 mr-md-0 "></i>
-        <p>Best Prices</p>
+        <img src="../assets/bank.svg" />
+        <p>Best Deals</p>
       </div>
       <div class="d-flex flex-row flex-md-column mb-3 text-center">
-        <i class="fas mb-2 fa-check-circle fa-2x mr-5 mr-md-0 "></i>
+        <img src="../assets/freetruck.svg" />
         <p>
           Free Truck Hire
         </p>
       </div>
       <div class="d-flex flex-row flex-md-column mb-3 text-center">
-        <i class="fas mb-2 fa-check-circle fa-2x mr-5 mr-md-0 "></i>
+        <img src="../assets/mobilestorage.svg" />
         <p>We Come to You</p>
       </div>
     </div> -->
@@ -27,8 +27,11 @@ export default {}
 
 <style lang="scss">
 .under-banner {
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.37);
+  height: 1rem;
+
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3);
   background: var(--orange-dark);
+  // background: rgb(34, 32, 32);
   p {
     font-size: 1rem;
     text-transform: uppercase;
@@ -37,6 +40,11 @@ export default {}
   }
   i {
     vertical-align: middle;
+  }
+  img {
+    height: 75px;
+    width: auto;
+    margin-bottom: 0.5rem;
   }
 }
 </style>

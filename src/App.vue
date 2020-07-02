@@ -79,7 +79,7 @@ a:not([href]) {
       #0baa7a,
       #ff960d
     );
-    background-size: 400% 400%;
+    background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: gradientSlide 5s linear infinite;
