@@ -139,7 +139,7 @@
         <img src="../assets/mechoutline.svg" alt="" class="ico mb-3 mb-md-0" />
       </div>
     </div>
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-12 my-5" style="min-height: 300px;">
         <div class="grad-border h-100">
           <iframe
@@ -155,7 +155,7 @@
           ></iframe>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -178,7 +178,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 a.btn-gs.text-muted {
   padding: 0 0 1rem 0;
   color: rgb(140, 155, 184) !important;

@@ -95,7 +95,7 @@ export default {
           {
             isLinkAction: true,
             type: 'button',
-            text: 'Get a Quote',
+            text: 'Quote',
             iconLeft: '<i class="fal fa-comment-alt-lines fa-fw"></i>',
             path: '',
             class: 'btn btn-enquire'
@@ -186,7 +186,7 @@ export default {
 
 .btn-enquire {
   color: inherit;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 1.25rem !important;
   &:hover {
     background: linear-gradient(to right, #ffb90d, #cc0045, #009980, #ffb90d);

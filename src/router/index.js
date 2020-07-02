@@ -9,6 +9,7 @@ import Success from '../views/Success.vue'
 import SelfStorage from '../views/SelfStorage.vue'
 import Workshops from '../views/Workshops.vue'
 import MobileStorage from '../views/MobileStorage.vue'
+import Specials from '../views/Specials.vue'
 
 Vue.use(VueRouter)
 
@@ -40,6 +41,11 @@ const routes = [
     path: '/pricing',
     name: 'Pricing',
     component: Pricing
+  },
+  {
+    path: '/specials',
+    name: 'Specials',
+    component: Specials
   },
   {
     path: '/success',
