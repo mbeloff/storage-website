@@ -4,7 +4,7 @@
       {{ faqhead }}
     </h2>
     <div
-      class="btn-group btn-group-toggle d-flex flex-center flex-column mb-2 flex-sm-row"
+      class="btn-group btn-group-toggle d-flex flex-center flex-column mb-2 flex-sm-row "
       data-toggle="buttons"
     >
       <label class="btn btn-light active">
@@ -16,6 +16,7 @@
           checked
           @click="changeContent('set1')"
         />
+        <i class="far fa-info-circle float-left mt-1 ml-1"></i>
         General
       </label>
       <label class="btn btn-light">
@@ -26,6 +27,7 @@
           autocomplete="off"
           @click="changeContent('set2')"
         />
+        <i class="far fa-info-circle float-left mt-1 ml-1"></i>
         Storage Units
       </label>
       <label class="btn btn-light">
@@ -36,6 +38,7 @@
           autocomplete="off"
           @click="changeContent('set3')"
         />
+        <i class="far fa-info-circle float-left mt-1 ml-1"></i>
         Workshop Spaces
       </label>
     </div>

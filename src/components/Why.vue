@@ -48,26 +48,6 @@
             flexible alternative to traditional warehousing. You can store
             excess stock, tools, equipment or archives.
           </p>
-          <h3 class="sub-title">
-            <span>Life Event Storage</span>
-          </h3>
-          <ul class="list-unstyled">
-            <li>
-              <strong>Moving in together:</strong> What to do with all your
-              stuff when moving in with a partner? Self storage can help in the
-              short term while you decide.
-            </li>
-            <li>
-              <strong>New baby:</strong> Make use of a storage unit while you
-              clear out to make room for a nursery.
-            </li>
-            <li>
-              <strong>Downsizing:</strong> Moving into a new house can be very
-              stressful; moving into a smaller place even more so. Self storage
-              can help during the period, while you decide what's really worth
-              keeping.
-            </li>
-          </ul>
         </div>
         <div class="col-12 col-md-4 my-5">
           <div class="grad-border h-100">

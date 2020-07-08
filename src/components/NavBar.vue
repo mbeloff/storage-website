@@ -112,7 +112,7 @@ export default {
     //   this.$modal.hide("contact-modal");
     // },
     vnbItemClicked(text) {
-      if (text === 'Get a Quote') {
+      if (text === 'Quote') {
         this.$modal.show('contact-modal')
       }
     }
@@ -191,6 +191,7 @@ export default {
   &:hover {
     background: linear-gradient(to right, #ffb90d, #cc0045, #009980, #ffb90d);
     background-size: 200% 200%;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: gradientSlide 5s linear infinite;
