@@ -9,8 +9,13 @@
       data-netlify-honeypot="bot-field"
       @submit.prevent="handleSubmit"
     >
-      What are you storage needs? Let us know what you need help with and we'll
-      get back to you<br />
+      <p class="sub-title">
+        <span>
+          What are you storage needs? Let us know what you need help with and
+          we'll get back to you</span
+        >
+      </p>
+      <br />
       <br />
       <input type="hidden" name="form-name" value="newForm" />
       <div class="row">
@@ -68,8 +73,8 @@
             @input="ev => (form.topic = ev.target.value)"
           >
             <option value="" disabled="disabled" selected="selected">-</option>
-            <option value="on-site storage">On-site storage</option>
-            <option value="mobile storage unit">Mobile Storage</option>
+            <option value="on-site storage">Storage Unit</option>
+            <option value="mobile storage unit">Mobile Storage Unit</option>
             <option value="workshop space">Workshop Space</option>
             <option value="Unknown">Something Else</option> </select
           ><i class="form-icon fal fa-list"></i>
@@ -113,7 +118,7 @@
         </div>
       </div>
 
-      <div class="text-center">
+      <div class="text-right">
         <!-- <div> -->
         <button
           type="submit"

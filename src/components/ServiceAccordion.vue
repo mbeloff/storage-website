@@ -4,7 +4,7 @@
       <div class="col-12 col-md-6 order-2 order-md-1">
         <h2 class="big-title">Cheap, secure, self storage.</h2>
         <p class="sub-title">
-          <span>No lock-in contracts, short or long term hire</span>
+          <span>Pay as you go, short or long term hire</span>
         </p>
         <p style="font-size: 16px;">
           Various sized storage units available. Finally free up some space in

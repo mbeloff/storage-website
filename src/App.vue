@@ -11,7 +11,7 @@
     >
       <ContactForm></ContactForm>
     </modal>
-    <router-view style="min-height: 60vh" />
+    <router-view style="min-height: 65vh" />
     <Footer></Footer>
   </div>
 </template>

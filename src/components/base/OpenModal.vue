@@ -1,6 +1,6 @@
 <template>
   <a class="gradient-slide" href="javascript:void(0);" @click="show()"
-    ><nobr><i class="far fa-comment-alt-lines mr-1"></i><slot></slot></nobr
+    ><nobr><i class="far fa-comment-alt-lines fa-fw"></i><slot></slot></nobr
   ></a>
 </template>
 
@@ -17,4 +17,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+i {
+  margin-right: 0.25rem;
+}
+</style>

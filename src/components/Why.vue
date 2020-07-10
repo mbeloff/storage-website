@@ -41,12 +41,12 @@
             <span>Self storage for Business</span>
           </h3>
           <p>
-            If you run a business, you might rent a self storage unit rather
-            than commit to a long commercial lease on a larger property. Our
-            self storage facilities don’t attract business rates, and the amount
-            of space you can rent is adjustable, which makes it an affordable,
-            flexible alternative to traditional warehousing. You can store
-            excess stock, tools, equipment or archives.
+            If you run a business, renting a storage unit might make more sense
+            than committing to a long commercial lease on a larger property. Our
+            self storage facilities are a convenient way to store excess stock,
+            tools or materials, and the amount of space you can rent is
+            adjustable, which makes it an affordable, flexible alternative to
+            traditional warehousing.
           </p>
         </div>
         <div class="col-12 col-md-4 my-5">

@@ -3,6 +3,45 @@
     <h2 class="big-title ml-3 ml-sm-0">
       {{ faqhead }}
     </h2>
+    <div
+      class="btn-group btn-group-toggle d-flex flex-center flex-column mb-2 flex-sm-row "
+      data-toggle="buttons"
+    >
+      <label class="btn btn-light active">
+        <input
+          type="radio"
+          name="options"
+          id="option1"
+          autocomplete="off"
+          checked
+          @click="changeContent('set1')"
+        />
+        <i class="far fa-info-circle float-left mt-1 ml-1"></i>
+        General
+      </label>
+      <label class="btn btn-light">
+        <input
+          type="radio"
+          name="options"
+          id="option2"
+          autocomplete="off"
+          @click="changeContent('set2')"
+        />
+        <i class="far fa-info-circle float-left mt-1 ml-1"></i>
+        Storage Units
+      </label>
+      <label class="btn btn-light">
+        <input
+          type="radio"
+          name="options"
+          id="option3"
+          autocomplete="off"
+          @click="changeContent('set3')"
+        />
+        <i class="far fa-info-circle float-left mt-1 ml-1"></i>
+        Workshop Spaces
+      </label>
+    </div>
     <dl class="accordion box" role="presentation">
       <Faqitem
         v-for="item in getQuestions"
@@ -51,17 +90,19 @@ export default {
           details: `
         <p>Gabba Storage provides various sized storage units, both stationary and mobile, so you can bring your goods to us, or let us come to you. We also rent workshop spaces, complete with triple phase power, racking and hoists.</p>
       `
-        },
+        }
+      ],
+      set2: [
         {
-          id: 2,
-          active: false,
+          id: 1,
+          active: true,
           title: 'Do I need my own padlock?',
           details: `
         <p>Yes, you need your own padlock to ensure that no one else has access to your unit and to ensure that your unit is securely locked at all times.</p>
       `
         },
         {
-          id: 3,
+          id: 2,
           active: false,
           title: `How soon can I move in?`,
           details: `
@@ -69,7 +110,7 @@ export default {
       `
         },
         {
-          id: 4,
+          id: 3,
           active: false,
           title: `Do I need insurance?`,
           details: `
@@ -89,7 +130,7 @@ export default {
       `
         },
         {
-          id: 6,
+          id: 4,
           active: false,
           title: `What items cannot be stored?`,
           details: `
@@ -101,10 +142,12 @@ export default {
               <li>Explosives, firearms, ammunitions</li>
             </ul>
       `
-        },
+        }
+      ],
+      set3: [
         {
-          id: 7,
-          active: false,
+          id: 1,
+          active: true,
           title: 'question',
           details: `
         <p>answer here</p>
@@ -264,7 +307,12 @@ $red: #cc4b37;
   height: 0 !important;
 }
 
-.vnb__collapse-button {
-  margin-right: 0 !important;
+.btn-group .btn.btn-light {
+  padding: 0 0;
+  color: var(--orange);
+  font-weight: 100;
+  &.active {
+    font-weight: 400;
+  }
 }
 </style>

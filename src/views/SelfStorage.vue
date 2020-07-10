@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container pb-5">
     <h1 class="big-title mt-5">Personal Self Storage</h1>
     <p class="sub-title"><span>De-clutter your life</span></p>
     <div class="body-text text-justify">

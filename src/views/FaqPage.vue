@@ -7,12 +7,11 @@
     ></Faq>
     <div class="col-12">
       <p>
-      If you can't find the answer to your questions here, please
-      <open-modal>send us a message</open-modal>
-      and we'll get get back to you as soon as possible.
-    </p>
+        If you can't find the answer to your questions here, please
+        <open-modal>send us a message</open-modal>
+        and we'll get get back to you as soon as possible.
+      </p>
     </div>
-    
   </div>
 </template>
 

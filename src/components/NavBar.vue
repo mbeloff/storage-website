@@ -1,5 +1,5 @@
 <template>
-  <div class="px-4 py-0 navi">
+  <div class="px-2 py-0 navi">
     <router-link to="/" class="float-left logo-link">
       <img src="../assets/logo-sm.svg" alt="" class="nav-logo " />
     </router-link>
