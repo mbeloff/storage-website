@@ -21,6 +21,7 @@ export default {
         elementId: 'main-navbar',
         isUsingVueRouter: true,
         mobileBreakpoint: 992,
+        collapseButtonOpenColor: '#ffa41c',
         // showBrandImageInMobilePopup: true,
         ariaLabelMainNav: 'Main Navigation',
         tooltipAnimationType: 'shift-away',
@@ -73,6 +74,7 @@ export default {
           {
             type: 'link',
             text: 'About',
+            arrowColor: '#ffcd60',
             subMenuOptions: [
               {
                 type: 'link',

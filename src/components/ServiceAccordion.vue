@@ -48,17 +48,17 @@
       </div>
 
       <div class="col-12 col-md-4 offset-md-1 text-center my-auto order-md-2">
-        <img src="../assets/bank.svg" alt="" class=" ico mb-3 mb-md-0" />
+        <div class="icon-wrapper mb-3 mb-md-0 p-2">
+          <img src="../assets/bank.svg" alt="" class=" ico" />
+        </div>
       </div>
     </div>
     <hr class="my-5" />
     <div class="row">
       <div class="col-12 col-md-4 text-center my-auto">
-        <img
-          src="../assets/mobilestorage.svg"
-          alt=""
-          class="ico mb-3 mb-md-0"
-        />
+        <div class="icon-wrapper mb-3 mb-md-0 p-2">
+          <img src="../assets/mobilestorage.svg" alt="" class=" ico" />
+        </div>
       </div>
       <div class="col-12 col-md-6 offset-md-2">
         <h2 class="big-title">Mobile storage units.</h2>
@@ -136,7 +136,9 @@
         </div>
       </div>
       <div class="col-12 col-md-4 offset-md-1 text-center my-auto order-md-2">
-        <img src="../assets/mechoutline.svg" alt="" class="ico mb-3 mb-md-0" />
+        <div class="icon-wrapper mb-3 mb-md-0 p-2">
+          <img src="../assets/mechoutline.svg" alt="" class=" ico" />
+        </div>
       </div>
     </div>
     <!-- <div class="row">
@@ -194,5 +196,11 @@ a.btn-gs.text-muted {
 
 a.gradient-slide {
   color: var(--orange);
+}
+
+.icon-wrapper {
+  width: min-content;
+  margin: auto;
+  border-radius: 50%;
 }
 </style>

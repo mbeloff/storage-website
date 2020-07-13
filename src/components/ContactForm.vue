@@ -1,5 +1,5 @@
 <template>
-  <div class="p-3">
+  <div class="p-3 dark-bg">
     <h1 class="big-title">
       Contact Us<i class="fa fa-times float-right" @click="hide()"></i>
     </h1>

@@ -120,11 +120,10 @@
 
       <div class="text-right">
         <!-- <div> -->
-        <button
-          type="submit"
-          class="btn btn-submit gradient-slide text-uppercase"
-        >
-          <i class="fa fa-paper-plane mr-1 d-inline"></i> Submit
+        <button type="submit" class="btn btn-submit text-uppercase">
+          <p class="gradient-slide mb-0">
+            <i class="fa fa-paper-plane mr-1 d-inline"></i> Submit
+          </p>
         </button>
         <!-- <a class="btn btn-submit text-uppercase" @click="submitAction()">
           <i class="fa fa-paper-plane g-px-5"></i>&nbsp;Submit
@@ -185,6 +184,10 @@ label {
   color: var(--orange-light);
 }
 
+.form-control {
+  background: rgb(255, 255, 255);
+}
+
 textarea::placeholder,
 input::placeholder,
 select::placeholder {
@@ -194,13 +197,27 @@ select::placeholder {
 
 .btn-submit {
   color: white;
-  background: #ff4828;
+  background: var(--orange-dark);
   border: var(--orange-dark) 0.5px solid;
   border-radius: 20px;
   font-weight: 100;
-  &:hover {
-    box-shadow: 0px 2px 6px 1px #ff11001f;
-    font-weight: 400;
+  &:hover,
+  &:focus {
+    background: white;
+    .gradient-slide {
+      background: var(--grad-slide);
+      background-size: 200% 200%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-animation: gradientSlide 5s linear infinite;
+      animation-fill-mode: forwards;
+      animation-direction: normal;
+      -moz-animation: gradientSlide 5s linear infinite;
+      animation: gradientSlide 5s linear infinite;
+    }
+  }
+  a.gradient-slide {
+    color: white;
   }
 }
 
@@ -213,12 +230,12 @@ select::placeholder {
   left: 1.5rem;
   top: 2.7rem;
   // margin-bottom: 10px;
-  color: rgb(255, 72, 0);
+  color: var(--orange-dark);
   transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.74, 2.66);
 }
 
 .form-control:focus + .form-icon {
   transform: scale(1.5);
-  color: rgb(255, 0, 76);
+  color: rgb(255, 94, 0);
 }
 </style>
