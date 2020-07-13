@@ -4,7 +4,7 @@
       <hr />
       <div class="row">
         <div class="col-12 col-md-6">
-          <img src="../assets/logo-lite.svg" alt="" class="footer-logo mb-2" />
+          <img src="../assets/logo.svg" alt="" class="footer-logo mb-2" />
           <p>
             46 Deshon St.<br />
             Woolloongabba, QLD 4102 <br />
@@ -74,8 +74,8 @@ export default {}
 <style scoped lang="scss">
 .footer {
   // margin-top: 5rem;
-  background: rgb(41, 41, 41);
-  color: rgb(223, 210, 210);
+  background: #1d1c1c;
+  color: #dfd2d2;
   font-size: 0.9rem;
   // font-weight: 100;
   text-transform: uppercase;
@@ -93,15 +93,7 @@ export default {}
 a.gradient-slide-lite {
   color: inherit;
   &:hover {
-    background: linear-gradient(
-      to right,
-      #ffd45e,
-      #ff6196,
-      #ff7171,
-      #7eb1ff,
-      #64ffd0,
-      #ffd45e
-    );
+    background: var(--grad-slide-lite);
     background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

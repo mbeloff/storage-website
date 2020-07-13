@@ -38,9 +38,29 @@ export default {
 
 body {
   margin: 0 0 0 0;
-  --orange-light: #ff6d33;
-  --orange-dark: #ff2600;
-  --orange: #ff562c;
+  --orange-light: #ffcd60;
+  --orange-dark: #ffa41c;
+  --orange: #ffae00;
+  --dark-color: #1d1c1c;
+  --light-color: #dfd2d2;
+  --grad-slide: linear-gradient(
+    to right,
+    #ff960d,
+    #cc0045,
+    #cc0045,
+    #1169ec,
+    #0baa7a,
+    #ff960d
+  );
+  --grad-slide-lite: linear-gradient(
+    to right,
+    #ffd45e,
+    #ff6196,
+    #ff7171,
+    #7eb1ff,
+    #64ffd0,
+    #ffd45e
+  );
   --nice-gradient: linear-gradient(-30deg, #ffb90d, #cc0045, #009980);
   --serif: 'Playfair Display';
 }
@@ -50,6 +70,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #465767;
+}
+
+.dark-bg {
+  background-color: var(--dark-color);
+  color: var(--light-color);
 }
 
 a:not([href]) {
@@ -70,15 +95,7 @@ a:not([href]) {
 .gradient-slide {
   color: inherit;
   &:hover {
-    background: linear-gradient(
-      to right,
-      #ff960d,
-      #cc0045,
-      #cc0045,
-      #1169ec,
-      #0baa7a,
-      #ff960d
-    );
+    background: var(--grad-slide);
     background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

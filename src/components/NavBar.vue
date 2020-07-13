@@ -1,9 +1,10 @@
 <template>
-  <div class="px-2 py-0 navi">
+  <div class="px-2 py-0 navi dark-bg">
     <router-link to="/" class="float-left logo-link">
       <img src="../assets/logo-sm.svg" alt="" class="nav-logo " />
     </router-link>
     <vue-navigation-bar
+      class="dark-bg"
       :options="navbarOptions"
       @vnb-item-clicked="vnbItemClicked"
     />
@@ -32,6 +33,7 @@ export default {
           {
             type: 'link',
             text: 'Services',
+            arrowColor: '#ffcd60',
             subMenuOptions: [
               {
                 type: 'link',
@@ -131,11 +133,16 @@ export default {
   width: auto;
   margin: auto 0;
   padding: 1rem;
-  background: white !important;
+  // background: white !important;
   @media only screen and (max-width: 992px) {
     height: 48px;
     padding: 5px;
   }
+}
+
+.logo-link {
+  background: transparent !important;
+  border-left: none !important;
 }
 
 .vnb {
@@ -144,13 +151,29 @@ export default {
 
 //no background on active home link
 .vnb__menu-options__option__link.router-link-exact-active.router-link-active {
-  background: white !important;
+  background: inherit !important;
 }
 
 .vnb__sub-menu-options__option__link:hover,
 .vnb__popup__bottom__menu-options__option__link:hover,
 .vnb__popup__bottom__sub-menu-options__option__link:hover {
-  border-left: 2px solid var(--orange-light);
+  border-left: 2px solid var(--orange-dark);
+}
+
+.vnb__popup__bottom__sub-menu-options__option__link.router-link-exact-active.router-link-active {
+  background: white;
+  color: var(--dark-color);
+}
+
+.vnb__menu-options__option__link {
+  color: var(--orange-dark);
+  &.tippy-active {
+    color: var(--orange-dark);
+  }
+}
+
+.vnb__menu-options__option__link:hover {
+  color: var(--orange-light) !important;
 }
 
 .vnb__popup__bottom__menu-options__option__link--no-highlight {
@@ -165,7 +188,7 @@ export default {
 #nav {
   text-align: left;
   padding: 30px;
-  background: white;
+  // background: white;
 
   .vnb__menu-options__option__link,
   .vnb__sub-menu-options__option__link,
@@ -174,30 +197,32 @@ export default {
   }
 
   a {
-    color: #2c3e50;
+    color: var(--orange-dark);
     text-decoration: none;
     font-size: 1.25rem;
+  }
+
+  .vnb__sub-menu-options__option__link,
+  .vnb__popup__bottom__sub-menu-options__option__link {
     &.router-link-exact-active {
-      color: var(--orange-light);
-      background: #f3f3f3;
+      color: var(--orange-dark);
+      background: #eeeeee;
+      border-left: 5px solid var(--orange-dark);
     }
   }
 }
 
-.btn-enquire {
+.btn.btn-enquire {
   color: inherit;
   text-transform: capitalize;
   font-size: 1.25rem !important;
+  background-color: var(--dark-color);
+  color: var(--orange-dark);
   &:hover {
-    background: linear-gradient(to right, #ffb90d, #cc0045, #009980, #ffb90d);
+    background: white;
     background-size: 200% 200%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: gradientSlide 5s linear infinite;
-    -moz-animation: gradientSlide 5s linear infinite;
-    animation: gradientSlide 5s linear infinite;
-    border: 1px solid var(--orange);
+    color: var(--orange-dark);
+    border: 1px solid var(--orange-dark);
   }
 }
 </style>

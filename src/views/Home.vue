@@ -55,7 +55,7 @@ export default {
 }
 
 .logo-box {
-  background: rgba(255, 255, 255, 1);
+  background: #1d1c1c;
   max-width: 100%;
   padding: 1rem;
   @media only screen and (max-width: 576px) {
