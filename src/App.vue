@@ -62,6 +62,7 @@ body {
     #ffd45e
   );
   --nice-gradient: linear-gradient(-30deg, #ffb90d, #cc0045, #009980);
+  --nice-gradient-lite: linear-gradient(-30deg, #ffdd88, #ff8fb4, #81ffea);
   --serif: 'Playfair Display';
 }
 
@@ -172,7 +173,7 @@ a:not([href]) {
     content: '';
     height: 1px;
     background: var(--orange-light);
-    background-image: var(--nice-gradient);
+    background-image: var(--nice-gradient-lite);
   }
 }
 

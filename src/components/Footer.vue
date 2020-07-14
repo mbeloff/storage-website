@@ -62,7 +62,7 @@
         </div>
       </div>
       <hr />
-      <p class="text-center m-0">&copy; gabbastorage.com</p>
+      <p class="text-center small m-0">&copy; gabbastorage.com</p>
     </div>
   </div>
 </template>
@@ -92,6 +92,7 @@ export default {}
 }
 a.gradient-slide-lite {
   color: inherit;
+  transition: all 1s;
   &:hover {
     background: var(--grad-slide-lite);
     background-size: 200% 200%;

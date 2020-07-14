@@ -1,8 +1,5 @@
 <template>
   <div class="px-2 py-0 navi dark-bg">
-    <router-link to="/" class="float-left logo-link">
-      <img src="../assets/logo-sm.svg" alt="" class="nav-logo " />
-    </router-link>
     <vue-navigation-bar
       class="dark-bg"
       :options="navbarOptions"
@@ -22,9 +19,14 @@ export default {
         isUsingVueRouter: true,
         mobileBreakpoint: 992,
         collapseButtonOpenColor: '#ffa41c',
+        collapseButtonCloseColor: '#ffa41c',
         // showBrandImageInMobilePopup: true,
+        brandImagePath: './',
+        brandImage: require('../assets/logo-sm.svg'),
+        brandImageAltText: 'brand-image',
         ariaLabelMainNav: 'Main Navigation',
-        tooltipAnimationType: 'shift-away',
+        tooltipAnimationType: 'shift-toward',
+        // collapseButtonImageClose: require('../assets/logo-sm.svg'),
         menuOptionsLeft: [
           {
             type: 'link',
@@ -226,5 +228,11 @@ export default {
     color: var(--orange-dark);
     border: 1px solid var(--orange-dark);
   }
+}
+
+.vnb__popup__top__close-button__image {
+  width: 50px;
+  height: 50px;
+  right: 100px;
 }
 </style>
