@@ -96,6 +96,7 @@ a.gradient-slide-lite {
   &:hover {
     background: var(--grad-slide-lite);
     background-size: 200% 200%;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: gradientSlide 5s linear infinite;
