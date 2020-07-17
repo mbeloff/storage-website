@@ -4,12 +4,15 @@
       <hr />
       <div class="row">
         <div class="col-12 col-md-6">
-          <img src="../assets/logo.svg" alt="" class="footer-logo mb-2" />
+          <router-link to="/#">
+            <img src="../assets/logo.svg" alt="" class="footer-logo mb-2" />
+          </router-link>
           <p>
             46 Deshon St.<br />
             Woolloongabba, QLD 4102 <br />
           </p>
         </div>
+
         <div class="col-6 col-md-3">
           <h5>Services</h5>
           <ul class="list-unstyled">
@@ -90,7 +93,7 @@ export default {}
 .footer-logo {
   max-width: 200px;
 }
-a.gradient-slide-lite {
+.gradient-slide-lite {
   color: inherit;
   transition: all 1s;
   &:hover {
