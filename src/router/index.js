@@ -3,7 +3,6 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import FaqPage from '../views/FaqPage.vue'
 import Location from '../views/Location.vue'
-import Pricing from '../views/Pricing.vue'
 import NotFound from '../views/NotFound.vue'
 import Success from '../views/Success.vue'
 import SelfStorage from '../views/SelfStorage.vue'
@@ -36,11 +35,6 @@ const routes = [
     path: '/location',
     name: 'Location',
     component: Location
-  },
-  {
-    path: '/pricing',
-    name: 'Pricing',
-    component: Pricing
   },
   {
     path: '/specials',

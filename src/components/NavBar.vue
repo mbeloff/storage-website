@@ -70,11 +70,6 @@ export default {
           },
           {
             type: 'link',
-            text: 'Specials',
-            path: './specials'
-          },
-          {
-            type: 'link',
             text: 'About',
             arrowColor: '#ffcd60',
             subMenuOptions: [
@@ -89,10 +84,15 @@ export default {
                 text: 'Where to find us',
                 path: './location'
               },
+              // {
+              //   type: 'link',
+              //   text: 'Pricing',
+              //   path: './pricing'
+              // },
               {
                 type: 'link',
-                text: 'Pricing',
-                path: './pricing'
+                text: 'Specials',
+                path: './specials'
               }
             ]
           }
@@ -164,10 +164,10 @@ export default {
   border-left: 2px solid var(--orange-dark);
 }
 
-.vnb__popup__bottom__sub-menu-options__option__link.router-link-exact-active.router-link-active {
-  background: white;
-  color: var(--dark-color);
-}
+// .router-link-exact-active.router-link-active {
+//   // background: white;
+//   color: var(--dark-color);
+// }
 
 .vnb__menu-options__option__link {
   color: var(--orange-dark);
@@ -181,11 +181,15 @@ export default {
 }
 
 .vnb__popup__bottom__menu-options__option__link--no-highlight {
-  font-size: 1rem !important;
+  font-size: 1.5rem !important;
+  font-weight: 800;
+  &:hover {
+    border-left: 2px solid transparent;
+  }
 }
 
 #topnav {
-  height: 2px;
+  height: 1px;
   background-image: var(--nice-gradient);
 }
 
@@ -193,18 +197,19 @@ export default {
   text-align: left;
   padding: 30px;
   // background: white;
+  // font-size: 1.25rem;
 
-  .vnb__menu-options__option__link,
-  .vnb__sub-menu-options__option__link,
-  .vnb__popup__bottom__menu-options__option__link {
-    font-size: 1.25rem;
-  }
+  // .vnb__menu-options__option__link,
+  // .vnb__sub-menu-options__option__link,
+  // .vnb__popup__bottom__menu-options__option__link {
+  //   font-size: 1.25rem;
+  // }
 
-  a {
-    color: var(--orange-dark);
-    text-decoration: none;
-    font-size: 1.25rem;
-  }
+  // a {
+  //   color: var(--orange-dark);
+  //   text-decoration: none;
+  //   font-size: 1.25rem;
+  // }
 
   .vnb__sub-menu-options__option__link,
   .vnb__popup__bottom__sub-menu-options__option__link {
@@ -217,16 +222,41 @@ export default {
 }
 
 .btn.btn-enquire {
-  color: inherit;
+  // color: inherit;
   text-transform: capitalize;
-  font-size: 1.25rem !important;
-  background-color: var(--dark-color);
-  color: var(--orange-dark);
+  // font-size: 1.25rem !important;
+  background-color: var(--orange-dark);
+  color: var(--dark-color);
+  i {
+    color: black;
+  }
   &:hover {
     background: white;
     background-size: 200% 200%;
-    color: var(--orange-dark);
+    color: rgb(255, 38, 0);
     border: 1px solid var(--orange-dark);
+    animation: jiggle 3s ease-in infinite;
+    i {
+      color: rgb(255, 38, 0);
+    }
+  }
+}
+
+@keyframes jiggle {
+  0% {
+    transfform: scale(1, 1) translate(0, 0);
+  }
+  5% {
+    transform: scale(1.1, 0.9);
+  }
+  7% {
+    transform: scale(0.9, 1.05) translate(0, -3px);
+  }
+  9% {
+    transform: scale(1, 1) translate(0, 0px);
+  }
+  11% {
+    transform: scale(1, 1) translate(0, 0);
   }
 }
 

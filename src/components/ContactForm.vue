@@ -1,5 +1,5 @@
 <template>
-  <div class="p-3 dark-bg">
+  <div class="p-3 dark-bg form-modal">
     <h1 class="big-title">
       Contact Us<i class="fa fa-times float-right" @click="hide()"></i>
     </h1>
@@ -19,4 +19,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss"></style>

@@ -11,7 +11,7 @@
     >
       <ContactForm></ContactForm>
     </modal>
-    <router-view style="min-height: 65vh" />
+    <router-view style="min-height: 68vh" />
     <Footer></Footer>
   </div>
 </template>
@@ -188,5 +188,12 @@ a:not([href]) {
 
 .ico {
   height: 75px;
+}
+
+.grad-border p {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 0px;
+  border-radius: 2px;
 }
 </style>

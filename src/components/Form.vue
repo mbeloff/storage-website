@@ -16,7 +16,6 @@
         >
       </p>
       <br />
-      <br />
       <input type="hidden" name="form-name" value="newForm" />
       <div class="row">
         <div class="col-md-12 form-group">
@@ -178,9 +177,13 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
-label {
+<style lang="scss" scoped>
+.form label {
   font-size: 1rem;
+  color: rgb(117, 112, 108);
+}
+
+.form-modal label {
   color: var(--orange-light);
 }
 
