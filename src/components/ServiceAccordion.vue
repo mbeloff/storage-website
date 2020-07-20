@@ -1,7 +1,12 @@
 <template>
   <div>
-    <div class="container py-5">
-      <div class="row">
+    <div class="container py-5 noflow">
+      <div
+        class="row section-anim"
+        data-aos="fade-right"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1500"
+      >
         <div class="col-12 col-md-6 order-2 order-md-1">
           <h2 class="big-title">Cheap, secure, self storage.</h2>
           <p class="sub-title">
@@ -21,15 +26,28 @@
         </div>
 
         <div class="col-12 col-md-4 offset-md-1 text-center my-auto order-md-2">
-          <div class="icon-wrapper mb-3 mb-md-0 p-2">
+          <div
+            class="icon-wrapper mb-3 mb-md-0 p-2"
+            data-aos="icon-anim"
+            data-aos-anchor-placement="center-center"
+          >
             <img src="../assets/bank.svg" alt="" class=" ico" />
           </div>
         </div>
       </div>
       <hr class="my-5" />
-      <div class="row">
+      <div
+        class="row section-anim"
+        data-aos="fade-left"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1500"
+      >
         <div class="col-12 col-md-4 text-center my-auto">
-          <div class="icon-wrapper mb-3 mb-md-0 p-2">
+          <div
+            class="icon-wrapper mb-3 mb-md-0 p-2"
+            data-aos="icon-anim"
+            data-aos-anchor-placement="center-center"
+          >
             <img src="../assets/mobilestorage.svg" alt="" class=" ico" />
           </div>
         </div>
@@ -52,7 +70,12 @@
         </div>
       </div>
       <hr class="my-5" />
-      <div class="row">
+      <div
+        class="row section-anim"
+        data-aos="fade-right"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1500"
+      >
         <div class="col-12 col-md-6 order-2 order-md-1">
           <h2 class="big-title">Rent workshop space.</h2>
           <p class="sub-title">
@@ -68,7 +91,11 @@
           </p>
         </div>
         <div class="col-12 col-md-4 offset-md-1 text-center my-auto order-md-2">
-          <div class="icon-wrapper mb-3 mb-md-0 p-2">
+          <div
+            class="icon-wrapper mb-3 mb-md-0 p-2"
+            data-aos="icon-anim"
+            data-aos-anchor-placement="center-center"
+          >
             <img src="../assets/mechoutline.svg" alt="" class="ico" />
           </div>
         </div>
@@ -119,5 +146,48 @@ a.gradient-slide {
   margin: auto;
   border-radius: 50%;
   // background: var(--orange-dark);
+}
+
+// .section-anim {
+//   .icon-wrapper {
+//     // width: 200px;
+//     // height: 100px;
+//     background-size: 200% 200%;
+//     background-image: linear-gradient(
+//       to right,
+//       rgb(255, 255, 255) 50%,
+//       rgb(255, 205, 67) 50%
+//     );
+//     transition: background-position 0.4s, transform 0.4s;
+//     transition-timing-function: ease, cubic-bezier(0.45, -0.7, 0.21, 3.25);
+//   }
+// }
+
+// .section-anim:hover {
+//   .icon-wrapper {
+//     background-position: -100% 0%;
+//     color: white;
+//     transform: scale(1.2);
+//   }
+// }
+
+[data-aos='icon-anim'] {
+  background-size: 200% 200%;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 255) 50%,
+    rgb(255, 205, 67) 50%
+  );
+  transition: background-position 0.4s, transform 0.4s;
+  transition-timing-function: ease, cubic-bezier(0.45, -0.7, 0.21, 3.25);
+  &.aos-animate {
+    background-position: -100% 0%;
+    color: white;
+    transform: scale(1.2);
+  }
+}
+
+.noflow {
+  overflow-x: hidden;
 }
 </style>

@@ -1,9 +1,9 @@
 <template>
-  <div class="container-fluid mt-5">
+  <div class="">
     <div class="container py-5">
       <h1 class="big-title">Specials</h1>
       <p class="sub-title">
-        <span>Grab a Bargain</span>
+        <span>Everyday value & great introductory offers</span>
       </p>
     </div>
     <div class="container-fluid bg-light py-3">

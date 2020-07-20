@@ -222,15 +222,15 @@ export default {
 }
 
 .btn.btn-enquire {
-  // color: inherit;
   text-transform: capitalize;
-  // font-size: 1.25rem !important;
-  background-color: var(--orange-dark);
+  font-size: 1.2rem !important;
+  background-color: var(--orange);
   color: var(--dark-color);
   i {
-    color: black;
+    color: rgb(0, 0, 0);
   }
-  &:hover {
+  &:hover,
+  &:focus {
     background: white;
     background-size: 200% 200%;
     color: rgb(255, 38, 0);

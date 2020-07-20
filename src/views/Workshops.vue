@@ -85,4 +85,9 @@
 export default {}
 </script>
 
-<style></style>
+<style>
+.map-container {
+  margin-top: 2rem;
+  border: 5px solid var(--orange);
+}
+</style>

@@ -64,7 +64,9 @@ export default {
 
 .home {
   // background-image: url(../assets/banner2.jpg);
-  background-image: url(../assets/banner2.jpg);
+  // background-image: url(../assets/banner2.jpg);
+  background-image: linear-gradient(to right, #ff3f1d38 0%, #ffb3252c 100%),
+    url(../assets/banner2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 25% 45%;
