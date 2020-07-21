@@ -65,7 +65,7 @@
         </div>
       </div>
       <hr />
-      <p class="text-center small m-0">&copy; gabbastorage.com</p>
+      <p class="text-center small m-0">&copy; 2020 gabbastorage.com</p>
     </div>
   </div>
 </template>

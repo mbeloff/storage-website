@@ -225,9 +225,13 @@ export default {
   text-transform: capitalize;
   font-size: 1.2rem !important;
   background-color: var(--orange);
-  color: var(--dark-color);
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.205);
+  // color: var(--dark-color);
+  color: white;
+  transition: all 0.2s ease;
   i {
-    color: rgb(0, 0, 0);
+    color: white;
+    transition: all 0.2s ease;
   }
   &:hover,
   &:focus {
@@ -235,30 +239,34 @@ export default {
     background-size: 200% 200%;
     color: rgb(255, 38, 0);
     border: 1px solid var(--orange-dark);
-    animation: jiggle 3s ease-in infinite;
+    text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.205);
+    // animation: jiggle 3s ease-in infinite;
+    transform: scale(1.03);
+    transition: transform 0.2s cubic-bezier(0.5, -0.24, 0.5, 3.21);
     i {
       color: rgb(255, 38, 0);
+      transition: all 0.2s ease;
     }
   }
 }
 
-@keyframes jiggle {
-  0% {
-    transfform: scale(1, 1) translate(0, 0);
-  }
-  5% {
-    transform: scale(1.1, 0.9);
-  }
-  7% {
-    transform: scale(0.9, 1.05) translate(0, -3px);
-  }
-  9% {
-    transform: scale(1, 1) translate(0, 0px);
-  }
-  11% {
-    transform: scale(1, 1) translate(0, 0);
-  }
-}
+// @keyframes jiggle {
+//   0% {
+//     transfform: scale(1, 1) translate(0, 0);
+//   }
+//   5% {
+//     transform: scale(1.1, 0.9);
+//   }
+//   7% {
+//     transform: scale(0.9, 1.05) translate(0, -3px);
+//   }
+//   9% {
+//     transform: scale(1, 1) translate(0, 0px);
+//   }
+//   11% {
+//     transform: scale(1, 1) translate(0, 0);
+//   }
+// }
 
 .vnb__popup__top__close-button__image {
   width: 50px;

@@ -207,6 +207,8 @@ select::placeholder {
   &:hover,
   &:focus {
     background: white;
+    transform: scale(1.02);
+    transition: transform 0.4s cubic-bezier(0.5, -0.24, 0.5, 3.21);
     .gradient-slide {
       background: var(--grad-slide);
       background-size: 200% 200%;

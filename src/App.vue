@@ -174,7 +174,7 @@ a:not([href]) {
     content: '';
     height: 1px;
     background: var(--orange-light);
-    background-image: var(--nice-gradient-lite);
+    background-image: var(--nice-gradient);
   }
 }
 

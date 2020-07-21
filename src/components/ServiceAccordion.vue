@@ -2,8 +2,8 @@
   <div>
     <div class="container py-5 noflow">
       <div
-        class="row section-anim"
-        data-aos="fade-right"
+        class="row service-type"
+        data-aos="fade-left"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1500"
       >
@@ -37,8 +37,8 @@
       </div>
       <hr class="my-5" />
       <div
-        class="row section-anim"
-        data-aos="fade-left"
+        class="row service-type"
+        data-aos="fade-right"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1500"
       >
@@ -71,8 +71,8 @@
       </div>
       <hr class="my-5" />
       <div
-        class="row section-anim"
-        data-aos="fade-right"
+        class="row service-type"
+        data-aos="fade-left"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1500"
       >
@@ -107,19 +107,9 @@
 <script>
 export default {
   data() {
-    return {
-      selectedType: null
-    }
+    return {}
   },
-  methods: {
-    moreInfo(type) {
-      if (type == this.selectedType) {
-        this.selectedType = null
-      } else {
-        this.selectedType = type
-      }
-    }
-  }
+  methods: {}
 }
 </script>
 
@@ -148,29 +138,6 @@ a.gradient-slide {
   // background: var(--orange-dark);
 }
 
-// .section-anim {
-//   .icon-wrapper {
-//     // width: 200px;
-//     // height: 100px;
-//     background-size: 200% 200%;
-//     background-image: linear-gradient(
-//       to right,
-//       rgb(255, 255, 255) 50%,
-//       rgb(255, 205, 67) 50%
-//     );
-//     transition: background-position 0.4s, transform 0.4s;
-//     transition-timing-function: ease, cubic-bezier(0.45, -0.7, 0.21, 3.25);
-//   }
-// }
-
-// .section-anim:hover {
-//   .icon-wrapper {
-//     background-position: -100% 0%;
-//     color: white;
-//     transform: scale(1.2);
-//   }
-// }
-
 [data-aos='icon-anim'] {
   background-size: 200% 200%;
   background-image: linear-gradient(
@@ -189,5 +156,9 @@ a.gradient-slide {
 
 .noflow {
   overflow-x: hidden;
+}
+
+.service-type {
+  margin: 4rem 0
 }
 </style>
