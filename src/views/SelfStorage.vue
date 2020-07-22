@@ -1,7 +1,7 @@
 <template>
   <div class="pb-5">
-    <div class="container">
-      <h1 class="big-title mt-5">Personal Self Storage</h1>
+    <div class="container pt-5">
+      <h1 class="big-title">Personal Self Storage</h1>
       <p class="sub-title"><span>De-clutter your life</span></p>
       <div class="body-text text-justify">
         <p>
@@ -58,7 +58,7 @@
           </p>
 
           <div class="grad-border text-center font-weight-bold my-5">
-            <p>
+            <p class="bg-white p-3 mb-0">
               Current Offer:
               <span class="font-weight-light">First 2 Months FREE*</span>
             </p>
@@ -66,45 +66,29 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid bg-light">
+    <div class="container-fluid bg-light py-3">
       <div class="container">
-        <div class="row py-4 justify-content-around">
-          <div class="col-12 col-md-3 bg-white py-3 my-3">
-            <p class="h4 underline">
-              Small
-              <span class="text-muted small font-weight-light"
-                >: 1m<sup>3</sup></span
-              >
-            </p>
-            <p class="lead mt-4">from $30/month</p>
-            <div class="col-12 text-right">
-              <open-modal>enquire</open-modal>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-3 bg-white py-3 my-3">
-            <p class="h4 underline">
-              Medium
-              <span class="text-muted small font-weight-light"
-                >: 6m<sup>3</sup></span
-              >
-            </p>
-            <p class="lead mt-4">from $45/month</p>
-            <div class="col-12 text-right">
-              <open-modal>enquire</open-modal>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-3 bg-white py-3 my-3">
-            <p class="h4 underline">
-              Large
-              <span class="text-muted small font-weight-light"
-                >: 10m<sup>3</sup></span
-              >
-            </p>
-            <p class="lead mt-4">from $75/month</p>
-            <div class="col-12 text-right">
-              <open-modal>enquire</open-modal>
+        <div class="row d-flex flex-wrap">
+          <div
+            v-for="(price, i) in prices"
+            :key="i"
+            class="col-12 col-md-4 my-3"
+          >
+            <div class="grad-border h-100">
+              <div class="h-100  d-flex flex-column justify-content-between">
+                <div>
+                  <p class="h4 underline">
+                    {{ price.name }}:
+                    <span class="text-muted small"
+                      >{{ price.size }}m<sup>3</sup></span
+                    >
+                  </p>
+                  <p class="lead mt-4 mb-0">from ${{ price.price }}/month</p>
+                </div>
+                <div class="text-right">
+                  <open-modal>enquire</open-modal>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -114,7 +98,29 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      prices: [
+        {
+          name: 'Small',
+          size: '1',
+          price: '15'
+        },
+        {
+          name: 'Medium',
+          size: '6',
+          price: '65'
+        },
+        {
+          name: 'Large',
+          size: '10',
+          price: '95'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style></style>

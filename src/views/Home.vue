@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pt-0">
     <div class="home">
       <div class="container">
         <div class="grad-border">
@@ -71,7 +71,7 @@ export default {
   background-repeat: no-repeat;
   background-position: 25% 45%;
   .container {
-    padding: 5rem 0;
+    padding: 8rem 0 5rem 0;
   }
 }
 

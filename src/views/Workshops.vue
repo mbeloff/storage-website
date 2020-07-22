@@ -1,6 +1,6 @@
 <template>
-  <div class="py-5">
-    <div class="container">
+  <div>
+    <div class="container mt-5">
       <h1 class="big-title">Budget Workshop Space</h1>
       <p class="sub-title">
         <span>Your own workshop for as little as $250 per week</span>
@@ -26,7 +26,7 @@
           </p>
 
           <div class="grad-border text-center font-weight-bold my-5">
-            <p>
+            <p class="bg-white p-3 mb-0">
               Current Offer:
               <span class="font-weight-light">50% OFF First Month</span>
             </p>
@@ -34,45 +34,29 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid bg-light">
+    <div class="container-fluid bg-light py-3">
       <div class="container">
-        <div class="row py-4 justify-content-around">
-          <div class="col-12 col-md-3 bg-white py-3 my-3">
-            <p class="h4 underline">
-              Small
-              <span class="text-muted small font-weight-light"
-                >: 80m<sup>2</sup></span
-              >
-            </p>
-            <p class="lead mt-4">from $250/week</p>
-            <div class="col-12 text-right">
-              <open-modal>enquire</open-modal>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-3 bg-white py-3 my-3">
-            <p class="h4 underline">
-              Medium
-              <span class="text-muted small font-weight-light"
-                >: 160m<sup>2</sup></span
-              >
-            </p>
-            <p class="lead mt-4">from $400/week</p>
-            <div class="col-12 text-right">
-              <open-modal>enquire</open-modal>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-3 bg-white py-3 my-3">
-            <p class="h4 underline">
-              Large
-              <span class="text-muted small font-weight-light"
-                >: 240m<sup>2</sup></span
-              >
-            </p>
-            <p class="lead mt-4">from $500/week</p>
-            <div class="col-12 text-right">
-              <open-modal>enquire</open-modal>
+        <div class="row d-flex flex-wrap">
+          <div
+            v-for="(price, i) in prices"
+            :key="i"
+            class="col-12 col-md-4 my-3"
+          >
+            <div class="grad-border h-100">
+              <div class="h-100  d-flex flex-column justify-content-between">
+                <div>
+                  <p class="h4 underline">
+                    {{ price.name }}:
+                    <span class="text-muted small"
+                      >{{ price.size }}m<sup>2</sup></span
+                    >
+                  </p>
+                  <p class="lead mt-4">from ${{ price.price }}/week</p>
+                </div>
+                <div class="text-right">
+                  <open-modal>enquire</open-modal>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -82,7 +66,29 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      prices: [
+        {
+          name: 'Small',
+          size: '80',
+          price: '250'
+        },
+        {
+          name: 'Medium',
+          size: '160',
+          price: '400'
+        },
+        {
+          name: 'Large',
+          size: '240',
+          price: '500'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style>

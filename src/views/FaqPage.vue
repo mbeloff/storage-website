@@ -1,5 +1,5 @@
 <template>
-  <div class="container my-5 p-0 px-md-3">
+  <div class="container pb-5 px-md-3">
     <Faq
       id="accordion-example-1"
       :content="'set1'"

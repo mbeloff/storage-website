@@ -1,7 +1,12 @@
 <template>
-  <div class="px-2 py-0 navi dark-bg">
+  <div
+    class="m-0 p-0 position-fixed w-100 nav-wrapper"
+    style="z-index: 100"
+    :class="{ 'nav-hidden': !showNavbar }"
+  >
+    <div id="topnav"></div>
     <vue-navigation-bar
-      class="dark-bg"
+      class="dark-bg px-2"
       :options="navbarOptions"
       @vnb-item-clicked="vnbItemClicked"
     />
@@ -14,6 +19,8 @@ import 'vue-navigation-bar/dist/vue-navigation-bar.css'
 export default {
   data() {
     return {
+      showNavbar: true,
+      lastScrollPosition: 0,
       navbarOptions: {
         elementId: 'main-navbar',
         isUsingVueRouter: true,
@@ -121,14 +128,44 @@ export default {
       if (text === 'Quote') {
         this.$modal.show('contact-modal')
       }
+    },
+    onScroll() {
+      const currentScrollPosition =
+        window.pageYOffset || document.documentElement.scrollTop
+      if (currentScrollPosition < 0) {
+        return
+      }
+      // Stop executing this function if the difference between
+      // current scroll position and last scroll position is less than some offset
+      if (Math.abs(currentScrollPosition - this.lastScrollPosition) < 90) {
+        return
+      }
+      this.showNavbar = currentScrollPosition < this.lastScrollPosition
+      this.lastScrollPosition = currentScrollPosition
     }
+  },
+  mounted() {
+    window.addEventListener('scroll', this.onScroll)
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.onScroll)
   }
 }
 </script>
 
 <style lang="scss">
+.nav-wrapper {
+  box-shadow: 0px 7px 15px #3a15001c;
+  transform: translate3d(0, 0, 0);
+  transition: 0.75s transform cubic-bezier(0, 0.01, 0, 1);
+}
+
+.nav-wrapper.nav-hidden {
+  box-shadow: none;
+  transform: translate3d(0, -100%, 0);
+}
+
 .navi {
-  box-shadow: 0px 7px 15px #3a150013;
   position: relative;
 }
 

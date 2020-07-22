@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <div id="topnav"></div>
     <NavBar id="nav"></NavBar>
     <modal
       name="contact-modal"
@@ -11,7 +10,7 @@
     >
       <ContactForm></ContactForm>
     </modal>
-    <router-view style="min-height: 68vh" />
+    <router-view style="min-height: 75vh; padding-top: 58px" />
     <Footer></Footer>
   </div>
 </template>
@@ -190,9 +189,9 @@ a:not([href]) {
   height: 75px;
 }
 
-.grad-border p {
+.grad-border div {
   background: white;
-  padding: 1rem;
+  padding: 0.5rem;
   margin-bottom: 0px;
   border-radius: 2px;
 }

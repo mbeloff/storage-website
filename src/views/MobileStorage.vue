@@ -1,6 +1,6 @@
 <template>
-  <div class="container my-5 text-justify">
-    <h1 class="big-title text-left">Mobile Storage Boxes</h1>
+  <div class="container text-justify">
+    <h1 class="big-title pt-5 text-left">Mobile Storage Boxes</h1>
     <p class="sub-title">
       <span>Self storage straight to your door</span>
     </p>

@@ -19,10 +19,6 @@
             excess stock, we've got you covered with cost-effective storage
             solutions in a convenient Woolloongabba location.
           </p>
-          <p>
-            <open-modal>Send us a message</open-modal>
-            to enquire
-          </p>
         </div>
 
         <div class="col-12 col-md-4 offset-md-1 text-center my-auto order-md-2">
@@ -35,7 +31,7 @@
           </div>
         </div>
       </div>
-      <hr class="my-5" />
+      <hr/>
       <div
         class="row service-type"
         data-aos="fade-right"
@@ -63,13 +59,9 @@
             need to leave your home or office, just pack at your leisure and let
             us do the running around.
           </p>
-          <p>
-            <open-modal>Send us a message</open-modal>
-            to enquire.
-          </p>
         </div>
       </div>
-      <hr class="my-5" />
+      <hr/>
       <div
         class="row service-type"
         data-aos="fade-left"
@@ -80,7 +72,7 @@
           <h2 class="big-title">Rent workshop space.</h2>
           <p class="sub-title">
             <span
-              >Conveniently located workshop areas at competitive rates.</span
+              >Well equipped workshop spaces at competitive rates.</span
             >
           </p>
           <p align="justify">
@@ -159,6 +151,6 @@ a.gradient-slide {
 }
 
 .service-type {
-  margin: 4rem 0
+  margin: 4rem 0;
 }
 </style>
