@@ -60,7 +60,17 @@ export default {
                 text: 'Mobile Storage Boxes',
                 subText: 'Storage to your door, you load it up, we store it.',
                 path: './mobilestorage',
-                iconLeft: '<i class="fa fa-truck fa-fw"></i>'
+                iconLeft: '<i class="fa fa-map-marker fa-fw"></i>'
+              },
+              {
+                type: 'hr'
+              },
+              {
+                type: 'link',
+                text: 'Auto Storage',
+                subText: 'Store cars, boats, caravans and trailers.',
+                path: './autostorage',
+                iconLeft: '<i class="fa fa-car fa-fw"></i>'
               },
               {
                 type: 'hr'

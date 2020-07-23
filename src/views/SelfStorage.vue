@@ -16,10 +16,6 @@
           incredibly cheap truck rentals, or mobile storage units to make
           getting your items into storage as easy as possible.
         </p>
-        <p>
-          <open-modal>Get in touch</open-modal> today to discuss your storage
-          options, or to get a quote.
-        </p>
       </div>
 
       <h1 class="big-title mt-5">Business Self Storage</h1>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pb-5">
     <div class="container mt-5">
       <h1 class="big-title">Budget Workshop Space</h1>
       <p class="sub-title">

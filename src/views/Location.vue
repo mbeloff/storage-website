@@ -12,7 +12,7 @@
         tabindex="0"
       ></iframe>
     </div>
-    <div class="container">
+    <div class="container pb-3">
       <div class="row">
         <div class="col-12 col-md-4">
           <h1 class="big-title">Our Location</h1>
