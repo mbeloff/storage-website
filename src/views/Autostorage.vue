@@ -2,19 +2,18 @@
   <div class="pb-5">
     <div class="container pt-5">
       <h1 class="big-title">Storage for cars, caravans, boats & trailers</h1>
-      <p class="sub-title"><span>Clear out your garage</span></p>
+      <p class="sub-title"><span>Reclaim your garage</span></p>
       <div class="body-text text-justify">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem aut dolorem tempore officiis corrupti, voluptatem
-          natus, totam veniam optio quia fugiat? A non veritatis amet. Placeat,
-          minima. Neque similique expedita in ut quae sunt numquam ea fugiat
-          modi iusto, labore placeat quam veritatis nihil temporibus?
+          Gabba Storage provides storage solutions for all kinds of vehicles. If
+          you've recently moved house and no longer have that extra spot for
+          your boat/trailer/caravan, or if you want to reclaim your garage for a
+          home gym, give us a call and take advantage our cheap rates on secure
+          vehicle storage.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-          animi iusto voluptatum aperiam nisi eum consectetur sed, quia
-          distinctio sunt, aspernatur non, ullam atque molestiae!
+          Store for as long as you like, with full access to your vehicle during
+          business hours.
         </p>
       </div>
     </div>

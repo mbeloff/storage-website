@@ -49,7 +49,15 @@ export default {
           active: true,
           title: 'Who is Gabba Storage?',
           details: `
-        <p>Gabba Storage provides various sized storage units, both stationary and mobile, so you can bring your goods to us, or let us come to you. We also rent workshop spaces, complete with triple phase power, racking and hoists.</p>
+        <p>Gabba Storage provides various sized storage units, both stationary and mobile, so you can bring your goods to us, or let us come to you. We also store vehicles and trailers and rent workshop spaces, complete with three phase power, racking and hoists.</p>
+      `
+        },
+        {
+          id: 8,
+          active: false,
+          title: 'What items can I store?',
+          details: `
+        <p>We store anything from documents, to furniture, to cars, boats & trailers. We have small lockers and larger storage units and shipping containers.</p>
       `
         },
         {
