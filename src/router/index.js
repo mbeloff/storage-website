@@ -9,6 +9,7 @@ import SelfStorage from '../views/SelfStorage.vue'
 import Workshops from '../views/Workshops.vue'
 import MobileStorage from '../views/MobileStorage.vue'
 import Specials from '../views/Specials.vue'
+import Autostorage from '../views/Autostorage.vue'
 
 Vue.use(VueRouter)
 
@@ -31,6 +32,7 @@ const routes = [
   { path: '/selfstorage', name: 'self storage', component: SelfStorage },
   { path: '/workshops', name: 'workshops', component: Workshops },
   { path: '/mobilestorage', name: 'mobile storage', component: MobileStorage },
+  { path: '/autostorage', name: 'auto storage', component: Autostorage },
   {
     path: '/location',
     name: 'Location',

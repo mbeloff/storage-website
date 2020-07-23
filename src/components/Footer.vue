@@ -28,8 +28,14 @@
               >
             </li>
             <li>
+              <router-link class="gradient-slide-lite" to="/autostorage"
+                ><i class="fal fa-car fa-fw"></i>Auto Storage</router-link
+              >
+            </li>
+            <li>
               <router-link class="gradient-slide-lite" to="/mobilestorage"
-                ><i class="fal fa-truck fa-fw"></i>Mobile Storage</router-link
+                ><i class="fal fa-map-marker fa-fw"></i>Mobile
+                Storage</router-link
               >
             </li>
             <li>
