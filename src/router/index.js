@@ -1,15 +1,15 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-import FaqPage from '../views/FaqPage.vue'
-import Location from '../views/Location.vue'
-import NotFound from '../views/NotFound.vue'
-import Success from '../views/Success.vue'
-import SelfStorage from '../views/SelfStorage.vue'
-import Workshops from '../views/Workshops.vue'
-import MobileStorage from '../views/MobileStorage.vue'
-import Specials from '../views/Specials.vue'
-import Autostorage from '../views/Autostorage.vue'
+const Home = () => import('../views/Home.vue')
+const FaqPage = () => import('../views/FaqPage.vue')
+const Location = () => import('../views/Location.vue')
+const NotFound = () => import('../views/NotFound.vue')
+const Success = () => import('../views/Success.vue')
+const SelfStorage = () => import('../views/SelfStorage.vue')
+const Workshops = () => import('../views/Workshops.vue')
+const MobileStorage = () => import('../views/MobileStorage.vue')
+const Specials = () => import('../views/Specials.vue')
+const Autostorage = () => import('../views/Autostorage.vue')
 
 Vue.use(VueRouter)
 

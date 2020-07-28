@@ -109,15 +109,15 @@ export default {
               <li>Explosives, firearms, ammunitions</li>
             </ul>
       `
-        },
-        {
-          id: 7,
-          active: false,
-          title: 'question',
-          details: `
-        <p>answer here</p>
-      `
         }
+        //   {
+        //     id: 7,
+        //     active: false,
+        //     title: 'question',
+        //     details: `
+        //   <p>answer here</p>
+        // `
+        //   }
       ]
       //     {
       //       id: 4,

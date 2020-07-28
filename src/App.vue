@@ -165,11 +165,12 @@ a:not([href]) {
 .underline,
 .vnb__popup__bottom__menu-options__option__link--no-highlight {
   position: relative;
+  display: inline-block;
   &::after {
     position: absolute;
     left: 0;
     bottom: -1.2rem;
-    width: 75%;
+    width: 50%;
     content: '';
     height: 1px;
     background: var(--orange-light);
