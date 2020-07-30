@@ -55,16 +55,16 @@ export default {
               {
                 type: 'hr'
               },
-              {
-                type: 'link',
-                text: 'Mobile Storage Boxes',
-                subText: 'Storage to your door, you load it up, we store it.',
-                path: './mobilestorage',
-                iconLeft: '<i class="fa fa-map-marker fa-fw"></i>'
-              },
-              {
-                type: 'hr'
-              },
+              // {
+              //   type: 'link',
+              //   text: 'Mobile Storage Boxes',
+              //   subText: 'Storage to your door, you load it up, we store it.',
+              //   path: './mobilestorage',
+              //   iconLeft: '<i class="fa fa-map-marker fa-fw"></i>'
+              // },
+              // {
+              //   type: 'hr'
+              // },
               {
                 type: 'link',
                 text: 'Auto Storage',
@@ -142,9 +142,13 @@ export default {
     onScroll() {
       const currentScrollPosition =
         window.pageYOffset || document.documentElement.scrollTop
-      if (currentScrollPosition < 0 || window.innerWidth < 992) {
+      if (currentScrollPosition < 0) {
         return
       }
+      // don't show/hide on small screen
+      // if (currentScrollPosition < 0 || window.innerWidth < 992) {
+      //   return
+      // }
       // Stop executing this function if the difference between
       // current scroll position and last scroll position is less than some offset
       if (Math.abs(currentScrollPosition - this.lastScrollPosition) < 90) {

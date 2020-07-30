@@ -3,13 +3,37 @@
     <div class="streak position-relative ">
       <img class="streak-img" src="../assets/streak1.jpg" alt="" />
       <div class="position-absolute content center overlay-1 text-white">
-        <h1>test</h1>
+        <div class="center">
+          <h1>Get in Touch</h1>
+          <input type="text" name="" id="" placeholder="name" />
+          <input type="text" name="" id="" placeholder="number" />
+          <input type="text" name="" id="" placeholder="email" />
+          <input type="text" name="" id="" placeholder="subject" />
+          <button class="btn btn-lg btn-warning mt-1">submit</button>
+        </div>
       </div>
     </div>
     <div class="streak position-relative ">
       <img class="streak-img" src="../assets/streak3.jpg" alt="" />
       <div class="position-absolute content center overlay-2 text-white">
-        <h1>test</h1>
+        <div class="col-12 col-md-6 text-justify">
+          <h2>Cheapest Storage</h2>
+          Stand-out rates on storage containers, tradesman sheds and work areas
+          and storage for vehicles of all kinds.
+          <div
+            class="grad-border text-center font-weight-bold my-2 text-dark shadow-lg"
+          >
+            <p class="bg-white p-3 mb-0">
+              Current Offer:
+              <span class="font-weight-light "
+                >First 2 Months Container Rental FREE*</span
+              >
+            </p>
+          </div>
+          <a href="/specials" class="float-right text-white"
+            >learn more <span class="fal fa-chevron-right"></span
+          ></a>
+        </div>
       </div>
     </div>
   </div>
@@ -29,9 +53,14 @@ export default {}
   /* padding-top: 10rem;
   padding-bottom: 10rem; */
   max-height: 700px;
+  max-width: 100vw;
+  overflow: hidden;
   margin-top: 0%;
   &:not(:first-of-type) {
     margin-top: -10%;
+    @media only screen and (max-width: 768px) {
+      margin-top: -7rem;
+    }
     @media only screen and (min-width: 1200px) {
       margin-top: -5rem;
     }
@@ -39,8 +68,12 @@ export default {}
 }
 
 .streak-img {
+  overflow-x: hidden;
   width: 100%;
-  object-position: 40% 50%;
+  @media only screen and (max-width: 768px) {
+    height: 100%;
+    width: auto;
+  }
 }
 
 .content {

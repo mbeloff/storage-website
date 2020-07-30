@@ -1,19 +1,20 @@
 <template>
   <div class="pb-5">
     <div class="container mt-5">
-      <h1 class="big-title">Budget Workshop Space</h1>
+      <h1 class="big-title">Tradesman Sheds and Workshops</h1>
       <p class="sub-title">
-        <span>Your own workshop for as little as $250 per week</span>
+        <span
+          >Your own workshop and storage for as little as $100 per week</span
+        >
       </p>
       <p>
-        Gabba Storage has 80m<sup>2</sup> to 240m<sup>2</sup> workshop spaces
-        for rent with benches, water, single and triple phase power, racking and
-        hoists. Additional office and storage space available to streamline your
-        operations.
+        Gabba Storage has 24m<sup>2</sup> to 240m<sup>2</sup> workshop spaces
+        for rent with benches, water, single and triple phase power included.
+        Racking, Hoists and additional office and storage space available to
+        streamline your operations.
       </p>
       <p>
-        No lock-in contracts, and week-to-week payments available at budget
-        rates.
+        Short-term leases and week-to-week payments available at budget rates.
       </p>
     </div>
     <div class="container">
@@ -72,18 +73,18 @@ export default {
       prices: [
         {
           name: 'Small',
-          size: '80',
-          price: '250'
+          size: '24',
+          price: '100'
         },
         {
           name: 'Medium',
-          size: '160',
-          price: '400'
+          size: '48',
+          price: '180'
         },
         {
           name: 'Large',
-          size: '240',
-          price: '500'
+          size: '96',
+          price: '340'
         }
       ]
     }

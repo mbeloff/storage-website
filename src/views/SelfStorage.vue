@@ -12,9 +12,9 @@
         <p>
           Are you moving house, or clearing out a spare room? Garage full to the
           brim? Now's the perfect time to de-clutter your life. Various sized
-          storage units from <nobr>1 - 10m<sup>3</sup>.</nobr> We also have
-          incredibly cheap truck rentals, or mobile storage units to make
-          getting your items into storage as easy as possible.
+          storage units from <nobr>5 - 10m<sup>3</sup>.</nobr> We also have
+          discounted truck rentals, to make getting your items into storage as
+          easy as possible.
         </p>
       </div>
 
@@ -50,7 +50,7 @@
           <p>
             Only pay for what you need. Rent storage space from 1 day to a 1
             year, or more! Gabba Storage has a range of storage container, from
-            1m<sup>3</sup> - 10m<sup>3</sup>
+            5m<sup>3</sup> - 10m<sup>3</sup>
           </p>
 
           <div class="grad-border text-center font-weight-bold my-5">
@@ -98,20 +98,20 @@ export default {
   data() {
     return {
       prices: [
-        {
-          name: 'Small',
-          size: '1',
-          price: '15'
-        },
+        // {
+        //   name: 'Small',
+        //   size: '1',
+        //   price: '15'
+        // },
         {
           name: 'Medium',
           size: '6',
-          price: '65'
+          price: '60'
         },
         {
           name: 'Large',
           size: '10',
-          price: '95'
+          price: '125'
         }
       ]
     }
