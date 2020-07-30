@@ -1,13 +1,22 @@
 <template>
   <div>
-    <div class="container py-5 noflow">
+    <div class="container noflow">
       <div
         class="row service-type"
         data-aos="fade-left"
         data-aos-anchor-placement="center-bottom"
-        data-aos-duration="1500"
+        data-aos-duration="1000"
       >
-        <div class="col-12 col-md-6 order-2 order-md-1">
+        <div class="col-12 col-md-6 order-md-2 center">
+          <div
+            class="icon-wrapper mb-3 mb-md-0 p-2"
+            data-aos="icon-anim"
+            data-aos-anchor-placement="center-center"
+          >
+            <img src="../assets/bank.svg" alt="" class=" ico" />
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
           <h2 class="big-title">Cheap, secure, self storage.</h2>
           <p class="sub-title">
             <span>Pay as you go, short or long term hire</span>
@@ -20,25 +29,42 @@
             solutions in a convenient Woolloongabba location.
           </p>
         </div>
-
-        <div class="col-12 col-md-4 offset-md-1 text-center my-auto order-md-2">
+      </div>
+      <hr />
+      <div
+        class="row service-type"
+        data-aos="fade-right"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
+        <div class="col-12 col-md-6 center">
           <div
             class="icon-wrapper mb-3 mb-md-0 p-2"
             data-aos="icon-anim"
             data-aos-anchor-placement="center-center"
           >
-            <img src="../assets/bank.svg" alt="" class=" ico" />
+            <img src="../assets/caravan.svg" alt="" class=" ico" />
           </div>
         </div>
+        <div class="col-12 col-md-6">
+          <h2 class="big-title">Auto Storage</h2>
+          <p class="sub-title">
+            <span>Storage for anything with wheels</span>
+          </p>
+          <p align="justify">
+            No longer have the space for your car, caravan, boat or trailer?
+            Gabba Storage has cheap rates for storing vehicles of all kinds.
+          </p>
+        </div>
       </div>
-      <hr/>
+      <!-- <hr />
       <div
         class="row service-type"
         data-aos="fade-right"
         data-aos-anchor-placement="center-bottom"
-        data-aos-duration="1500"
+        data-aos-duration="1000"
       >
-        <div class="col-12 col-md-4 text-center my-auto">
+        <div class="col-12 col-md-6 center">
           <div
             class="icon-wrapper mb-3 mb-md-0 p-2"
             data-aos="icon-anim"
@@ -47,7 +73,7 @@
             <img src="../assets/mobilestorage.svg" alt="" class=" ico" />
           </div>
         </div>
-        <div class="col-12 col-md-6 offset-md-2">
+        <div class="col-12 col-md-6">
           <h2 class="big-title">Mobile storage units.</h2>
           <p class="sub-title">
             <span>Delivered to your door, you pack, we store</span>
@@ -60,29 +86,15 @@
             us do the running around.
           </p>
         </div>
-      </div>
-      <hr/>
+      </div> -->
+      <hr />
       <div
         class="row service-type"
         data-aos="fade-left"
         data-aos-anchor-placement="center-bottom"
-        data-aos-duration="1500"
+        data-aos-duration="1000"
       >
-        <div class="col-12 col-md-6 order-2 order-md-1">
-          <h2 class="big-title">Rent workshop space.</h2>
-          <p class="sub-title">
-            <span
-              >Well equipped workshop spaces at competitive rates.</span
-            >
-          </p>
-          <p align="justify">
-            Three-phase and single-phase power with racking, hoist and
-            additional office or storage space available. 80 - 240m<sup>2</sup>
-            Workshop spaces available in convenient Woolloongabba location. No
-            lock-in contracts, week-to-week payments available.
-          </p>
-        </div>
-        <div class="col-12 col-md-4 offset-md-1 text-center my-auto order-md-2">
+        <div class="col-12 col-md-6 order-md-2 center">
           <div
             class="icon-wrapper mb-3 mb-md-0 p-2"
             data-aos="icon-anim"
@@ -91,41 +103,31 @@
             <img src="../assets/mechoutline.svg" alt="" class="ico" />
           </div>
         </div>
+        <div class="col-12 col-md-6">
+          <h2 class="big-title">Rent workshop space.</h2>
+          <p class="sub-title">
+            <span>Well equipped workshop spaces at competitive rates.</span>
+          </p>
+          <p align="justify">
+            Three-phase and single-phase power with racking, hoist and
+            additional office or storage space available. 80 - 240m<sup>2</sup>
+            Workshop spaces available in convenient Woolloongabba location. No
+            lock-in contracts, week-to-week payments available.
+          </p>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {
-  data() {
-    return {}
-  },
-  methods: {}
-}
+export default {}
 </script>
 
 <style lang="scss">
-a.btn-gs.text-muted {
-  padding: 0 0 1rem 0;
-  color: rgb(140, 155, 184) !important;
-}
-
-.btn-gs i {
-  transition: transform 0.25s;
-}
-
-.btn-gs i.active {
-  transform: rotate(90deg);
-}
-
-a.gradient-slide {
-  color: var(--orange);
-}
-
 .icon-wrapper {
   width: min-content;
-  margin: auto;
+  // margin: auto;
   border-radius: 50%;
   // background: var(--orange-dark);
 }
@@ -152,5 +154,10 @@ a.gradient-slide {
 
 .service-type {
   margin: 4rem 0;
+}
+
+.center {
+  display: grid;
+  place-items: center;
 }
 </style>

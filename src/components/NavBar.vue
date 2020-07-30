@@ -142,7 +142,7 @@ export default {
     onScroll() {
       const currentScrollPosition =
         window.pageYOffset || document.documentElement.scrollTop
-      if (currentScrollPosition < 0) {
+      if (currentScrollPosition < 0 || window.innerWidth < 992) {
         return
       }
       // Stop executing this function if the difference between

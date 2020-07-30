@@ -166,10 +166,12 @@ export default {
       })
         .then(() => {
           this.$router.push('success')
+          // console.log('success')
           this.$modal.hide('contact-modal')
         })
         .catch(() => {
           this.$router.push('404')
+          // console.log('failure')
           this.$modal.hide('contact-modal')
         })
     }

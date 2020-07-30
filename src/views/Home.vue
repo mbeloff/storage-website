@@ -3,16 +3,17 @@
     <div class="home">
       <div class="container">
         <div class="grad-border">
-          <div class="logo-box shadow-lg" style="">
+          <div class="logo-box">
             <img class="logo" alt="logo" src="../assets/logo.svg" />
             <!-- <h1 class="slogan text-right">unbeatable.</h1> -->
           </div>
         </div>
       </div>
     </div>
-    <under-banner></under-banner>
+    <!-- <under-banner></under-banner> -->
     <service-accordion></service-accordion>
-    <under-banner></under-banner>
+    <streak></streak>
+    <!-- <under-banner></under-banner> -->
     <Why></Why>
   </div>
 </template>
@@ -21,13 +22,14 @@
 // @ is an alias to /src
 import Why from '@/components/Why.vue'
 import ServiceAccordion from '@/components/ServiceAccordion.vue'
-import UnderBanner from '@/components/UnderBanner.vue'
+// import UnderBanner from '@/components/UnderBanner.vue'
+import Streak from '@/components/Streak.vue'
 export default {
   name: 'Home',
   components: {
     Why,
     ServiceAccordion,
-    UnderBanner
+    Streak
   },
   data() {
     return {}
@@ -65,13 +67,14 @@ export default {
 .home {
   // background-image: url(../assets/banner2.jpg);
   // background-image: url(../assets/banner2.jpg);
-  background-image: linear-gradient(to right, #ff3f1d38 0%, #ffb3252c 100%),
-    url(../assets/banner2.jpg);
+  background-image: linear-gradient(to right, #ff3f1db4 0%, #ffb3252c 100%),
+    url(../assets/streak3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 25% 45%;
+  background-position: 50% 60%;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
   .container {
-    padding: 8rem 0 5rem 0;
+    padding: 10rem 0 10rem 0;
   }
 }
 

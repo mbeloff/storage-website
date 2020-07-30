@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" style="min-height: 100vh">
     <NavBar id="nav"></NavBar>
     <modal
       name="contact-modal"
@@ -10,7 +10,7 @@
     >
       <ContactForm></ContactForm>
     </modal>
-    <router-view style="min-height: 75vh; padding-top: 58px" />
+    <router-view style="padding-top: 58px" />
     <Footer></Footer>
   </div>
 </template>
@@ -70,6 +70,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #465767;
+  display: grid;
+  grid-template-rows: 1fr auto;
 }
 
 .dark-bg {

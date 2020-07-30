@@ -19,20 +19,40 @@ const routes = [
     name: 'Home',
     component: Home
   },
+  // {
+  //   path: '/services',
+  //   name: 'Services',
+  //   // route level code-splitting
+  //   // this generates a separate chunk (about.[hash].js) for this route
+  //   // which is lazy-loaded when the route is visited.
+  //   component: () =>
+  //     import(/* webpackChunkName: "services" */ '../views/Services.vue')
+  // },
   {
-    path: '/services',
-    name: 'Services',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ '../views/Services.vue')
+    path: '/faq',
+    name: 'faq',
+    component: FaqPage
   },
-  { path: '/faq', name: 'faq', component: FaqPage },
-  { path: '/selfstorage', name: 'self storage', component: SelfStorage },
-  { path: '/workshops', name: 'workshops', component: Workshops },
-  { path: '/mobilestorage', name: 'mobile storage', component: MobileStorage },
-  { path: '/autostorage', name: 'auto storage', component: Autostorage },
+  {
+    path: '/selfstorage',
+    name: 'self storage',
+    component: SelfStorage
+  },
+  {
+    path: '/workshops',
+    name: 'workshops',
+    component: Workshops
+  },
+  {
+    path: '/mobilestorage',
+    name: 'mobile storage',
+    component: MobileStorage
+  },
+  {
+    path: '/autostorage',
+    name: 'auto storage',
+    component: Autostorage
+  },
   {
     path: '/location',
     name: 'Location',
