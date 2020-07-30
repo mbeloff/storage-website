@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid bg-light px-0 why">
+  <div class="bg-light px-0 why">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-8 my-5">

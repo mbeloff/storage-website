@@ -3,7 +3,7 @@
     <div class="container py-5">
       <h1 class="big-title">Specials</h1>
       <p class="sub-title">
-        <span>Everyday value & exceptional introductory offers</span>
+        <span>Everyday value & great introductory offers</span>
       </p>
     </div>
     <div class="container-fluid bg-light py-3">

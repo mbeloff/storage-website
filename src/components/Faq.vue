@@ -1,5 +1,5 @@
 <template>
-  <div class="col-12 pt-5 px-md-3">
+  <div class="col-12 pt-5 px-0 px-md-3">
     <h2 class="big-title ml-3 ml-sm-0">
       {{ faqhead }}
     </h2>
