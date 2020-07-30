@@ -3,7 +3,12 @@
     <div class="streak position-relative ">
       <img class="streak-img" src="../assets/streak1.jpg" alt="" />
       <div class="position-absolute content center overlay-1 text-white">
-        <div class="center">
+        <div
+          class="center"
+          data-aos="fade-left"
+          data-aos-anchor-placement="center-center"
+          data-aos-duration="1000"
+        >
           <h1>Get in Touch</h1>
           <input type="text" name="" id="" placeholder="name" />
           <input type="text" name="" id="" placeholder="number" />
@@ -16,7 +21,12 @@
     <div class="streak position-relative ">
       <img class="streak-img" src="../assets/streak3.jpg" alt="" />
       <div class="position-absolute content center overlay-2 text-white">
-        <div class="col-12 col-md-6 text-justify">
+        <div
+          class="col-12 col-md-6 text-justify"
+          data-aos="fade-right"
+          data-aos-anchor-placement="center-center"
+          data-aos-duration="1000"
+        >
           <h2>Cheapest Storage</h2>
           Stand-out rates on storage containers, tradesman sheds and work areas
           and storage for vehicles of all kinds.

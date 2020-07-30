@@ -3,7 +3,7 @@
     <div class="container noflow">
       <div
         class="row service-type"
-        data-aos="fade-left"
+        data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
       >
@@ -33,7 +33,7 @@
       <hr />
       <div
         class="row service-type"
-        data-aos="fade-right"
+        data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
       >
@@ -90,7 +90,7 @@
       <hr />
       <div
         class="row service-type"
-        data-aos="fade-left"
+        data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
       >
@@ -135,14 +135,14 @@ export default {}
 [data-aos='icon-anim'] {
   background-size: 200% 200%;
   background-image: linear-gradient(
-    to right,
-    rgb(255, 255, 255) 50%,
-    rgb(255, 205, 67) 50%
+    to top,
+    rgb(255, 205, 67) 50%,
+    rgb(255, 255, 255) 50%
   );
   transition: background-position 0.4s, transform 0.4s;
   transition-timing-function: ease, cubic-bezier(0.45, -0.7, 0.21, 3.25);
   &.aos-animate {
-    background-position: -100% 0%;
+    background-position: 0% 100%;
     color: white;
     transform: scale(1.2);
   }
@@ -150,6 +150,7 @@ export default {}
 
 .noflow {
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .service-type {
