@@ -3,7 +3,7 @@
     <div class="container pt-3">
       <hr />
       <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-4 col-lg-6">
           <router-link to="/#">
             <img src="../assets/logo.svg" alt="" class="footer-logo mb-2" />
           </router-link>
@@ -13,7 +13,7 @@
           </p>
         </div>
 
-        <div class="col-6 col-md-3">
+        <div class="col-6 col-md-4 col-lg-3 pr-0">
           <h5>Services</h5>
           <ul class="list-unstyled">
             <li>
@@ -45,7 +45,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-6 col-md-3">
+        <div class="col-6 col-md-4 col-lg-3 pr-0">
           <h5>Information</h5>
           <ul class="list-unstyled">
             <li>
@@ -85,7 +85,7 @@ export default {}
   // margin-top: 5rem;
   background: #1d1c1c;
   color: #dfd2d2;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   // font-weight: 100;
   text-transform: uppercase;
   i {

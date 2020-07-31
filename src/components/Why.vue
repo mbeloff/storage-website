@@ -19,7 +19,7 @@
             Self storage units can be used for all sorts of things and can be a
             real space-saver for your home.
           </p>
-          <ul class=" ml-2">
+          <ul>
             <li>Sporting equipment</li>
             <li>Camping gear</li>
             <li>Suitcases</li>

@@ -19,12 +19,12 @@
       <input type="hidden" name="form-name" value="newForm" />
       <div class="row">
         <div class="col-md-12 form-group">
-          <label class="">Hi, my name is</label>
+          <!-- <label class="">Hi, my name is</label> -->
 
           <input
             class="form-control"
             type="text"
-            placeholder=""
+            placeholder="Name"
             name="name"
             required
             @input="ev => (form.name = ev.target.value)"
@@ -35,24 +35,24 @@
 
       <div class="row">
         <div class="col-md-6 form-group">
-          <label class="">Call me back on</label>
+          <!-- <label class="">Call me back on</label> -->
 
           <input
             class="form-control"
             type="tel"
-            placeholder=""
+            placeholder="Phone"
             name="number"
             @input="ev => (form.number = ev.target.value)"
           /><i class="form-icon fal fa-phone-rotary"></i>
         </div>
 
         <div class="col-md-6 form-group">
-          <label class="">Or email me at</label>
+          <!-- <label class="">Or email me at</label> -->
 
           <input
             class="form-control"
             type="email"
-            placeholder=""
+            placeholder="Email"
             name="email"
             @input="ev => (form.email = ev.target.value)"
           /><i class="form-icon fal fa-envelope"></i>
@@ -61,7 +61,7 @@
 
       <div class="row">
         <div class="col-md-6 form-group">
-          <label class="">I'm enquiring about...</label>
+          <!-- <label class="">I'm enquiring about...</label> -->
 
           <select
             class="form-control"
@@ -71,7 +71,9 @@
             value=""
             @input="ev => (form.topic = ev.target.value)"
           >
-            <option value="" disabled="disabled" selected="selected">-</option>
+            <option value="" disabled="disabled" selected="selected"
+              >Topic</option
+            >
             <option value="on-site storage">Storage Unit</option>
             <option value="mobile storage unit">Mobile Storage Unit</option>
             <option value="workshop space">Workshop Space</option>
@@ -79,7 +81,7 @@
           ><i class="form-icon fal fa-list"></i>
         </div>
         <div class="col-md-6 form-group">
-          <label class="">Estimated Storage Period</label>
+          <!-- <label class="">Estimated Storage Period</label> -->
 
           <select
             class="form-control"
@@ -89,7 +91,9 @@
             value=""
             @input="ev => (form.period = ev.target.value)"
           >
-            <option value="" disabled="disabled" selected="selected">-</option>
+            <option value="" disabled="disabled" selected="selected"
+              >Estimated
+            </option>
             <option value="Unknown">Unknown / Not Applicable</option>
             <option value="1-3 Months">1-3 Months</option>
             <option value="3-6 Months">3-6 Months</option>
@@ -103,7 +107,7 @@
 
       <div class="row">
         <div class="col-md-12 form-group g-mb-40">
-          <label class="">Now, how can we help you?</label>
+          <!-- <label class="">Now, how can we help you?</label> -->
 
           <textarea
             class="form-control"
@@ -235,7 +239,7 @@ select::placeholder {
 .form-icon {
   position: absolute;
   left: 1.5rem;
-  top: 2.7rem;
+  top: 0.7rem;
   // margin-bottom: 10px;
   color: var(--orange-dark);
   transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.74, 2.66);

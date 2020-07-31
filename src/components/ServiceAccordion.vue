@@ -16,7 +16,7 @@
             <img src="../assets/bank.svg" alt="" class=" ico" />
           </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 p-0">
           <h2 class="big-title">Cheap, secure, self storage.</h2>
           <p class="sub-title">
             <span>Pay as you go, short or long term hire</span>
@@ -26,7 +26,7 @@
             your home or office. Whether you're decluttering, renovating, moving
             house or looking for a secure location for business archives or
             excess stock, we've got you covered with cost-effective storage
-            solutions in a convenient Woolloongabba location.
+            solutions with easy access in a convenient Woolloongabba location.
           </p>
         </div>
       </div>
@@ -46,7 +46,7 @@
             <img src="../assets/caravan.svg" alt="" class=" ico" />
           </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 p-0">
           <h2 class="big-title">Auto Storage</h2>
           <p class="sub-title">
             <span>Storage for anything with wheels</span>
@@ -92,7 +92,6 @@
         class="row service-type"
         data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
-        data-aos-duration="1000"
       >
         <div class="col-12 col-md-6 order-md-2 center">
           <div
@@ -103,16 +102,18 @@
             <img src="../assets/mechoutline.svg" alt="" class="ico" />
           </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 p-0">
           <h2 class="big-title">Rent workshop space.</h2>
           <p class="sub-title">
             <span>Well equipped workshop spaces at competitive rates.</span>
           </p>
           <p align="justify">
             Three-phase and single-phase power with racking, hoist and
-            additional office or storage space available. 80 - 240m<sup>2</sup>
-            Workshop spaces available in convenient Woolloongabba location. No
-            lock-in contracts, week-to-week payments available.
+            additional office or storage space available. 24m<sup>2</sup> -
+            240m<sup>2</sup>
+            Tradesman storage and work spaces available in convenient
+            Woolloongabba location. Short-term leases and week-to-week payments
+            available.
           </p>
         </div>
       </div>

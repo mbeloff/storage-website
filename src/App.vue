@@ -7,6 +7,7 @@
       :scrollable="true"
       :adaptive="true"
       :clickToClose="false"
+      focusTrap="true"
     >
       <ContactForm></ContactForm>
     </modal>
@@ -82,10 +83,6 @@ body {
 a:not([href]) {
   /* Styles for anchors without href */
   cursor: pointer;
-}
-
-.fa-comment-alt-lines {
-  color: var(--orange-dark);
 }
 
 .grad-border {

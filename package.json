@@ -18,6 +18,7 @@
     "vue-analytics": "^5.22.1",
     "vue-js-modal": "^2.0.0-rc.3",
     "vue-navigation-bar": "^3.0.0",
+    "vue-parallaxy": "^1.1.1",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
   },

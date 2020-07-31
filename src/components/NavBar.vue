@@ -1,6 +1,6 @@
 <template>
   <div
-    class="m-0 p-0 position-fixed w-100 nav-wrapper"
+    class="m-0 p-0 dark-bg position-fixed w-100 nav-wrapper"
     style="z-index: 100"
     :class="{ 'nav-hidden': !showNavbar }"
   >
@@ -79,7 +79,7 @@ export default {
                 type: 'link',
                 text: 'Rent a Workshop',
                 subText:
-                  'Hire a multi-purpose workspace with single- and triple-phase power, racking and hoist',
+                  'Hire a multi-purpose tradesman storage or workspace with single- and three-phase power, racking or hoist available',
                 path: './workshops',
                 iconLeft: '<i class="fa fa-wrench fa-fw"></i>'
               }
@@ -232,7 +232,7 @@ export default {
 }
 
 .vnb__popup__bottom__menu-options__option__link--no-highlight {
-  font-size: 1.5rem !important;
+  font-size: 1.25rem !important;
   font-weight: 800;
   &:hover {
     border-left: 2px solid transparent;
@@ -247,8 +247,9 @@ export default {
 #nav {
   text-align: left;
   padding: 30px;
-  // background: white;
-  // font-size: 1.25rem;
+  background: white;
+  font-size: 1.25rem;
+  text-transform: uppercase;
 
   // .vnb__menu-options__option__link,
   // .vnb__sub-menu-options__option__link,
@@ -256,8 +257,13 @@ export default {
   //   font-size: 1.25rem;
   // }
 
+  .vnb__popup__bottom__sub-menu-options__option__link__sub-text,
+  .vnb__sub-menu-options__option__link__text-wrapper__sub-text {
+    text-transform: none;
+  }
+
   // a {
-  //   color: var(--orange-dark);
+  //   // color: var(--orange-dark);
   //   text-decoration: none;
   //   font-size: 1.25rem;
   // }
@@ -265,6 +271,7 @@ export default {
   .vnb__sub-menu-options__option__link,
   .vnb__popup__bottom__sub-menu-options__option__link {
     &.router-link-exact-active {
+      // font-size: 1rem;
       color: var(--orange-dark);
       background: #eeeeee;
       border-left: 5px solid var(--orange-dark);
@@ -272,9 +279,17 @@ export default {
   }
 }
 
+// .vnb__sub-menu-options__option__hr {
+//   margin: 0 0 0 0;
+// }
+
+.vnb__sub-menu-options__option__link__text-wrapper__text {
+  font-size: 1rem;
+}
+
 .btn.btn-enquire {
   text-transform: capitalize;
-  font-size: 1.2rem !important;
+  font-size: 1rem !important;
   background-color: var(--orange);
   text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.205);
   // color: var(--dark-color);

@@ -46,14 +46,14 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-5">
-          <h1 class="big-title my-5">Pricing</h1>
+          <h1 class="big-title mt-5">Pricing</h1>
           <p>
             Only pay for what you need. Rent storage space from 1 day to a 1
             year, or more! Gabba Storage has a range of storage container, from
             5m<sup>3</sup> - 10m<sup>3</sup>
           </p>
 
-          <div class="grad-border text-center font-weight-bold my-5">
+          <div class="grad-border text-center font-weight-bold my-3 mb-5">
             <p class="bg-white p-3 mb-0">
               Current Offer:
               <span class="font-weight-light">First 2 Months FREE*</span>

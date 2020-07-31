@@ -4,17 +4,33 @@
       <img class="streak-img" src="../assets/streak1.jpg" alt="" />
       <div class="position-absolute streak-content center overlay-1 text-white">
         <div
-          class="center"
+          class="col-12 col-md-6"
           data-aos="fade-in"
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="1000"
         >
-          <h1>Get in Touch</h1>
-          <input type="text" name="" id="" placeholder="name" />
-          <input type="text" name="" id="" placeholder="number" />
-          <input type="text" name="" id="" placeholder="email" />
-          <input type="text" name="" id="" placeholder="subject" />
-          <button class="btn btn-lg btn-warning mt-2">submit</button>
+          <p class="h2">Get in Touch</p>
+          <p>
+            Need storage advice? Head over to the FAQ page, or reach out for a
+            quote or throw your questions our way - we'll get back to you as
+            soon as we can.
+          </p>
+
+          <a
+            href="javascript:void(0);"
+            @click="show()"
+            class="btn btn-lg btn-outline-warning mt-2"
+          >
+            <nobr
+              ><i class="fal fa-comment-alt-lines fa-fw mr-2"></i>Get a
+              Quote</nobr
+            >
+          </a>
+          <router-link to="/faq">
+            <button class="btn btn-lg btn-outline-primary mt-2 ml-2">
+              F.A.Q's
+            </button>
+          </router-link>
         </div>
       </div>
     </div>
@@ -27,7 +43,7 @@
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="1000"
         >
-          <h2>Cheapest Storage</h2>
+          <p class="h2 text-left">Brisbane's <nobr>Cheapest Storage</nobr></p>
           Stand-out rates and deals on storage containers, tradesman sheds and
           work areas and storage for vehicles of all kinds.
           <div
@@ -50,7 +66,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  methods: {
+    show() {
+      this.$modal.show('contact-modal')
+    }
+  }
+}
 </script>
 
 <style lang="scss">

@@ -20,13 +20,13 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-5">
-          <h1 class="big-title my-5">Pricing</h1>
+          <h1 class="big-title mt-5">Pricing</h1>
           <p>
             Your own workshop space with all of the necessities. In a convenient
             Woolloongabba location.
           </p>
 
-          <div class="grad-border text-center font-weight-bold my-5">
+          <div class="grad-border text-center font-weight-bold my-3 mb-5">
             <p class="bg-white p-3 mb-0">
               Current Offer:
               <span class="font-weight-light">50% OFF First Month</span>
