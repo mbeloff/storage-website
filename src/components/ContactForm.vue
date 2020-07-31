@@ -31,5 +31,30 @@ export default {
   border: none;
   background: none;
   color: var(--orange);
+  padding: 0 0 0 0;
+  &:focus {
+    color: rgb(255, 187, 0);
+    text-shadow: 0 0 0 rgb(255, 255, 255);
+    transform: scale(1);
+    outline: none;
+    animation: pulse 2s infinite;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    text-shadow: 0 0 0 rgba(255, 211, 115, 0.767);
+  }
+
+  70% {
+    transform: scale(1);
+    text-shadow: 0 0 20px rgba(255, 227, 165, 0.226);
+  }
+
+  100% {
+    transform: scale(0.95);
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0);
+  }
 }
 </style>
