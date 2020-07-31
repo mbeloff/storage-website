@@ -1,6 +1,6 @@
 <template>
   <div class="container d-flex">
-    <div class="h-100 my-auto">
+    <div class="d-flex flex-column my-auto">
       <h1 class="mb-3">message received :)</h1>
       <h3 class="underline mb-5 font-weight-light">
         thanks for reaching out. we'll get back to you <br />

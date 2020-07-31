@@ -1,7 +1,14 @@
 <template>
   <div class="p-3 dark-bg form-modal">
     <h1 class="big-title">
-      Contact Us<i class="fa fa-times float-right" @click="hide()"></i>
+      Contact Us
+      <button class="btn-close fa fa-times float-right" @click="hide()">
+        <!-- <i
+          class="fa fa-times float-right"
+          aria-label="Close"
+          @click="hide()"
+        ></i> -->
+      </button>
     </h1>
     <Form></Form>
   </div>
@@ -19,4 +26,10 @@ export default {
 }
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.btn-close {
+  border: none;
+  background: none;
+  color: var(--orange);
+}
+</style>

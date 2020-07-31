@@ -25,6 +25,7 @@
             class="form-control"
             type="text"
             placeholder="Name"
+            aria-label="Your name"
             name="name"
             required
             @input="ev => (form.name = ev.target.value)"
@@ -41,6 +42,7 @@
             class="form-control"
             type="tel"
             placeholder="Phone"
+            aria-label="Your phone number"
             name="number"
             @input="ev => (form.number = ev.target.value)"
           /><i class="form-icon fal fa-phone-rotary"></i>
@@ -53,6 +55,7 @@
             class="form-control"
             type="email"
             placeholder="Email"
+            aria-label="Your email address"
             name="email"
             @input="ev => (form.email = ev.target.value)"
           /><i class="form-icon fal fa-envelope"></i>
@@ -68,6 +71,7 @@
             name="topic"
             aria-required="false"
             aria-invalid="false"
+            aria-label="Enquiry subject"
             value=""
             @input="ev => (form.topic = ev.target.value)"
           >
@@ -88,6 +92,7 @@
             name="period"
             aria-required="false"
             aria-invalid="false"
+            aria-label="Estimate Storage Period"
             value=""
             @input="ev => (form.period = ev.target.value)"
           >
@@ -113,6 +118,7 @@
             class="form-control"
             rows="4"
             placeholder="Hi there, I want to know ..."
+            aria-label="Type your enquiry here"
             name="question"
             required
             @input="ev => (form.question = ev.target.value)"
@@ -123,7 +129,11 @@
 
       <div class="text-right">
         <!-- <div> -->
-        <button type="submit" class="btn btn-submit text-uppercase">
+        <button
+          type="submit"
+          class="btn btn-submit text-uppercase"
+          aria-label="Submit"
+        >
           <p class="gradient-slide mb-0">
             <i class="fa fa-paper-plane mr-1 d-inline"></i> Submit
           </p>
