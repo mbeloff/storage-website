@@ -79,7 +79,7 @@
               >Topic</option
             >
             <option value="on-site storage">Storage Unit</option>
-            <option value="mobile storage unit">Mobile Storage Unit</option>
+            <!-- <option value="mobile storage unit">Mobile Storage Unit</option> -->
             <option value="workshop space">Workshop Space</option>
             <option value="Unknown">Something Else</option> </select
           ><i class="form-icon fal fa-list"></i>
@@ -92,21 +92,21 @@
             name="period"
             aria-required="false"
             aria-invalid="false"
-            aria-label="Estimate Storage Period"
+            aria-label="Estimated Storage Period"
             value=""
             @input="ev => (form.period = ev.target.value)"
           >
             <option value="" disabled="disabled" selected="selected"
-              >Estimated
+              >Storage Period
             </option>
             <option value="Unknown">Unknown / Not Applicable</option>
+            <option value="Unknown">less than 1 Month</option>
             <option value="1-3 Months">1-3 Months</option>
             <option value="3-6 Months">3-6 Months</option>
             <option value="6-12 Months">6-12 Months</option>
             <option value="1+ Year">1+ Year</option>
-            <option value="2+ Years">2+ Years</option>
-            <option value="3+ Years">3+ Years</option> </select
-          ><i class="form-icon fal fa-calendar"></i>
+          </select>
+          <i class="form-icon fal fa-calendar"></i>
         </div>
       </div>
 
