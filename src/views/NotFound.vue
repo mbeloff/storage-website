@@ -6,7 +6,7 @@
         We couldn't find the page you were looking for. <br />
       </h3>
       <a
-        class="my-5 ml-4 font-weight-light gradient-slide"
+        class="my-2 ml-4 font-weight-light gradient-slide"
         style="font-size: 1.5rem"
         @click="$router.go(-1)"
         ><i class="fal fa-backward align-middle mr-2"></i>go back</a

@@ -7,7 +7,7 @@
           class="col-12 col-md-6"
           data-aos="fade-in"
           data-aos-anchor-placement="center-bottom"
-          data-aos-duration="1000"
+          data-aos-duration="1500"
         >
           <p class="h2">Get in Touch</p>
           <p>
@@ -34,14 +34,14 @@
         </div>
       </div>
     </div>
-    <div class="streak position-relative ">
+    <div class="streak position-relative">
       <img class="streak-img" src="../assets/streak3.jpg" alt="" />
       <div class="position-absolute streak-content center overlay-2 text-white">
         <div
           class="col-12 col-md-6 text-justify"
           data-aos="fade-in"
           data-aos-anchor-placement="center-bottom"
-          data-aos-duration="1000"
+          data-aos-duration="1500"
         >
           <p class="h2 text-left">Brisbane's <nobr>Cheapest Storage</nobr></p>
           Stand-out rates and deals on storage containers, tradesman sheds and
