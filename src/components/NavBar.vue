@@ -79,7 +79,7 @@ export default {
                 type: 'link',
                 text: 'Rent a Workshop',
                 subText:
-                  'Hire a multi-purpose tradesman storage or workspace with single- and three-phase power, racking or hoist available',
+                  'Hire a multi-purpose tradesman storage or workspace with three-phase power.',
                 path: './workshops',
                 iconLeft: '<i class="fa fa-wrench fa-fw"></i>'
               }
@@ -181,6 +181,7 @@ export default {
 
 .navi {
   position: relative;
+  padding: 1rem 0;
 }
 
 .nav-logo {
@@ -222,6 +223,7 @@ export default {
 
 .vnb__menu-options__option__link {
   color: var(--orange-dark);
+  padding: 0.75rem;
   &.tippy-active {
     color: var(--orange-dark);
   }
@@ -241,7 +243,7 @@ export default {
 
 #topnav {
   height: 1px;
-  background-image: var(--nice-gradient);
+  background-image: var(--gradient);
 }
 
 #nav {

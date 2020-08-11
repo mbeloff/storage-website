@@ -4,14 +4,14 @@
       <h1 class="big-title">Tradesman Sheds and Workshops</h1>
       <p class="sub-title">
         <span
-          >Your own workshop and storage for as little as $100 per week</span
+          >Your own workshop and storage for as little as $250 per week</span
         >
       </p>
       <p>
         Gabba Storage has 24m<sup>2</sup> to 240m<sup>2</sup> workshop spaces
-        for rent with benches, water, single and triple phase power included.
-        Racking, Hoists and additional office and storage space available to
-        streamline your operations.
+        for rent with with three-phase power. Room for benches, racking or a
+        hoist. Additional office and storage space available to streamline your
+        operations.
       </p>
       <p>
         Short-term leases and week-to-week payments available at budget rates.
@@ -74,17 +74,17 @@ export default {
         {
           name: 'Small',
           size: '24',
-          price: '100'
+          price: '250'
         },
         {
           name: 'Medium',
           size: '48',
-          price: '180'
+          price: '450'
         },
         {
           name: 'Large',
           size: '96',
-          price: '340'
+          price: '800'
         }
       ]
     }

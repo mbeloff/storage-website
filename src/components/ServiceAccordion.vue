@@ -3,7 +3,7 @@
     <div class="container noflow">
       <div
         class="row service-type"
-        data-aos="fade-in"
+        data-aos="fade-left"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="2000"
       >
@@ -33,7 +33,7 @@
       <hr />
       <div
         class="row service-type"
-        data-aos="fade-in"
+        data-aos="fade-right"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="2000"
       >
@@ -90,7 +90,7 @@
       <hr />
       <div
         class="row service-type"
-        data-aos="fade-in"
+        data-aos="fade-left"
         data-aos-duration="2000"
         data-aos-anchor-placement="center-bottom"
       >
@@ -109,9 +109,11 @@
             <span>Well equipped workshop spaces at competitive rates.</span>
           </p>
           <p align="justify">
-            Three-phase and single-phase power with racking, hoist and
-            additional office or storage space available. 24m<sup>2</sup> -
-            240m<sup>2</sup>
+            Three-phase and single-phase power with plenty of space for racking
+            or a hoist. Additional office or storage space available. 24m<sup
+              >2</sup
+            >
+            - 240m<sup>2</sup>
             Tradesman storage and work spaces available in convenient
             Woolloongabba location. Short-term leases and week-to-week payments
             available.
