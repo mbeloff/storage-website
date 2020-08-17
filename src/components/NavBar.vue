@@ -1,12 +1,12 @@
 <template>
   <div
-    class="m-0 p-0 dark-bg position-fixed w-100 nav-wrapper"
+    class="m-0 p-0 position-fixed w-100 nav-wrapper"
     style="z-index: 100"
     :class="{ 'nav-hidden': !showNavbar }"
   >
     <div id="topnav"></div>
     <vue-navigation-bar
-      class="dark-bg px-2"
+      class="bg-white px-2 py-lg-0"
       :options="navbarOptions"
       @vnb-item-clicked="vnbItemClicked"
     />
@@ -43,7 +43,7 @@ export default {
           {
             type: 'link',
             text: 'Services',
-            arrowColor: '#ffcd60',
+            arrowColor: '#ffa41c',
             subMenuOptions: [
               {
                 type: 'link',
@@ -55,16 +55,6 @@ export default {
               {
                 type: 'hr'
               },
-              // {
-              //   type: 'link',
-              //   text: 'Mobile Storage Boxes',
-              //   subText: 'Storage to your door, you load it up, we store it.',
-              //   path: './mobilestorage',
-              //   iconLeft: '<i class="fa fa-map-marker fa-fw"></i>'
-              // },
-              // {
-              //   type: 'hr'
-              // },
               {
                 type: 'link',
                 text: 'Auto Storage',
@@ -82,6 +72,16 @@ export default {
                   'Hire a multi-purpose tradesman storage or workspace with three-phase power.',
                 path: './workshops',
                 iconLeft: '<i class="fa fa-wrench fa-fw"></i>'
+              },
+              {
+                type: 'hr'
+              },
+              {
+                type: 'link',
+                text: 'Mobile Storage Boxes',
+                subText: 'Storage to your door, you load it up, we store it.',
+                path: './mobilestorage',
+                iconLeft: '<i class="fa fa-map-marker fa-fw"></i>'
               }
             ]
           },
@@ -201,13 +201,19 @@ export default {
   border-left: none !important;
 }
 
+.vnb-image.vnb__brand-image-wrapper__link__image {
+  background: black;
+  padding: 2px;
+  border-radius: 2px;
+}
+
 .vnb {
   padding: 0.5rem 0;
 }
 
 //no background on active home link
 .vnb__menu-options__option__link.router-link-exact-active.router-link-active {
-  background: inherit !important;
+  // background: inherit !important;
 }
 
 .vnb__sub-menu-options__option__link:hover,
@@ -222,15 +228,14 @@ export default {
 // }
 
 .vnb__menu-options__option__link {
-  color: var(--orange-dark);
-  padding: 0.75rem;
+  color: rgb(37, 35, 33);
   &.tippy-active {
     color: var(--orange-dark);
   }
 }
 
 .vnb__menu-options__option__link:hover {
-  color: var(--orange-light) !important;
+  color: var(--orange-dark) !important;
 }
 
 .vnb__popup__bottom__menu-options__option__link--no-highlight {
@@ -246,6 +251,10 @@ export default {
   background-image: var(--gradient);
 }
 
+.vnb__menu-options--left {
+  height: 54px;
+}
+
 #nav {
   text-align: left;
   padding: 30px;
@@ -253,11 +262,14 @@ export default {
   font-size: 1.25rem;
   text-transform: uppercase;
 
-  // .vnb__menu-options__option__link,
-  // .vnb__sub-menu-options__option__link,
-  // .vnb__popup__bottom__menu-options__option__link {
-  //   font-size: 1.25rem;
-  // }
+  .vnb__menu-options__option__link {
+    // font-size: 1.25rem;
+    height: 54px;
+    padding: 0 1rem;
+    &:hover {
+      background: var(--dark-color);
+    }
+  }
 
   .vnb__popup__bottom__sub-menu-options__option__link__sub-text,
   .vnb__sub-menu-options__option__link__text-wrapper__sub-text {

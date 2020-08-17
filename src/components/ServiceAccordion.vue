@@ -9,7 +9,7 @@
       >
         <div class="col-12 col-md-6 order-md-2 center">
           <div
-            class="icon-wrapper mb-3 mb-md-0 p-2"
+            class="icon-wrapper mb-3 mb-md-0 p-3"
             data-aos="icon-anim"
             data-aos-anchor-placement="center-center"
           >
@@ -39,7 +39,7 @@
       >
         <div class="col-12 col-md-6 center">
           <div
-            class="icon-wrapper mb-3 mb-md-0 p-2"
+            class="icon-wrapper mb-3 mb-md-0 p-3"
             data-aos="icon-anim"
             data-aos-anchor-placement="center-center"
           >
@@ -57,36 +57,7 @@
           </p>
         </div>
       </div>
-      <!-- <hr />
-      <div
-        class="row service-type"
-        data-aos="fade-right"
-        data-aos-anchor-placement="center-bottom"
-        data-aos-duration="1000"
-      >
-        <div class="col-12 col-md-6 center">
-          <div
-            class="icon-wrapper mb-3 mb-md-0 p-2"
-            data-aos="icon-anim"
-            data-aos-anchor-placement="center-center"
-          >
-            <img src="../assets/mobilestorage.svg" alt="" class=" ico" />
-          </div>
-        </div>
-        <div class="col-12 col-md-6">
-          <h2 class="big-title">Mobile storage units.</h2>
-          <p class="sub-title">
-            <span>Delivered to your door, you pack, we store</span>
-          </p>
-          <p align="justify">
-            Get your goods in storage without ever leaving your house. Storage
-            boxes delivered anywhere in Brisbane area. Take as long as you like
-            to pack and then we collect to store securely at our facility. No
-            need to leave your home or office, just pack at your leisure and let
-            us do the running around.
-          </p>
-        </div>
-      </div> -->
+
       <hr />
       <div
         class="row service-type"
@@ -96,7 +67,7 @@
       >
         <div class="col-12 col-md-6 order-md-2 center">
           <div
-            class="icon-wrapper mb-3 mb-md-0 p-2"
+            class="icon-wrapper mb-3 mb-md-0 p-3"
             data-aos="icon-anim"
             data-aos-anchor-placement="center-center"
           >
@@ -117,6 +88,36 @@
             Tradesman storage and work spaces available in convenient
             Woolloongabba location. Short-term leases and week-to-week payments
             available.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div
+        class="row service-type"
+        data-aos="fade-right"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="1000"
+      >
+        <div class="col-12 col-md-6 center">
+          <div
+            class="icon-wrapper mb-3 mb-md-0 p-3"
+            data-aos="icon-anim"
+            data-aos-anchor-placement="center-center"
+          >
+            <img src="../assets/mobilestorage.svg" alt="" class=" ico" />
+          </div>
+        </div>
+        <div class="col-12 col-md-6 p-0">
+          <h2 class="big-title">Mobile storage units.</h2>
+          <p class="sub-title">
+            <span>Delivered to your door, you pack, we store</span>
+          </p>
+          <p align="justify">
+            Get your goods in storage without ever leaving your house. We can
+            deliver storage units anywhere in the Brisbane area. Simply pack up
+            your belongings and take the unit away to store at our facility. No
+            need to leave your home or office, just pack once and let us do the
+            running around.
           </p>
         </div>
       </div>

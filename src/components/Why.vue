@@ -2,8 +2,8 @@
   <div class="bg-light px-0 why">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-8 my-5">
-          <h2 class=" big-title">Budget self storage in Brisbane</h2>
+        <div class="col-12 col-md-8 my-5 pr-md-5">
+          <h2 class="big-title">Budget self storage in Brisbane</h2>
           <p>
             Storage space comes at a premium in houses and offices in Brisbane,
             and sometimes extra space has to be sacrificed in favour of a lower
