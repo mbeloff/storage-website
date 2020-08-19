@@ -205,6 +205,28 @@ export default {
 
 .form-control {
   background: rgb(255, 255, 255);
+  padding-left: 2.4rem;
+}
+
+.form-control::placeholder {
+  font-weight: 400;
+}
+
+select.form-control {
+  padding-left: 2.1rem !important;
+}
+
+.form-icon {
+  position: absolute;
+  left: 1.5rem;
+  top: 0.7rem;
+  color: var(--orange-dark);
+  transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.74, 2.66);
+}
+
+.form-control:focus + .form-icon {
+  transform: scale(1.5);
+  color: rgb(255, 94, 0);
 }
 
 textarea::placeholder,
@@ -240,23 +262,5 @@ select::placeholder {
   a.gradient-slide {
     color: white;
   }
-}
-
-.form-control {
-  padding-left: 2rem;
-}
-
-.form-icon {
-  position: absolute;
-  left: 1.5rem;
-  top: 0.7rem;
-  // margin-bottom: 10px;
-  color: var(--orange-dark);
-  transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.74, 2.66);
-}
-
-.form-control:focus + .form-icon {
-  transform: scale(1.5);
-  color: rgb(255, 94, 0);
 }
 </style>

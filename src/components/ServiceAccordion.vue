@@ -77,7 +77,7 @@
         <div class="col-12 col-md-6 p-0">
           <h2 class="big-title">Rent workshop space.</h2>
           <p class="sub-title">
-            <span>Well equipped workshop spaces at competitive rates.</span>
+            <span>Tradesman storage and workshops at competitive rates.</span>
           </p>
           <p align="justify">
             Three-phase and single-phase power with plenty of space for racking
@@ -115,9 +115,9 @@
           <p align="justify">
             Get your goods in storage without ever leaving your house. We can
             deliver storage units anywhere in the Brisbane area. Simply pack up
-            your belongings and take the unit away to store at our facility. No
-            need to leave your home or office, just pack once and let us do the
-            running around.
+            your belongings and we'll take the unit away to store at our
+            facility. No need to leave your home or office, just pack once and
+            let us do the running around.
           </p>
         </div>
       </div>
@@ -132,9 +132,7 @@ export default {}
 <style lang="scss">
 .icon-wrapper {
   width: min-content;
-  // margin: auto;
   border-radius: 50%;
-  // background: var(--orange-dark);
 }
 
 [data-aos='icon-anim'] {

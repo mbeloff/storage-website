@@ -26,12 +26,12 @@
             Woolloongabba location.
           </p>
 
-          <div class="grad-border text-center font-weight-bold my-3 mb-5">
+          <!-- <div class="grad-border text-center font-weight-bold my-3 mb-5">
             <p class="bg-white p-3 mb-0">
               Current Offer:
-              <span class="font-weight-light">50% OFF First Month</span>
+              <span class="font-weight-thin">50% OFF First Month</span>
             </p>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -52,7 +52,7 @@
                       >{{ price.size }}m<sup>2</sup></span
                     >
                   </p>
-                  <p class="lead mt-4">from ${{ price.price }}/week</p>
+                  <p class="mt-4">from ${{ price.price }}/week</p>
                 </div>
                 <div class="text-right">
                   <open-modal>enquire</open-modal>

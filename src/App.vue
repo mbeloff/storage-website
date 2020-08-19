@@ -74,7 +74,7 @@ body {
   // background-color: #f8f4e9;
   display: grid;
   grid-template-rows: 1fr auto;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .dark-bg {
@@ -87,10 +87,14 @@ a:not([href]) {
   cursor: pointer;
 }
 
+.font-weight-thin {
+  font-weight: 400;
+}
+
 .grad-border {
   border-radius: 4px;
   background-image: var(--gradient);
-  padding: 1.5px 1.5px !important;
+  padding: 2px !important;
 }
 
 .gradient-slide {

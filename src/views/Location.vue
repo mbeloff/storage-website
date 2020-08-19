@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <div class="map" id="map">
-      <iframe
+      <!-- <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.26766718953!2d153.04183271505732!3d-27.49204988288161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a472def8371%3A0xf9c06e864fa9beca!2s50%20Deshon%20St%2C%20Woolloongabba%20QLD%204102!5e0!3m2!1sen!2sau!4v1597105858794!5m2!1sen!2sau"
         width="100%"
         height="353"
@@ -10,7 +10,10 @@
         allowfullscreen=""
         aria-hidden="false"
         tabindex="0"
-      ></iframe>
+      ></iframe> -->
+      <a href="https://goo.gl/maps/QbNcXsaZ7G2Sqn4EA"
+        ><img class="img-fluid" src="../assets/map.jpg" alt=""
+      /></a>
     </div>
     <div class="container pb-3">
       <div class="row">
@@ -72,5 +75,6 @@ export default {
 
 .map {
   margin-bottom: 1rem;
+  // min-height: 300px;
 }
 </style>

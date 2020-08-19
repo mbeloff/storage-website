@@ -20,7 +20,7 @@
                   <p class="h4 underline">
                     {{ special.name }}
                   </p>
-                  <p class="lead mt-4">
+                  <p class="mt-4">
                     {{ special.desc }}
                   </p>
                 </div>

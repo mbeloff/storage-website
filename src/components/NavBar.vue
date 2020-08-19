@@ -201,7 +201,7 @@ export default {
   border-left: none !important;
 }
 
-.vnb-image.vnb__brand-image-wrapper__link__image {
+.vnb__brand-image-wrapper__link__image {
   background: black;
   padding: 2px;
   border-radius: 2px;
@@ -214,6 +214,10 @@ export default {
 //no background on active home link
 .vnb__menu-options__option__link.router-link-exact-active.router-link-active {
   // background: inherit !important;
+}
+
+.vnb__menu-options__option span[aria-expanded="true"]{
+  background-color: var(--orange);
 }
 
 .vnb__sub-menu-options__option__link:hover,
@@ -229,13 +233,10 @@ export default {
 
 .vnb__menu-options__option__link {
   color: rgb(37, 35, 33);
+  transition: color 0s;
   &.tippy-active {
     color: var(--orange-dark);
   }
-}
-
-.vnb__menu-options__option__link:hover {
-  color: var(--orange-dark) !important;
 }
 
 .vnb__popup__bottom__menu-options__option__link--no-highlight {
@@ -247,7 +248,7 @@ export default {
 }
 
 #topnav {
-  height: 1px;
+  height: 2px;
   background-image: var(--gradient);
 }
 
@@ -268,6 +269,7 @@ export default {
     padding: 0 1rem;
     &:hover {
       background: var(--dark-color);
+      color: var(--orange-dark);
     }
   }
 

@@ -56,7 +56,7 @@
           <div class="grad-border text-center font-weight-bold my-3 mb-5">
             <p class="bg-white p-3 mb-0">
               Current Offer:
-              <span class="font-weight-light">First 2 Months FREE*</span>
+              <span class="font-weight-thin">First 2 Months FREE*</span>
             </p>
           </div>
         </div>
@@ -79,7 +79,7 @@
                       >{{ price.size }}m<sup>3</sup></span
                     >
                   </p>
-                  <p class="lead mt-4 mb-0">from ${{ price.price }}/month</p>
+                  <p class="mt-4 mb-0">from ${{ price.price }}/month</p>
                 </div>
                 <div class="text-right">
                   <open-modal>enquire</open-modal>
