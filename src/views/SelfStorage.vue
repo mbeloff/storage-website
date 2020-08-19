@@ -49,16 +49,17 @@
           <h1 class="big-title mt-5">Pricing</h1>
           <p>
             Only pay for what you need. Rent storage space from 1 day to a 1
-            year, or more! Gabba Storage has a range of storage container, from
+            year, or more! Gabba Storage has a range of storage containers, from
             5m<sup>3</sup> - 10m<sup>3</sup>
           </p>
 
-          <div class="grad-border text-center font-weight-bold my-3 mb-5">
+          <div class="grad-border text-center font-weight-bold mt-3 mb-0">
             <p class="bg-white p-3 mb-0">
               Current Offer:
               <span class="font-weight-thin">First 2 Months FREE*</span>
             </p>
           </div>
+          <span class="small float-right">*minimum 6 months hire</span>
         </div>
       </div>
     </div>
@@ -105,7 +106,7 @@ export default {
         // },
         {
           name: 'Medium',
-          size: '6',
+          size: '5',
           price: '60'
         },
         {

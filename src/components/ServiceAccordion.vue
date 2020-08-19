@@ -17,16 +17,16 @@
           </div>
         </div>
         <div class="col-12 col-md-6 p-0">
-          <h2 class="big-title">Cheap, secure, self storage.</h2>
+          <h2 class="big-title">Cheap, secure self storage.</h2>
           <p class="sub-title">
             <span>Pay as you go, short or long term hire</span>
           </p>
           <p align="justify">
-            Big and Small storage units available. Finally free up some space in
+            Big and small storage units available. Finally free up some space in
             your home or office. Whether you're decluttering, renovating, moving
             house or looking for a secure location for business archives or
             excess stock, we've got you covered with cost-effective storage
-            solutions with easy access in a convenient Woolloongabba location.
+            solutions with easy and convenient access.
           </p>
         </div>
       </div>
@@ -54,6 +54,8 @@
           <p align="justify">
             No longer have the space for your car, caravan, boat or trailer?
             Gabba Storage has cheap rates for storing vehicles of all kinds.
+            enclosed, lockable and protected from the elements, we have single
+            and multiple-vehicle storage bays available to rent.
           </p>
         </div>
       </div>
@@ -85,7 +87,7 @@
               >2</sup
             >
             - 240m<sup>2</sup>
-            Tradesman storage and work spaces available in convenient
+            Tradesman storage and work spaces available in a convenient
             Woolloongabba location. Short-term leases and week-to-week payments
             available.
           </p>

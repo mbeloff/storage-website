@@ -12,8 +12,12 @@
           vehicle storage.
         </p>
         <p>
-          Store for as long as you like, with full access to your vehicle during
-          business hours.
+          Our single and multi-vehicle storage bays are enclosed and protected
+          from the element and have extra height clearance for larger vehicles.
+        </p>
+        <p>
+          Store for as long as you like, with convenient access to your vehicle
+          during business hours.
         </p>
       </div>
     </div>

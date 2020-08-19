@@ -14,7 +14,7 @@
       <open-modal>Get in touch</open-modal> today to discuss your storage
       options, or to get a quote.
     </p>
-    <!-- <div class="row">
+    <div class="row">
       <div class="col-12">
         <p class="sub-title mt-5"><span>Storing with Us</span></p>
         <p>
@@ -22,11 +22,11 @@
           facility, safe and secure until you're ready to get your items back -
           and whenever you need access, you can come and go as you please during
           our opening horus. At the end of your hire period, you can either
-          collect your belongings yourself, or we'll deliver anywhere in the
-          Brisbane area.
+          collect your belongings yourself, or we'll deliver to you for
+          unpacking.
         </p>
 
-        <p class="sub-title mt-5"><span>Storing at your place</span></p>
+        <!-- <p class="sub-title mt-5"><span>Storing at your place</span></p>
         <p>
           For the convenience of a bit of exra space at your home or office,
           you're also free to store the box yourself, giving you unrestricted
@@ -34,9 +34,9 @@
           elements. Save on time and labour involved with moving things in and
           out of trucks from location to location and get cheap storage
           delivered right to your door.
-        </p>
+        </p> -->
       </div>
-    </div> -->
+    </div>
   </div>
 </template>
 

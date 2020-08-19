@@ -13,6 +13,15 @@
         hoist. Additional office and storage space available to streamline your
         operations.
       </p>
+      <h5>Available with:</h5>
+      <ul>
+        <li>Racking</li>
+        <li>Hoist</li>
+        <li>Mezzanine Floor</li>
+        <li>Water/Sink</li>
+        <li>Three-phase Power</li>
+        <li>Additional Storage</li>
+      </ul>
       <p>
         Short-term leases and week-to-week payments available at budget rates.
       </p>
@@ -20,7 +29,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-5">
-          <h1 class="big-title mt-5">Pricing</h1>
+          <h1 class="big-title mt-5">Pricing (example)</h1>
           <p>
             Your own workshop space with all of the necessities. In a convenient
             Woolloongabba location.
@@ -78,12 +87,12 @@ export default {
         },
         {
           name: 'Medium',
-          size: '48',
+          size: '72',
           price: '450'
         },
         {
           name: 'Large',
-          size: '96',
+          size: '240',
           price: '800'
         }
       ]
