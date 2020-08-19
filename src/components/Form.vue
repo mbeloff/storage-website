@@ -28,11 +28,15 @@
             aria-label="Your name"
             name="name"
             required
-            @input="ev => (form.name = ev.target.value)"
+            v-model="form.name"
+          
           />
           <i class="form-icon fal fa-user"></i>
         </div>
+        <p>name is: {{ form.name }}</p>
       </div>
+
+      <!-- @input="ev => (form.name = ev.target.value)" -->
 
       <div class="row">
         <div class="col-md-6 form-group">
