@@ -29,11 +29,9 @@
             name="name"
             required
             v-model="form.name"
-          
           />
           <i class="form-icon fal fa-user"></i>
         </div>
-        <p>name is: {{ form.name }}</p>
       </div>
 
       <!-- @input="ev => (form.name = ev.target.value)" -->
@@ -48,7 +46,7 @@
             placeholder="Phone"
             aria-label="Your phone number"
             name="number"
-            @input="ev => (form.number = ev.target.value)"
+            v-model="form.number"
           /><i class="form-icon fal fa-phone-rotary"></i>
         </div>
 
@@ -61,7 +59,7 @@
             placeholder="Email"
             aria-label="Your email address"
             name="email"
-            @input="ev => (form.email = ev.target.value)"
+            v-model="form.email"
           /><i class="form-icon fal fa-envelope"></i>
         </div>
       </div>
@@ -77,7 +75,7 @@
             aria-invalid="false"
             aria-label="Enquiry subject"
             value=""
-            @input="ev => (form.topic = ev.target.value)"
+            v-model="form.topic"
           >
             <option value="" disabled="disabled" selected="selected"
               >Topic</option
@@ -98,7 +96,7 @@
             aria-invalid="false"
             aria-label="Estimated Storage Period"
             value=""
-            @input="ev => (form.period = ev.target.value)"
+            v-model="form.period"
           >
             <option value="" disabled="disabled" selected="selected"
               >Storage Period
@@ -125,7 +123,7 @@
             aria-label="Type your enquiry here"
             name="question"
             required
-            @input="ev => (form.question = ev.target.value)"
+            v-model="form.question"
           ></textarea
           ><i class="form-icon fal fa-comment-alt-lines"></i>
         </div>
