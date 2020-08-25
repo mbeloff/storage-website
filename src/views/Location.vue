@@ -12,7 +12,7 @@
         tabindex="0"
       ></iframe> -->
       <a href="https://goo.gl/maps/QbNcXsaZ7G2Sqn4EA"
-        ><img class="img-fluid" src="../assets/map.jpg" alt=""
+        ><img class="img-fluid" src="../assets/map3.jpg" alt=""
       /></a>
     </div>
     <div class="container pb-3">

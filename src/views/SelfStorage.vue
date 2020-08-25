@@ -59,7 +59,9 @@
               <span class="font-weight-thin">First 2 Months FREE*</span>
             </p>
           </div>
-          <span class="small float-right">*minimum 6 months hire</span>
+          <span class="small float-right"
+            >*applicable for any hires over 6 months</span
+          >
         </div>
       </div>
     </div>

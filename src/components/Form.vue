@@ -113,6 +113,39 @@
       </div>
 
       <div class="row">
+        <div class="col-md-12">
+          <div class="">
+            <input
+              class="mr-2 ml-2"
+              type="checkbox"
+              id="racking"
+              value="Racking"
+              v-model="checkedFeatures"
+            />
+            <label class="form-check-label" for="racking">Racking</label>
+            <input
+              class="mr-1 ml-2"
+              type="checkbox"
+              id="hoist"
+              value="Hoist"
+              v-model="checkedFeatures"
+            />
+            <label class="form-check-label" for="hoist">Hoist</label>
+            <input
+              class="mr-1 ml-2"
+              type="checkbox"
+              id="mezzanine"
+              value="Mezzanine"
+              v-model="checkedFeatures"
+            />
+            <label class="form-check-label" for="mezzanine">Mezzanine</label>
+          </div>
+          <span>Checked Features: {{ checkedFeatures }}</span>
+          <input type="text" v-model="checkedFeatures" />
+        </div>
+      </div>
+
+      <div class="row">
         <div class="col-md-12 form-group g-mb-40">
           <!-- <label class="">Now, how can we help you?</label> -->
 
@@ -153,11 +186,13 @@
 export default {
   data() {
     return {
+      checkedFeatures: [],
       form: {
         name: '',
         number: '',
         email: '',
         topic: '',
+        checkFeatures: '',
         period: '',
         question: ''
       }
@@ -172,6 +207,7 @@ export default {
         .join('&')
     },
     handleSubmit() {
+      this.form.checkedFeatures === this.checkedFeatures.toString()
       fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -243,12 +279,12 @@ select::placeholder {
   background: var(--orange-dark);
   border: var(--orange-dark) 0.5px solid;
   border-radius: 20px;
-  font-weight: 100;
+  // font-weight: 100;
   &:hover,
   &:focus {
     background: white;
     transform: scale(1.02);
-    transition: transform 0.4s cubic-bezier(0.5, -0.24, 0.5, 3.21);
+    transition: transform 0.1s cubic-bezier(0.5, -0.24, 0.5, 3.21);
     .gradient-slide {
       background: var(--grad-slide);
       background-size: 200% 200%;

@@ -4,7 +4,7 @@
       <div
         class="row service-type"
         data-aos="fade-left"
-        data-aos-anchor-placement="center-bottom"
+        data-aos-anchor-placement="top-bottom"
         data-aos-duration="2000"
       >
         <div class="col-12 col-md-6 order-md-2 center">
@@ -13,7 +13,7 @@
             data-aos="icon-anim"
             data-aos-anchor-placement="center-center"
           >
-            <img src="../assets/bank.svg" alt="" class=" ico" />
+            <img src="../assets/bank.svg" alt="" class="ico" />
           </div>
         </div>
         <div class="col-12 col-md-6 p-0">
@@ -34,7 +34,7 @@
       <div
         class="row service-type"
         data-aos="fade-right"
-        data-aos-anchor-placement="center-bottom"
+        data-aos-anchor-placement="top-bottom"
         data-aos-duration="2000"
       >
         <div class="col-12 col-md-6 center">
@@ -43,7 +43,7 @@
             data-aos="icon-anim"
             data-aos-anchor-placement="center-center"
           >
-            <img src="../assets/caravan.svg" alt="" class=" ico" />
+            <img src="../assets/caravan.svg" alt="" class="ico" />
           </div>
         </div>
         <div class="col-12 col-md-6 p-0">
@@ -65,7 +65,7 @@
         class="row service-type"
         data-aos="fade-left"
         data-aos-duration="2000"
-        data-aos-anchor-placement="center-bottom"
+        data-aos-anchor-placement="top-bottom"
       >
         <div class="col-12 col-md-6 order-md-2 center">
           <div
@@ -97,7 +97,7 @@
       <div
         class="row service-type"
         data-aos="fade-right"
-        data-aos-anchor-placement="center-bottom"
+        data-aos-anchor-placement="top-bottom"
         data-aos-duration="1000"
       >
         <div class="col-12 col-md-6 center">

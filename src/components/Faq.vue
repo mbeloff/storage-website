@@ -49,7 +49,7 @@ export default {
           active: true,
           title: 'Who is Gabba Storage?',
           details: `
-        <p>Gabba Storage provides various sized storage units. We also store vehicles and trailers and rent trademan sheds and workshop spaces, complete with three phase power, racking and hoists.</p>
+        <p>Gabba Storage provides various sized storage boxes, both on-site at our Woolloongabba location, and mobile storage boxes that we can deliver to you to pack. We also store vehicles and trailers and rent tradesman sheds / workshop spaces, complete with three phase power, racking or hoists.</p>
       `
         },
         {
@@ -57,7 +57,7 @@ export default {
           active: false,
           title: 'What items can I store?',
           details: `
-        <p>We store anything from documents, to furniture, to cars, boats & trailers. We have small lockers and larger storage units and shipping containers.</p>
+        <p>You can store just about anything with Gabba Storage. We have small and large storage boxes for home & office items, and secure parking bays for cars, boats or trailers.</p>
       `
         },
         {
@@ -73,7 +73,7 @@ export default {
           active: false,
           title: `How soon can I move in?`,
           details: `
-        <p>You can move in on the same day as you make your enquiry (during office opening hours) as long as you have the relevant documentation needed to complete and sign your contract. Payment of a deposit and the first invoice must be made prior to moving in.</p>
+        <p>Subject to availability, you may move in on the same day as you make your enquiry (during office opening hours) as long as you have the relevant documentation needed to complete and sign your contract. Payment of a deposit and the first invoice must be made prior to moving in.</p>
       `
         },
         {
