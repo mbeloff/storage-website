@@ -24,9 +24,16 @@
               <p class="sub-title">
                 <span>We're easy to find</span>
               </p>
-              <p>
+              <p class="mb-0">
                 50 Deshon St,<br />Woolloongabba 4102 <br />
                 QLD, Australia
+              </p>
+              <p>
+                <a
+                  class="small"
+                  href="https://www.google.com/maps/place/50+Deshon+St,+Woolloongabba+QLD+4102"
+                  ><i class="far fa-map-marker-alt"></i> get directions</a
+                >
               </p>
             </div>
 

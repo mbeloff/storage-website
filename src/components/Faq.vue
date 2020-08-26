@@ -108,6 +108,7 @@ export default {
               <li>Cash and securities, illegal goods</li>
               <li>Explosives, firearms, ammunitions</li>
             </ul>
+            <p>Please make sure mowers, whipper snippers and the like are emptied of petrol or other fuel, and gas bottles are empty.</p>
       `
         }
         //   {

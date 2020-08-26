@@ -10,10 +10,7 @@
       @submit.prevent="handleSubmit"
     >
       <p class="sub-title">
-        <span>
-          What are you storage needs? Let us know what you need help with and
-          we'll get back to you</span
-        >
+        <span> Get a quote or ask a question</span>
       </p>
       <br />
       <input type="hidden" name="form-name" value="newForm" />
@@ -78,11 +75,12 @@
             v-model="form.topic"
           >
             <option value="" disabled="disabled" selected="selected"
-              >Topic</option
+              >Type of Enquiry</option
             >
             <option value="on-site storage">Storage Unit</option>
             <!-- <option value="mobile storage unit">Mobile Storage Unit</option> -->
             <option value="workshop space">Workshop Space</option>
+            <option value="mobile storage">Mobile Storage</option>
             <option value="Unknown">Something Else</option> </select
           ><i class="form-icon fal fa-list"></i>
         </div>
@@ -109,6 +107,49 @@
             <option value="1+ Year">1+ Year</option>
           </select>
           <i class="form-icon fal fa-calendar"></i>
+        </div>
+      </div>
+
+      <div v-show="form.topic === 'workshop space'" class="row">
+        <div class="col-6">
+          <input
+            class="mr-2 ml-2"
+            type="checkbox"
+            id="racking"
+            value="Racking"
+            v-model="form.requestedFeatures"
+          />
+          <label for="racking">Racking</label>
+        </div>
+        <div class="col-6">
+          <input
+            class="mr-2 ml-2"
+            type="checkbox"
+            id="hoist"
+            value="Hoist"
+            v-model="form.requestedFeatures"
+          />
+          <label for="hoist">Hoist</label>
+        </div>
+        <div class="col-6">
+          <input
+            class="mr-2 ml-2"
+            type="checkbox"
+            id="threePhase"
+            value="Three phase power"
+            v-model="form.requestedFeatures"
+          />
+          <label for="threePhase">Three Phase Power</label>
+        </div>
+        <div class="col-6">
+          <input
+            class="mr-2 ml-2"
+            type="checkbox"
+            id="mezzanine"
+            value="Mezzanine"
+            v-model="form.requestedFeatures"
+          />
+          <label for="mezzanine">Mezzanine</label>
         </div>
       </div>
 
@@ -158,6 +199,7 @@ export default {
         number: '',
         email: '',
         topic: '',
+        requestedFeatures: [],
         period: '',
         question: ''
       }

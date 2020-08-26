@@ -106,11 +106,11 @@ export default {
               //   text: 'Pricing',
               //   path: './pricing'
               // },
-              {
-                type: 'link',
-                text: 'Specials',
-                path: './specials'
-              }
+              // {
+              //   type: 'link',
+              //   text: 'Specials',
+              //   path: './specials'
+              // }
             ]
           }
         ],
