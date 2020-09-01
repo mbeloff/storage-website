@@ -7,7 +7,7 @@
       :scrollable="true"
       :adaptive="true"
       :clickToClose="false"
-      focusTrap="true"
+      :focusTrap="true"
     >
       <ContactForm></ContactForm>
     </modal>
@@ -38,9 +38,9 @@ export default {
 
 body {
   margin: 0 0 0 0;
-  --orange-light: #ffcd60;
-  --orange-dark: #ffa41c;
-  --orange: #ffae00;
+  --primary-light: #ffcd60;
+  --primary: #ffa41c;
+  --secondary: #0eb191;
   --dark-color: #1d1c1c;
   --light-color: #dfd2d2;
   --grad-slide: linear-gradient(
@@ -141,7 +141,7 @@ a:not([href]) {
 .big-title {
   font-family: var(--serif);
   font-weight: 400;
-  color: var(--orange-dark);
+  color: var(--primary);
   font-size: 2.2rem;
   margin-bottom: 0.4rem;
   line-height: 1.3;
@@ -178,7 +178,7 @@ a:not([href]) {
     width: 50%;
     content: '';
     height: 1px;
-    background: var(--orange-light);
+    background: var(--primary-light);
     background-image: var(--gradient);
   }
 }

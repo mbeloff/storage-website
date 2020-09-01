@@ -43,7 +43,7 @@
         </p>
       </div>
     </div>
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
         <div class="col-12 col-md-5">
           <h1 class="big-title mt-5">Pricing</h1>
@@ -64,8 +64,8 @@
           >
         </div>
       </div>
-    </div>
-    <div class="container-fluid bg-light py-3">
+    </div> -->
+    <!-- <div class="container-fluid bg-light py-3">
       <div class="container">
         <div class="row d-flex flex-wrap">
           <div
@@ -92,7 +92,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

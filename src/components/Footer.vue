@@ -93,7 +93,7 @@ export default {}
     color: rgb(160, 147, 142);
   }
   h5 {
-    color: var(--orange);
+    color: var(--primary);
   }
 }
 .footer-logo {

@@ -16,7 +16,7 @@
       <input type="hidden" name="form-name" value="newForm" />
       <div class="row">
         <div class="col-md-12 form-group">
-          <!-- <label class="">Hi, my name is</label> -->
+          <label class="sr-only">Name</label>
 
           <input
             class="form-control"
@@ -26,16 +26,15 @@
             name="name"
             required
             v-model="form.name"
+            ref="name"
           />
           <i class="form-icon fal fa-user"></i>
         </div>
       </div>
 
-      <!-- @input="ev => (form.name = ev.target.value)" -->
-
       <div class="row">
         <div class="col-md-6 form-group">
-          <!-- <label class="">Call me back on</label> -->
+          <label class="sr-only">Phone</label>
 
           <input
             class="form-control"
@@ -48,7 +47,7 @@
         </div>
 
         <div class="col-md-6 form-group">
-          <!-- <label class="">Or email me at</label> -->
+          <label class="sr-only">Email</label>
 
           <input
             class="form-control"
@@ -63,7 +62,7 @@
 
       <div class="row">
         <div class="col-md-6 form-group">
-          <!-- <label class="">I'm enquiring about...</label> -->
+          <label class="sr-only">type of query</label>
 
           <select
             class="form-control"
@@ -85,19 +84,19 @@
           ><i class="form-icon fal fa-list"></i>
         </div>
         <div class="col-md-6 form-group">
-          <!-- <label class="">Estimated Storage Period</label> -->
+          <label class="sr-only">Estimated Rental Period</label>
 
           <select
             class="form-control"
             name="period"
             aria-required="false"
             aria-invalid="false"
-            aria-label="Estimated Storage Period"
+            aria-label="Estimated Rental Period"
             value=""
             v-model="form.period"
           >
             <option value="" disabled="disabled" selected="selected"
-              >Storage Period
+              >Rental Period
             </option>
             <option value="Unknown">Unknown / Not Applicable</option>
             <option value="Unknown">less than 1 Month</option>
@@ -110,52 +109,61 @@
         </div>
       </div>
 
-      <div v-show="form.topic === 'workshop space'" class="row">
-        <div class="col-6">
-          <input
-            class="mr-2 ml-2"
-            type="checkbox"
-            id="racking"
-            value="Racking"
-            v-model="form.requestedFeatures"
-          />
-          <label for="racking">Racking</label>
+      <transition name="fade">
+        <div
+          v-show="form.topic === 'workshop space'"
+          class="row"
+          if="featuresChecklist"
+        >
+          <label class="col-12" for="featuresChecklist"
+            >Do you require any of the following?</label
+          >
+          <div class="col-12 col-md-6">
+            <input
+              class="mr-2 ml-2"
+              type="checkbox"
+              id="racking"
+              value="Racking"
+              v-model="form.requestedFeatures"
+            />
+            <label for="racking">Racking</label>
+          </div>
+          <div class="col-12 col-md-6">
+            <input
+              class="mr-2 ml-2"
+              type="checkbox"
+              id="hoist"
+              value="Hoist"
+              v-model="form.requestedFeatures"
+            />
+            <label for="hoist">Vehicle Hoist</label>
+          </div>
+          <div class="col-12 col-md-6">
+            <input
+              class="mr-2 ml-2"
+              type="checkbox"
+              id="threePhase"
+              value="Three phase power"
+              v-model="form.requestedFeatures"
+            />
+            <label for="threePhase">Three Phase Power</label>
+          </div>
+          <div class="col-12 col-md-6">
+            <input
+              class="mr-2 ml-2"
+              type="checkbox"
+              id="mezzanine"
+              value="Mezzanine"
+              v-model="form.requestedFeatures"
+            />
+            <label for="mezzanine">Mezzanine</label>
+          </div>
         </div>
-        <div class="col-6">
-          <input
-            class="mr-2 ml-2"
-            type="checkbox"
-            id="hoist"
-            value="Hoist"
-            v-model="form.requestedFeatures"
-          />
-          <label for="hoist">Hoist</label>
-        </div>
-        <div class="col-6">
-          <input
-            class="mr-2 ml-2"
-            type="checkbox"
-            id="threePhase"
-            value="Three phase power"
-            v-model="form.requestedFeatures"
-          />
-          <label for="threePhase">Three Phase Power</label>
-        </div>
-        <div class="col-6">
-          <input
-            class="mr-2 ml-2"
-            type="checkbox"
-            id="mezzanine"
-            value="Mezzanine"
-            v-model="form.requestedFeatures"
-          />
-          <label for="mezzanine">Mezzanine</label>
-        </div>
-      </div>
+      </transition>
 
       <div class="row">
         <div class="col-md-12 form-group g-mb-40">
-          <!-- <label class="">Now, how can we help you?</label> -->
+          <label class="sr-only">Enter your question here</label>
 
           <textarea
             class="form-control"
@@ -171,7 +179,6 @@
       </div>
 
       <div class="text-right">
-        <!-- <div> -->
         <button
           type="submit"
           class="btn btn-submit text-uppercase"
@@ -181,10 +188,6 @@
             <i class="fa fa-paper-plane mr-1 d-inline"></i> Submit
           </p>
         </button>
-        <!-- <a class="btn btn-submit text-uppercase" @click="submitAction()">
-          <i class="fa fa-paper-plane g-px-5"></i>&nbsp;Submit
-        </a> -->
-        <!-- </div> -->
       </div>
     </form>
   </div>
@@ -233,6 +236,12 @@ export default {
           this.$modal.hide('contact-modal')
         })
     }
+  },
+  mounted() {
+    console.log('hello')
+    setTimeout(() => {
+      this.$refs.name.focus()
+    }, 500)
   }
 }
 </script>
@@ -244,7 +253,7 @@ export default {
 }
 
 .form-modal label {
-  color: var(--orange-light);
+  color: var(--primary-light);
 }
 
 .form-control {
@@ -264,7 +273,7 @@ select.form-control {
   position: absolute;
   left: 1.5rem;
   top: 0.7rem;
-  color: var(--orange-dark);
+  color: var(--primary);
   transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.74, 2.66);
 }
 
@@ -282,8 +291,8 @@ select::placeholder {
 
 .btn-submit {
   color: white;
-  background: var(--orange-dark);
-  border: var(--orange-dark) 0.5px solid;
+  background: var(--secondary);
+  border: var(--secondary) 0.5px solid;
   border-radius: 20px;
   // font-weight: 100;
   &:hover,
@@ -306,5 +315,15 @@ select::placeholder {
   a.gradient-slide {
     color: white;
   }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.5s;
+  height: 100px;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  height: 0;
 }
 </style>

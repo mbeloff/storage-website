@@ -100,7 +100,7 @@ export default {
                 type: 'link',
                 text: 'Where to find us',
                 path: './location'
-              },
+              }
               // {
               //   type: 'link',
               //   text: 'Pricing',
@@ -216,14 +216,14 @@ export default {
   // background: inherit !important;
 }
 
-.vnb__menu-options__option span[aria-expanded="true"]{
-  background-color: var(--orange);
+.vnb__menu-options__option span[aria-expanded='true'] {
+  background-color: var(--primary);
 }
 
 .vnb__sub-menu-options__option__link:hover,
 .vnb__popup__bottom__menu-options__option__link:hover,
 .vnb__popup__bottom__sub-menu-options__option__link:hover {
-  border-left: 2px solid var(--orange-dark);
+  border-left: 2px solid var(--primary);
 }
 
 // .router-link-exact-active.router-link-active {
@@ -235,7 +235,7 @@ export default {
   color: rgb(37, 35, 33);
   transition: color 0s;
   &.tippy-active {
-    color: var(--orange-dark);
+    color: var(--primary);
   }
 }
 
@@ -269,7 +269,7 @@ export default {
     padding: 0 1rem;
     &:hover {
       background: var(--dark-color);
-      color: var(--orange-dark);
+      color: var(--primary);
     }
   }
 
@@ -279,7 +279,7 @@ export default {
   }
 
   // a {
-  //   // color: var(--orange-dark);
+  //   // color: var(--primary);
   //   text-decoration: none;
   //   font-size: 1.25rem;
   // }
@@ -288,9 +288,9 @@ export default {
   .vnb__popup__bottom__sub-menu-options__option__link {
     &.router-link-exact-active {
       // font-size: 1rem;
-      color: var(--orange-dark);
+      color: var(--primary);
       background: #eeeeee;
-      border-left: 5px solid var(--orange-dark);
+      border-left: 5px solid var(--primary);
     }
   }
 }
@@ -306,8 +306,8 @@ export default {
 .btn.btn-enquire {
   text-transform: capitalize;
   font-size: 1rem !important;
-  background-color: var(--orange);
-  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.205);
+  background-color: var(--secondary);
+  // text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.205);
   // color: var(--dark-color);
   color: white;
   transition: all 0.2s ease;
@@ -319,14 +319,14 @@ export default {
   &:focus {
     background: white;
     background-size: 200% 200%;
-    color: rgb(255, 38, 0);
-    border: 1px solid var(--orange-dark);
-    text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.205);
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+    // text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.205);
     // animation: jiggle 3s ease-in infinite;
     transform: scale(1.03);
     transition: transform 0.2s cubic-bezier(0.5, -0.24, 0.5, 3.21);
     i {
-      color: rgb(255, 38, 0);
+      color: var(--secondary);
       transition: all 0.2s ease;
     }
   }

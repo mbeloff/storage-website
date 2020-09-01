@@ -1,15 +1,16 @@
 <template>
   <div class="p-3 dark-bg form-modal">
-    <h1 class="big-title">
-      Contact Us
-      <button class="btn-close fa fa-times float-right" @click="hide()">
-        <!-- <i
+    <button class="btn-close fa fa-times float-right" @click="hide()">
+      <!-- <i
           class="fa fa-times float-right"
           aria-label="Close"
           @click="hide()"
         ></i> -->
-      </button>
+    </button>
+    <h1 class="big-title">
+      Contact Us
     </h1>
+
     <Form></Form>
   </div>
 </template>
@@ -30,10 +31,12 @@ export default {
 .btn-close {
   border: none;
   background: none;
-  color: var(--orange);
+  color: var(--primary);
   padding: 0 0 0 0;
-  &:focus {
-    color: rgb(255, 187, 0);
+  &:focus,
+  &:hover {
+    // color: rgb(255, 187, 0);
+    color: var(--secondary);
     text-shadow: 0 0 0 rgb(255, 255, 255);
     transform: scale(1);
     outline: none;

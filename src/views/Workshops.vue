@@ -104,6 +104,6 @@ export default {
 <style>
 .map-container {
   margin-top: 2rem;
-  border: 5px solid var(--orange);
+  border: 5px solid var(--primary);
 }
 </style>

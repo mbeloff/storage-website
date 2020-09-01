@@ -30,7 +30,7 @@ export default {}
   height: 1rem;
 
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3);
-  background: var(--orange-dark);
+  background: var(--primary);
   // background: rgb(34, 32, 32);
   p {
     font-size: 1rem;

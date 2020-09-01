@@ -11,9 +11,8 @@
         >
           <p class="h2">Get in Touch</p>
           <p>
-            Need storage advice? Head over to the FAQ page, or reach out for a
-            quote or throw your questions our way - we'll get back to you as
-            soon as we can.
+            Need storage advice? Head over to the FAQ page, or reach out to get
+            a quote or ask a question directly.
           </p>
 
           <a
@@ -44,8 +43,11 @@
           data-aos-duration="1500"
         >
           <p class="h2 text-left">Brisbane's <nobr>Cheapest Storage</nobr></p>
-          Stand-out rates and deals on storage containers, tradesman sheds and
-          work areas and storage for vehicles of all kinds.
+          <p>
+            Standout rates and deals on storage containers, tradesman sheds and
+            work areas and storage for vehicles of all kinds.
+          </p>
+
           <div
             class="grad-border text-center font-weight-bold my-2 text-dark shadow-lg"
           >
@@ -125,6 +127,6 @@ export default {
 }
 
 .overlay-2 {
-  background-color: rgba(255, 81, 0, 0.61);
+  background-color: rgba(202, 47, 0, 0.61);
 }
 </style>

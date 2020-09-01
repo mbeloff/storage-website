@@ -189,10 +189,10 @@ $red: #cc4b37;
   @return #{$pixels/$context}em;
 }
 
-.btn-action-delete {
-  color: $red;
-  cursor: pointer;
-}
+// .btn-action-delete {
+//   color: $red;
+//   cursor: pointer;
+// }
 
 .accordion {
   padding: 0;
@@ -246,11 +246,11 @@ $red: #cc4b37;
 
 .is-active {
   .accordion-item-trigger {
-    background: var(--orange);
+    background: var(--primary);
     color: white;
   }
   .fa-stack-1x {
-    color: var(--orange);
+    color: var(--primary);
   }
 }
 

@@ -280,11 +280,11 @@ $red: #cc4b37;
 
 .is-active {
   .accordion-item-trigger {
-    background: var(--orange);
+    background: var(--primary);
     color: white;
   }
   .fa-stack-1x {
-    color: var(--orange);
+    color: var(--primary);
   }
 }
 
@@ -309,7 +309,7 @@ $red: #cc4b37;
 
 .btn-group .btn.btn-light {
   padding: 0 0;
-  color: var(--orange);
+  color: var(--primary);
   font-weight: 100;
   &.active {
     font-weight: 400;
