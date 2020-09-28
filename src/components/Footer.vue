@@ -50,8 +50,7 @@
           <ul class="list-unstyled">
             <li>
               <router-link class="gradient-slide-lite" to="/faq"
-                ><i class="fal fa-question-circle fa-fw"></i
-                >F.A.Q.s</router-link
+                ><i class="fal fa-question-circle fa-fw"></i>F.A.Q.</router-link
               >
             </li>
             <li>
