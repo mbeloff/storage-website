@@ -202,7 +202,7 @@ export default {
 }
 
 .vnb__brand-image-wrapper__link__image {
-  background: black;
+  background: rgb(0, 0, 0);
   padding: 2px;
   border-radius: 2px;
 }
@@ -310,10 +310,10 @@ export default {
   // text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.205);
   // color: var(--dark-color);
   color: white;
-  transition: all 0.2s ease;
+  transition: all 0.1s ease;
   i {
     color: white;
-    transition: all 0.2s ease;
+    transition: all 0.05s ease;
   }
   &:hover,
   &:focus {
@@ -323,11 +323,11 @@ export default {
     border: 1px solid var(--secondary);
     // text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.205);
     // animation: jiggle 3s ease-in infinite;
-    transform: scale(1.03);
+    // transform: scale(1.03);
     transition: transform 0.2s cubic-bezier(0.5, -0.24, 0.5, 3.21);
     i {
       color: var(--secondary);
-      transition: all 0.2s ease;
+      transition: all 0.05s ease;
     }
   }
 }

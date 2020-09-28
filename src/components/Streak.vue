@@ -33,7 +33,7 @@
         </div>
       </div>
     </div>
-    <div class="streak position-relative">
+    <!-- <div class="streak position-relative">
       <img class="streak-img" src="../assets/streak3.jpg" alt="" />
       <div class="position-absolute streak-content center overlay-2 text-white">
         <div
@@ -63,7 +63,7 @@
           ></a>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

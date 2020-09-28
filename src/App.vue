@@ -20,7 +20,7 @@
 import 'vue-navigation-bar/dist/vue-navigation-bar.css'
 import NavBar from '@/components/NavBar.vue'
 import Footer from '@/components/Footer.vue'
-import ContactForm from '@/components/ContactForm.vue'
+import ContactForm from '@/components/ContactModal.vue'
 export default {
   components: {
     NavBar,

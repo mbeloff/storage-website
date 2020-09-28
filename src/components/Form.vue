@@ -241,7 +241,7 @@ export default {
     console.log('hello')
     setTimeout(() => {
       this.$refs.name.focus()
-    }, 500)
+    }, 500) 
   }
 }
 </script>
