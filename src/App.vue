@@ -74,7 +74,7 @@ body {
   // background-color: #f8f4e9;
   display: grid;
   grid-template-rows: 1fr auto;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .dark-bg {
@@ -140,7 +140,6 @@ a:not([href]) {
 
 .big-title {
   font-family: var(--serif);
-  font-weight: 400;
   color: var(--primary);
   font-size: 2.2rem;
   margin-bottom: 0.4rem;
@@ -167,8 +166,7 @@ a:not([href]) {
 
 // sub-title underline gradient
 .sub-title span,
-.underline,
-.vnb__popup__bottom__menu-options__option__link--no-highlight {
+.underline {
   position: relative;
   display: inline-block;
   &::after {
@@ -183,14 +181,6 @@ a:not([href]) {
   }
 }
 
-.vnb__popup__bottom__menu-options__option__link--no-highlight {
-  &::after {
-    bottom: 0rem;
-    left: 1.25rem;
-    width: 50%;
-  }
-}
-
 .ico {
   height: 75px;
 }
@@ -200,5 +190,33 @@ a:not([href]) {
   padding: 0.5rem;
   margin-bottom: 0px;
   border-radius: 2px;
+}
+
+.btn.btn-enquire,
+.btn.btn-sbumit {
+  text-transform: capitalize;
+  font-size: 1rem !important;
+  background-color: var(--secondary);
+  color: white;
+  transition: all 0.1s ease;
+  i {
+    color: white;
+    transition: all 0.05s ease;
+  }
+  &:hover,
+  &:focus {
+    background: white;
+    background-size: 200% 200%;
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+    // text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.205);
+    // animation: jiggle 3s ease-in infinite;
+    // transform: scale(1.03);
+    transition: transform 0.2s cubic-bezier(0.5, -0.24, 0.5, 3.21);
+    i {
+      color: var(--secondary);
+      transition: all 0.05s ease;
+    }
+  }
 }
 </style>

@@ -168,7 +168,7 @@
           <textarea
             class="form-control"
             rows="4"
-            placeholder="Hi there, I want to know ..."
+            placeholder="Additional comments or questions..."
             aria-label="Type your enquiry here"
             name="question"
             required
@@ -179,14 +179,8 @@
       </div>
 
       <div class="text-right">
-        <button
-          type="submit"
-          class="btn btn-submit text-uppercase"
-          aria-label="Submit"
-        >
-          <p class="gradient-slide mb-0">
-            <i class="fa fa-paper-plane mr-1 d-inline"></i> Submit
-          </p>
+        <button type="submit" class="btn btn-enquire" aria-label="Submit">
+          <i class="mr-2 fal fa-paper-plane"></i>Submit
         </button>
       </div>
     </form>
@@ -241,7 +235,7 @@ export default {
     console.log('hello')
     setTimeout(() => {
       this.$refs.name.focus()
-    }, 500) 
+    }, 500)
   }
 }
 </script>
@@ -287,34 +281,6 @@ input::placeholder,
 select::placeholder {
   color: #808a94;
   font-weight: 100;
-}
-
-.btn-submit {
-  color: white;
-  background: var(--secondary);
-  border: var(--secondary) 0.5px solid;
-  border-radius: 20px;
-  // font-weight: 100;
-  &:hover,
-  &:focus {
-    background: white;
-    transform: scale(1.02);
-    transition: transform 0.1s cubic-bezier(0.5, -0.24, 0.5, 3.21);
-    .gradient-slide {
-      background: var(--grad-slide);
-      background-size: 200% 200%;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -webkit-animation: gradientSlide 5s linear infinite;
-      animation-fill-mode: forwards;
-      animation-direction: normal;
-      -moz-animation: gradientSlide 5s linear infinite;
-      animation: gradientSlide 5s linear infinite;
-    }
-  }
-  a.gradient-slide {
-    color: white;
-  }
 }
 
 .fade-enter-active,

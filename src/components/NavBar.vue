@@ -168,17 +168,6 @@ export default {
 </script>
 
 <style lang="scss">
-.nav-wrapper {
-  box-shadow: 0px 7px 15px #3a15001c;
-  transform: translate3d(0, 0, 0);
-  transition: 0.75s transform cubic-bezier(0, 0.01, 0, 1);
-}
-
-.nav-wrapper.nav-hidden {
-  box-shadow: none;
-  transform: translate3d(0, -100%, 0);
-}
-
 .navi {
   position: relative;
   padding: 1rem 0;
@@ -196,62 +185,15 @@ export default {
   }
 }
 
-.logo-link {
-  background: transparent !important;
-  border-left: none !important;
-}
-
-.vnb__brand-image-wrapper__link__image {
-  background: rgb(0, 0, 0);
-  padding: 2px;
-  border-radius: 2px;
-}
-
-.vnb__menu-options__option span[aria-expanded='true'] {
-  background-color: var(--primary);
-}
-
-#topnav {
-}
-
-.btn.btn-enquire {
-  text-transform: capitalize;
-  font-size: 1rem !important;
-  background-color: var(--secondary);
-  // text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.205);
-  // color: var(--dark-color);
-  color: white;
-  transition: all 0.1s ease;
-  i {
-    color: white;
-    transition: all 0.05s ease;
-  }
-  &:hover,
-  &:focus {
-    background: white;
-    background-size: 200% 200%;
-    color: var(--secondary);
-    border: 1px solid var(--secondary);
-    // text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.205);
-    // animation: jiggle 3s ease-in infinite;
-    // transform: scale(1.03);
-    transition: transform 0.2s cubic-bezier(0.5, -0.24, 0.5, 3.21);
-    i {
-      color: var(--secondary);
-      transition: all 0.05s ease;
-    }
-  }
-}
-
 .nav-wrapper {
   box-shadow: 0px 7px 15px #3a15001c;
   transform: translate3d(0, 0, 0);
-  transition: 0.75s transform cubic-bezier(0, 0.01, 0, 1);
+  transition: 0.5s transform cubic-bezier(0, 0.01, 0, 1);
 }
 
 .nav-wrapper.nav-hidden {
-  box-shadow: none;
   transform: translate3d(0, -100%, 0);
+  transition: 1s transform cubic-bezier(0, 0.01, 0, 1);
 }
 
 .navi {
@@ -288,22 +230,10 @@ export default {
   font-size: 1.25rem;
   text-transform: uppercase;
 
-  .vnb__sub-menu-options__option__link,
-  .vnb__popup__bottom__sub-menu-options__option__link {
-    &.router-link-exact-active {
-      // font-size: 1rem;
-      color: var(--primary);
-      background: #eeeeee;
-      border-left: 2px solid var(--primary);
-    }
-  }
-
   .btn.btn-enquire {
     text-transform: capitalize;
     font-size: 1rem !important;
     background-color: var(--secondary);
-    // text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.205);
-    // color: var(--dark-color);
     color: white;
     transition: all 0.1s ease;
     i {
@@ -342,19 +272,23 @@ export default {
     &__menu-options {
       color: rgb(37, 35, 33);
       transition: color 0s;
-      &.tippy-active {
-        color: var(--primary);
-      }
+      // &.tippy-active {
+      //   color: var(--primary);
+      // }
       &--left {
         height: 54px;
       }
 
       &__option {
+        span[aria-expanded='true'] {
+          background-color: var(--primary);
+        }
         &__link {
           height: 54px;
           padding: 0 1rem;
+
           &:hover {
-            background: var(--dark-color);
+            background: var(--dark-color) !important;
             color: var(--primary);
           }
           &:focus {
@@ -367,6 +301,15 @@ export default {
     &__sub-menu-options {
       &__option {
         &__link {
+          &.router-link-active {
+            color: var(--primary);
+            background: #eeeeee;
+            border-left: 5px solid var(--primary);
+            &:hover {
+              border-left: 5px solid var(--primary);
+            }
+          }
+
           &:hover {
             border-left: 2px solid var(--primary);
             background: rgb(243, 239, 237);
@@ -402,15 +345,34 @@ export default {
         &__menu-options {
           &__option {
             &__link {
+              &:last-of-type,
+              :last-of-type {
+                color: var(--secondary);
+                font-weight: bold;
+              }
               &:hover {
                 border-left: 2px solid var(--primary);
               }
-
+              // gradient underline styles below
               &--no-highlight {
-                font-size: 1.25rem !important;
+                font-size: 1.1rem !important;
+                color: var(--secondary);
                 font-weight: 800;
+                position: relative;
+                display: inline-block;
                 &:hover {
                   border-left: 2px solid transparent;
+                }
+                &::after {
+                  bottom: 0rem;
+                  left: 1.25rem;
+                  width: 50%;
+                  position: absolute;
+                  width: 50%;
+                  content: '';
+                  height: 1px;
+                  background: var(--primary-light);
+                  background-image: var(--gradient);
                 }
               }
             }

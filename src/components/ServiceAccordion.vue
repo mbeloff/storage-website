@@ -3,9 +3,7 @@
     <div class="container noflow">
       <div
         class="row service-type"
-        data-aos="fade-left"
-        data-aos-anchor-placement="top-bottom"
-        data-aos-duration="2000"
+
       >
         <div class="col-12 col-md-6 order-md-2 center">
           <div
@@ -33,9 +31,7 @@
       <hr />
       <div
         class="row service-type"
-        data-aos="fade-right"
-        data-aos-anchor-placement="top-bottom"
-        data-aos-duration="2000"
+
       >
         <div class="col-12 col-md-6 center">
           <div
@@ -63,9 +59,7 @@
       <hr />
       <div
         class="row service-type"
-        data-aos="fade-left"
-        data-aos-duration="2000"
-        data-aos-anchor-placement="top-bottom"
+
       >
         <div class="col-12 col-md-6 order-md-2 center">
           <div
@@ -96,9 +90,7 @@
       <hr />
       <div
         class="row service-type"
-        data-aos="fade-right"
-        data-aos-anchor-placement="top-bottom"
-        data-aos-duration="1000"
+
       >
         <div class="col-12 col-md-6 center">
           <div
