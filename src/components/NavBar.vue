@@ -27,7 +27,7 @@ export default {
         mobileBreakpoint: 992,
         collapseButtonOpenColor: '#ffa41c',
         collapseButtonCloseColor: '#ffa41c',
-        // showBrandImageInMobilePopup: true,
+        showBrandImageInMobilePopup: true,
         brandImagePath: './',
         brandImage: require('../assets/logo-sm.svg'),
         brandImageAltText: 'brand-image',
@@ -196,23 +196,6 @@ export default {
   transition: 1s transform cubic-bezier(0, 0.01, 0, 1);
 }
 
-.navi {
-  position: relative;
-  padding: 1rem 0;
-}
-
-.nav-logo {
-  height: 60px;
-  width: auto;
-  margin: auto 0;
-  padding: 1rem;
-  // background: white !important;
-  @media only screen and (max-width: 992px) {
-    height: 48px;
-    padding: 5px;
-  }
-}
-
 .logo-link {
   background: transparent !important;
   border-left: none !important;
@@ -280,6 +263,7 @@ export default {
       }
 
       &__option {
+        margin-right: 0;
         span[aria-expanded='true'] {
           background-color: var(--primary);
         }
@@ -288,8 +272,8 @@ export default {
           padding: 0 1rem;
 
           &:hover {
-            background: var(--dark-color) !important;
-            color: var(--primary);
+            background: var(--primary) !important;
+            // color: var(--primary);
           }
           &:focus {
             outline: none;
@@ -332,6 +316,12 @@ export default {
 
     &__popup {
       &__top {
+        background: var(--dark-color);
+        padding: 1rem;
+        &__image {
+          max-height: 40px;
+          margin-bottom: 0;
+        }
         &__close-button {
           &__image {
             width: 50px;
