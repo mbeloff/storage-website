@@ -7,14 +7,13 @@
         <p>
           Gabba Storage provides affordable storage solutions in a convenient
           location. Great rates on storage units for short or long term rental
-          with easy payment options and no lock-in contracts.
+          with easy payment options.
         </p>
         <p>
           Are you moving house, or clearing out a spare room? Garage full to the
-          brim? Now's the perfect time to de-clutter your life. Various sized
-          storage units from <nobr>5 - 10m<sup>3</sup>.</nobr> We also have
-          discounted truck rentals, to make getting your items into storage as
-          easy as possible.
+          brim? Now's the perfect time to de-clutter your life. Storage units
+          from <nobr>8 - 16m<sup>3</sup>.</nobr> We also have discounted truck
+          rentals, to make getting your items into storage as easy as possible.
         </p>
       </div>
 

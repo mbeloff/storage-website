@@ -11,7 +11,7 @@
       </div>
     </div>
     <!-- <under-banner></under-banner> -->
-    <service-accordion></service-accordion>
+    <service-intros></service-intros>
     <streak></streak>
     <!-- <under-banner></under-banner> -->
     <Why></Why>
@@ -21,14 +21,14 @@
 <script>
 // @ is an alias to /src
 import Why from '@/components/Why.vue'
-import ServiceAccordion from '@/components/ServiceAccordion.vue'
+import ServiceIntros from '@/components/ServiceIntros.vue'
 // import UnderBanner from '@/components/UnderBanner.vue'
 import Streak from '@/components/Streak.vue'
 export default {
   name: 'Home',
   components: {
     Why,
-    ServiceAccordion,
+    ServiceIntros,
     Streak
   },
   data() {

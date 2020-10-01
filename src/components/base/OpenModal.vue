@@ -1,5 +1,5 @@
 <template>
-  <a class="gradient-slide" href="javascript:void(0);" @click="show()"
+  <a class="link" href="javascript:void(0);" @click="show()"
     ><nobr><i class="far fa-comment-alt-lines fa-fw"></i><slot></slot></nobr
   ></a>
 </template>

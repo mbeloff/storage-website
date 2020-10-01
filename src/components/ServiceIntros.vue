@@ -1,10 +1,7 @@
 <template>
   <div>
     <div class="container noflow">
-      <div
-        class="row service-type"
-
-      >
+      <div class="row service-type">
         <div class="col-12 col-md-6 order-md-2 center">
           <div
             class="icon-wrapper mb-3 mb-md-0 p-3"
@@ -29,10 +26,7 @@
         </div>
       </div>
       <hr />
-      <div
-        class="row service-type"
-
-      >
+      <div class="row service-type">
         <div class="col-12 col-md-6 center">
           <div
             class="icon-wrapper mb-3 mb-md-0 p-3"
@@ -57,10 +51,7 @@
       </div>
 
       <hr />
-      <div
-        class="row service-type"
-
-      >
+      <div class="row service-type">
         <div class="col-12 col-md-6 order-md-2 center">
           <div
             class="icon-wrapper mb-3 mb-md-0 p-3"
@@ -88,10 +79,7 @@
         </div>
       </div>
       <hr />
-      <div
-        class="row service-type"
-
-      >
+      <div class="row service-type">
         <div class="col-12 col-md-6 center">
           <div
             class="icon-wrapper mb-3 mb-md-0 p-3"

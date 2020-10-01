@@ -43,24 +43,6 @@ body {
   --secondary: #0eb191;
   --dark-color: #1d1c1c;
   --light-color: #dfd2d2;
-  --grad-slide: linear-gradient(
-    to right,
-    #ff960d,
-    #cc0045,
-    #cc0045,
-    #1169ec,
-    #0baa7a,
-    #ff960d
-  );
-  --grad-slide-lite: linear-gradient(
-    to right,
-    #ffd45e,
-    #ff6196,
-    #ff7171,
-    #7eb1ff,
-    #64ffd0,
-    #ffd45e
-  );
   --gradient: linear-gradient(-30deg, #ffb90d, #cc0045, #009980);
   --gradient-lite: linear-gradient(-30deg, #ffdd88, #ff8fb4, #81ffea);
   --serif: 'Playfair Display';
@@ -82,6 +64,14 @@ body {
   color: var(--light-color);
 }
 
+a.link {
+  color: inherit;
+  &:hover {
+    color: var(--secondary);
+    text-decoration: none;
+  }
+}
+
 a:not([href]) {
   /* Styles for anchors without href */
   cursor: pointer;
@@ -95,47 +85,6 @@ a:not([href]) {
   border-radius: 4px;
   background-image: var(--gradient);
   padding: 2px !important;
-}
-
-.gradient-slide {
-  color: inherit;
-  &:hover {
-    background: var(--grad-slide);
-    background-size: 200% 200%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: gradientSlide 5s linear infinite;
-    animation-fill-mode: forwards;
-    animation-direction: normal;
-    -moz-animation: gradientSlide 5s linear infinite;
-    animation: gradientSlide 5s linear infinite;
-  }
-}
-
-@-webkit-keyframes gradientSlide {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 200% 50%;
-  }
-}
-@-moz-keyframes gradientSlide {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 200% 50%;
-  }
-}
-@keyframes gradientSlide {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 200% 50%;
-  }
 }
 
 .big-title {

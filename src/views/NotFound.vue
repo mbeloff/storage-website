@@ -6,7 +6,7 @@
         We couldn't find the page you were looking for. <br />
       </h3>
       <a
-        class="my-2 ml-4 font-weight-thin gradient-slide"
+        class="my-2 ml-4 font-weight-thin link"
         style="font-size: 1.5rem"
         @click="$router.go(-1)"
         ><i class="fal fa-backward align-middle mr-2"></i>go back</a
@@ -19,4 +19,11 @@
 export default {}
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+a.link {
+  color: var(--secondary);
+  &:hover {
+    text-decoration: underline;
+  }
+}
+</style>

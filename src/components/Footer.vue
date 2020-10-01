@@ -17,29 +17,29 @@
           <h5>Services</h5>
           <ul class="list-unstyled">
             <li>
-              <router-link class="gradient-slide-lite" to="/selfstorage"
+              <router-link class="link" to="/selfstorage"
                 ><i class="fal fa-user fa-fw"></i>Personal Storage</router-link
               >
             </li>
             <li>
-              <router-link class="gradient-slide-lite" to="/selfstorage"
+              <router-link class="link" to="/selfstorage"
                 ><i class="fal fa-user-tie fa-fw"></i>Business
                 Storage</router-link
               >
             </li>
             <li>
-              <router-link class="gradient-slide-lite" to="/autostorage"
+              <router-link class="link" to="/autostorage"
                 ><i class="fal fa-car fa-fw"></i>Auto Storage</router-link
               >
             </li>
             <li>
-              <router-link class="gradient-slide-lite" to="/mobilestorage"
+              <router-link class="link" to="/mobilestorage"
                 ><i class="fal fa-map-marker fa-fw"></i>Mobile
                 Storage</router-link
               >
             </li>
             <li>
-              <router-link class="gradient-slide-lite" to="/workshops"
+              <router-link class="link" to="/workshops"
                 ><i class="fal fa-wrench fa-fw"></i>Workshop Space</router-link
               >
             </li>
@@ -49,22 +49,22 @@
           <h5>Information</h5>
           <ul class="list-unstyled">
             <li>
-              <router-link class="gradient-slide-lite" to="/faq"
+              <router-link class="link" to="/faq"
                 ><i class="fal fa-question-circle fa-fw"></i>F.A.Q.</router-link
               >
             </li>
             <li>
-              <router-link class="gradient-slide-lite" to="/location"
+              <router-link class="link" to="/location"
                 ><i class="fal fa-location-arrow fa-fw"></i>Find Us</router-link
               >
             </li>
             <li>
-              <router-link class="gradient-slide-lite" to="/policies"
+              <router-link class="link" to="/policies"
                 ><i class="fal fa-file-alt fa-fw"></i>T&Cs</router-link
               >
             </li>
             <li>
-              <open-modal class="gradient-slide-lite">Message Us</open-modal>
+              <open-modal class="link">Message Us</open-modal>
             </li>
           </ul>
         </div>
@@ -97,21 +97,5 @@ export default {}
 }
 .footer-logo {
   max-width: 200px;
-}
-.gradient-slide-lite {
-  color: inherit;
-  transition: all 1s;
-  &:hover {
-    background: var(--grad-slide-lite);
-    background-size: 200% 200%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: gradientSlide 5s linear infinite;
-    animation-fill-mode: forwards;
-    animation-direction: normal;
-    -moz-animation: gradientSlide 5s linear infinite;
-    animation: gradientSlide 5s linear infinite;
-  }
 }
 </style>

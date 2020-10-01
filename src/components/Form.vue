@@ -271,9 +271,14 @@ select.form-control {
   transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.74, 2.66);
 }
 
-.form-control:focus + .form-icon {
-  transform: scale(1.5);
-  color: rgb(255, 94, 0);
+.form-control {
+  &:focus,
+  &:hover {
+    + .form-icon {
+      transform: scale(1.5);
+      color: var(--secondary);
+    }
+  }
 }
 
 textarea::placeholder,

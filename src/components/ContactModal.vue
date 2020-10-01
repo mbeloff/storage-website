@@ -1,5 +1,5 @@
 <template>
-  <div class="p-3 dark-bg form-modal">
+  <div class="p-3 bg-light form-modal">
     <button class="btn-close fa fa-times float-right" @click="hide()">
       <!-- <i
           class="fa fa-times float-right"

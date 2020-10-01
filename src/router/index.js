@@ -8,7 +8,7 @@ const Success = () => import('../views/Success.vue')
 const SelfStorage = () => import('../views/SelfStorage.vue')
 const Workshops = () => import('../views/Workshops.vue')
 const MobileStorage = () => import('../views/MobileStorage.vue')
-const Specials = () => import('../views/Specials.vue')
+// const Specials = () => import('../views/Specials.vue')
 const Autostorage = () => import('../views/Autostorage.vue')
 
 Vue.use(VueRouter)
@@ -58,11 +58,11 @@ const routes = [
     name: 'Location',
     component: Location
   },
-  {
-    path: '/specials',
-    name: 'Specials',
-    component: Specials
-  },
+  // {
+  //   path: '/specials',
+  //   name: 'Specials',
+  //   component: Specials
+  // },
   {
     path: '/success',
     name: 'Success',
