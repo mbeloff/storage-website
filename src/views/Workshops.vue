@@ -14,16 +14,17 @@
         operations.
       </p>
       <h5>Available with:</h5>
-      <ul>
-        <li>Racking</li>
-        <li>Hoist</li>
-        <li>Mezzanine Floor</li>
-        <li>Water/Sink</li>
-        <li>Three-phase Power</li>
-        <li>Additional Storage</li>
+      <ul class="list-unstyled col-12 col-md-6 mb-3" style="columns:2">
+        <li class="list-item">Racking</li>
+        <li class="list-item">Vehicle Hoist</li>
+        <li class="list-item">Mezzanine Floor</li>
+        <li class="list-item">Water/Sink</li>
+        <li class="list-item">Three-phase Power</li>
+        <li class="list-item">Additional Storage Area</li>
       </ul>
       <p>
         Short-term leases and week-to-week payments available at budget rates.
+        <open-modal>Reach out today</open-modal> for a quote.
       </p>
     </div>
     <!-- <div class="container">
@@ -101,9 +102,11 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .map-container {
   margin-top: 2rem;
   border: 5px solid var(--primary);
 }
+
+
 </style>

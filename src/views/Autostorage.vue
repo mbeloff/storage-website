@@ -9,15 +9,20 @@
           you've recently moved house and no longer have that extra spot for
           your boat/trailer/caravan, or if you want to reclaim your garage for a
           home gym, give us a call and take advantage our cheap rates on secure
-          vehicle storage.
+          short- or long-term vehicle storage.
         </p>
-        <p>
-          Our single and multi-vehicle storage bays are enclosed and protected
-          from the element and have extra height clearance for larger vehicles.
-        </p>
+        <ul class="list-group col-12 col-md-6 mb-3">
+          <li class="list-group-item">Secure lockup facility</li>
+          <li class="list-group-item">Single & Multi-vehicle bays</li>
+          <li class="list-group-item">Covered, shade, or open bays</li>
+          <li class="list-group-item">
+            Extra height clearance for boats or large vehicles
+          </li>
+        </ul>
         <p>
           Store for as long as you like, with convenient access to your vehicle
           during business hours.
+          <open-modal>Get in touch for a quote</open-modal>
         </p>
       </div>
     </div>

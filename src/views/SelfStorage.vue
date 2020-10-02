@@ -15,6 +15,11 @@
           from <nobr>8 - 16m<sup>3</sup>.</nobr> We also have discounted truck
           rentals, to make getting your items into storage as easy as possible.
         </p>
+        <ul class="list-unstyled col-12 col-md-6">
+          <li class="list-item">24-hour access available</li>
+          <li class="list-item">Units from 2.3m x 2.3m x 1.5m</li>
+          <li class="list-item">Electricity available</li>
+        </ul>
       </div>
 
       <h1 class="big-title mt-5">Business Self Storage</h1>
@@ -121,4 +126,10 @@ export default {
 }
 </script>
 
-<style></style>
+<style lang="scss">
+.list-group-item {
+  &:nth-of-type(2n - 1) {
+    background: rgb(241, 238, 234);
+  }
+}
+</style>

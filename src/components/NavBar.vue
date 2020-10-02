@@ -9,7 +9,14 @@
       class="bg-white px-2 py-lg-0"
       :options="navbarOptions"
       @vnb-item-clicked="vnbItemClicked"
-    />
+      ><template v-slot:custom-section>
+        <div class="custom-section-content">
+          <p class="mb-0">
+            {{ $store.state.global.phone }}
+          </p>
+        </div>
+      </template>
+    </vue-navigation-bar>
   </div>
 </template>
 
@@ -241,6 +248,7 @@ export default {
   }
 
   .vnb {
+    text-align: left;
     padding: 0.5rem 0;
     &__brand-image-wrapper {
       &__link {
@@ -251,7 +259,13 @@ export default {
         }
       }
     }
-
+    .custom-section-content {
+      text-transform: none;
+      text-align: right;
+      margin-left: auto;
+      font-size: 1.3rem;
+      font-weight: 800;
+    }
     &__menu-options {
       color: rgb(37, 35, 33);
       transition: color 0s;
@@ -261,7 +275,9 @@ export default {
       &--left {
         height: 54px;
       }
-
+      &--right {
+        margin-left: 1rem;
+      }
       &__option {
         margin-right: 0;
         span[aria-expanded='true'] {
@@ -315,9 +331,12 @@ export default {
     }
 
     &__popup {
+      box-shadow: 0 5px 40px rgba(0, 0, 0, 0.664);
+      border-radius: 6px;
       &__top {
         background: var(--dark-color);
         padding: 1rem;
+        border: none;
         &__image {
           max-height: 40px;
           margin-bottom: 0;
@@ -332,6 +351,16 @@ export default {
       }
 
       &__bottom {
+        position: relative;
+        &__custom-section {
+          position: absolute;
+          top: -4rem;
+          left: 50px;
+          color: var(--primary);
+          p {
+            font-size: 1.5rem;
+          }
+        }
         &__menu-options {
           &__option {
             &__link {
@@ -379,6 +408,9 @@ export default {
                 &:focus {
                   outline: none;
                 }
+              }
+              &__sub-text {
+                text-transform: none;
               }
             }
           }

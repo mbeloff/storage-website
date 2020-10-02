@@ -168,4 +168,18 @@ a:not([href]) {
     }
   }
 }
+
+.list-item {
+  position: relative;
+  &::before {
+    position: absolute;
+    content: '';
+    background: var(--secondary);
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    left: -15px;
+    top: 8px;
+  }
+}
 </style>

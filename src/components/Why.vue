@@ -19,23 +19,23 @@
             Self storage units can be used for all sorts of things and can be a
             real space-saver for your home.
           </p>
-          <ul>
-            <li>Sporting equipment</li>
-            <li>Camping gear</li>
-            <li>Suitcases</li>
-            <li>
+          <ul class="list-unstyled col-12">
+            <li class="list-item">Sporting equipment</li>
+            <li class="list-item">Camping gear</li>
+            <li class="list-item">Suitcases</li>
+            <li class="list-item">
               Unseasonal clothing (to free up some wardrobe space)
             </li>
-            <li>Christmas decorations</li>
-            <li>Books</li>
-            <li>Gardening tools and equipment</li>
-            <li>Decorating gear</li>
-            <li>Bicycles</li>
-            <li>
+            <li class="list-item">Christmas decorations</li>
+            <li class="list-item">Books</li>
+            <li class="list-item">Gardening tools and equipment</li>
+            <li class="list-item">Decorating gear</li>
+            <li class="list-item">Bicycles</li>
+            <li class="list-item">
               Extra furniture for occasional use (e.g. extra chairs used for
               parties)
             </li>
-            <li>Hobby or craft supplies</li>
+            <li class="list-item">Hobby or craft supplies</li>
           </ul>
           <h3 class="sub-title">
             <span>Self storage for Business</span>

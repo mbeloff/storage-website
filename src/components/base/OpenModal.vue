@@ -20,6 +20,6 @@ export default {
 <style scoped>
 i {
   margin-right: 0.25rem;
-  color: var(--primary);
+  color: var(--secondary);
 }
 </style>
