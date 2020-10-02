@@ -7,6 +7,7 @@
             class="icon-wrapper mb-3 mb-md-0 p-3"
             data-aos="icon-anim"
             data-aos-anchor-placement="center-center"
+            data-aos-offset="-200"
           >
             <img src="../assets/bank.svg" alt="" class="ico" />
           </div>
@@ -32,6 +33,7 @@
             class="icon-wrapper mb-3 mb-md-0 p-3"
             data-aos="icon-anim"
             data-aos-anchor-placement="center-center"
+            data-aos-offset="-200"
           >
             <img src="../assets/caravan.svg" alt="" class="ico" />
           </div>
@@ -57,6 +59,7 @@
             class="icon-wrapper mb-3 mb-md-0 p-3"
             data-aos="icon-anim"
             data-aos-anchor-placement="center-center"
+            data-aos-offset="-200"
           >
             <img src="../assets/mechoutline.svg" alt="" class="ico" />
           </div>
@@ -85,6 +88,7 @@
             class="icon-wrapper mb-3 mb-md-0 p-3"
             data-aos="icon-anim"
             data-aos-anchor-placement="center-center"
+            data-aos-offset="-200"
           >
             <img src="../assets/mobilestorage.svg" alt="" class=" ico" />
           </div>

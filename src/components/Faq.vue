@@ -65,7 +65,7 @@ export default {
           active: false,
           title: 'Do I need my own padlock?',
           details: `
-        <p>Yes, you need your own padlock to ensure that no one else has access to your unit and to ensure that your unit is securely locked at all times.</p>
+        <p>Yes, you need your own padlock to ensure that no one else has access to your unit and to ensure that your unit is securely locked at all times. Padlocks are available at our facility for your convenience.</p>
       `
         },
         {
@@ -101,12 +101,12 @@ export default {
           active: false,
           title: `What items cannot be stored?`,
           details: `
-            <p>We do not allow the storage of:</p><ul>
-              <li>Hazardous goods, toxic materials</li>
-              <li>Pollutants, contaminants, waste</li>
-              <li>Perishable goods, live animals, living plants</li>
-              <li>Cash and securities, illegal goods</li>
-              <li>Explosives, firearms, ammunitions</li>
+            <p>We do not allow the storage of:</p><ul class="list-unstyled col-12">
+              <li class="list-item">Hazardous goods, toxic materials</li>
+              <li class="list-item">Pollutants, contaminants, waste</li>
+              <li class="list-item">Perishable goods, live animals, living plants</li>
+              <li class="list-item">Cash and securities, illegal goods</li>
+              <li class="list-item">Explosives, firearms, ammunitions</li>
             </ul>
             <p>Please make sure mowers, whipper snippers and the like are emptied of petrol or other fuel, and gas bottles are empty.</p>
       `

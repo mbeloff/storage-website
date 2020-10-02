@@ -45,6 +45,14 @@
           options. Take advantage of our great rates, easy payment options and
           no lock-in contracts. Store for a long or as little time as you need.
         </p>
+        <p>
+          Also check out our
+          <router-link to="workshops" class="link"
+            ><link-inner>workshop spaces</link-inner></router-link
+          >, larger areas suitable for mechanics or other trades, available with
+          three-phase power, hoists, racking and more. Store materials or tools
+          and have your own space to get more done.
+        </p>
       </div>
     </div>
     <!-- <div class="container">

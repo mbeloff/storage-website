@@ -6,16 +6,17 @@
   >
     <div id="topnav"></div>
     <vue-navigation-bar
-      class="bg-white px-2 py-lg-0"
+      class="bg-white px-2 py-lg-0 container"
       :options="navbarOptions"
       @vnb-item-clicked="vnbItemClicked"
-      ><template v-slot:custom-section>
+    >
+      <!-- <template v-slot:custom-section>
         <div class="custom-section-content">
           <p class="mb-0">
             {{ $store.state.global.phone }}
           </p>
         </div>
-      </template>
+      </template> -->
     </vue-navigation-bar>
   </div>
 </template>
@@ -249,8 +250,9 @@ export default {
 
   .vnb {
     text-align: left;
-    padding: 0.5rem 0;
+    padding: 0.5rem;
     &__brand-image-wrapper {
+      padding-left: 0;
       &__link {
         &__image {
           background: rgb(0, 0, 0);
@@ -274,9 +276,11 @@ export default {
       // }
       &--left {
         height: 54px;
+        padding-left: 0;
       }
       &--right {
         margin-left: 1rem;
+        padding-right: 0;
       }
       &__option {
         margin-right: 0;
