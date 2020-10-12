@@ -18,13 +18,7 @@
           <ul class="list-unstyled">
             <li>
               <router-link class="link" to="/selfstorage"
-                ><i class="fal fa-user fa-fw"></i>Personal Storage</router-link
-              >
-            </li>
-            <li>
-              <router-link class="link" to="/selfstorage"
-                ><i class="fal fa-user-tie fa-fw"></i>Business
-                Storage</router-link
+                ><i class="fal fa-user fa-fw"></i>Self Storage</router-link
               >
             </li>
             <li>

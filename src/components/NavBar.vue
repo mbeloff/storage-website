@@ -276,7 +276,7 @@ export default {
       // }
       &--left {
         height: 54px;
-        padding-left: 0;
+        padding-left: 1rem;
       }
       &--right {
         margin-left: 1rem;
@@ -286,6 +286,9 @@ export default {
         margin-right: 0;
         span[aria-expanded='true'] {
           background-color: var(--primary);
+          svg {
+            fill: var(--dark-color) !important;
+          }
         }
         &__link {
           height: 54px;

@@ -243,11 +243,6 @@ export default {
 <style lang="scss" scoped>
 .form label {
   font-size: 1rem;
-  color: rgb(117, 112, 108);
-}
-
-.form-modal label {
-  color: var(--primary-light);
 }
 
 .form-control {
