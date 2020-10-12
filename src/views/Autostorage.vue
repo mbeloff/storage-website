@@ -11,13 +11,11 @@
           home gym, give us a call and take advantage our cheap rates on secure
           short- or long-term vehicle storage.
         </p>
-        <ul class="list-group col-12 col-md-6 mb-3">
-          <li class="list-group-item">Secure lockup facility</li>
-          <li class="list-group-item">Single & Multi-vehicle bays</li>
-          <li class="list-group-item">Covered, shade, or open bays</li>
-          <li class="list-group-item">
-            Extra height clearance for boats or large vehicles
-          </li>
+        <ul class="list-unstyled col-12 col-md-6">
+          <li class="list-item">Secure lockup facility</li>
+          <li class="list-item">Single & Multi-vehicle bays</li>
+          <li class="list-item">Covered, shade, or open bays</li>
+          <li class="list-item">Extra height clearance for boats or large vehicles</li>
         </ul>
         <p>
           Store for as long as you like, with convenient access to your vehicle
