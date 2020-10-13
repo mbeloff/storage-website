@@ -109,7 +109,7 @@ a:not([href]) {
     font-size: 1.2rem;
   }
   @media only screen and (min-width: 768px) {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
   }
 }
 

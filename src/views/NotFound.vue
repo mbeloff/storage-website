@@ -2,9 +2,9 @@
   <div class="container d-flex">
     <div class="d-flex flex-column my-auto">
       <h1 class="mb-3">oops :/</h1>
-      <h3 class="underline mb-5 font-weight-thin">
+      <h5 class="underline mb-5 font-weight-thin">
         We couldn't find the page you were looking for. <br />
-      </h3>
+      </h5>
       <a
         class="my-2 ml-4 font-weight-thin link"
         style="font-size: 1.5rem"

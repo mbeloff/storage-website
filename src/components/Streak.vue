@@ -1,7 +1,10 @@
 <template>
   <div>
     <div class="streak position-relative ">
-      <img class="streak-img" src="../assets/streak1.jpg" alt="" />
+      <parallax fixed="true" breakpoint="(min-width: 968px)"
+        ><img class="" src="../assets/streak1.jpg" alt=""
+      /></parallax>
+
       <div class="position-absolute streak-content center overlay-1 text-white">
         <div
           class="col-12 col-md-6"
@@ -68,7 +71,9 @@
 </template>
 
 <script>
+import Parallax from 'vue-parallaxy'
 export default {
+  components: { Parallax },
   methods: {
     show() {
       this.$modal.show('contact-modal')
@@ -86,7 +91,7 @@ export default {
   height: auto; */
   /* padding-top: 10rem;
   padding-bottom: 10rem; */
-  max-height: 700px;
+  max-height: 500px;
   max-width: 100vw;
   overflow: hidden;
   margin-top: 0%;
