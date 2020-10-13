@@ -25,7 +25,7 @@
                 <span>We're easy to find</span>
               </p>
               <p class="mb-0">
-                50 Deshon St,<br />Woolloongabba 4102 <br />
+                46 Deshon St,<br />Woolloongabba 4102 <br />
                 QLD, Australia
               </p>
               <p>
@@ -40,15 +40,15 @@
             <div class="col-6 col-md-12">
               <div>
                 <p class="mb-0"><strong>Monday to Friday</strong></p>
-                <p>9am – 4pm</p>
+                <p>{{ this.hours.monFri }}</p>
               </div>
               <div>
                 <p class="mb-0"><strong>Saturday</strong></p>
-                <p>9am – 12pm</p>
+                <p>{{ this.hours.sat }}</p>
               </div>
               <div>
                 <p class="mb-0"><strong>Sunday</strong></p>
-                <p>-</p>
+                <p>{{ this.hours.sun }}</p>
               </div>
             </div>
           </div>
@@ -70,7 +70,9 @@ import Form from '@/components/Form.vue'
 export default {
   components: { Form },
   data() {
-    return {}
+    return {
+      hours: this.$store.state.global.hours
+    }
   }
 }
 </script>

@@ -15,7 +15,9 @@
           <li class="list-item">Secure lockup facility</li>
           <li class="list-item">Single & Multi-vehicle bays</li>
           <li class="list-item">Covered, shade, or open bays</li>
-          <li class="list-item">Extra height clearance for boats or large vehicles</li>
+          <li class="list-item">
+            Extra height clearance for boats or large vehicles
+          </li>
         </ul>
         <p>
           Store for as long as you like, with convenient access to your vehicle

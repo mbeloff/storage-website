@@ -8,7 +8,7 @@
             <img src="../assets/logo.svg" alt="" class="footer-logo mb-2" />
           </router-link>
           <p>
-            50 Deshon St.<br />
+            46 Deshon St,<br />
             Woolloongabba, QLD 4102 <br />
           </p>
         </div>

@@ -103,13 +103,13 @@ a:not([href]) {
 }
 
 .sub-title {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin: 0 0 2rem 0;
   @media only screen and (min-width: 470px) {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   @media only screen and (min-width: 768px) {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
 
