@@ -40,8 +40,13 @@
           </ul>
         </div>
         <div class="col-6 col-md-4 col-lg-3 pr-0">
-          <h5>Information</h5>
+          <h5>Quick Links</h5>
           <ul class="list-unstyled">
+            <li>
+              <router-link class="link" to="/"
+                ><i class="fal fa-home fa-fw"></i>Home</router-link
+              >
+            </li>
             <li>
               <router-link class="link" to="/faq"
                 ><i class="fal fa-question-circle fa-fw"></i>F.A.Q.</router-link
@@ -52,11 +57,11 @@
                 ><i class="fal fa-location-arrow fa-fw"></i>Find Us</router-link
               >
             </li>
-            <li>
+            <!-- <li>
               <router-link class="link" to="/policies"
                 ><i class="fal fa-file-alt fa-fw"></i>T&Cs</router-link
               >
-            </li>
+            </li> -->
             <li>
               <open-modal class="link">Message Us</open-modal>
             </li>

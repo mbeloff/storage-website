@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="streak position-relative ">
-      <parallax fixed="true" breakpoint="(min-width: 968px)"
+      <parallax fixed="true"
         ><img class="" src="../assets/streak1.jpg" alt=""
       /></parallax>
 
@@ -85,12 +85,6 @@ export default {
 <style lang="scss">
 .streak {
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
-  /* background-image: url('../assets/padlocked.png');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  height: auto; */
-  /* padding-top: 10rem;
-  padding-bottom: 10rem; */
   max-height: 500px;
   max-width: 100vw;
   overflow: hidden;
@@ -114,9 +108,6 @@ export default {
   @media only screen and (max-width: 768px) {
     min-height: 400px;
     height: 100%;
-    // object-fit: cover;
-    // object-position: center center;
-    // width: auto;
   }
 }
 

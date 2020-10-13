@@ -21,7 +21,6 @@
           <li class="list-item">Electricity available</li>
         </ul>
       </div>
-
       <h1 class="big-title mt-5">Business Self Storage</h1>
       <p class="sub-title">
         <span>Streamline your business</span>
