@@ -56,7 +56,7 @@
           >
             <p class="bg-white p-3 mb-0">
               Current Offer:
-              <span class="font-weight-thin"
+              <span
                 >First 2 Months Container Rental FREE*</span
               >
             </p>

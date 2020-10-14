@@ -21,22 +21,22 @@
           <li class="list-item">Electricity available</li>
         </ul>
       </div>
-      <h1 class="big-title mt-5">Business Self Storage</h1>
-      <p class="sub-title">
+      <h1 class="big-title mt-5">Self Storage for Business</h1>
+      <!-- <p class="sub-title">
         <span>Streamline your business</span>
-      </p>
+      </p> -->
       <div class="body-text text-justify">
         <p>
-          See Gabba Storage for budget self storage options great for all types
-          of business. Securely store excess or seasonal stock, signage or
-          display merchandise, tools, materials or archives. Whether your
-          business is expanding or downsizing, renovating or relocating, Gabba
-          Storage is available with fantastic tax deductable rates and special
-          offers on short or long-term rentals.
+          Budget self storage options for any type of business. Securely store
+          excess or seasonal stock, signage or display merchandise, tools,
+          materials or archives. Whether your business is expanding or
+          downsizing, renovating or relocating, Gabba Storage is available with
+          fantastic tax deductable rates and special offers on short or
+          long-term rentals.
         </p>
         <p>
-          Come and go as you please during operating hours, with your goods only
-          ever accessible by you.
+          Come and go as you please, with your goods only ever accessible by
+          you.
         </p>
         <p>
           If you're in need of some extra space for your business,
@@ -67,7 +67,7 @@
           <div class="grad-border text-center font-weight-bold mt-3 mb-0">
             <p class="bg-white p-3 mb-0">
               Current Offer:
-              <span class="font-weight-thin">First 2 Months FREE*</span>
+              <span>First 2 Months FREE*</span>
             </p>
           </div>
           <span class="small float-right"

@@ -26,7 +26,7 @@
           </p>
         </div>
       </div>
-      <hr />
+      <hr class="yellow" />
       <div class="row service-type">
         <div class="col-12 col-md-6 center">
           <div
@@ -52,7 +52,7 @@
         </div>
       </div>
 
-      <hr />
+      <hr class="yellow" />
       <div class="row service-type">
         <div class="col-12 col-md-6 order-md-2 center">
           <div
@@ -81,7 +81,7 @@
           </p>
         </div>
       </div>
-      <hr />
+      <hr class="yellow" />
       <div class="row service-type">
         <div class="col-12 col-md-6 center">
           <div
@@ -116,6 +116,17 @@ export default {}
 </script>
 
 <style lang="scss">
+hr.yellow {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    var(--primary),
+    rgba(0, 0, 0, 0)
+  );
+}
+
 .icon-wrapper {
   width: min-content;
   border-radius: 50%;

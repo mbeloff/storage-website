@@ -39,7 +39,7 @@
           <div class="grad-border text-center font-weight-bold my-3 mb-5">
             <p class="bg-white p-3 mb-0">
               Current Offer:
-              <span class="font-weight-thin">50% OFF First Month</span>
+              <span>50% OFF First Month</span>
             </p>
           </div>
         </div>
@@ -107,6 +107,4 @@ export default {
   margin-top: 2rem;
   border: 5px solid var(--primary);
 }
-
-
 </style>

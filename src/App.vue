@@ -61,7 +61,24 @@ body {
 
 .dark-bg {
   background-color: var(--dark-color);
-  color: var(--light-color);
+  color: var(--primary);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) var(--dark-color);
+}
+*::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+*::-webkit-scrollbar-track {
+  background: var(--dark-color);
+}
+*::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border: 1px solid var(--dark-color);
+  border-radius: 2px;
 }
 
 a.link {
@@ -75,10 +92,6 @@ a.link {
 a:not([href]) {
   /* Styles for anchors without href */
   cursor: pointer;
-}
-
-.font-weight-thin {
-  font-weight: 400;
 }
 
 .grad-border {
@@ -142,7 +155,7 @@ a:not([href]) {
 }
 
 .btn.btn-enquire,
-.btn.btn-sbumit {
+.btn.btn-submit {
   text-transform: capitalize;
   font-size: 1rem !important;
   background-color: var(--secondary);
