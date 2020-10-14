@@ -10,7 +10,10 @@
     <h1 class="big-title">
       Contact Us
     </h1>
-
+    <p class="sub-title">
+      <span> Get a quote or ask a question</span>
+    </p>
+    <br />
     <Form></Form>
   </div>
 </template>

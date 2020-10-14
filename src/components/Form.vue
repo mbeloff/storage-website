@@ -9,10 +9,7 @@
       data-netlify-honeypot="bot-field"
       @submit.prevent="handleSubmit"
     >
-      <p class="sub-title">
-        <span> Get a quote or ask a question</span>
-      </p>
-      <br />
+      
       <input type="hidden" name="form-name" value="newForm" />
       <div class="row">
         <div class="col-md-12 form-group">

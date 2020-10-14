@@ -51,7 +51,7 @@ export default {
           {
             type: 'link',
             text: 'Services',
-            arrowColor: '#ffa41c',
+            arrowColor: '#e08600',
             subMenuOptions: [
               {
                 type: 'link',
@@ -96,7 +96,7 @@ export default {
           {
             type: 'link',
             text: 'About',
-            arrowColor: '#ffcd60',
+            arrowColor: '#e08600',
             subMenuOptions: [
               {
                 type: 'link',
@@ -277,6 +277,9 @@ export default {
       &--left {
         height: 54px;
         padding-left: 1rem;
+        hr {
+          margin: 0 0;
+        }
       }
       &--right {
         margin-left: 1rem;
@@ -293,6 +296,7 @@ export default {
         &__link {
           height: 54px;
           padding: 0 1rem;
+          margin: 0;
 
           &:hover {
             background: var(--primary) !important;
@@ -300,12 +304,16 @@ export default {
           }
           &:focus {
             outline: none;
+            svg {
+              fill: var(--dark-color) !important;
+            }
           }
         }
       }
     }
 
     &__sub-menu-options {
+      padding: 0 0;
       &__option {
         &__link {
           &.router-link-active {
