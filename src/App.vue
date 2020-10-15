@@ -171,9 +171,6 @@ a:not([href]) {
     background-size: 200% 200%;
     color: var(--secondary);
     border: 1px solid var(--secondary);
-    // text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.205);
-    // animation: jiggle 3s ease-in infinite;
-    // transform: scale(1.03);
     transition: transform 0.2s cubic-bezier(0.5, -0.24, 0.5, 3.21);
     i {
       color: var(--secondary);
