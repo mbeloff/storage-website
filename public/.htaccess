@@ -1,6 +1,0 @@
-# BEGIN .com to .com.au Redirect
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^gabbastorage\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.gabbastorage\.com$
-RewriteRule ^(.*)$ "http\:\/\/gabbastorage\.com\.au\/$1" [R=301,L]
-# END .com to .com.au Redirect
