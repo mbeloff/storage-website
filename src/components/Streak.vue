@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="streak position-relative ">
-      <parallax :fixed="true"
-        ><img class="" src="../assets/streak1.jpg" alt=""
-      /></parallax>
+      <parallax :fixed="true">
+        <img class="" src="../assets/streak1.jpg" alt="" />
+      </parallax>
 
       <div class="position-absolute streak-content center overlay-1 text-white">
         <div
@@ -104,7 +104,7 @@ export default {
   overflow-x: hidden;
   width: 100%;
   object-fit: cover;
-  object-position: center center;
+  object-position: 0% 0% !important;
   @media only screen and (max-width: 768px) {
     min-height: 400px;
     height: 100%;

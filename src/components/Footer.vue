@@ -3,17 +3,28 @@
     <div class="container pt-3">
       <hr />
       <div class="row">
-        <div class="col-12 col-md-4 col-lg-6">
-          <router-link to="/#">
-            <img src="../assets/logo.svg" alt="" class="footer-logo mb-2" />
-          </router-link>
-          <p>
-            46 Deshon St,<br />
-            Woolloongabba, QLD 4102 <br />
-          </p>
+        <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+          <div class="row">
+            <div class="col-6">
+              <router-link to="/#">
+                <img src="../assets/logo.svg" alt="" class="img-fluid mb-2" />
+              </router-link>
+              <p>
+                46 Deshon St,<br />
+                Woolloongabba, QLD 4102 <br />
+              </p>
+            </div>
+            <div class="col-5">
+              <picture>
+                <source srcset="../assets/SSAA.webp" type="image/webp" />
+                <source srcset="../assets/SSAA.png" type="image/png" />
+                <img src="../assets/SSAA.png" alt="" class="img-fluid" />
+              </picture>
+            </div>
+          </div>
         </div>
 
-        <div class="col-6 col-md-4 col-lg-3 pr-0">
+        <div class="col-6 col-md-5 col-lg-3 pr-0">
           <h5>Services</h5>
           <ul class="list-unstyled">
             <li>
@@ -39,7 +50,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-6 col-md-4 col-lg-3 pr-0">
+        <div class="col-6 col-md-5 col-lg-3 pr-0">
           <h5>Quick Links</h5>
           <ul class="list-unstyled">
             <li>
