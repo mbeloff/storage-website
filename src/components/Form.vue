@@ -6,10 +6,8 @@
       id="contact-form"
       action="/success"
       data-netlify="true"
-      data-netlify-honeypot="bot-field"
-      @submit.prevent="handleSubmit"
+      @submit.prevent="validateForm"
     >
-      <input type="hidden" name="form-name" value="newForm" />
       <div class="row">
         <div class="col-md-12 form-group">
           <label class="sr-only">Name</label>
@@ -34,6 +32,7 @@
 
           <input
             class="form-control"
+            :class="{ inputerror: missingContact }"
             type="tel"
             placeholder="Phone"
             aria-label="Your phone number"
@@ -47,6 +46,7 @@
 
           <input
             class="form-control"
+            :class="{ inputerror: missingContact }"
             type="email"
             placeholder="Email"
             aria-label="Your email address"
@@ -173,7 +173,16 @@
           ><i class="form-icon fal fa-comment-alt-lines"></i>
         </div>
       </div>
-
+      <div class="row">
+        <transition name="name">
+          <div v-if="this.missingContact" class="col-12">
+            <div class="alert alert-warning" role="alert">
+              <strong>Whoops!</strong> Please provide a phone number or email
+              address so that we can get back to you.
+            </div>
+          </div>
+        </transition>
+      </div>
       <div class="text-right">
         <button type="submit" class="btn btn-enquire" aria-label="Submit">
           <i class="mr-2 fal fa-paper-plane"></i>Submit
@@ -195,10 +204,32 @@ export default {
         requestedFeatures: [],
         period: '',
         question: ''
-      }
+      },
+      missingContact: false
+    }
+  },
+  watch: {
+    'form.number': function() {
+      this.missingContact = false
+    },
+    'form.email': function() {
+      this.missingContact = false
     }
   },
   methods: {
+    emailIsValid(email) {
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
+    },
+    validateForm() {
+      if (!this.form.number && !this.form.email) {
+        this.missingContact = true
+        return
+      }
+      if (this.form.email) {
+        this.emailIsValid(this.form.email)
+      }
+      this.handleSubmit()
+    },
     encode(data) {
       return Object.keys(data)
         .map(
@@ -224,8 +255,6 @@ export default {
               message: "We'll get back to you as soon as we can"
             }
           })
-
-          this.$router.push('success')
           this.$modal.hide('contact-modal')
         })
         .catch(() => {
@@ -278,6 +307,10 @@ select.form-control {
   }
 }
 
+.inputerror {
+  border-color: #ffb48b !important;
+}
+
 textarea::placeholder,
 input::placeholder,
 select::placeholder {
@@ -293,5 +326,16 @@ select::placeholder {
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
   height: 0;
+}
+
+.name-enter-active,
+.name-leave-active {
+  transition: max-height 0.5s, opacity 0.5s;
+  max-height: 100px;
+}
+.name-enter,
+.name-leave-to {
+  opacity: 0;
+  max-height: 0px;
 }
 </style>
