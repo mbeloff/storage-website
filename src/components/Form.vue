@@ -251,8 +251,9 @@ export default {
             name: 'Success',
             params: {
               head: 'Message received :)',
+              message1: 'Thanks for you enquiry,',
               name: this.form.name.replace(/ .*/, '') + '.',
-              message: "We'll get back to you as soon as we can"
+              message2: "We'll get back to you as soon as we can"
             }
           })
           this.$modal.hide('contact-modal')

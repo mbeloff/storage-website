@@ -3,7 +3,7 @@
     <div class="d-flex flex-column my-auto">
       <h1 class="mb-3">{{ head }}</h1>
       <h5 class="underline mb-5">
-        Thanks for reaching out, <span>{{ name }}</span> {{ message }}
+        {{ message1 }} <span>{{ name }}</span> {{ message2 }}
       </h5>
       <a
         class="my-2 special-link"
@@ -19,7 +19,8 @@
 export default {
   props: {
     head: { type: String, default: 'Success' },
-    message: String,
+    message1: String,
+    message2: String,
     name: String
   },
   mounted() {
@@ -35,6 +36,7 @@ a.special-link {
   color: var(--secondary);
   &:hover {
     text-decoration: underline;
+    color: var(--primary);
   }
 }
 

@@ -29,7 +29,7 @@
           <ul class="list-unstyled">
             <li>
               <router-link class="link" to="/selfstorage"
-                ><i class="fal fa-user fa-fw"></i>Self Storage</router-link
+                ><i class="fal fa-key fa-fw"></i>Self Storage</router-link
               >
             </li>
             <li>
@@ -39,7 +39,7 @@
             </li>
             <li>
               <router-link class="link" to="/mobilestorage"
-                ><i class="fal fa-map-marker fa-fw"></i>Mobile
+                ><i class="fal fa-truck-loading fa-fw"></i>Mobile
                 Storage</router-link
               >
             </li>
@@ -100,6 +100,11 @@ export default {}
   i {
     margin-right: 0.25rem;
     color: rgb(160, 147, 142);
+    font-size: 1rem;
+    vertical-align: middle;
+  }
+  li {
+    line-height: 1.5rem;
   }
   h5 {
     color: var(--primary);
