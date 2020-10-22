@@ -41,7 +41,19 @@
 </template>
 
 <script>
-export default {}
+export default {
+  metaInfo: {
+    title: 'Mobile Self Storage in Brisbane',
+    meta: [
+      {
+        name: 'description',
+        content:
+          'We deliver, you pack, we store. Secure, mobile storage boxes that come to you - anywhere in Brisbane.',
+        vmid: 'description'
+      }
+    ]
+  }
+}
 </script>
 
 <style></style>

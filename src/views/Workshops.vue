@@ -78,6 +78,17 @@
 
 <script>
 export default {
+  metaInfo: {
+    title: 'Cheap Workshop Space in Brisbane',
+    meta: [
+      {
+        name: 'description',
+        content:
+          'Your own workshop space in Brisbane. Get triple-phase power, racking, hoist, mezzanine or additional storage space.',
+        vmid: 'description'
+      }
+    ]
+  },
   data() {
     return {
       prices: [

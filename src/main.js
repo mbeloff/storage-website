@@ -11,6 +11,9 @@ import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
 // import VueAnalytics from 'vue-analytics'
 import VueGtm from 'vue-gtm'
+import VueMeta from 'vue-meta'
+
+Vue.use(VueMeta)
 Vue.use(VModal)
 
 import VueNavigationBar from 'vue-navigation-bar'

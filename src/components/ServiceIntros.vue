@@ -22,7 +22,7 @@
             home or office. Whether you're decluttering, renovating, moving
             house or looking for a secure location for business archives or
             excess stock, we've got you covered with cost-effective storage
-            solutions with easy and convenient 24 hour access.
+            solutions and easy, convenient, 24-hour access, 7-days a week.
           </p>
         </div>
       </div>
@@ -46,8 +46,9 @@
           <p align="justify">
             No longer have the space for your car, caravan, boat or trailer?
             Gabba Storage has cheap rates for storing vehicles of all kinds.
-            secure lockup vehicle storage. We have covered and uncovered storage
-            units for single vehicles, or multiple vehicles.
+            Secure, lockup vehicle storage with easy access during business
+            hours. We have covered and uncovered storage units for single or
+            multiple vehicles.
           </p>
         </div>
       </div>

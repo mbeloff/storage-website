@@ -21,6 +21,17 @@ export default {
   components: { Faq },
   data() {
     return {}
+  },
+  metaInfo: {
+    title: 'Cheap Self Storage in Brisbane',
+    meta: [
+      {
+        name: 'description',
+        content:
+          'Get answers to your self storage questions. Gabba Storage has the best prices Brisbane on self storage units and car storage.',
+        vmid: 'description'
+      }
+    ]
   }
 }
 </script>

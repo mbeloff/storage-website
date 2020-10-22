@@ -29,6 +29,18 @@ export default {
   },
   data() {
     return {}
+  },
+  metaInfo: {
+    title: 'The Cheapest Self Storage in Brisbane',
+    titleTemplate: 'Gabba Storage | %s',
+    meta: [
+      {
+        name: 'description',
+        content:
+          'Get the best prices on storage units in Brisbane. Cheap self-storage with 24/7 access',
+        vmid: 'description'
+      }
+    ]
   }
 }
 </script>

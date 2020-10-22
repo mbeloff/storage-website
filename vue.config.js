@@ -9,7 +9,8 @@ const paths = [
     priority: '0.6'
   },
   {
-    path: '/selfstorage'
+    path: '/selfstorage',
+    priority: '0.8'
   },
   {
     path: '/workshops'
@@ -51,7 +52,7 @@ module.exports = {
       filename: 'index.html',
       // when using title option,
       // template title tag needs to be <title><%= htmlWebpackPlugin.options.title %></title>
-      title: 'Gabba Storage - Budget Self Storage and Workshop Space'
+      title: 'Gabba Storage - The Cheapest Self Storage in Brisbane'
     }
   }
 }

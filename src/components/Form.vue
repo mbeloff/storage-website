@@ -226,18 +226,15 @@ export default {
           })
 
           this.$router.push('success')
-          // console.log('success')
           this.$modal.hide('contact-modal')
         })
         .catch(() => {
           this.$router.push('404')
-          // console.log('failure')
           this.$modal.hide('contact-modal')
         })
     }
   },
   mounted() {
-    console.log('hello')
     setTimeout(() => {
       this.$refs.name.focus()
     }, 500)

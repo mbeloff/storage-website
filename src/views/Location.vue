@@ -62,9 +62,9 @@
             Contact Us
           </h1>
           <p class="sub-title">
-        <span> Get a quote or ask a question</span>
-      </p>
-      <br />
+            <span> Get a quote or ask a question</span>
+          </p>
+          <br />
           <Form></Form>
         </div>
       </div>
@@ -76,6 +76,17 @@
 import Form from '@/components/Form.vue'
 
 export default {
+  metaInfo: {
+    title: 'Contact Us',
+    meta: [
+      {
+        name: 'description',
+        content:
+          "We're here for all your self storage needs. Get in touch for quote on the cheapest self storage in Brisbane.",
+        vmid: 'description'
+      }
+    ]
+  },
   components: { Form },
   data() {
     return {
