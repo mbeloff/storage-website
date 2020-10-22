@@ -55,7 +55,7 @@ const routes = [
   //   component: Specials
   // },
   {
-    path: '/success',
+    path: '/:type/thanks',
     name: 'Success',
     component: Success,
     props: true
