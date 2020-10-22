@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="streak position-relative ">
-      <parallax fixed="true"
+      <parallax :fixed="true"
         ><img class="" src="../assets/streak1.jpg" alt=""
       /></parallax>
 

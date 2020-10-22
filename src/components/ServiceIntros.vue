@@ -18,11 +18,11 @@
             <span>Pay as you go, short or long term hire</span>
           </p>
           <p align="justify">
-            Big and small storage units available. Finally free up some space in
-            your home or office. Whether you're decluttering, renovating, moving
+            The best storage prices around. Finally free up some space in your
+            home or office. Whether you're decluttering, renovating, moving
             house or looking for a secure location for business archives or
             excess stock, we've got you covered with cost-effective storage
-            solutions with easy and convenient access.
+            solutions with easy and convenient 24 hour access.
           </p>
         </div>
       </div>
@@ -46,8 +46,8 @@
           <p align="justify">
             No longer have the space for your car, caravan, boat or trailer?
             Gabba Storage has cheap rates for storing vehicles of all kinds.
-            enclosed, lockable and protected from the elements, we have single
-            and multiple-vehicle storage bays available to rent.
+            secure lockup vehicle storage. We have covered and uncovered storage
+            units for single vehicles, or multiple vehicles.
           </p>
         </div>
       </div>
@@ -75,9 +75,8 @@
               >2</sup
             >
             - 240m<sup>2</sup>
-            Tradesman storage and work spaces available in a convenient
-            Woolloongabba location. Short-term leases and week-to-week payments
-            available.
+            Tradesman storage and work spaces available in an easy access
+            location. Short-term leases and week-to-week payments available.
           </p>
         </div>
       </div>

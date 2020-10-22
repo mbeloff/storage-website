@@ -9,7 +9,6 @@
       data-netlify-honeypot="bot-field"
       @submit.prevent="handleSubmit"
     >
-      
       <input type="hidden" name="form-name" value="newForm" />
       <div class="row">
         <div class="col-md-12 form-group">
@@ -217,6 +216,15 @@ export default {
         })
       })
         .then(() => {
+          this.$router.push({
+            name: 'Success',
+            params: {
+              head: 'Message received :)',
+              name: this.form.name.replace(/ .*/, '') + '.',
+              message: "We'll get back to you as soon as we can"
+            }
+          })
+
           this.$router.push('success')
           // console.log('success')
           this.$modal.hide('contact-modal')

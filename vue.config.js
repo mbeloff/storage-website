@@ -2,42 +2,33 @@ const SitemapPlugin = require('sitemap-webpack-plugin').default
 const paths = [
   {
     path: '/',
-    name: 'Home',
     priority: '0.8'
   },
   {
     path: '/faq',
-    name: 'faq',
     priority: '0.6'
   },
   {
-    path: '/selfstorage',
-    name: 'self storage'
+    path: '/selfstorage'
   },
   {
-    path: '/workshops',
-    name: 'workshops'
+    path: '/workshops'
   },
   {
-    path: '/mobilestorage',
-    name: 'mobile storage'
+    path: '/mobilestorage'
   },
   {
-    path: '/autostorage',
-    name: 'auto storage'
+    path: '/autostorage'
   },
   {
     path: '/location',
-    name: 'Location',
     priority: '0.6'
   },
   {
-    path: '/success',
-    name: 'Success'
+    path: '/success'
   },
   {
-    path: '/404',
-    name: '404'
+    path: '/404'
   }
 ]
 module.exports = {

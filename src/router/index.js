@@ -57,7 +57,8 @@ const routes = [
   {
     path: '/success',
     name: 'Success',
-    component: Success
+    component: Success,
+    props: true
   },
   {
     path: '/404',

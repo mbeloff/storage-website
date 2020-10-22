@@ -6,17 +6,17 @@
       <div class="body-text text-justify">
         <p>
           Gabba Storage provides affordable storage solutions in a convenient
-          location. Great rates on storage units for short or long term rental
-          with easy payment options.
+          location with 24/7 access to your belongings. Great rates on storage
+          units for short or long term rental with easy payment options.
         </p>
         <p>
           Are you moving house, or clearing out a spare room? Garage full to the
           brim? Now's the perfect time to de-clutter your life. Storage units
-          from <nobr>8 - 16m<sup>3</sup>.</nobr> We also have discounted truck
+          from <nobr>6m<sup>3</sup>.</nobr> We also have discounted truck
           rentals, to make getting your items into storage as easy as possible.
         </p>
         <ul class="list-unstyled col-12 col-md-6">
-          <li class="list-item">24-hour access available</li>
+          <li class="list-item">24-hour access, 7 days a week</li>
           <li class="list-item">Units from 2.3m x 2.3m x 1.5m</li>
           <li class="list-item">Electricity available</li>
         </ul>
@@ -42,7 +42,7 @@
           If you're in need of some extra space for your business,
           <open-modal>send us a message</open-modal> to discuss your storage
           options. Take advantage of our great rates, easy payment options and
-          no lock-in contracts. Store for a long or as little time as you need.
+          24/7 access. Store for a long or as little time as you need.
         </p>
         <p>
           Also check out our
