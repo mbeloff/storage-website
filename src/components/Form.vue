@@ -310,7 +310,8 @@ select.form-control {
 }
 
 .inputerror {
-  border-color: #ffb48b !important;
+  border: 4px solid;
+  border-color: #ffb48bb2 !important;
 }
 
 textarea::placeholder,

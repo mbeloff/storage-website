@@ -115,15 +115,15 @@ a:not([href]) {
 .big-title {
   font-family: var(--serif);
   color: var(--primary);
-  font-size: 2.2rem;
+  font-size: 1.6rem;
   margin-bottom: 0.4rem;
   line-height: 1.3;
 
   @media only screen and (min-width: 470px) {
-    font-size: 2.35rem;
+    font-size: 1.8rem;
   }
   @media only screen and (min-width: 768px) {
-    font-size: 2.75rem;
+    font-size: 2rem;
   }
 }
 
