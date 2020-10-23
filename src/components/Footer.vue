@@ -64,8 +64,9 @@
               >
             </li>
             <li>
-              <router-link class="link" to="/location"
-                ><i class="fal fa-location-arrow fa-fw"></i>Find Us</router-link
+              <router-link class="link" to="/about"
+                ><i class="fal fa-info fa-fw"></i>About
+                Us</router-link
               >
             </li>
             <!-- <li>

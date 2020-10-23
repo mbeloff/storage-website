@@ -204,4 +204,14 @@ a:not([href]) {
     top: 8px;
   }
 }
+
+.shift-up {
+  margin-top: 0rem;
+  @media only screen and (min-width: 768px) {
+    margin-top: -3rem;
+  }
+  @media only screen and (min-width: 996px) {
+    margin-top: -4rem;
+  }
+}
 </style>

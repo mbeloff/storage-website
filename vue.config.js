@@ -22,7 +22,7 @@ const paths = [
     path: '/autostorage'
   },
   {
-    path: '/location',
+    path: '/about',
     priority: '0.6'
   },
   {

@@ -21,7 +21,8 @@
     </div>
     <div class="container pb-3">
       <div class="row">
-        <div class="col-12 py-5">
+        <div class="col-12 py-3">
+          <h1 class="big-title">About Us</h1>
           Gabba Storage is a family owned Australian business offering
           self-storage solutions to individuals and business in the Brisbane
           area. Trust Gabba Storage to keep your goods secure, while providing
@@ -30,11 +31,11 @@
       </div>
       <div class="row">
         <div class="col-12 col-md-4">
-          <h1 class="big-title">Our Location</h1>
+          <!-- <h1 class="big-title">Our Location</h1> -->
           <div class="row">
             <div class="col-6 col-md-12">
               <p class="sub-title">
-                <span>We're easy to find</span>
+                <span>Find Us</span>
               </p>
               <p class="mb-0">
                 46 Deshon St,<br />Woolloongabba 4102 <br />
@@ -66,9 +67,9 @@
           </div>
         </div>
         <div class="col-12 col-md-7 offset-md-1">
-          <h1 class="big-title">
+          <!-- <h1 class="big-title">
             Contact Us
-          </h1>
+          </h1> -->
           <p class="sub-title">
             <span> Get a quote or ask a question</span>
           </p>

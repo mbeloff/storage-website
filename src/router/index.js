@@ -45,7 +45,7 @@ const routes = [
     component: Autostorage
   },
   {
-    path: '/location',
+    path: '/about',
     name: 'Location',
     component: Location
   },

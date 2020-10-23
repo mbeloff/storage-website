@@ -106,8 +106,8 @@ export default {
 
               {
                 type: 'link',
-                text: 'Where to find us',
-                path: './location'
+                text: 'About Us',
+                path: './about'
               }
               // {
               //   type: 'link',
