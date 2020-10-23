@@ -24,12 +24,6 @@ const paths = [
   {
     path: '/about',
     priority: '0.6'
-  },
-  {
-    path: '/success'
-  },
-  {
-    path: '/404'
   }
 ]
 module.exports = {
