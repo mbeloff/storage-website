@@ -1,6 +1,6 @@
 <template>
   <div class="container d-flex">
-    <div class="d-flex flex-column my-auto">
+    <div class="d-flex flex-column my-auto py-5">
       <h1 class="mb-3">oops :/</h1>
       <h5 class="underline mb-5">
         We couldn't find the page you were looking for. <br />

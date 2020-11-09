@@ -65,17 +65,23 @@
             </li>
             <li>
               <router-link class="link" to="/about"
-                ><i class="fal fa-info fa-fw"></i>About
-                Us</router-link
+                ><i class="fal fa-info fa-fw"></i>About Us</router-link
               >
             </li>
-            <!-- <li>
+
+            <li>
+              <open-modal class="link">Message Us</open-modal>
+            </li>
+            <li class="mt-3 text-muted">
               <router-link class="link" to="/policies"
                 ><i class="fal fa-file-alt fa-fw"></i>T&Cs</router-link
               >
-            </li> -->
-            <li>
-              <open-modal class="link">Message Us</open-modal>
+            </li>
+            <li class="text-muted">
+              <router-link class="link" to="/privacy"
+                ><i class="fal fa-file-alt fa-fw"></i>Privacy
+                Policy</router-link
+              >
             </li>
           </ul>
         </div>

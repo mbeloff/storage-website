@@ -25,6 +25,7 @@ export default {
   methods: {
     hide() {
       this.$modal.hide('contact-modal')
+      console.log('test')
     }
   }
 }

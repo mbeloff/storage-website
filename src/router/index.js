@@ -10,6 +10,7 @@ const Workshops = () => import('../views/Workshops.vue')
 const MobileStorage = () => import('../views/MobileStorage.vue')
 // const Specials = () => import('../views/Specials.vue')
 const Autostorage = () => import('../views/Autostorage.vue')
+const Privacy = () => import('../views/Privacy.vue')
 
 Vue.use(VueRouter)
 
@@ -48,6 +49,11 @@ const routes = [
     path: '/about',
     name: 'Location',
     component: Location
+  },
+  {
+    path: '/privacy',
+    name: 'Privacy',
+    component: Privacy
   },
   // {
   //   path: '/specials',
