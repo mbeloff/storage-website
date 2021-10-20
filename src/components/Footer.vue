@@ -37,17 +37,17 @@
                 ><i class="fal fa-car fa-fw"></i>Auto Storage</router-link
               >
             </li>
-            <li>
+            <!-- <li>
               <router-link class="link" to="/mobilestorage"
                 ><i class="fal fa-truck-loading fa-fw"></i>Mobile
                 Storage</router-link
               >
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <router-link class="link" to="/workshops"
                 ><i class="fal fa-wrench fa-fw"></i>Workshop Space</router-link
               >
-            </li>
+            </li> -->
           </ul>
         </div>
         <div class="col-6 col-md-5 col-lg-3 pr-0">

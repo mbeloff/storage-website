@@ -22,10 +22,10 @@
             </p>
             <p>What to do?</p>
             <p>
-              With street parking scarce around Brisbane, and especially in
-              Woolloongabba, and definitely not very secure. Why not reclaim
-              some valuable space and keep your investment safe by storing it
-              with Gabba Storage.
+              With street parking around Brisbane, and especially in
+              Woolloongabba, being scrace and definitely not very secure. Why
+              not reclaim some valuable space and keep your investment safe by
+              storing it with Gabba Storage.
             </p>
             <ul class="list-unstyled col-12 col-md-12 col-lg-6">
               <li class="list-item">Secure lockup facility</li>
@@ -63,6 +63,4 @@ export default {
 }
 </script>
 
-<style lang="scss">
-
-</style>
+<style lang="scss"></style>

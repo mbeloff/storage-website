@@ -6,8 +6,8 @@ const Location = () => import('../views/Location.vue')
 const NotFound = () => import('../views/NotFound.vue')
 const Success = () => import('../views/Success.vue')
 const SelfStorage = () => import('../views/SelfStorage.vue')
-const Workshops = () => import('../views/Workshops.vue')
-const MobileStorage = () => import('../views/MobileStorage.vue')
+// const Workshops = () => import('../views/Workshops.vue')
+// const MobileStorage = () => import('../views/MobileStorage.vue')
 // const Specials = () => import('../views/Specials.vue')
 const Autostorage = () => import('../views/Autostorage.vue')
 const Privacy = () => import('../views/Privacy.vue')
@@ -30,16 +30,16 @@ const routes = [
     name: 'self storage',
     component: SelfStorage
   },
-  {
-    path: '/workshops',
-    name: 'workshops',
-    component: Workshops
-  },
-  {
-    path: '/mobilestorage',
-    name: 'mobile storage',
-    component: MobileStorage
-  },
+  // {
+  //   path: '/workshops',
+  //   name: 'workshops',
+  //   component: Workshops
+  // },
+  // {
+  //   path: '/mobilestorage',
+  //   name: 'mobile storage',
+  //   component: MobileStorage
+  // },
   {
     path: '/autostorage',
     name: 'auto storage',

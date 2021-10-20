@@ -53,7 +53,7 @@
         </div>
       </div>
 
-      <hr class="yellow" />
+      <!-- <hr class="yellow" />
       <div class="row service-type">
         <div class="col-12 col-md-6 order-md-2 center">
           <div
@@ -80,8 +80,8 @@
             location. Short-term leases and week-to-week payments available.
           </p>
         </div>
-      </div>
-      <hr class="yellow" />
+      </div> -->
+      <!-- <hr class="yellow" />
       <div class="row service-type">
         <div class="col-12 col-md-6 center">
           <div
@@ -106,7 +106,7 @@
             let us do the running around.
           </p>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

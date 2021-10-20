@@ -72,10 +72,11 @@
             <option value="" disabled="disabled" selected="selected"
               >Type of Enquiry</option
             >
-            <option value="on-site storage">Storage Unit</option>
+            <option value="on-site storage">Storage Container</option>
+            <option value="auto storage">Auto Storage</option>
             <!-- <option value="mobile storage unit">Mobile Storage Unit</option> -->
-            <option value="workshop space">Workshop Space</option>
-            <option value="mobile storage">Mobile Storage</option>
+            <!-- <option value="workshop space">Workshop Space</option> -->
+            <!-- <option value="mobile storage">Mobile Storage</option> -->
             <option value="Unknown">Something Else</option> </select
           ><i class="form-icon fal fa-list"></i>
         </div>

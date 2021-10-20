@@ -49,7 +49,7 @@ export default {
           active: true,
           title: 'Who is Gabba Storage?',
           details: `
-        <p>Gabba Storage provides various sized storage boxes, both on-site at our Woolloongabba location, and mobile storage boxes that we can deliver to you to pack. We also store vehicles and trailers and rent tradesman sheds / workshop spaces, complete with three phase power, racking or hoists.</p>
+        <p>Gabba Storage provides various sized storage containers, We also store vehicles and trailers and rent.</p>
       `
         },
         {

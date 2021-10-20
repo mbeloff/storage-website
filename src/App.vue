@@ -98,6 +98,9 @@ a.link {
   &:hover {
     color: var(--secondary);
     text-decoration: none;
+    i {
+      color: var(--secondary);
+    }
   }
 }
 

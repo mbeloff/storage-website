@@ -56,7 +56,7 @@ export default {
               {
                 type: 'link',
                 text: 'Self Storage Units',
-                subText: 'Hire one of our secure, on-site storage boxes.',
+                subText: 'Secure, on-site storage containers.',
                 path: './selfstorage',
                 iconLeft: '<i class="fa fa-building fa-fw"></i>'
               },
@@ -69,28 +69,28 @@ export default {
                 subText: 'Store cars, boats, caravans and trailers.',
                 path: './autostorage',
                 iconLeft: '<i class="fa fa-car fa-fw"></i>'
-              },
-              {
-                type: 'hr'
-              },
-              {
-                type: 'link',
-                text: 'Rent a Workshop',
-                subText:
-                  'Hire a multi-purpose tradesman storage or workspace with three-phase power.',
-                path: './workshops',
-                iconLeft: '<i class="fa fa-wrench fa-fw"></i>'
-              },
-              {
-                type: 'hr'
-              },
-              {
-                type: 'link',
-                text: 'Mobile Storage Boxes',
-                subText: 'Storage to your door, you load it up, we store it.',
-                path: './mobilestorage',
-                iconLeft: '<i class="fa fa-map-marker fa-fw"></i>'
               }
+              // {
+              //   type: 'hr'
+              // },
+              // {
+              //   type: 'link',
+              //   text: 'Rent a Workshop',
+              //   subText:
+              //     'Hire a multi-purpose tradesman storage or workspace with three-phase power.',
+              //   path: './workshops',
+              //   iconLeft: '<i class="fa fa-wrench fa-fw"></i>'
+              // },
+              // {
+              //   type: 'hr'
+              // },
+              // {
+              //   type: 'link',
+              //   text: 'Mobile Storage Boxes',
+              //   subText: 'Storage to your door, you load it up, we store it.',
+              //   path: './mobilestorage',
+              //   iconLeft: '<i class="fa fa-map-marker fa-fw"></i>'
+              // }
             ]
           },
           {
