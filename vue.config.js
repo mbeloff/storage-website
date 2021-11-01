@@ -12,12 +12,12 @@ const paths = [
     path: '/selfstorage',
     priority: '0.8'
   },
-  {
-    path: '/workshops'
-  },
-  {
-    path: '/mobilestorage'
-  },
+  // {
+  //   path: '/workshops'
+  // },
+  // {
+  //   path: '/mobilestorage'
+  // },
   {
     path: '/autostorage'
   },
