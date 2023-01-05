@@ -41,6 +41,13 @@
                 46 Deshon St,<br />Woolloongabba 4102 <br />
                 QLD, Australia
               </p>
+              <a
+                v-if="$store.state.global.phone"
+                class="mb-4"
+                :href="`tel:${$store.state.global.phone}`"
+              >
+                {{ $store.state.global.phone }}
+              </a>
               <p>
                 <a
                   class="small"
