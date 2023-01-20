@@ -10,13 +10,13 @@
       :options="navbarOptions"
       @vnb-item-clicked="vnbItemClicked"
     >
-      <template v-slot:custom-section>
+      <!-- <template v-slot:custom-section>
         <div v-if="$store.state.global.phone" class="custom-section-content">
           <a class="mb-0" :href="`tel:${$store.state.global.phone}`">
             {{ $store.state.global.phone }}
           </a>
         </div>
-      </template>
+      </template> -->
     </vue-navigation-bar>
   </div>
 </template>
