@@ -33,7 +33,7 @@
         <p>
           <strong>Company</strong> (referred to as either &quot;the
           Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in
-          this Agreement) refers to Gabba Storage, 46 Deshon St, Woolloongabba
+          this Agreement) refers to Gabba Storage, 100 Longlands St, Woolloongabba
           QLD 4102.
         </p>
       </li>
@@ -444,7 +444,7 @@
     </p>
     <ul>
       <li>
-        <p>By mail: 46 Deshon St, Woolloongabba QLD 4102</p>
+        <p>By mail: 100 Longlands St, Woolloongabba QLD 4102</p>
       </li>
     </ul>
   </div>

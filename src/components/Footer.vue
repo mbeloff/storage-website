@@ -10,7 +10,7 @@
                 <img src="../assets/logo.svg" alt="" class="img-fluid mb-2" />
               </router-link>
               <p>
-                46 Deshon St,<br />
+                100 Longlands St,<br />
                 Woolloongabba, QLD 4102 <br />
               </p>
             </div>

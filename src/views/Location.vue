@@ -38,7 +38,7 @@
                 <span>Find Us</span>
               </p>
               <p class="mb-0">
-                46 Deshon St,<br />Woolloongabba 4102 <br />
+                100 Longlands St,<br />Woolloongabba 4102 <br />
                 QLD, Australia
               </p>
               <a
@@ -51,7 +51,7 @@
               <p>
                 <a
                   class="small"
-                  href="https://www.google.com/maps/place/50+Deshon+St,+Woolloongabba+QLD+4102"
+                  href="https://www.google.com/maps/place/100+Longlands+St,+Woolloongabba+QLD+4102"
                   ><i class="far fa-map-marker-alt"></i> get directions</a
                 >
               </p>
